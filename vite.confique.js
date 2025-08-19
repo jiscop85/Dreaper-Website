@@ -11,6 +11,8 @@ server: {
 },
   plugins: [
     react(),
+    mode === 'development' &&
+
 
 
 
