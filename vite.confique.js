@@ -10,6 +10,8 @@ server: {
     port: 8080,
 },
   plugins: [
+    react(),
+
 
 
 
