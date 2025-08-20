@@ -4,5 +4,7 @@
     "module": "ESNext",
     "skipLibCheck": true,
 
+    /* Bundler mode */
+
 
 
