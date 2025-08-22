@@ -6,7 +6,8 @@ import ProductSection from '@/components/ProductSection';
 import FeaturesSection from '@/components/FeaturesSection';
 import Footer from '@/components/Footer';
 import { useFeaturedProducts, useProductsByCategory } from '@/hooks/useProducts';
-const Index = () => {
 
+const Index = () => {
+  const { data: featuredProducts, isLoading: featuredLoading } = useFeaturedProducts();
 
 
