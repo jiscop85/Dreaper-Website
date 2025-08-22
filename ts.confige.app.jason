@@ -16,5 +16,6 @@ const { data: jacquardFabrics, isLoading: jacquardLoading } = useProductsByCateg
 return (
   <div className="min-h-screen bg-gradient-to-br from-fabric-cream via-white to-fabric-pearl font-vazir relative overflow-hidden">
  {/* المان‌های پس‌زمینه انیمیشن */}
+<div className="fixed inset-0 pointer-events-none z-0">
 
 
