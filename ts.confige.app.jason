@@ -1,4 +1,5 @@
 import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
 import FabricCategoriesSlider from '@/components/FabricCategoriesSlider';
-import FabricGallerySection from '@/compo
+import FabricGallerySection from '@/components/FabricGallerySection';
+import ProductSection from '@/components/ProductSection';
