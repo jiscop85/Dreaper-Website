@@ -9,5 +9,6 @@ import { useFeaturedProducts, useProductsByCategory } from '@/hooks/useProducts'
 
 const Index = () => {
   const { data: featuredProducts, isLoading: featuredLoading } = useFeaturedProducts();
+ const { data: embroideryFabrics, isLoading: embroideryLoading } = useProductsByCategory('formal-evening-fabrics');
 
 
