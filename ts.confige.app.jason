@@ -3,5 +3,6 @@ import HeroSection from '@/components/HeroSection';
 import FabricCategoriesSlider from '@/components/FabricCategoriesSlider';
 import FabricGallerySection from '@/components/FabricGallerySection';
 import ProductSection from '@/components/ProductSection';
-import ProductSection from '@/components/ProductSection';
+import FeaturesSection from '@/components/FeaturesSection';
+
 
