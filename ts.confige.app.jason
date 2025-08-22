@@ -11,5 +11,6 @@ const Index = () => {
   const { data: featuredProducts, isLoading: featuredLoading } = useFeaturedProducts();
  const { data: embroideryFabrics, isLoading: embroideryLoading } = useProductsByCategory('formal-evening-fabrics');
 const { data: jacquardFabrics, isLoading: jacquardLoading } = useProductsByCategory('autumn-winter-fabrics');
+ const { data: springFabrics, isLoading: springLoading } = useProductsByCategory('spring-summer-fabrics');
 
 
