@@ -12,6 +12,8 @@ const Index = () => {
  const { data: embroideryFabrics, isLoading: embroideryLoading } = useProductsByCategory('formal-evening-fabrics');
 const { data: jacquardFabrics, isLoading: jacquardLoading } = useProductsByCategory('autumn-winter-fabrics');
  const { data: springFabrics, isLoading: springLoading } = useProductsByCategory('spring-summer-fabrics');
+
 return (
+  <div className="min-h-screen bg-gradient-to-br from-fabric-cream via-white to-fabric-pearl font-vazir relative overflow-hidden">
 
 
