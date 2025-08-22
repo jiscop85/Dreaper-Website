@@ -4,5 +4,6 @@ import FabricCategoriesSlider from '@/components/FabricCategoriesSlider';
 import FabricGallerySection from '@/components/FabricGallerySection';
 import ProductSection from '@/components/ProductSection';
 import FeaturesSection from '@/components/FeaturesSection';
+import Footer from '@/components/Footer';
 
 
