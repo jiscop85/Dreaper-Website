@@ -42,6 +42,8 @@ products={embroideryFabrics || []}
             title="🧵 پارچه‌های ژاکارد خطی" 
             products={jacquardFabrics || []} 
             isLoading={jacquardLoading}
+/>
+          <ProductSection 
 
 
 
