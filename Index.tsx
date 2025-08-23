@@ -39,6 +39,8 @@ products={embroideryFabrics || []}
  isLoading={embroideryLoading}
 />
           <ProductSection 
+            title="🧵 پارچه‌های ژاکارد خطی" 
+
 
 
 
