@@ -30,6 +30,8 @@ return (
           <FabricGallerySection />
           <ProductSection 
             title="✨ پارچه‌های ویژه و منحصر به فرد" 
+            products={featuredProducts || []} 
+
 
 
 
