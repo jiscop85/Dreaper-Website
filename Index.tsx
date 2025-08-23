@@ -29,6 +29,8 @@ return (
           <FabricCategoriesSlider />
           <FabricGallerySection />
           <ProductSection 
+            title="✨ پارچه‌های ویژه و منحصر به فرد" 
+
 
 
 
