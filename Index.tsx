@@ -45,11 +45,13 @@ products={embroideryFabrics || []}
 />
           <ProductSection 
             title="☀️ کالکشن بهاره و تابستانه" 
+            products={springFabrics || []} 
             isLoading={springLoading}
 />
           <FeaturesSection />
         </main>
         <Footer />
+
 
 
 
