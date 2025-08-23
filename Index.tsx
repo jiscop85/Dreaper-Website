@@ -34,6 +34,7 @@ return (
             isLoading={featuredLoading}
  />
           <ProductSection 
+title="🎨 پارچه‌های سوزندوزی و مجلسی"
 
 
 
