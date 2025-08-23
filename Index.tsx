@@ -28,6 +28,8 @@ return (
         <main className="space-y-16 py-8">
           <FabricCategoriesSlider />
           <FabricGallerySection />
+          <ProductSection 
+
 
 
 
