@@ -37,6 +37,8 @@ return (
 title="🎨 پارچه‌های سوزندوزی و مجلسی"
 products={embroideryFabrics || []} 
  isLoading={embroideryLoading}
+/>
+          <ProductSection 
 
 
 
