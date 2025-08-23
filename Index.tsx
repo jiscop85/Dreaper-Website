@@ -40,6 +40,8 @@ products={embroideryFabrics || []}
 />
           <ProductSection 
             title="🧵 پارچه‌های ژاکارد خطی" 
+            products={jacquardFabrics || []} 
+
 
 
 
