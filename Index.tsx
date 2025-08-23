@@ -50,7 +50,11 @@ products={embroideryFabrics || []}
 />
           <FeaturesSection />
         </main>
-        <Footer />
+                <Footer />
+      </div>
+    </div>
+  );
+}
 
 
 
