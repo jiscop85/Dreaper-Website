@@ -25,4 +25,6 @@ return (
  <div className="relative z-10">
  <Header />
   <HeroSection />
+        <main className="space-y-16 py-8">
+
 
