@@ -49,6 +49,8 @@ products={embroideryFabrics || []}
 />
           <FeaturesSection />
         </main>
+        <Footer />
+
 
 
 
