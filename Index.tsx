@@ -55,6 +55,7 @@ products={embroideryFabrics || []}
     </div>
   );
 }
+export default Index;
 
 
 
