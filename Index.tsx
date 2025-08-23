@@ -48,6 +48,8 @@ products={embroideryFabrics || []}
             isLoading={springLoading}
 />
           <FeaturesSection />
+        </main>
+
 
 
 
