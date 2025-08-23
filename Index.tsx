@@ -32,6 +32,8 @@ return (
             title="✨ پارچه‌های ویژه و منحصر به فرد" 
             products={featuredProducts || []} 
             isLoading={featuredLoading}
+ />
+          <ProductSection 
 
 
 
