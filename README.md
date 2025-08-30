@@ -27,6 +27,8 @@ Follow these steps:
 git clone <YOUR_GIT_URL>
 
 # Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
 
 
 
