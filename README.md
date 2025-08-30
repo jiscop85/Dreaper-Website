@@ -14,3 +14,5 @@ Simply visit the [Lovable Project](https://lovable.dev/projects/f46e1529-fc15-48
 
 Changes made via Lovable will be committed automatically to this repo.
 
+**Use your preferred IDE**
+
