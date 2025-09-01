@@ -12,3 +12,5 @@ export default {
 	],
 	prefix: "",
 	theme: {
+		container: {
+
