@@ -22,6 +22,8 @@ export default {
 			fontFamily: {
 				'vazir': ['Vazirmatn', 'Tahoma', 'Arial', 'sans-serif'],
 				'display': ['Vazirmatn', 'Tahoma', 'Arial', 'sans-serif'],
+			},
+
 
 
 
