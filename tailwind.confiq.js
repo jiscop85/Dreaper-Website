@@ -37,6 +37,8 @@ export default {
 					foreground: 'hsl(var(--secondary-foreground))'
 },
 				destructive: {
+					DEFAULT: 'hsl(var(--destructive))',
+					for
 
 
 
