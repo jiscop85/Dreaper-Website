@@ -114,6 +114,7 @@ export default {
 				'accordion-down': {
 					from: { height: '0' },
 					to: { height: 'var(--radix-accordion-content-height)' }
+				},
 
 
 
