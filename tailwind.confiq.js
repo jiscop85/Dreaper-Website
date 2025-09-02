@@ -93,6 +93,8 @@ export default {
 					'coral': '#FF7F7F',         // مرجانی
 				}
 			},
+			borderRadius: {
+
 
 
 
