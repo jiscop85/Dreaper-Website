@@ -110,6 +110,8 @@ export default {
 				'88': '22rem',
 				'128': '32rem',
 			},
+			keyframes: {
+
 
 
 
