@@ -86,6 +86,8 @@ export default {
 					'bronze': '#CD7F32',        // برنزی
 					'copper': '#B87333',        // مسی
 
+					// رنگ‌های ترکیبی
+
 
 
 
