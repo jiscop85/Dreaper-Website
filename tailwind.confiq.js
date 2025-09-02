@@ -112,6 +112,8 @@ export default {
 			},
 			keyframes: {
 				'accordion-down': {
+					from: { height: '0' },
+
 
 
 
