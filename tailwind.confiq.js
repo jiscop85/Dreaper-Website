@@ -101,6 +101,8 @@ export default {
 				sm: 'calc(var(--radius) - 4px)'
 			},
 			spacing: {
+				'18': '4.5rem',
+
 
 
 
