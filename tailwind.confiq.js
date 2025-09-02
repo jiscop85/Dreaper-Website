@@ -62,6 +62,8 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 },
 				// پالت رنگی مدرن و هماهنگ
+				fabric: {
+
 
 
 
