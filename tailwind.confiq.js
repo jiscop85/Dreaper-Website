@@ -72,6 +72,8 @@ export default {
 					'cream': '#FEFDF8',         // کرم روشن
 					'sand': '#F7F3E9',          // شنی ملایم
 					'pearl': '#F8F6F0',         // مرواریدی
+					'ivory': '#FFFBF0',         // عاجی
+
 
 
 
