@@ -111,6 +111,8 @@ export default {
 				'128': '32rem',
 			},
 			keyframes: {
+				'accordion-down': {
+
 
 
 
