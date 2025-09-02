@@ -60,6 +60,7 @@ export default {
 					accent: 'hsl(var(--sidebar-accent))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+},
 
 
 
