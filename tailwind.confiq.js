@@ -61,6 +61,8 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 },
+				// پالت رنگی مدرن و هماهنگ
+
 
 
 
