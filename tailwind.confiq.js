@@ -91,6 +91,8 @@ export default {
 					'gold': '#FFD700',          // طلایی
 					'mint': '#B8E6B8',          // نعنایی
 					'coral': '#FF7F7F',         // مرجانی
+				}
+
 
 
 
