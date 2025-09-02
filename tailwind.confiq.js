@@ -88,6 +88,8 @@ export default {
 
 					// رنگ‌های ترکیبی
 					'terracotta': '#E2725B',    // خاکی
+					'gold': '#FFD700',          // طلایی
+
 
 
 
