@@ -74,6 +74,8 @@ export default {
 					'pearl': '#F8F6F0',         // مرواریدی
 					'ivory': '#FFFBF0',         // عاجی
 
+					// رنگ‌های طبیعی
+
 
 
 
