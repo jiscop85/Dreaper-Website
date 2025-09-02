@@ -75,6 +75,9 @@ export default {
 					'ivory': '#FFFBF0',         // عاجی
 
 					// رنگ‌های طبیعی
+					'emerald': '#50C878',       // سبز زمردی
+
+
 
 
 
