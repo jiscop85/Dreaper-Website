@@ -65,6 +65,8 @@ export default {
 				fabric: {
 					// رنگ‌های اصلی بهبود یافته
 					'primary': '#1B365D',      // آبی تیره اصلی
+					'secondary': '#E2725B',     // نارنجی گرم
+
 
 
 
