@@ -78,6 +78,8 @@ export default {
 					'emerald': '#50C878',       // سبز زمردی
 					'sage': '#9CAF88',          // سبز خاکستری
 					'lavender': '#B19CD9',      // بنفش ملایم
+					'rose': '#E8B4B8',          // صورتی ملایم
+
 
 
 
