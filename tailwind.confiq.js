@@ -84,6 +84,8 @@ export default {
 					'navy': '#1B365D',          // آبی تیره
 					'charcoal': '#2C3E50',      // خاکستری تیره
 					'bronze': '#CD7F32',        // برنزی
+					'copper': '#B87333',        // مسی
+
 
 
 
