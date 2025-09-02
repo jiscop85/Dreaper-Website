@@ -87,6 +87,8 @@ export default {
 					'copper': '#B87333',        // مسی
 
 					// رنگ‌های ترکیبی
+					'terracotta': '#E2725B',    // خاکی
+
 
 
 
