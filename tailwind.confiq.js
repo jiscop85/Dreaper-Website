@@ -53,6 +53,8 @@ export default {
 					foreground: 'hsl(var(--popover-foreground))'
 	},
 				sidebar: {
+					DEFAULT: 'hsl(var(--sidebar-background))',
+
 
 
 
