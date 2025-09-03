@@ -142,6 +142,8 @@ export default {
 				},
 				// انیمیشن‌های اسلاید بهبود یافته
 				'slide-in': {
+					'0%': { transform: 'translateX(100%)', opacity: '0' },
+
 
 
 
