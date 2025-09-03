@@ -193,6 +193,8 @@ export default {
 					'0%, 100%': { transform: 'translateY(0px) rotate(0deg)' },
 					'33%': { transform: 'translateY(-10px) rotate(1deg)' },
 					'66%
+				},
+				// انیمیشن‌های ویژه
 
 
 
