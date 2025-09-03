@@ -172,6 +172,8 @@ export default {
 				},
 				'bounce-in': {
 					'0%': { transform: 'scale(0.3)', opacity: '0' },
+					'50%': { transform: 'scale(1.05)', opacity: '1' },
+
 
 
 
