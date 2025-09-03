@@ -121,6 +121,8 @@ export default {
 				},
 				// انیمیشن‌های کلاسیک بهبود یافته
 				'fade-in': {
+					'0%': { opacity: '0', transform: 'translateY(20px)' },
+
 
 
 
