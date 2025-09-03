@@ -177,6 +177,8 @@ export default {
 					'100%': { transform: 'scale(1)', opacity: '1' }
 				},
 				// انیمیشن‌های شناوری
+				'float': {
+
 
 
 
