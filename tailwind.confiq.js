@@ -154,6 +154,8 @@ export default {
 					'100%': { transform: 'translateY(0)', opacity: '1' }
 				},
 				'slide-down': {
+					'0%': { transform: 'translateY(-100%)', opacity: '0' },
+
 
 
 
