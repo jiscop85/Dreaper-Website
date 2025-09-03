@@ -150,6 +150,8 @@ export default {
 					'100%': { transform: 'translateX(-100%)', opacity: '0' }
 				},
 				'slide-up': {
+					'0%': { transform: 'translateY(100%)', opacity: '0' },
+
 
 
 
