@@ -159,6 +159,8 @@ export default {
 				},
 				// انیمیشن‌های اسکیل و چرخش
 				'scale-in': {
+					'0%': { transform: 'scale(0.9)', opacity: '0' },
+
 
 
 
