@@ -158,6 +158,8 @@ export default {
 					'100%': { transform: 'translateY(0)', opacity: '1' }
 				},
 				// انیمیشن‌های اسکیل و چرخش
+				'scale-in': {
+
 
 
 
