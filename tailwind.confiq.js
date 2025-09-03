@@ -167,6 +167,8 @@ export default {
 					'100%': { transform: 'scale(0.9)', opacity: '0' }
 				},
 				'rotate-in': {
+					'0%': { transform: 'rotate(-10deg) scale(0.9)', opacity: '0' },
+
 
 
 
