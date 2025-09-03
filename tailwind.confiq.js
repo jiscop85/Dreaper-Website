@@ -171,6 +171,8 @@ export default {
 					'100%': { transform: 'rotate(0deg) scale(1)', opacity: '1' }
 				},
 				'bounce-in': {
+					'0%': { transform: 'scale(0.3)', opacity: '0' },
+
 
 
 
