@@ -163,6 +163,8 @@ export default {
 					'100%': { transform: 'scale(1)', opacity: '1' }
 				},
 				'scale-out': {
+					'0%': { transform: 'scale(1)', opacity: '1' },
+
 
 
 
