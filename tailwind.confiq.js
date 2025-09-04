@@ -215,6 +215,8 @@ export default {
 				},
 				'bounce-gentle': {
 					'0%, 100%': {
+						transform: 'translateY(0)',
+
 
 
 
