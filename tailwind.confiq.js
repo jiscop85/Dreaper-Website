@@ -243,6 +243,8 @@ export default {
 				'gradient-y': {
 					'0%, 100%': { backgroundPosition: '50% 0%' },
 					'50%': { backgroundPosition: '50% 100%' }
+				},
+
 
 
 
