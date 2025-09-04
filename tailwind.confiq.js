@@ -200,6 +200,8 @@ export default {
 					'100%': { backgroundPosition: '200% 0' }
 				},
 				'pulse-glow': {
+					'0%, 100%': { 
+
 
 
 
