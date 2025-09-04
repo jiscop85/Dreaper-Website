@@ -263,6 +263,8 @@ export default {
 				'fade-right': 'fade-right 0.6s ease-out',
 
 				// انیمیشن‌های اسلاید
+				'slide-in': 'slide-in 0.5s ease-out',
+
 
 
 
