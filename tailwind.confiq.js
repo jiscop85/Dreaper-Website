@@ -232,6 +232,8 @@ export default {
 					'50%': { transform: 'rotate(3deg)' }
 				},
 				'heartbeat': {
+					'0%, 100%': { transform: 'scale(1)' },
+
 
 
 
