@@ -252,6 +252,8 @@ export default {
 				}
 			},
 			animation: {
+				// انیمیشن‌های پایه
+
 
 
 
