@@ -259,6 +259,8 @@ export default {
 				'fade-in': 'fade-in 0.6s ease-out',
 				'fade-up': 'fade-up 0.6s ease-out',
 				'fade-down': 'fade-down 0.6s ease-out',
+				'fade-left': 'fade-left 0.6s ease-out',
+
 
 
 
