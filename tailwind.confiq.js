@@ -216,6 +216,8 @@ export default {
 				'bounce-gentle': {
 					'0%, 100%': {
 						transform: 'translateY(0)',
+						animationTimingFunction: 'cubic-bezier(0.8, 0, 1, 1)'
+
 
 
 
