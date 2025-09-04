@@ -270,6 +270,8 @@ export default {
 
 				// انیمیشن‌های اسکیل
 				'scale-in': 'scale-in 0.3s ease-out',
+				'scale-out': 'scale-out 0.3s ease-out',
+
 
 
 
