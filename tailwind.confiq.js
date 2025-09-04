@@ -203,6 +203,8 @@ export default {
 					'0%, 100%': { 
 						boxShadow: '0 0 5px rgba(226, 114, 91, 0.5)',
 						transform: 'scale(1)'
+					},
+
 
 
 
