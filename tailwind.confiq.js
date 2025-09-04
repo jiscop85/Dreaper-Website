@@ -269,6 +269,8 @@ export default {
 				'slide-down': 'slide-down 0.5s ease-out',
 
 				// انیمیشن‌های اسکیل
+				'scale-in': 'scale-in 0.3s ease-out',
+
 
 
 
