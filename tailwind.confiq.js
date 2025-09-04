@@ -196,6 +196,8 @@ export default {
 				},
 				// انیمیشن‌های ویژه
 				'shimmer': {
+					'0%': { backgroundPosition: '-200% 0' },
+
 
 
 
