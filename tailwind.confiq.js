@@ -274,6 +274,8 @@ export default {
 				'rotate-in': 'rotate-in 0.6s ease-out',
 				'bounce-in': 'bounce-in 0.8s ease-out',
 
+				// انیمیشن‌های مداوم
+
 
 
 
