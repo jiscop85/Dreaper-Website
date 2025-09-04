@@ -246,6 +246,8 @@ export default {
 				},
 				'gradient-xy': {
 					'0%, 100%': { backgroundPosition: '0% 0%' },
+					'25%': { backgroundPosition: '100% 0%' },
+
 
 
 
