@@ -236,6 +236,8 @@ export default {
 					'50%': { transform: 'scale(1.1)' }
 				},
 				// انیمیشن‌های گرادیانت
+				'gradient-x': {
+
 
 
 
