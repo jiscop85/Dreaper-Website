@@ -211,6 +211,8 @@ export default {
 			    },
 				'glow': {
 					'0%, 100%': { boxShadow: '0 0 5px rgba(255, 215, 0, 0.5)' },
+					'50%': { boxShadow: '0 0 20px rgba(255, 215, 0, 0.8)' }
+
 
 
 
