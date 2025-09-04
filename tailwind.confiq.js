@@ -264,6 +264,8 @@ export default {
 
 				// انیمیشن‌های اسلاید
 				'slide-in': 'slide-in 0.5s ease-out',
+				'slide-out': 'slide-out 0.5s ease-out',
+
 
 
 
