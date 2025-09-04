@@ -214,6 +214,8 @@ export default {
 					'50%': { boxShadow: '0 0 20px rgba(255, 215, 0, 0.8)' }
 				},
 				'bounce-gentle': {
+					'0%, 100%': {
+
 
 
 
