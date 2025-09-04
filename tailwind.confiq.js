@@ -228,7 +228,10 @@ export default {
 					'50%': { transform: 'scale(1.05)' }
 				},
 				'wiggle': {
+					'0%, 100%': { transform: 'rotate(-3deg)' },
 					
+
+
 
 
 
