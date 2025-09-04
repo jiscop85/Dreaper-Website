@@ -266,6 +266,8 @@ export default {
 				'slide-in': 'slide-in 0.5s ease-out',
 				'slide-out': 'slide-out 0.5s ease-out',
 				'slide-up': 'slide-up 0.5s ease-out',
+				'slide-down': 'slide-down 0.5s ease-out',
+
 
 
 
