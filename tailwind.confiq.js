@@ -251,6 +251,8 @@ export default {
 					'75%': { backgroundPosition: '0% 100%' }
 				}
 			},
+			animation: {
+
 
 
 
