@@ -253,6 +253,8 @@ export default {
 			},
 			animation: {
 				// انیمیشن‌های پایه
+				'accordion-down': 'accordion-down 0.2s ease-out',
+
 
 
 
