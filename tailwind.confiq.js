@@ -237,6 +237,8 @@ export default {
 				},
 				// انیمیشن‌های گرادیانت
 				'gradient-x': {
+					'0%, 100%': { backgroundPosition: '0% 50%' },
+
 
 
 
