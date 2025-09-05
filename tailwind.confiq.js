@@ -281,6 +281,8 @@ export default {
 				'float-gentle': 'float-gentle 7s ease-in-out infinite',
 
 				// انیمیشن‌های ویژه
+				'shimmer': 'shimmer 2s linear infinite',
+
 
 
 
