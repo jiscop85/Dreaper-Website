@@ -329,6 +329,8 @@ export default {
 			// انتقال‌های مدرن
 			transitionDuration: {
 				'400': '400ms',
+				'600': '600ms',
+
 
 
 
