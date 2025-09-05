@@ -280,6 +280,8 @@ export default {
 				'float-slow': 'float-slow 8s ease-in-out infinite 1s',
 				'float-gentle': 'float-gentle 7s ease-in-out infinite',
 
+				// انیمیشن‌های ویژه
+
 
 
 
