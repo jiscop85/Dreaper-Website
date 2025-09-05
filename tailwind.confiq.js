@@ -327,6 +327,8 @@ export default {
 				'1200': '1200ms',
 			},
 			// انتقال‌های مدرن
+			transitionDuration: {
+
 
 
 
