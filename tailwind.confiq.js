@@ -302,6 +302,8 @@ export default {
 			},
 			backgroundSize: {
 				'shimmer': '200% 100%',
+				'texture': '60px 60px',
+
 
 
 
