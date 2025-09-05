@@ -316,6 +316,8 @@ export default {
 				'elegant-lg': '0 25px 50px -12px rgba(0, 0, 0, 0.15), 0 10px 20px -5px rgba(0, 0, 0, 0.1)',
 				'fabric': '0 8px 32px rgba(27, 54, 93, 0.12)',
 				'glow-primary': '0 0 20px rgba(27, 54, 93, 0.3)',
+				'glow-secondary': '0 0 20px rgba(226, 114, 91, 0.3)',
+
 
 
 
