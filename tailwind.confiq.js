@@ -290,6 +290,8 @@ export default {
 				'heartbeat': 'heartbeat 1.5s ease-in-out infinite',
 
 				// انیمیشن‌های گرادیانت
+				'gradient-x': 'gradient-x 3s ease infinite',
+
 
 
 
