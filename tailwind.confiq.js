@@ -305,6 +305,8 @@ export default {
 				'texture': '60px 60px',
 			},
 			// گرادیانت‌های از پیش تعریف شده
+			gradientColorStops: {
+
 
 
 
