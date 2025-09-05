@@ -285,6 +285,8 @@ export default {
 				'pulse-glow': 'pulse-glow 2s ease-in-out infinite',
 				'glow': 'glow 2s ease-in-out infinite',
 				'bounce-gentle': 'bounce-gentle 2s infinite',
+				'scale-pulse': 'scale-pulse 3s ease-in-out infinite',
+
 
 
 
