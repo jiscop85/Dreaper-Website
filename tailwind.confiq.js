@@ -295,6 +295,8 @@ export default {
 				'gradient-xy': 'gradient-xy 6s ease infinite',
 			},
 			backgroundImage: {
+				'shimmer': 'linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent)',
+
 
 
 
