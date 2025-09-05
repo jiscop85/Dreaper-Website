@@ -333,6 +333,8 @@ export default {
 				'800': '800ms',
 				'1200': '1200ms',
 			},
+			transitionTimingFunction: {
+
 
 
 
