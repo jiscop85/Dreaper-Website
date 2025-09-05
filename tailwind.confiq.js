@@ -308,6 +308,8 @@ export default {
 			gradientColorStops: {
 				'primary': '#1B365D',
 				'secondary': '#E2725B',
+				'accent': '#FFD700',
+
 
 
 
