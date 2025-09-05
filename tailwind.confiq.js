@@ -297,6 +297,8 @@ export default {
 			backgroundImage: {
 				'shimmer': 'linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent)',
 				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+				'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+
 
 
 
