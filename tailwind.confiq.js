@@ -311,6 +311,8 @@ export default {
 				'accent': '#FFD700',
 			},
 			// سایه‌های مدرن
+			boxShadow: {
+
 
 
 
