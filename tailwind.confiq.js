@@ -289,6 +289,8 @@ export default {
 				'wiggle': 'wiggle 1s ease-in-out infinite',
 				'heartbeat': 'heartbeat 1.5s ease-in-out infinite',
 
+				// انیمیشن‌های گرادیانت
+
 
 
 
