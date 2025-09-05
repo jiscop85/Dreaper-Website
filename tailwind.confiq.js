@@ -310,6 +310,8 @@ export default {
 				'secondary': '#E2725B',
 				'accent': '#FFD700',
 			},
+			// سایه‌های مدرن
+
 
 
 
