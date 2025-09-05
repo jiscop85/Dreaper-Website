@@ -314,6 +314,8 @@ export default {
 			boxShadow: {
 				'elegant': '0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
 				'elegant-lg': '0 25px 50px -12px rgba(0, 0, 0, 0.15), 0 10px 20px -5px rgba(0, 0, 0, 0.1)',
+				'fabric': '0 8px 32px rgba(27, 54, 93, 0.12)',
+
 
 
 
