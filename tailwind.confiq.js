@@ -291,6 +291,8 @@ export default {
 
 				// انیمیشن‌های گرادیانت
 				'gradient-x': 'gradient-x 3s ease infinite',
+				'gradient-y': 'gradient-y 3s ease infinite',
+
 
 
 
