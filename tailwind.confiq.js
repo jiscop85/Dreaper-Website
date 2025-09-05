@@ -317,6 +317,8 @@ export default {
 				'fabric': '0 8px 32px rgba(27, 54, 93, 0.12)',
 				'glow-primary': '0 0 20px rgba(27, 54, 93, 0.3)',
 				'glow-secondary': '0 0 20px rgba(226, 114, 91, 0.3)',
+				'glow-accent': '0 0 20px rgba(255, 215, 0, 0.3)',
+
 
 
 
