@@ -319,6 +319,8 @@ export default {
 				'glow-secondary': '0 0 20px rgba(226, 114, 91, 0.3)',
 				'glow-accent': '0 0 20px rgba(255, 215, 0, 0.3)',
 			},
+			// انتقال‌های مدرن
+
 
 
 
