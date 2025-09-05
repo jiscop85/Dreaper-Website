@@ -293,6 +293,7 @@ export default {
 				'gradient-x': 'gradient-x 3s ease infinite',
 				'gradient-y': 'gradient-y 3s ease infinite',
 				'gradient-xy': 'gradient-xy 6s ease infinite',
+			},
 
 
 
