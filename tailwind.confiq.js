@@ -307,6 +307,8 @@ export default {
 			// گرادیانت‌های از پیش تعریف شده
 			gradientColorStops: {
 				'primary': '#1B365D',
+				'secondary': '#E2725B',
+
 
 
 
