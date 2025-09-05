@@ -275,6 +275,8 @@ export default {
 				'bounce-in': 'bounce-in 0.8s ease-out',
 
 				// انیمیشن‌های مداوم
+				'float': 'float 6s ease-in-out infinite',
+
 
 
 
