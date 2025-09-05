@@ -283,6 +283,8 @@ export default {
 				// انیمیشن‌های ویژه
 				'shimmer': 'shimmer 2s linear infinite',
 				'pulse-glow': 'pulse-glow 2s ease-in-out infinite',
+				'glow': 'glow 2s ease-in-out infinite',
+
 
 
 
