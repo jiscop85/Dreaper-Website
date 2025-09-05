@@ -277,6 +277,8 @@ export default {
 				// انیمیشن‌های مداوم
 				'float': 'float 6s ease-in-out infinite',
 				'float-delayed': 'float-delayed 4s ease-in-out infinite 2s',
+				'float-slow': 'float-slow 8s ease-in-out infinite 1s',
+
 
 
 
