@@ -323,6 +323,8 @@ export default {
 			transitionDuration: {
 				'400': '400ms',
 				'600': '600ms',
+				'800': '800ms',
+
 
 
 
