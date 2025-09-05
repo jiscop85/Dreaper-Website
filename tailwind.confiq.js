@@ -320,6 +320,8 @@ export default {
 				'glow-accent': '0 0 20px rgba(255, 215, 0, 0.3)',
 			},
 			// انتقال‌های مدرن
+			transitionDuration: {
+
 
 
 
