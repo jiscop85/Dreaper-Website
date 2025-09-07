@@ -131,6 +131,8 @@
 
   /* اصلاح استایل‌های خاص برای زبان فارسی */
   input, textarea {
+    direction: rtl;
+
 
 
 
