@@ -112,6 +112,8 @@
     letter-spacing: -0.01em;
  }
 
+  h1 { @apply text-4xl md:text-5xl lg:text-6xl; }
+
 
 
 
