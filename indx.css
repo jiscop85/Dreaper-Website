@@ -151,6 +151,8 @@
 
   /* بهبود اسکرول‌بار */
   ::-webkit-scrollbar {
+    width: 8px;
+
 
 
 
