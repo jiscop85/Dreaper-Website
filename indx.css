@@ -184,6 +184,8 @@
 
   /* گرادیانت‌های زیبا */
   .gradient-primary {
+    background: linear-gradient(135deg, #1B365D 0%, #E2725B 50%, #FFD700 100%);
+
 
 
 
