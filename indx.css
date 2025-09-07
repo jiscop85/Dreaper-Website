@@ -120,6 +120,8 @@
   h6 { @apply text-base md:text-lg; }
 
   p {
+    @apply text-base md:text-lg;
+
 
 
 
