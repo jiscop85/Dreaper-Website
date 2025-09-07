@@ -97,6 +97,8 @@
 
   body {
     @apply bg-gradient-to-br from-fabric-cream via-white to-fabric-sand/10 text-foreground font-vazir;
+    direction: rtl;
+
 
 
 
