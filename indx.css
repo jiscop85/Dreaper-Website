@@ -119,6 +119,8 @@
   h5 { @apply text-lg md:text-xl; }
   h6 { @apply text-base md:text-lg; }
 
+  p {
+
 
 
 
