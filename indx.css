@@ -161,6 +161,8 @@
   }
 
   ::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #1B365D, #E2725B);
+
 
 
 
