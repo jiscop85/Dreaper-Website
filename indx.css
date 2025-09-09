@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap');
+v@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
 @tailwind base;
@@ -282,6 +282,8 @@
       opacity: 1;
       transform: scale(1.05);
     }
+    70% {
+
 
 
 
