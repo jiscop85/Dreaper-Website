@@ -233,6 +233,8 @@
   /* استایل‌های سفارشی برای انیمیشن‌ها */
   .hover-scale {
     @apply transition-all duration-300 hover:scale-105;
+  }
+
 
 
 
