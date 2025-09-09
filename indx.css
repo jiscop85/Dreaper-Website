@@ -208,6 +208,8 @@
 
   /* بهبود فوکوس */
   *:focus {
+    outline: 2px solid #E2725B;
+
 
 
 
