@@ -212,6 +212,8 @@
     outline-offset: 2px;
   }
 
+  button:focus, a:focus {
+
 
 
 
