@@ -244,6 +244,8 @@
   }
 
   .bounce-in {
+    animation: bounceIn 0.8s ease-out;
+
 
 
 
