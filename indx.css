@@ -293,6 +293,8 @@ v@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;30
 
   @keyframes rotateIn {
     from {
+      opacity: 0;
+
 
 
 
