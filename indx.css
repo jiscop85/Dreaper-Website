@@ -240,6 +240,8 @@
   }
 
   .slide-up {
+    animation: slideUp 0.6s ease-out;
+
 
 
 
