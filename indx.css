@@ -223,6 +223,8 @@
     animation: shimmer 1.5s infinite;
   }
 
+  @keyframes shimmer {
+
 
 
 
