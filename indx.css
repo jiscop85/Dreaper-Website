@@ -312,6 +312,8 @@ v@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;30
   }
 
   .btn-secondary {
+    @apply btn-modern bg-white text-fabric-navy border-2 border-fabric-navy hover:bg-fabric-navy hover:text-white focus:ring-fabric-navy/50;
+
 
 
 
