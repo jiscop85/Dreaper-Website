@@ -309,6 +309,8 @@ v@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;30
 
   .btn-primary {
     @apply btn-modern bg-gradient-to-r from-fabric-navy to-fabric-terracotta text-white hover:from-fabric-terracotta hover:to-fabric-gold focus:ring-fabric-terracotta/50;
+  }
+
 
 
 
