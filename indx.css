@@ -323,6 +323,8 @@ v@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;30
 
   /* فیلد‌های فرم مدرن */
   .input-modern {
+    @apply w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-fabric-terracotta focus:border-transparent transition-all duration-300 bg-white/50 backdrop-blur-sm;
+
 
 
 
