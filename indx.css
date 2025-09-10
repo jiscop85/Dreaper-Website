@@ -262,6 +262,7 @@ v@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;30
     }
   }
 
+
   @keyframes slideUp {
     from {
       opacity: 0;
@@ -316,6 +317,9 @@ v@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;30
   }
 
   /* کارت‌های مدرن */
+  .card-modern {
+
+
 
 
 
