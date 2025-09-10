@@ -305,6 +305,8 @@ v@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;30
   /* دکمه‌های مدرن */
   .btn-modern {
     @apply px-6 py-3 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-4 focus:ring-offset-2;
+  }
+
 
 
 
