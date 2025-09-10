@@ -340,6 +340,8 @@ v@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;30
 
   h1 { @apply text-2xl; }
   h2 { @apply text-xl; }
+  h3 { @apply text-lg; }
+
 
 
 
