@@ -40,6 +40,8 @@ function App() {
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
+      </TooltipProvider>
+
 
 
 
