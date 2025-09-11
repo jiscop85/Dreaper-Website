@@ -10,6 +10,8 @@ import NotFound from "./pages/NotFound";
 import QualityAssurance from "./pages/QualityAssurance";
 import CustomerSatisfaction from "./pages/CustomerSatisfaction";
 import Support from "./pages/Support";
+import SecurePayment from "./pages/SecurePayment";
+
 
 
 
