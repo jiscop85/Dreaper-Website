@@ -16,6 +16,8 @@ import MoneyBackGuarantee from "./pages/MoneyBackGuarantee";
 import Favorites from "./pages/Favorites";
 import AllProducts from "./pages/AllProducts";
 
+const queryClient = new QueryClient();
+
 
 
 
