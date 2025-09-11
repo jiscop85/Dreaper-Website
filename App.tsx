@@ -30,6 +30,8 @@ function App() {
             <Route path="/orders" element={<Orders />} />
             <Route path="/favorites" element={<Favorites />} />
             <Route path="/products" element={<AllProducts />} />
+            <Route path="/category/:categorySlug" element={<CategoryPage />} />
+
 
 
 
