@@ -37,6 +37,8 @@ function App() {
             <Route path="/secure-payment" element={<SecurePayment />} />
             <Route path="/free-shipping" element={<FreeShipping />} />
             <Route path="/money-back-guarantee" element={<MoneyBackGuarantee />} />
+            <Route path="*" element={<NotFound />} />
+
 
 
 
