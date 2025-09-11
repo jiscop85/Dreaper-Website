@@ -13,6 +13,8 @@ import Support from "./pages/Support";
 import SecurePayment from "./pages/SecurePayment";
 import FreeShipping from "./pages/FreeShipping";
 import MoneyBackGuarantee from "./pages/MoneyBackGuarantee";
+import Favorites from "./pages/Favorites";
+
 
 
 
