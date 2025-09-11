@@ -11,6 +11,8 @@ import QualityAssurance from "./pages/QualityAssurance";
 import CustomerSatisfaction from "./pages/CustomerSatisfaction";
 import Support from "./pages/Support";
 import SecurePayment from "./pages/SecurePayment";
+import FreeShipping from "./pages/FreeShipping";
+
 
 
 
