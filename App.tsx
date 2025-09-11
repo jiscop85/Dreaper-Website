@@ -29,6 +29,8 @@ function App() {
             <Route path="/auth" element={<Auth />} />
             <Route path="/orders" element={<Orders />} />
             <Route path="/favorites" element={<Favorites />} />
+            <Route path="/products" element={<AllProducts />} />
+
 
 
 
