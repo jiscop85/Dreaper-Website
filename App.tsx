@@ -42,6 +42,8 @@ function App() {
         </BrowserRouter>
       </TooltipProvider>
     </QueryClientProvider>
+  );
+
 
 
 
