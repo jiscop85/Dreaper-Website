@@ -33,6 +33,8 @@ function App() {
             <Route path="/category/:categorySlug" element={<CategoryPage />} />
             <Route path="/quality-assurance" element={<QualityAssurance />} />
             <Route path="/customer-satisfaction" element={<CustomerSatisfaction />} />
+            <Route path="/support" element={<Support />} />
+
 
 
 
