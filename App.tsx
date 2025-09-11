@@ -25,6 +25,8 @@ function App() {
         <Toaster />
         <BrowserRouter>
           <Routes>
+            <Route path="/" element={<Index />} />
+
 
 
 
