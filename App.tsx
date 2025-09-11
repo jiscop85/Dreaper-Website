@@ -7,6 +7,8 @@ import Orders from "./pages/Orders";
 import CategoryPage from "./pages/CategoryPage";
 import Auth from "./pages/Auth";
 import NotFound from "./pages/NotFound";
+import QualityAssurance from "./pages/QualityAssurance";
+
 
 
 
