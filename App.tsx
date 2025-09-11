@@ -39,6 +39,8 @@ function App() {
             <Route path="/money-back-guarantee" element={<MoneyBackGuarantee />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
+        </BrowserRouter>
+
 
 
 
