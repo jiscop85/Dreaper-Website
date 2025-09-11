@@ -24,6 +24,8 @@ function App() {
       <TooltipProvider>
         <Toaster />
         <BrowserRouter>
+          <Routes>
+
 
 
 
