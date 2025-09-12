@@ -3,3 +3,4 @@ export const formatPrice = (price: number): string => {
 };
 
 export const calculateDiscountPrice = (price: number, discountPercentage?: number): number => {
+  if (!discountPercentage) return price;
