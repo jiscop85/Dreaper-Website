@@ -1,1 +1,1 @@
-export const formatPrice = (price: number): string => 
+export const formatPrice = (price: number): string => {
