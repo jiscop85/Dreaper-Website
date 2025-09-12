@@ -5,3 +5,4 @@ export interface Category {
   description?: string;
   parent_id?: string;
   image_url?: string;
+  sort_order: number;
