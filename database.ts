@@ -6,3 +6,4 @@ export interface Category {
   parent_id?: string;
   image_url?: string;
   sort_order: number;
+  is_active: boolean;
