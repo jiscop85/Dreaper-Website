@@ -17,4 +17,5 @@ export interface Product {
     slug: string;
   description?: string;
   parent_id?: string;
+  image_url?: string;
 
