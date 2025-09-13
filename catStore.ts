@@ -12,3 +12,4 @@ interface CartItem {
 }
 
 interface CartStore {
+  items: CartItem[];
