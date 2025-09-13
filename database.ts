@@ -26,5 +26,6 @@ export interface Product {
     is_featured: boolean;
     is_active: boolean;
     tags: string[];
+    meta_title?: string;
 
 
