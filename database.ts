@@ -23,5 +23,6 @@ export interface Product {
     images: string[];
     category_id?: string;
     stock_quantity: number;
+    is_featured: boolean;
 
 
