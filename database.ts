@@ -38,5 +38,6 @@ export interface Product {
   slug: string;
   content: string;
   excerpt?: string;
+  featured_image?: string;
 
 
