@@ -32,4 +32,6 @@ export interface Product {
     updated_at: string;
 }
 
+  export interface BlogPost {
+
 
