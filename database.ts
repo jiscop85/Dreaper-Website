@@ -17,5 +17,6 @@ export interface Product {
     slug: string;
     description?: string;
     price: number;
+    original_price?: number;
 
 
