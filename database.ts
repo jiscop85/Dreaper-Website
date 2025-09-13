@@ -20,5 +20,6 @@ export interface Product {
     original_price?: number;
     discount_percentage?: number;
     image_url: string;
+    images: string[];
 
 
