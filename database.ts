@@ -39,5 +39,6 @@ export interface Product {
   content: string;
   excerpt?: string;
   featured_image?: string;
+  featured_image?: string;
 
 
