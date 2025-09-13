@@ -37,5 +37,6 @@ export interface Product {
   title: string;
   slug: string;
   content: string;
+  excerpt?: string;
 
 
