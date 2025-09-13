@@ -43,5 +43,6 @@ export interface Product {
   author_name: string;
   is_published: boolean;
   published_at: string;
+  created_at: string;
 
 
