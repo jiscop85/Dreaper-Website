@@ -18,4 +18,5 @@ export interface Product {
   description?: string;
   parent_id?: string;
   image_url?: string;
+  sort_order: number;
 
