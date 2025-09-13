@@ -35,5 +35,6 @@ export interface Product {
   export interface BlogPost {
   id: string;
   title: string;
+  slug: string;
 
 
