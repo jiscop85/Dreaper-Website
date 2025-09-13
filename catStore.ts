@@ -8,3 +8,4 @@ interface CartItem {
   quantity: number;
   unit: string;
   image: string;
+  totalPrice: number;
