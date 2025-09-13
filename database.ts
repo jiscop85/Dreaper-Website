@@ -22,5 +22,6 @@ export interface Product {
     image_url: string;
     images: string[];
     category_id?: string;
+    stock_quantity: number;
 
 
