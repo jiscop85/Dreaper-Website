@@ -16,3 +16,4 @@ interface CartStore {
   totalAmount: number;
   totalItems: number;
   addToCart: (item: CartItem) => void;
+  removeFromCart: (id: string) => void;
