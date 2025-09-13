@@ -52,5 +52,6 @@ export interface Order {
   product_id: string;
   description?: string;
   price: number;
+  order_type: 'buy' | 'sell';
 
 
