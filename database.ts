@@ -42,5 +42,6 @@ export interface Product {
   featured_image?: string;
   author_name: string;
   is_published: boolean;
+  published_at: string;
 
 
