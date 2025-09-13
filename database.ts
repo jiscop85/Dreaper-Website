@@ -18,5 +18,6 @@ export interface Product {
     description?: string;
     price: number;
     original_price?: number;
+    discount_percentage?: number;
 
 
