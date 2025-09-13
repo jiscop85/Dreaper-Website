@@ -53,5 +53,6 @@ export interface Order {
   description?: string;
   price: number;
   order_type: 'buy' | 'sell';
+  created_at: string;
 
 
