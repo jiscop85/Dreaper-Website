@@ -20,3 +20,4 @@ interface CartStore {
   updateQuantity: (id: string, quantity: number) => void;
   clearCart: () => void;
   calculateTotals: () => void;
+}
