@@ -40,5 +40,6 @@ export interface Product {
   excerpt?: string;
   featured_image?: string;
   featured_image?: string;
+  author_name: string;
 
 
