@@ -15,8 +15,7 @@ export interface Product {
     id: string;
     name: string;
     slug: string;
-  description?: string;
-  parent_id?: string;
-  image_url?: string;
-  sort_order: number;
+    description?: string;
+    price: number;
+
 
