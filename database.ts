@@ -24,5 +24,6 @@ export interface Product {
     category_id?: string;
     stock_quantity: number;
     is_featured: boolean;
+    is_active: boolean;
 
 
