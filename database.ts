@@ -16,4 +16,5 @@ export interface Product {
     name: string;
     slug: string;
   description?: string;
+  parent_id?: string;
 
