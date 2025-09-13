@@ -10,3 +10,5 @@ interface CartItem {
   image: string;
   totalPrice: number;
 }
+
+interface CartStore {
