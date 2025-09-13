@@ -7,3 +7,4 @@ interface CartItem {
   price: number;
   quantity: number;
   unit: string;
+  image: string;
