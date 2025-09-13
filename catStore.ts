@@ -13,3 +13,4 @@ interface CartItem {
 
 interface CartStore {
   items: CartItem[];
+  totalAmount: number;
