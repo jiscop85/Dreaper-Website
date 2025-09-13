@@ -55,5 +55,6 @@ export interface Order {
   order_type: 'buy' | 'sell';
   created_at: string;
   updated_at: string;
+}
 
 
