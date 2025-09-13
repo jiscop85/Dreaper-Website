@@ -15,3 +15,4 @@ interface CartStore {
   items: CartItem[];
   totalAmount: number;
   totalItems: number;
+  addToCart: (item: CartItem) => void;
