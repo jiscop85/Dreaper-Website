@@ -25,5 +25,6 @@ export interface Product {
     stock_quantity: number;
     is_featured: boolean;
     is_active: boolean;
+    tags: string[];
 
 
