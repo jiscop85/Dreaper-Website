@@ -21,5 +21,6 @@ export interface Product {
     discount_percentage?: number;
     image_url: string;
     images: string[];
+    category_id?: string;
 
 
