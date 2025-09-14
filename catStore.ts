@@ -64,3 +64,5 @@ export const useCartStore = create<CartStore>()(
         }));
         get().calculateTotals();
       },
+
+      updateQuantity: (id, quantity) => {
