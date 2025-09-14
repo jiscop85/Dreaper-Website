@@ -59,3 +59,4 @@ export const useCartStore = create<CartStore>()(
       },
 
       removeFromCart: (id) => {
+        set(state => ({
