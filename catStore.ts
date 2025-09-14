@@ -21,3 +21,5 @@ interface CartStore {
   clearCart: () => void;
   calculateTotals: () => void;
 }
+
+export const useCartStore = create<CartStore>()(
