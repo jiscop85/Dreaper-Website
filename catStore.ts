@@ -67,3 +67,5 @@ export const useCartStore = create<CartStore>()(
 
       updateQuantity: (id, quantity) => {
         const roundedQuantity = Math.round(quantity * 100) / 100;
+
+        if (roundedQuantity <= 0) {
