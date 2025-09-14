@@ -40,6 +40,7 @@ export const useCartStore = create<CartStore>()(
               i.id === item.id 
                 ? { 
                     ...i, 
+                    quantity: Math.round((i.quantity + item.quantity) * 100) / 100,
 
             
             items: state.items.map(i => 
