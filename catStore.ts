@@ -73,5 +73,6 @@ export const useCartStore = create<CartStore>()(
           return;
         }
 
+      removeFromCart: (id) => {
        set(state => ({
           items: state.items.filter(item => item.id !== id)
