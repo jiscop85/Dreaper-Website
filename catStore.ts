@@ -39,6 +39,7 @@ export const useCartStore = create<CartStore>()(
             items: state.items.map(i => 
               i.id === item.id 
                 ? { 
+                    ...i, 
 
             
             items: state.items.map(i => 
