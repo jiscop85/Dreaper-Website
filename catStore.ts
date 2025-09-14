@@ -26,3 +26,4 @@ export const useCartStore = create<CartStore>()(
   persist(
     (set, get) => ({
       items: [],
+      totalAmount: 0,
