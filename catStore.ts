@@ -58,7 +58,7 @@ export const useCartStore = create<CartStore>()(
         get().calculateTotals();
       },
 
-      removeFromCart: (id) => {
+    removeFromCart: (id) => {
         set(state => ({
           items: state.items.filter(item => item.id !== id)
         }));
@@ -67,12 +67,23 @@ export const useCartStore = create<CartStore>()(
 
       updateQuantity: (id, quantity) => {
         const roundedQuantity = Math.round(quantity * 100) / 100;
-
+        
         if (roundedQuantity <= 0) {
           get().removeFromCart(id);
           return;
         }
-
+        
+        set(state => ({
+          items: state.items.map(item => 
+            item.id === id 
+              ? { 
+                  ...item, 
+                  quantity: roundedQuantity,
+                  totalPrice: Math.round(roundedQuantity * item.price * 100) / 100
+                }
+              : item
+          )
+        }));
       removeFromCart: (id) => {
        set(state => ({
           items: state.items.filter(item => item.id !== id)
