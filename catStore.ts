@@ -45,3 +45,5 @@ export const useCartStore = create<CartStore>()(
 
             
             items: state.items.map(i => 
+                 ...item,
+
