@@ -29,3 +29,4 @@ export const useCartStore = create<CartStore>()(
       totalAmount: 0,
 
       addToCart: (item) => {
+        const { items } = get();
