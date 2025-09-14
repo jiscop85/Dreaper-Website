@@ -63,3 +63,4 @@ export const useCartStore = create<CartStore>()(
           items: state.items.filter(item => item.id !== id)
         }));
         get().calculateTotals();
+      },
