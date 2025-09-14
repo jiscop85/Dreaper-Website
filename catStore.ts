@@ -72,3 +72,5 @@ export const useCartStore = create<CartStore>()(
           get().removeFromCart(id);
           return;
         }
+
+       set(state => ({
