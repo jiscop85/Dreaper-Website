@@ -52,4 +52,5 @@ export const useCartStore = create<CartStore>()(
                  ...item,
               quantity: Math.round(item.quantity * 100) / 100,
               totalPrice: Math.round(item.totalPrice * 100) / 100
+            }]
 
