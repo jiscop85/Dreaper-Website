@@ -54,4 +54,5 @@ export const useCartStore = create<CartStore>()(
               totalPrice: Math.round(item.totalPrice * 100) / 100
             }]
           }));
+        }
 
