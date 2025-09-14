@@ -27,3 +27,5 @@ export const useCartStore = create<CartStore>()(
     (set, get) => ({
       items: [],
       totalAmount: 0,
+
+      addToCart: (item) => {
