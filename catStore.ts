@@ -69,3 +69,4 @@ export const useCartStore = create<CartStore>()(
         const roundedQuantity = Math.round(quantity * 100) / 100;
 
         if (roundedQuantity <= 0) {
+          get().removeFromCart(id);
