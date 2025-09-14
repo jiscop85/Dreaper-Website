@@ -55,4 +55,5 @@ export const useCartStore = create<CartStore>()(
             }]
           }));
         }
+        get().calculateTotals();
 
