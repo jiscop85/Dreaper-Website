@@ -37,6 +37,7 @@ export const useCartStore = create<CartStore>()(
         if (existingItem) {
           set(state => ({
             items: state.items.map(i => 
+              i.id === item.id 
 
             
             items: state.items.map(i => 
