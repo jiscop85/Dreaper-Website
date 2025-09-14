@@ -71,3 +71,4 @@ export const useCartStore = create<CartStore>()(
         if (roundedQuantity <= 0) {
           get().removeFromCart(id);
           return;
+        }
