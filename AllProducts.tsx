@@ -31,6 +31,8 @@ const AllProducts = () => {
     switch (sortBy) {
       case 'price-low':
         return a.price - b.price;
+      case 'price-high':
+
 
 
 
