@@ -37,6 +37,8 @@ const AllProducts = () => {
         return (b.discount_percentage || 0) - (a.discount_percentage || 0);
       case 'featured':
         return b.is_featured ? 1 : -1;
+      case 'newest':
+
 
 
 
