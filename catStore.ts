@@ -91,3 +91,5 @@ export const useCartStore = create<CartStore>()(
              set({ items: [], totalAmount: 0, totalItems: 0 });
        },
 
+       calculateTotals: () => {
+
