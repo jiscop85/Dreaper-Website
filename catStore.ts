@@ -92,4 +92,5 @@ export const useCartStore = create<CartStore>()(
        },
 
        calculateTotals: () => {
+        const { items } = get();
 
