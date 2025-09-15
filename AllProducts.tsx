@@ -25,6 +25,8 @@ const AllProducts = () => {
     const matchesCategory = selectedCategory === 'all' || product.category_id === selectedCategory;
 
     return matchesSearch && matchesCategory;
+  }) || [];
+
 
 
 
