@@ -39,6 +39,8 @@ const AllProducts = () => {
         return b.is_featured ? 1 : -1;
       case 'newest':
       default:
+        return new Date(b.created_at).getTime() - new Date(a.created_at).getTime();
+
 
 
 
