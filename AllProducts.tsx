@@ -51,6 +51,8 @@ const AllProducts = () => {
           <p className="text-lg text-gray-600 font-vazir">در حال بارگذاری محصولات...</p>
         </div>
       </div>
+    );
+
 
 
 
