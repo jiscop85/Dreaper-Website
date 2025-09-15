@@ -28,6 +28,8 @@ const AllProducts = () => {
   }) || [];
 
   const sortedProducts = filteredProducts.sort((a, b) => {
+    switch (sortBy) {
+
 
 
 
