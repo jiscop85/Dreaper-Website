@@ -44,6 +44,8 @@ const AllProducts = () => {
   });
 
   if (isLoading) {
+    return (
+
 
 
 
