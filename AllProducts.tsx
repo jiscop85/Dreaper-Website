@@ -22,6 +22,8 @@ const AllProducts = () => {
       product.description?.toLowerCase().includes(searchTerm.toLowerCase()) ||
       product.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase()));
 
+    const matchesCategory = selectedCategory === 'all' || product.category_id === selectedCategory;
+
 
 
 
