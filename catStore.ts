@@ -85,7 +85,8 @@ export const useCartStore = create<CartStore>()(
           )
         }));
         get().calculateTotals();
-
+      },
+      
            clearCart: () => {
              set({ items: [], totalAmount: 0, totalItems: 0 });
  
