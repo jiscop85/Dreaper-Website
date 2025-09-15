@@ -17,6 +17,8 @@ const AllProducts = () => {
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
   const [selectedCategory, setSelectedCategory] = useState('all');
 
+  const filteredProducts = products?.filter(product => {
+
 
 
 
