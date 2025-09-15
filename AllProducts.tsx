@@ -47,6 +47,8 @@ const AllProducts = () => {
     return (
       <div className="min-h-screen bg-gradient-to-br from-fabric-cream via-white to-fabric-pearl flex items-center justify-center">
         <div className="text-center space-y-4">
+          <div className="w-16 h-16 border-4 border-fabric-navy border-t-transparent rounded-full animate-spin mx-auto"></div>
+
 
 
 
