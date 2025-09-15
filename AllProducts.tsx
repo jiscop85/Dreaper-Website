@@ -18,6 +18,8 @@ const AllProducts = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
 
   const filteredProducts = products?.filter(product => {
+    const matchesSearch = product.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+
 
 
 
