@@ -97,4 +97,5 @@ export const useCartStore = create<CartStore>()(
         const totalItems = Math.round(items.reduce((sum, item) => sum + item.quantity, 0) * 100) / 100;
         set({ totalAmount, totalItems });
       }
+    }),
 
