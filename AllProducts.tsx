@@ -33,6 +33,8 @@ const AllProducts = () => {
         return a.price - b.price;
       case 'price-high':
         return b.price - a.price;
+      case 'discount':
+
 
 
 
