@@ -35,6 +35,8 @@ const AllProducts = () => {
         return b.price - a.price;
       case 'discount':
         return (b.discount_percentage || 0) - (a.discount_percentage || 0);
+      case 'featured':
+
 
 
 
