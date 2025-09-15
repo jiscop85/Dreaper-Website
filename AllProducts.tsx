@@ -45,6 +45,8 @@ const AllProducts = () => {
 
   if (isLoading) {
     return (
+      <div className="min-h-screen bg-gradient-to-br from-fabric-cream via-white to-fabric-pearl flex items-center justify-center">
+
 
 
 
