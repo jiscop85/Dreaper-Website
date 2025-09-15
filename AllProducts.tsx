@@ -14,6 +14,8 @@ const AllProducts = () => {
   const { data: products, isLoading } = useProducts();
   const [searchTerm, setSearchTerm] = useState('');
   const [sortBy, setSortBy] = useState('newest');
+  const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
+
 
 
 
