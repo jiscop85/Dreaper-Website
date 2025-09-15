@@ -38,6 +38,8 @@ const AllProducts = () => {
       case 'featured':
         return b.is_featured ? 1 : -1;
       case 'newest':
+      default:
+
 
 
 
