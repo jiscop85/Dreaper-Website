@@ -13,6 +13,8 @@ import Footer from '@/components/Footer';
 const AllProducts = () => {
   const { data: products, isLoading } = useProducts();
   const [searchTerm, setSearchTerm] = useState('');
+  const [sortBy, setSortBy] = useState('newest');
+
 
 
 
