@@ -30,6 +30,8 @@ const AllProducts = () => {
   const sortedProducts = filteredProducts.sort((a, b) => {
     switch (sortBy) {
       case 'price-low':
+        return a.price - b.price;
+
 
 
 
