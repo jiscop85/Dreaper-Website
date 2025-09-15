@@ -43,6 +43,8 @@ const AllProducts = () => {
     }
   });
 
+  if (isLoading) {
+
 
 
 
