@@ -86,6 +86,5 @@ export const useCartStore = create<CartStore>()(
         }));
         get().calculateTotals();
 
-      removeFromCart: (id) => {
-       set(state => ({
-          items: state.items.filter(item => item.id !== id)
+           clearCart: () => {
+
