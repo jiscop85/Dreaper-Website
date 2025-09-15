@@ -27,6 +27,8 @@ const AllProducts = () => {
     return matchesSearch && matchesCategory;
   }) || [];
 
+  const sortedProducts = filteredProducts.sort((a, b) => {
+
 
 
 
