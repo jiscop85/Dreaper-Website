@@ -60,6 +60,8 @@ const AllProducts = () => {
       <Header />
       <Navigation />
 
+      {/* Hero Section */}
+
 
 
 
