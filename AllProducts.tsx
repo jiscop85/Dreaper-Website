@@ -108,6 +108,8 @@ const AllProducts = () => {
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 className="pr-10 bg-white/50 border-fabric-pearl/50 focus:border-fabric-navy"
+              />
+
 
 
 
