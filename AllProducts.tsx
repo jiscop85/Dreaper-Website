@@ -151,6 +151,8 @@ const AllProducts = () => {
               </Button>
               <Button
                 variant={viewMode === 'list' ? 'default' : 'outline'}
+                size="sm"
+
 
 
 
