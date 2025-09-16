@@ -133,6 +133,8 @@ const AllProducts = () => {
               <SelectContent>
                 <SelectItem value="newest">جدیدترین</SelectItem>
                 <SelectItem value="featured">ویژه</SelectItem>
+                <SelectItem value="price-low">ارزان‌ترین</SelectItem>
+
 
 
 
