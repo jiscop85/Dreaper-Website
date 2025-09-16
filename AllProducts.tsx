@@ -105,6 +105,8 @@ const AllProducts = () => {
               <Input
                 type="text"
                 placeholder="جستجو در محصولات..."
+                value={searchTerm}
+
 
 
 
