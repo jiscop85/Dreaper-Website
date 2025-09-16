@@ -93,6 +93,8 @@ const AllProducts = () => {
               </div>
             </div>
           </div>
+      </div>
+
 
 
 
