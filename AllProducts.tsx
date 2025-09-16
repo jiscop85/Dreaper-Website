@@ -61,6 +61,8 @@ const AllProducts = () => {
       <Navigation />
 
       {/* Hero Section */}
+      <div className="bg-gradient-to-r from-fabric-navy via-fabric-terracotta to-fabric-gold text-white relative overflow-hidden">
+
 
 
 
