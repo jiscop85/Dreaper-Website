@@ -118,6 +118,8 @@ const AllProducts = () => {
               </SelectTrigger>
               <SelectContent>
                 <SelectItem value="all">همه دسته‌ها</SelectItem>
+                <SelectItem value="formal-evening-fabrics">پارچه‌های مجلسی</SelectItem>
+
 
 
 
