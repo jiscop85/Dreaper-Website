@@ -127,6 +127,8 @@ const AllProducts = () => {
 
             {/* Sort */}
             <Select value={sortBy} onValueChange={setSortBy}>
+              <SelectTrigger className="w-48 bg-white/50 border-fabric-pearl/50">
+
 
 
 
