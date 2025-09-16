@@ -117,6 +117,8 @@ const AllProducts = () => {
                 <SelectValue placeholder="انتخاب دسته‌بندی" />
               </SelectTrigger>
               <SelectContent>
+                <SelectItem value="all">همه دسته‌ها</SelectItem>
+
 
 
 
