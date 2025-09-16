@@ -69,6 +69,8 @@ const AllProducts = () => {
         </div>
 
         <div className="container mx-auto px-4 py-16 relative z-10">
+          <div className="text-center space-y-6">
+
 
 
 
