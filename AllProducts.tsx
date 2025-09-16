@@ -145,6 +145,8 @@ const AllProducts = () => {
                 variant={viewMode === 'grid' ? 'default' : 'outline'}
                 size="sm"
                 onClick={() => setViewMode('grid')}
+                className="bg-fabric-navy hover:bg-fabric-terracotta"
+
 
 
 
