@@ -116,6 +116,8 @@ const AllProducts = () => {
               <SelectTrigger className="w-48 bg-white/50 border-fabric-pearl/50">
                 <SelectValue placeholder="انتخاب دسته‌بندی" />
               </SelectTrigger>
+              <SelectContent>
+
 
 
 
