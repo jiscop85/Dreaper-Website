@@ -100,6 +100,8 @@ const AllProducts = () => {
         <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg p-6 mb-8 border border-fabric-pearl/30">
           <div className="flex flex-col lg:flex-row gap-4 items-center justify-between">
             {/* Search */}
+            <div className="flex-1 relative">
+
 
 
 
