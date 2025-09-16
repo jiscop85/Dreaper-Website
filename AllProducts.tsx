@@ -92,6 +92,8 @@ const AllProducts = () => {
                 <span className="text-sm">🎨 طرح‌های متنوع</span>
               </div>
             </div>
+          </div>
+
 
 
 
