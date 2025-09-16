@@ -143,6 +143,8 @@ const AllProducts = () => {
             <div className="flex gap-2">
               <Button
                 variant={viewMode === 'grid' ? 'default' : 'outline'}
+                size="sm"
+
 
 
 
