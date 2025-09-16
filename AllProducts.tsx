@@ -79,6 +79,8 @@ const AllProducts = () => {
               کالکشن کاملی از بهترین پارچه‌های ایرانی با کیفیت بالا و قیمت مناسب
             </p>
             <div className="flex flex-wrap justify-center gap-4 mt-8 animate-fade-in" style={{ animationDelay: '0.4s' }}>
+              <div className="bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full">
+
 
 
 
