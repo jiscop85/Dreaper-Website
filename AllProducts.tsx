@@ -154,6 +154,8 @@ const AllProducts = () => {
                 size="sm"
                 onClick={() => setViewMode('list')}
                 className="bg-fabric-navy hover:bg-fabric-terracotta"
+              >
+
 
 
 
