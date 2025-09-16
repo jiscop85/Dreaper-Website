@@ -119,6 +119,8 @@ const AllProducts = () => {
               <SelectContent>
                 <SelectItem value="all">همه دسته‌ها</SelectItem>
                 <SelectItem value="formal-evening-fabrics">پارچه‌های مجلسی</SelectItem>
+                <SelectItem value="autumn-winter-fabrics">پارچه‌های پاییز و زمستان</SelectItem>
+
 
 
 
