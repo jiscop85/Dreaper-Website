@@ -135,6 +135,8 @@ const AllProducts = () => {
                 <SelectItem value="featured">ویژه</SelectItem>
                 <SelectItem value="price-low">ارزان‌ترین</SelectItem>
                 <SelectItem value="price-high">گران‌ترین</SelectItem>
+                <SelectItem value="discount">بیشترین تخفیف</SelectItem>
+
 
 
 
