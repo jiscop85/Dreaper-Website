@@ -139,6 +139,8 @@ const AllProducts = () => {
               </SelectContent>
             </Select>
 
+            {/* View Mode */}
+
 
 
 
