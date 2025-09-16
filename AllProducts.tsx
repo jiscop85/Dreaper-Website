@@ -131,6 +131,8 @@ const AllProducts = () => {
                 <SelectValue placeholder="مرتب‌سازی" />
               </SelectTrigger>
               <SelectContent>
+                <SelectItem value="newest">جدیدترین</SelectItem>
+
 
 
 
