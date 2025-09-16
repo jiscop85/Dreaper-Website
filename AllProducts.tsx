@@ -147,6 +147,8 @@ const AllProducts = () => {
                 onClick={() => setViewMode('grid')}
                 className="bg-fabric-navy hover:bg-fabric-terracotta"
               >
+                <Grid className="w-4 h-4" />
+
 
 
 
