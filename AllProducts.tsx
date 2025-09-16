@@ -125,6 +125,8 @@ const AllProducts = () => {
               </SelectContent>
             </Select>
 
+            {/* Sort */}
+
 
 
 
