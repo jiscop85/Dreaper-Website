@@ -64,6 +64,8 @@ const AllProducts = () => {
       <div className="bg-gradient-to-r from-fabric-navy via-fabric-terracotta to-fabric-gold text-white relative overflow-hidden">
         <div className="absolute inset-0">
           <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-fabric-navy/90 via-fabric-terracotta/80 to-fabric-gold/90"></div>
+          <div className="absolute top-1/4 left-1/4 w-32 h-32 bg-white/10 rounded-full animate-float"></div>
+
 
 
 
