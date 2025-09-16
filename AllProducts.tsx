@@ -137,6 +137,8 @@ const AllProducts = () => {
                 <SelectItem value="price-high">گران‌ترین</SelectItem>
                 <SelectItem value="discount">بیشترین تخفیف</SelectItem>
               </SelectContent>
+            </Select>
+
 
 
 
