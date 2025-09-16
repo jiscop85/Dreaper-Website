@@ -153,6 +153,8 @@ const AllProducts = () => {
                 variant={viewMode === 'list' ? 'default' : 'outline'}
                 size="sm"
                 onClick={() => setViewMode('list')}
+                className="bg-fabric-navy hover:bg-fabric-terracotta"
+
 
 
 
