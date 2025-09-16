@@ -111,6 +111,8 @@ const AllProducts = () => {
               />
             </div>
 
+            {/* Category Filter */}
+
 
 
 
