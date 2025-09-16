@@ -126,6 +126,8 @@ const AllProducts = () => {
             </Select>
 
             {/* Sort */}
+            <Select value={sortBy} onValueChange={setSortBy}>
+
 
 
 
