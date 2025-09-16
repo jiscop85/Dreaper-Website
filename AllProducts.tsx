@@ -140,6 +140,8 @@ const AllProducts = () => {
             </Select>
 
             {/* View Mode */}
+            <div className="flex gap-2">
+
 
 
 
