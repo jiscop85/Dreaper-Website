@@ -132,6 +132,8 @@ const AllProducts = () => {
               </SelectTrigger>
               <SelectContent>
                 <SelectItem value="newest">جدیدترین</SelectItem>
+                <SelectItem value="featured">ویژه</SelectItem>
+
 
 
 
