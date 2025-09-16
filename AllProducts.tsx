@@ -68,6 +68,8 @@ const AllProducts = () => {
           <div className="absolute top-1/2 left-1/2 w-16 h-16 bg-white/5 rounded-full animate-float-slow"></div>
         </div>
 
+        <div className="container mx-auto px-4 py-16 relative z-10">
+
 
 
 
