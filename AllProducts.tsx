@@ -75,6 +75,8 @@ const AllProducts = () => {
                 ✨ همه محصولات ✨
               </span>
             </h1>
+            <p className="text-xl text-fabric-cream max-w-3xl mx-auto animate-fade-in" style={{ animationDelay: '0.2s' }}>
+
 
 
 
