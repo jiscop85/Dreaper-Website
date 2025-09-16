@@ -144,6 +144,8 @@ const AllProducts = () => {
               <Button
                 variant={viewMode === 'grid' ? 'default' : 'outline'}
                 size="sm"
+                onClick={() => setViewMode('grid')}
+
 
 
 
