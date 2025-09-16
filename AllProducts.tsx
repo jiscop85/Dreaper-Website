@@ -91,6 +91,8 @@ const AllProducts = () => {
               <div className="bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full">
                 <span className="text-sm">🎨 طرح‌های متنوع</span>
               </div>
+            </div>
+
 
 
 
