@@ -150,6 +150,8 @@ const AllProducts = () => {
                 <Grid className="w-4 h-4" />
               </Button>
               <Button
+                variant={viewMode === 'list' ? 'default' : 'outline'}
+
 
 
 
