@@ -95,6 +95,8 @@ const AllProducts = () => {
           </div>
       </div>
 
+      {/* Filters and Search */}
+
 
 
 
