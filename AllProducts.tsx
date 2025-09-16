@@ -77,6 +77,8 @@ const AllProducts = () => {
             </h1>
             <p className="text-xl text-fabric-cream max-w-3xl mx-auto animate-fade-in" style={{ animationDelay: '0.2s' }}>
               کالکشن کاملی از بهترین پارچه‌های ایرانی با کیفیت بالا و قیمت مناسب
+            </p>
+
 
 
 
