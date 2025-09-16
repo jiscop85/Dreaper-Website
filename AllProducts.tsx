@@ -112,6 +112,8 @@ const AllProducts = () => {
             </div>
 
             {/* Category Filter */}
+            <Select value={selectedCategory} onValueChange={setSelectedCategory}>
+
 
 
 
