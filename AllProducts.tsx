@@ -123,6 +123,8 @@ const AllProducts = () => {
                 <SelectItem value="spring-summer-fabrics">پارچه‌های بهار و تابستان</SelectItem>
                 <SelectItem value="casual-home-fabrics">پارچه‌های روزمره</SelectItem>
               </SelectContent>
+            </Select>
+
 
 
 
