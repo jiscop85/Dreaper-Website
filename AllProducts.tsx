@@ -73,6 +73,8 @@ const AllProducts = () => {
             <h1 className="text-5xl md:text-6xl font-bold mb-4 animate-fade-in">
               <span className="bg-gradient-to-r from-yellow-300 via-pink-300 to-blue-300 bg-clip-text text-transparent">
                 ✨ همه محصولات ✨
+              </span>
+
 
 
 
