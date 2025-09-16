@@ -106,6 +106,8 @@ const AllProducts = () => {
                 type="text"
                 placeholder="جستجو در محصولات..."
                 value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+
 
 
 
