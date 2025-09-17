@@ -194,6 +194,8 @@ const AllProducts = () => {
                 className={viewMode === 'list' ? 'flex flex-row h-48' : ''}
               />
             </div>
+          ))}
+
 
 
 
