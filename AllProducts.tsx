@@ -219,6 +219,8 @@ const AllProducts = () => {
       </div>
 
       <Footer />
+    </div>
+
 
 
 
