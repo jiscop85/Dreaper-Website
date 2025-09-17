@@ -201,6 +201,8 @@ const AllProducts = () => {
         {sortedProducts.length === 0 && (
           <div className="text-center py-16">
             <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-12 max-w-md mx-auto shadow-lg">
+              <div className="text-6xl mb-4">🔍</div>
+
 
 
 
