@@ -198,6 +198,8 @@ const AllProducts = () => {
         </div>
 
         {/* No Results */}
+        {sortedProducts.length === 0 && (
+
 
 
 
