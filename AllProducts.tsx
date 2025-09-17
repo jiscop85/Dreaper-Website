@@ -208,6 +208,8 @@ const AllProducts = () => {
                 onClick={() => {
                   setSearchTerm('');
                   setSelectedCategory('all');
+                }}
+
 
 
 
