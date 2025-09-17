@@ -163,6 +163,8 @@ const AllProducts = () => {
 
         {/* Products Stats */}
         <div className="mb-8">
+          <div className="flex flex-wrap gap-4 justify-center">
+
 
 
 
