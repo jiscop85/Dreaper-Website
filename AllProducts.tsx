@@ -173,6 +173,8 @@ const AllProducts = () => {
             <div className="bg-gradient-to-r from-fabric-gold to-fabric-emerald text-white px-6 py-3 rounded-full shadow-lg">
               <span className="font-bold">{sortedProducts.filter(p => p.discount_percentage).length}</span> محصول تخفیف‌دار
             </div>
+          </div>
+
 
 
 
