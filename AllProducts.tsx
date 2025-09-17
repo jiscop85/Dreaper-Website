@@ -218,6 +218,8 @@ const AllProducts = () => {
         )}
       </div>
 
+      <Footer />
+
 
 
 
