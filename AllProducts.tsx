@@ -184,6 +184,8 @@ const AllProducts = () => {
           }
         `}>
           {sortedProducts.map((product, index) => (
+            <div 
+
 
 
 
