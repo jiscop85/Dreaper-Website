@@ -183,6 +183,8 @@ const AllProducts = () => {
             : 'flex flex-col gap-6'
           }
         `}>
+          {sortedProducts.map((product, index) => (
+
 
 
 
