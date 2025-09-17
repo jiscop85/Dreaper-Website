@@ -191,6 +191,8 @@ const AllProducts = () => {
             >
               <ProductCard 
                 product={product} 
+                className={viewMode === 'list' ? 'flex flex-row h-48' : ''}
+
 
 
 
