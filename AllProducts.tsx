@@ -176,6 +176,8 @@ const AllProducts = () => {
           </div>
         </div>
 
+        {/* Products Grid */}
+
 
 
 
