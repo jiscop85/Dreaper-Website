@@ -168,6 +168,8 @@ const AllProducts = () => {
               <span className="font-bold">{sortedProducts.length}</span> محصول یافت شد
             </div>
             <div className="bg-gradient-to-r from-fabric-terracotta to-fabric-gold text-white px-6 py-3 rounded-full shadow-lg">
+              <span className="font-bold">{sortedProducts.filter(p => p.is_featured).length}</span> محصول ویژه
+
 
 
 
