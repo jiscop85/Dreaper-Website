@@ -190,6 +190,8 @@ const AllProducts = () => {
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <ProductCard 
+                product={product} 
+
 
 
 
