@@ -199,6 +199,8 @@ const AllProducts = () => {
 
         {/* No Results */}
         {sortedProducts.length === 0 && (
+          <div className="text-center py-16">
+
 
 
 
