@@ -212,6 +212,8 @@ const AllProducts = () => {
                 className="bg-fabric-navy hover:bg-fabric-terracotta"
               >
                 نمایش همه محصولات
+              </Button>
+
 
 
 
