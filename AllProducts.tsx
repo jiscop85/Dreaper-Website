@@ -185,6 +185,8 @@ const AllProducts = () => {
         `}>
           {sortedProducts.map((product, index) => (
             <div 
+              key={product.id} 
+
 
 
 
