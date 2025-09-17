@@ -205,6 +205,8 @@ const AllProducts = () => {
               <h3 className="text-xl font-bold text-gray-700 mb-2">محصولی یافت نشد</h3>
               <p className="text-gray-500 mb-4">لطفاً کلمات کلیدی دیگری امتحان کنید</p>
               <Button 
+                onClick={() => {
+
 
 
 
