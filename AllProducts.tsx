@@ -161,6 +161,8 @@ const AllProducts = () => {
           </div>
         </div>
 
+        {/* Products Stats */}
+
 
 
 
