@@ -164,6 +164,8 @@ const AllProducts = () => {
         {/* Products Stats */}
         <div className="mb-8">
           <div className="flex flex-wrap gap-4 justify-center">
+            <div className="bg-gradient-to-r from-fabric-navy to-fabric-terracotta text-white px-6 py-3 rounded-full shadow-lg">
+
 
 
 
