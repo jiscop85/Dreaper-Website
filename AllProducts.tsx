@@ -178,6 +178,8 @@ const AllProducts = () => {
 
         {/* Products Grid */}
         <div className={`
+          ${viewMode === 'grid' 
+
 
 
 
