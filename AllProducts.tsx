@@ -207,6 +207,8 @@ const AllProducts = () => {
               <Button 
                 onClick={() => {
                   setSearchTerm('');
+                  setSelectedCategory('all');
+
 
 
 
