@@ -166,6 +166,8 @@ const AllProducts = () => {
           <div className="flex flex-wrap gap-4 justify-center">
             <div className="bg-gradient-to-r from-fabric-navy to-fabric-terracotta text-white px-6 py-3 rounded-full shadow-lg">
               <span className="font-bold">{sortedProducts.length}</span> محصول یافت شد
+            </div>
+
 
 
 
