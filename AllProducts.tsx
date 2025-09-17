@@ -158,6 +158,8 @@ const AllProducts = () => {
                 <List className="w-4 h-4" />
               </Button>
             </div>
+          </div>
+
 
 
 
