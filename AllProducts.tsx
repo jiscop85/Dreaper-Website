@@ -195,6 +195,8 @@ const AllProducts = () => {
               />
             </div>
           ))}
+        </div>
+
 
 
 
