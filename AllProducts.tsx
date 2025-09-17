@@ -209,6 +209,8 @@ const AllProducts = () => {
                   setSearchTerm('');
                   setSelectedCategory('all');
                 }}
+                className="bg-fabric-navy hover:bg-fabric-terracotta"
+
 
 
 
