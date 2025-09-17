@@ -206,6 +206,8 @@ const AllProducts = () => {
               <p className="text-gray-500 mb-4">لطفاً کلمات کلیدی دیگری امتحان کنید</p>
               <Button 
                 onClick={() => {
+                  setSearchTerm('');
+
 
 
 
