@@ -221,6 +221,8 @@ const AllProducts = () => {
       <Footer />
     </div>
   );
+};
+
 
 
 
