@@ -220,6 +220,8 @@ const AllProducts = () => {
 
       <Footer />
     </div>
+  );
+
 
 
 
