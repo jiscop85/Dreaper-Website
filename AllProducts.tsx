@@ -156,6 +156,8 @@ const AllProducts = () => {
                 className="bg-fabric-navy hover:bg-fabric-terracotta"
               >
                 <List className="w-4 h-4" />
+              </Button>
+
 
 
 
