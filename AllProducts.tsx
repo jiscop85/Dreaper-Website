@@ -197,6 +197,8 @@ const AllProducts = () => {
           ))}
         </div>
 
+        {/* No Results */}
+
 
 
 
