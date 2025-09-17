@@ -174,6 +174,8 @@ const AllProducts = () => {
               <span className="font-bold">{sortedProducts.filter(p => p.discount_percentage).length}</span> محصول تخفیف‌دار
             </div>
           </div>
+        </div>
+
 
 
 
