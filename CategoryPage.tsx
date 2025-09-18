@@ -25,6 +25,8 @@ const CategoryPage = () => {
     sortBy
   });
 
+  // نام دسته‌بندی برای نمایش
+
 
 
 
