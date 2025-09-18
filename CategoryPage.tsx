@@ -67,6 +67,8 @@ const CategoryPage = () => {
         </div>
         <Footer />
       </div>
+    );
+
 
 
 
