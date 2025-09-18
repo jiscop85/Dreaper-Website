@@ -80,6 +80,8 @@ const Auth = () => {
                 <p className="text-gray-600">
                   {isLogin ? 'هنوز حساب کاربری ندارید؟' : 'قبلاً حساب کاربری دارید؟'}
                 </p>
+                <Button
+
 
 
 
