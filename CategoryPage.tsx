@@ -30,6 +30,8 @@ const CategoryPage = () => {
     const categoryNames: Record<string, string> = {
       'spring-summer-fabrics': 'پارچه‌های بهاره و تابستانه',
 
+      'formal-evening-fabrics': 'پارچه‌های مجلسی و شب',
+
 
 
 
