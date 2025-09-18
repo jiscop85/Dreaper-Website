@@ -83,6 +83,8 @@ const Auth = () => {
                 <Button
                   variant="link"
                   onClick={() => setIsLogin(!isLogin)}
+                  className="text-fabric-terracotta hover:text-fabric-navy font-medium p-0 h-auto"
+
 
 
 
