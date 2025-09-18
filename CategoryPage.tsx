@@ -23,6 +23,8 @@ const CategoryPage = () => {
     categorySlug,
     filters: selectedFilters,
     sortBy
+  });
+
 
 
 
