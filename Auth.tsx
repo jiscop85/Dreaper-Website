@@ -60,6 +60,8 @@ const Auth = () => {
                 <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
                   <div className="w-4 h-4 bg-gradient-to-br from-fabric-terracotta to-fabric-gold rounded-full"></div>
                 </div>
+              </div>
+
 
 
 
