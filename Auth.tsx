@@ -67,6 +67,8 @@ const Auth = () => {
               <CardDescription className="text-gray-600">
                 {isLogin 
                   ? 'لطفاً اطلاعات خود را وارد کنید'
+                  : 'برای ایجاد حساب کاربری فرم زیر را تکمیل کنید'
+
 
 
 
