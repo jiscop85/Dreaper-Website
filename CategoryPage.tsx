@@ -11,6 +11,8 @@ import { Filter, Grid, List, SortAsc, SortDesc, X } from 'lucide-react';
 
 const CategoryPage = () => {
   const { categorySlug } = useParams<{ categorySlug: string }>();
+  const [searchParams, setSearchParams] = useSearchParams();
+
 
 
 
