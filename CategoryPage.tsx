@@ -47,6 +47,8 @@ const CategoryPage = () => {
   };
 
   const removeFilter = (filterToRemove: string) => {
+    const newFilters = selectedFilters.filter(f => f !== filterToRemove);
+
 
 
 
