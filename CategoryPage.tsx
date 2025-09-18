@@ -46,6 +46,8 @@ const CategoryPage = () => {
     setSortBy(newSort);
   };
 
+  const removeFilter = (filterToRemove: string) => {
+
 
 
 
