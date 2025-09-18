@@ -36,6 +36,8 @@ const CategoryPage = () => {
       'furniture-decor-fabrics': 'پارچه‌های مبلی و دکوراسیون',
       'sewing-supplies': 'لوازم خیاطی',
       'new-arrivals': 'جدیدترین محصولات',
+      'bestsellers': 'پرطرفدارترین محصولات',
+
 
 
 
