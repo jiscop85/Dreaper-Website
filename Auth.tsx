@@ -17,6 +17,8 @@ const Auth = () => {
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-fabric-terracotta/5 rounded-full animate-float opacity-60"></div>
         <div className="absolute top-3/4 right-1/4 w-48 h-48 bg-fabric-gold/5 rounded-full animate-float-delayed opacity-60"></div>
+        <div className="absolute top-1/2 left-1/2 w-32 h-32 bg-fabric-emerald/5 rounded-full animate-float-slow opacity-60"></div>
+
 
 
 
