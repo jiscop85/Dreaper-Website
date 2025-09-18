@@ -37,6 +37,8 @@ const CategoryPage = () => {
       'sewing-supplies': 'لوازم خیاطی',
       'new-arrivals': 'جدیدترین محصولات',
       'bestsellers': 'پرطرفدارترین محصولات',
+      'on-sale': 'محصولات تخفیف‌دار'
+
 
 
 
