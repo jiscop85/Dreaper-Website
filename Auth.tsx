@@ -46,6 +46,8 @@ const Auth = () => {
           </h2>
           <p className="text-gray-600">
             {isLogin 
+              ? 'به پارچه‌فروشی مجلسی خوش آمدید' 
+
 
 
 
