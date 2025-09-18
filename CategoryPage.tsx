@@ -13,6 +13,8 @@ const CategoryPage = () => {
   const { categorySlug } = useParams<{ categorySlug: string }>();
   const [searchParams, setSearchParams] = useSearchParams();
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
+  const [sortBy, setSortBy] = useState<'newest' | 'popular' | 'price-low' | 'price-high' | 'discount'>('newest');
+
 
 
 
