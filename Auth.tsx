@@ -34,6 +34,8 @@ const Auth = () => {
 
           <div className="mb-6">
             <h1 className="text-3xl md:text-4xl font-bold mb-2">
+              <span className="bg-gradient-to-r from-fabric-navy via-fabric-terracotta to-fabric-gold bg-clip-text text-transparent">
+
 
 
 
