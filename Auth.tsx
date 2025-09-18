@@ -73,6 +73,8 @@ const Auth = () => {
             </CardHeader>
 
             <CardContent>
+              {isLogin ? <LoginForm /> : <SignupForm />}
+
 
 
 
