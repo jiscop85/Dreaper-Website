@@ -8,6 +8,8 @@ import LoginForm from '@/components/auth/LoginForm';
 import SignupForm from '@/components/auth/SignupForm';
 
 const Auth = () => {
+  const [isLogin, setIsLogin] = useState(true);
+
 
 
 
