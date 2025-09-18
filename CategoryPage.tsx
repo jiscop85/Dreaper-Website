@@ -64,6 +64,8 @@ const CategoryPage = () => {
         <div className="container mx-auto px-4 py-16 text-center">
           <h1 className="text-2xl font-bold text-red-600 mb-4">خطا در بارگذاری محصولات</h1>
           <p className="text-gray-600">لطفاً دوباره تلاش کنید.</p>
+        </div>
+
 
 
 
