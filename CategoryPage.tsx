@@ -33,6 +33,8 @@ const CategoryPage = () => {
       'formal-evening-fabrics': 'پارچه‌های مجلسی و شب',
       'casual-home-fabrics': 'پارچه‌های روزمره و خانگی',
       'children-baby-fabrics': 'پارچه‌های کودک و نوزاد',
+      'furniture-decor-fabrics': 'پارچه‌های مبلی و دکوراسیون',
+
 
 
 
