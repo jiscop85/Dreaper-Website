@@ -56,6 +56,8 @@ const CategoryPage = () => {
   };
 
   if (error) {
+    return (
+
 
 
 
