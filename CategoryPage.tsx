@@ -26,6 +26,8 @@ const CategoryPage = () => {
   });
 
   // نام دسته‌بندی برای نمایش
+  const getCategoryName = (slug?: string) => {
+
 
 
 
