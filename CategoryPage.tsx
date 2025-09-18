@@ -53,6 +53,8 @@ const CategoryPage = () => {
     } else {
       setSearchParams({});
     }
+  };
+
 
 
 
