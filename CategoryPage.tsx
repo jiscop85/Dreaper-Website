@@ -52,6 +52,8 @@ const CategoryPage = () => {
       setSearchParams({ filters: newFilters.join(',') });
     } else {
       setSearchParams({});
+    }
+
 
 
 
