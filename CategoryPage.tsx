@@ -29,8 +29,9 @@ const CategoryPage = () => {
   const getCategoryName = (slug?: string) => {
     const categoryNames: Record<string, string> = {
       'spring-summer-fabrics': 'پارچه‌های بهاره و تابستانه',
-
+      'autumn-winter-fabrics': 'پارچه‌های پاییزی و زمستانه',
       'formal-evening-fabrics': 'پارچه‌های مجلسی و شب',
+
 
 
 
