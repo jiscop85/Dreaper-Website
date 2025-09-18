@@ -18,6 +18,8 @@ const CategoryPage = () => {
 
   // دریافت فیلترهای انتخاب شده از URL
   const selectedFilters = searchParams.get('filters')?.split(',') || [];
+  const { data: products, isLoading, error } = useFilteredProducts({
+
 
 
 
