@@ -87,6 +87,8 @@ const Auth = () => {
                 >
                   {isLogin ? 'عضو شوید!' : 'وارد شوید!'}
                 </Button>
+              </div>
+
 
 
 
