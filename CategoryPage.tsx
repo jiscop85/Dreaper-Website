@@ -22,6 +22,8 @@ const CategoryPage = () => {
   const { data: products, isLoading, error } = useFilteredProducts({
     categorySlug,
     filters: selectedFilters,
+    sortBy
+
 
 
 
