@@ -27,6 +27,8 @@ const Auth = () => {
             variant="ghost"
             onClick={() => navigate('/')}
             className="absolute top-4 right-4 text-fabric-navy hover:text-fabric-terracotta"
+          >
+
 
 
 
