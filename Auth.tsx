@@ -77,6 +77,8 @@ const Auth = () => {
 
               {/* Toggle between login and signup */}
               <div className="mt-6 text-center">
+                <p className="text-gray-600">
+
 
 
 
