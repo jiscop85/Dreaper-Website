@@ -17,6 +17,8 @@ const CategoryPage = () => {
   const [showFilters, setShowFilters] = useState(false);
 
   // دریافت فیلترهای انتخاب شده از URL
+  const selectedFilters = searchParams.get('filters')?.split(',') || [];
+
 
 
 
