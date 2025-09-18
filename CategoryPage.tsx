@@ -35,6 +35,8 @@ const CategoryPage = () => {
       'children-baby-fabrics': 'پارچه‌های کودک و نوزاد',
       'furniture-decor-fabrics': 'پارچه‌های مبلی و دکوراسیون',
       'sewing-supplies': 'لوازم خیاطی',
+      'new-arrivals': 'جدیدترین محصولات',
+
 
 
 
