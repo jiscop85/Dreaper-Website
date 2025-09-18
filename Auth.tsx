@@ -75,6 +75,8 @@ const Auth = () => {
             <CardContent>
               {isLogin ? <LoginForm /> : <SignupForm />}
 
+              {/* Toggle between login and signup */}
+
 
 
 
