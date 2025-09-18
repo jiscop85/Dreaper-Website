@@ -28,6 +28,8 @@ const CategoryPage = () => {
   // نام دسته‌بندی برای نمایش
   const getCategoryName = (slug?: string) => {
     const categoryNames: Record<string, string> = {
+      'spring-summer-fabrics': 'پارچه‌های بهاره و تابستانه',
+
 
 
 
