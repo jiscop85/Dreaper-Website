@@ -66,6 +66,8 @@ const CategoryPage = () => {
           <p className="text-gray-600">لطفاً دوباره تلاش کنید.</p>
         </div>
         <Footer />
+      </div>
+
 
 
 
