@@ -82,6 +82,8 @@ const Auth = () => {
                 </p>
                 <Button
                   variant="link"
+                  onClick={() => setIsLogin(!isLogin)}
+
 
 
 
