@@ -59,6 +59,8 @@ const CategoryPage = () => {
     return (
       <div className="min-h-screen bg-gradient-to-br from-fabric-cream via-white to-fabric-pearl font-vazir">
         <TopBar />
+        <Header />
+
 
 
 
