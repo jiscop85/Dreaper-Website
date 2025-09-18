@@ -54,6 +54,8 @@ const Auth = () => {
 
         {/* Main Auth Card */}
         <div className="max-w-md mx-auto">
+          <Card className="shadow-elegant border-0 bg-white/80 backdrop-blur-sm">
+
 
 
 
