@@ -39,6 +39,8 @@ const Auth = () => {
               </span>
             </h1>
             <div className="w-24 h-1 bg-gradient-to-r from-fabric-terracotta to-fabric-gold mx-auto rounded-full"></div>
+          </div>
+
 
 
 
