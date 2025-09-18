@@ -28,6 +28,8 @@ const Auth = () => {
             onClick={() => navigate('/')}
             className="absolute top-4 right-4 text-fabric-navy hover:text-fabric-terracotta"
           >
+            <ArrowLeft className="w-4 h-4 ml-2" />
+
 
 
 
