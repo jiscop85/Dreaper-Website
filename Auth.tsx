@@ -53,6 +53,8 @@ const Auth = () => {
         </div>
 
         {/* Main Auth Card */}
+        <div className="max-w-md mx-auto">
+
 
 
 
