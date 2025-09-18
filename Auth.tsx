@@ -9,6 +9,8 @@ import SignupForm from '@/components/auth/SignupForm';
 
 const Auth = () => {
   const [isLogin, setIsLogin] = useState(true);
+  const navigate = useNavigate();
+
 
 
 
