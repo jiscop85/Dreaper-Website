@@ -85,6 +85,8 @@ const Auth = () => {
                   onClick={() => setIsLogin(!isLogin)}
                   className="text-fabric-terracotta hover:text-fabric-navy font-medium p-0 h-auto"
                 >
+                  {isLogin ? 'عضو شوید!' : 'وارد شوید!'}
+
 
 
 
