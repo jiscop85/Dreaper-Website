@@ -50,6 +50,8 @@ const CategoryPage = () => {
     const newFilters = selectedFilters.filter(f => f !== filterToRemove);
     if (newFilters.length > 0) {
       setSearchParams({ filters: newFilters.join(',') });
+    } else {
+
 
 
 
