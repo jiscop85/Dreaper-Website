@@ -15,6 +15,8 @@ const Auth = () => {
     <div className="min-h-screen bg-gradient-to-br from-fabric-cream via-white to-fabric-pearl relative overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0 pointer-events-none">
+        <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-fabric-terracotta/5 rounded-full animate-float opacity-60"></div>
+
 
 
 
