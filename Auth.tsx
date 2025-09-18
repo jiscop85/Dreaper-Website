@@ -42,6 +42,8 @@ const Auth = () => {
           </div>
 
           <h2 className="text-2xl font-semibold text-fabric-navy mb-2">
+            {isLogin ? 'ورود به حساب کاربری' : 'ساخت حساب جدید'}
+
 
 
 
