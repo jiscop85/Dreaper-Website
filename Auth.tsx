@@ -41,6 +41,8 @@ const Auth = () => {
             <div className="w-24 h-1 bg-gradient-to-r from-fabric-terracotta to-fabric-gold mx-auto rounded-full"></div>
           </div>
 
+          <h2 className="text-2xl font-semibold text-fabric-navy mb-2">
+
 
 
 
