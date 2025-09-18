@@ -42,6 +42,8 @@ const CategoryPage = () => {
     return categoryNames[slug || ''] || 'محصولات';
   };
 
+  const handleSortChange = (newSort: typeof sortBy) => {
+
 
 
 
