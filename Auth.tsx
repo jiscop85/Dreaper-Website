@@ -45,6 +45,8 @@ const Auth = () => {
             {isLogin ? 'ورود به حساب کاربری' : 'ساخت حساب جدید'}
           </h2>
           <p className="text-gray-600">
+            {isLogin 
+
 
 
 
