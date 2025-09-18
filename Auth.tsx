@@ -37,6 +37,8 @@ const Auth = () => {
               <span className="bg-gradient-to-r from-fabric-navy via-fabric-terracotta to-fabric-gold bg-clip-text text-transparent">
                 پارچه‌فروشی مجلسی
               </span>
+            </h1>
+
 
 
 
