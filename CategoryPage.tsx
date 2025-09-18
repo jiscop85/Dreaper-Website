@@ -39,6 +39,8 @@ const CategoryPage = () => {
       'bestsellers': 'پرطرفدارترین محصولات',
       'on-sale': 'محصولات تخفیف‌دار'
     };
+    return categoryNames[slug || ''] || 'محصولات';
+
 
 
 
