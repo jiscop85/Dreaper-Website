@@ -33,6 +33,8 @@ const Auth = () => {
           </Button>
 
           <div className="mb-6">
+            <h1 className="text-3xl md:text-4xl font-bold mb-2">
+
 
 
 
