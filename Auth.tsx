@@ -65,6 +65,8 @@ const Auth = () => {
                 {isLogin ? 'ورود' : 'عضویت'}
               </CardTitle>
               <CardDescription className="text-gray-600">
+                {isLogin 
+
 
 
 
