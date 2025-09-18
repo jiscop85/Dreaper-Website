@@ -52,6 +52,8 @@ const Auth = () => {
           </p>
         </div>
 
+        {/* Main Auth Card */}
+
 
 
 
