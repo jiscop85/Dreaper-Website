@@ -70,6 +70,8 @@ const Auth = () => {
                   : 'برای ایجاد حساب کاربری فرم زیر را تکمیل کنید'
                 }
               </CardDescription>
+            </CardHeader>
+
 
 
 
