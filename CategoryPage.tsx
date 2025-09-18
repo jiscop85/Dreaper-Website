@@ -40,6 +40,8 @@ const CategoryPage = () => {
       'on-sale': 'محصولات تخفیف‌دار'
     };
     return categoryNames[slug || ''] || 'محصولات';
+  };
+
 
 
 
