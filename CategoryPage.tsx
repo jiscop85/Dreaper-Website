@@ -44,6 +44,8 @@ const CategoryPage = () => {
 
   const handleSortChange = (newSort: typeof sortBy) => {
     setSortBy(newSort);
+  };
+
 
 
 
