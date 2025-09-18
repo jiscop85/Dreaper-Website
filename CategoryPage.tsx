@@ -31,6 +31,8 @@ const CategoryPage = () => {
       'spring-summer-fabrics': 'پارچه‌های بهاره و تابستانه',
       'autumn-winter-fabrics': 'پارچه‌های پاییزی و زمستانه',
       'formal-evening-fabrics': 'پارچه‌های مجلسی و شب',
+      'casual-home-fabrics': 'پارچه‌های روزمره و خانگی',
+
 
 
 
