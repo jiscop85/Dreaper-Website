@@ -66,6 +66,8 @@ const Auth = () => {
               </CardTitle>
               <CardDescription className="text-gray-600">
                 {isLogin 
+                  ? 'لطفاً اطلاعات خود را وارد کنید'
+
 
 
 
