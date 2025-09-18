@@ -56,6 +56,8 @@ const Auth = () => {
         <div className="max-w-md mx-auto">
           <Card className="shadow-elegant border-0 bg-white/80 backdrop-blur-sm">
             <CardHeader className="text-center pb-4">
+              <div className="w-16 h-16 bg-gradient-to-br from-fabric-terracotta to-fabric-gold rounded-full mx-auto mb-4 flex items-center justify-center">
+
 
 
 
