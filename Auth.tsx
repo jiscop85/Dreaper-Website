@@ -76,6 +76,8 @@ const Auth = () => {
               {isLogin ? <LoginForm /> : <SignupForm />}
 
               {/* Toggle between login and signup */}
+              <div className="mt-6 text-center">
+
 
 
 
