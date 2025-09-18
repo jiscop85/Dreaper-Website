@@ -63,6 +63,8 @@ const Auth = () => {
               </div>
               <CardTitle className="text-xl text-fabric-navy">
                 {isLogin ? 'ورود' : 'عضویت'}
+              </CardTitle>
+
 
 
 
