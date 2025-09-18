@@ -4,6 +4,8 @@ import { Button } from '@/components/ui/button';
 import { ArrowLeft } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import LoginForm from '@/components/auth/LoginForm';
+import SignupForm from '@/components/auth/SignupForm';
+
 
 
 
