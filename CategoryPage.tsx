@@ -61,6 +61,8 @@ const CategoryPage = () => {
         <TopBar />
         <Header />
         <Navigation />
+        <div className="container mx-auto px-4 py-16 text-center">
+
 
 
 
