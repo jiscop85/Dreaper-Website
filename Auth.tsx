@@ -24,6 +24,8 @@ const Auth = () => {
         {/* Header Section */}
         <div className="text-center mb-8">
           <Button
+            variant="ghost"
+
 
 
 
