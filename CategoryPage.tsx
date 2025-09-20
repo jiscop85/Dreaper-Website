@@ -75,7 +75,7 @@ const CategoryPage = () => {
 
 
 import React, { useState } from 'react';
-
+import { useParams, useSearchParams } from 
 
 
 
