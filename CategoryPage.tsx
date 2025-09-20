@@ -101,7 +101,21 @@ useState<'grid' | 'list'>('grid');
     filters: selectedFilters,
     sortBy
   });
-
+// نام دسته‌بندی برای نمایش
+  const getCategoryName = (slug?: string) => {
+    const categoryNames: Record<string, string> = {
+      'spring-summer-fabrics': 'پارچه‌های بهاره و تابستانه',
+      'autumn-winter-fabrics': 'پارچه‌های پاییزی و زمستانه',
+      'formal-evening-fabrics': 'پارچه‌های مجلسی و شب',
+      'casual-home-fabrics': 'پارچه‌های روزمره و خانگی',
+      'children-baby-fabrics': 'پارچه‌های کودک و نوزاد',
+      'furniture-decor-fabrics': 'پارچه‌های مبلی و دکوراسیون',
+      'sewing-supplies': 'لوازم خیاطی',
+      'new-arrivals': 'جدیدترین محصولات',
+      'bestsellers': 'پرطرفدارترین محصولات',
+      'on-sale': 'محصولات تخفیف‌دار'
+    };
+    return categoryNames[slug || ''] || 
   
 
 
