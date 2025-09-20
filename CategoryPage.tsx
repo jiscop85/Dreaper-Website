@@ -232,6 +232,18 @@ if (error) {
         >
           {products?.map((product) => (
             <ProductCard key={product.id} 
+product={product} viewMode={viewMode} />
+          ))}
+        </div>
+      </div>
+
+      <Footer />
+    </div>
+  );
+};
+
+export default CategoryPage;
+  
 
 
 
