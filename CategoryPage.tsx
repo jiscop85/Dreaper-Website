@@ -230,7 +230,8 @@ if (error) {
               : 'flex flex-col gap-6'
           }
         >
-         
+          {products?.map((product) => (
+            <ProductCard key={product.id} 
 
 
 
