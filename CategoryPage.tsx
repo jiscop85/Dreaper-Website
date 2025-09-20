@@ -116,7 +116,24 @@ useState<'grid' | 'list'>('grid');
       'on-sale': 'محصولات تخفیف‌دار'
     };
     return categoryNames[slug || ''] || 
+  'محصولات';
+  };
+
+  const handleSortChange = (newSort: typeof sortBy) => {
+    setSortBy(newSort);
+  };
+
+  const removeFilter = (filterToRemove: string) => {
+    const newFilters = selectedFilters.filter(f => f !== filterToRemove);
+    if (newFilters.length > 0) {
+      setSearchParams({ filters: newFilters.join(',') });
+    } else {
+      setSearchParams({});
+    }
+  };
+
   
+
 
 
 
