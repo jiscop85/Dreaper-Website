@@ -83,6 +83,10 @@ import ProductCard from
 import TopBar from '@/components/TopBar';
 import Header from '@/components/Header';
 import Navigation from '@/components/Navigation';
+import Footer from '@/components/Footer';
+import { Filter, Grid, List, SortAsc, SortDesc, X } from 'lucide-react';
+
+const CategoryPage = () => {
 
 
 
