@@ -151,7 +151,86 @@ if (error) {
       <TopBar />
       <Header />
       <Navigation />
+      <div className="container mx-auto px-4 py-8">
+        {/* Title + Sort/Filter Controls */}
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-6">
+          <h1 className="text-2xl font-bold">{getCategoryName(categorySlug)}</h1>
 
+          <div className="flex items-center gap-3">
+            <button
+              onClick={() => setViewMode('grid')}
+              className={`p-2 rounded ${viewMode === 'grid' ? 'bg-gray-200' : ''}`}
+            >
+              <Grid className="w-5 h-5" />
+            </button>
+            <button
+              onClick={() => setViewMode('list')}
+              className={`p-2 rounded ${viewMode === 'list' ? 'bg-gray-200' : ''}`}
+            >
+              <List className="w-5 h-5" />
+            </button>
+
+            <select
+              value={sortBy}
+              onChange={(e) => handleSortChange(e.target.value as typeof sortBy)}
+              className="border rounded px-2 py-1"
+            >
+              <option value="newest">جدیدترین</option>
+              <option value="popular">محبوب‌ترین</option>
+              <option value="price-low">ارزان‌ترین</option>
+              <option value="price-high">گران‌ترین</option>
+              <option value="discount">بیشترین تخفیف</option>
+            </select>
+
+            <button
+              onClick={() => setShowFilters(!showFilters)}
+              className="p-2 border rounded flex items-center gap-1"
+            >
+              <Filter className="w-5 h-5" />
+              فیلترها
+            </button>
+          </div>
+        </div>
+
+        {/* Active Filters */}
+        {selectedFilters.length > 0 && (
+          <div className="flex flex-wrap gap-2 mb-6">
+            {selectedFilters.map((f) => (
+              <span key={f} className="flex items-center bg-gray-100 px-3 py-1 rounded-full text-sm">
+                {f}
+                <button
+                  onClick={() => removeFilter(f)}
+                  className="ml-2 text-gray-500 hover:text-red-500"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+              </span>
+            ))}
+          </div>
+        )}
+
+        {/* Loading State */}
+        {isLoading && (
+          <div className="text-center py-20">
+            <p className="text-lg text-gray-600">در حال بارگذاری...</p>
+          </div>
+        )}
+
+        {/* Products List */}
+        {!isLoading && products?.length === 0 && (
+          <div className="text-center py-20">
+            <p className="text-lg text-gray-600">محصولی یافت نشد.</p>
+          </div>
+        )}
+
+        <div
+          className={
+            viewMode === 'grid'
+              ? 'grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6'
+              : 'flex flex-col gap-6'
+          }
+        >
+         
 
 
 
