@@ -91,8 +91,10 @@ const CategoryPage = () => {
             <div className="flex items-center gap-4">
               {/* انتخاب نوع نمایش */}
               <div className="flex items-center border border-gray-300 rounded-lg p-1">
+                <button
 
   
+
 
 
 
