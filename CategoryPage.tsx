@@ -149,6 +149,8 @@ const CategoryPage = () => {
               {selectedFilters.map((filter) => (
                 <div
                   key={filter}
+                  className="flex items-center gap-2 bg-fabric-terracotta/10 text-fabric-terracotta px-3 py-1 rounded-full text-sm border border-fabric-terracotta/20"
+
 
 
 
