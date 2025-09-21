@@ -105,6 +105,8 @@ const CategoryPage = () => {
                   className={`p-2 rounded transition-colors duration-200 ${
                     viewMode === 'grid' ? 'bg-fabric-terracotta text-white' : 'text-gray-600 hover:bg-gray-100'
                   }`}
+                >
+
 
 
 
