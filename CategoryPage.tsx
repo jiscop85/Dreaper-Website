@@ -77,8 +77,10 @@ const CategoryPage = () => {
       <Navigation />
       <main className="container mx-auto px-4 py-8">
         {/* هدر صفحه */}
+        <div className="mb-8">
 
   
+
 
 
 
