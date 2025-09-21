@@ -106,6 +106,8 @@ const CategoryPage = () => {
                     viewMode === 'grid' ? 'bg-fabric-terracotta text-white' : 'text-gray-600 hover:bg-gray-100'
                   }`}
                 >
+                  <Grid className="w-4 h-4" />
+
 
 
 
