@@ -93,8 +93,10 @@ const CategoryPage = () => {
               <div className="flex items-center border border-gray-300 rounded-lg p-1">
                 <button
                   onClick={() => setViewMode('grid')}
+                  className={`p-2 rounded transition-colors duration-200 ${
 
   
+
 
 
 
