@@ -127,6 +127,8 @@ const CategoryPage = () => {
                 <option value="newest">جدیدترین</option>
                 <option value="popular">محبوب‌ترین</option>
                 <option value="price-low">ارزان‌ترین</option>
+                <option value="price-high">گران‌ترین</option>
+
 
 
 
