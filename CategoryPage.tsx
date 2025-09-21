@@ -83,8 +83,10 @@ const CategoryPage = () => {
               <h1 className="text-3xl font-bold text-fabric-navy mb-2">
                 {getCategoryName(categorySlug)}
               </h1>
+              <p className="text-gray-600">
 
   
+
 
 
 
