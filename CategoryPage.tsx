@@ -101,7 +101,9 @@ const CategoryPage = () => {
                 </button>
                 <button
 
-  
+                    onClick={() => setViewMode('grid')}
+
+
 
 
 
