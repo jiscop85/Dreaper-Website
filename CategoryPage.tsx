@@ -153,6 +153,8 @@ const CategoryPage = () => {
                 >
                   <span>{filter}</span>
                   <button
+                    onClick={() => removeFilter(filter)}
+
 
 
 
