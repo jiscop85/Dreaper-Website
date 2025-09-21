@@ -87,8 +87,10 @@ const CategoryPage = () => {
                 {isLoading ? 'در حال بارگذاری...' : `${products?.length || 0} محصول یافت شد`}
               </p>
             </div>
+            {/* کنترل‌های نمایش */}
 
   
+
 
 
 
