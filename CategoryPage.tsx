@@ -78,8 +78,10 @@ const CategoryPage = () => {
       <main className="container mx-auto px-4 py-8">
         {/* هدر صفحه */}
         <div className="mb-8">
+          <div className="flex items-center justify-between mb-6">
 
   
+
 
 
 
