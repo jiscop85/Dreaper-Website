@@ -146,6 +146,8 @@ const CategoryPage = () => {
           {selectedFilters.length > 0 && (
             <div className="flex flex-wrap gap-2 mb-6">
               <span className="text-sm text-gray-600 ml-4">فیلترهای فعال:</span>
+              {selectedFilters.map((filter) => (
+
 
 
 
