@@ -88,8 +88,10 @@ const CategoryPage = () => {
               </p>
             </div>
             {/* کنترل‌های نمایش */}
+            <div className="flex items-center gap-4">
 
   
+
 
 
 
