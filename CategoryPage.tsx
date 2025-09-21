@@ -85,8 +85,10 @@ const CategoryPage = () => {
               </h1>
               <p className="text-gray-600">
                 {isLoading ? 'در حال بارگذاری...' : `${products?.length || 0} محصول یافت شد`}
+              </p>
 
   
+
 
 
 
