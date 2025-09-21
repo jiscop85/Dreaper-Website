@@ -140,6 +140,8 @@ const CategoryPage = () => {
                 فیلتر
               </button>
             </div>
+          </div>
+
 
 
 
