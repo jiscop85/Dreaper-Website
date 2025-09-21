@@ -120,6 +120,8 @@ const CategoryPage = () => {
 
               {/* مرتب‌سازی */}
               <select
+                value={sortBy}
+
 
 
 
