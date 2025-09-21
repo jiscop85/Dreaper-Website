@@ -102,6 +102,8 @@ const CategoryPage = () => {
                 <button
 
                     onClick={() => setViewMode('grid')}
+                  className={`p-2 rounded transition-colors duration-200 ${
+
 
 
 
