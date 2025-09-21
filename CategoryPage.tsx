@@ -109,6 +109,8 @@ const CategoryPage = () => {
                   <Grid className="w-4 h-4" />
                 </button>
                 <button
+                  onClick={() => setViewMode('list')}
+
 
 
 
