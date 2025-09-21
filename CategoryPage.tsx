@@ -136,6 +136,8 @@ const CategoryPage = () => {
                 onClick={() => setShowFilters(!showFilters)}
                 className="md:hidden flex items-center gap-2 bg-fabric-terracotta text-white px-4 py-2 rounded-lg hover:bg-fabric-navy transition-colors duration-300"
               >
+                <Filter className="w-4 h-4" />
+
 
 
 
