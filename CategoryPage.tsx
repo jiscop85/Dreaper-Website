@@ -157,6 +157,8 @@ const CategoryPage = () => {
                     className="hover:bg-fabric-terracotta hover:text-white rounded-full p-0.5 transition-colors duration-200"
                   >
                     <X className="w-3 h-3" />
+                  </button>
+
 
 
 
