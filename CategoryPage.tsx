@@ -133,6 +133,8 @@ const CategoryPage = () => {
 
               {/* دکمه فیلتر موبایل */}
               <button
+                onClick={() => setShowFilters(!showFilters)}
+
 
 
 
