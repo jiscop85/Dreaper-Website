@@ -139,6 +139,8 @@ const CategoryPage = () => {
                 <Filter className="w-4 h-4" />
                 فیلتر
               </button>
+            </div>
+
 
 
 
