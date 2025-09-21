@@ -121,6 +121,8 @@ const CategoryPage = () => {
               {/* مرتب‌سازی */}
               <select
                 value={sortBy}
+                onChange={(e) => handleSortChange(e.target.value as typeof sortBy)}
+
 
 
 
