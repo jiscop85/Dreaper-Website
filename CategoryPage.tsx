@@ -128,6 +128,8 @@ const CategoryPage = () => {
                 <option value="popular">محبوب‌ترین</option>
                 <option value="price-low">ارزان‌ترین</option>
                 <option value="price-high">گران‌ترین</option>
+                <option value="discount">بیشترین تخفیف</option>
+
 
 
 
