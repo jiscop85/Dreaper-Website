@@ -161,6 +161,8 @@ const CategoryPage = () => {
                 </div>
               ))}
               <button
+                onClick={() => setSearchParams({})}
+
 
 
 
