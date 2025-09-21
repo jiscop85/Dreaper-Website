@@ -110,6 +110,8 @@ const CategoryPage = () => {
                 </button>
                 <button
                   onClick={() => setViewMode('list')}
+                  className={`p-2 rounded transition-colors duration-200 ${
+
 
 
 
