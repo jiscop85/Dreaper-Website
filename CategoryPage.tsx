@@ -141,7 +141,10 @@ const CategoryPage = () => {
               </button>
             </div>
           </div>
+          
           {/* فیلترهای فعال */}
+          {selectedFilters.length > 0 && (
+
 
 
 
