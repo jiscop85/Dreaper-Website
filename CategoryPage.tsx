@@ -94,8 +94,10 @@ const CategoryPage = () => {
                 <button
                   onClick={() => setViewMode('grid')}
                   className={`p-2 rounded transition-colors duration-200 ${
+                    viewMode === 'list' ? 'bg-fabric-terracotta text-white' : 'text-gray-600 hover:bg-gray-100'
 
   
+
 
 
 
