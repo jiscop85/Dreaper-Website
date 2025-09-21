@@ -97,8 +97,10 @@ const CategoryPage = () => {
                     viewMode === 'list' ? 'bg-fabric-terracotta text-white' : 'text-gray-600 hover:bg-gray-100'
                   }`}
                 >
+                  <List className="w-4 h-4" />
 
   
+
 
 
 
