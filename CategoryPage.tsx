@@ -374,8 +374,7 @@ const CategoryPage = () => {
           <div
             className={`grid gap-6 ${
 viewMode === 'grid'
-                
-
+                ? 'grid-cols-1 
               
 
 
