@@ -199,6 +199,8 @@ const CategoryPage = () => {
                 <ProductCard 
                   product={product} 
                   className={viewMode === 'list' ? 'flex gap-6 p-6' : ''} 
+                />
+
 
 
 
