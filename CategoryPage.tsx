@@ -168,6 +168,8 @@ const CategoryPage = () => {
               </button>
             </div>
           )}
+        </div>
+
 
 
 
