@@ -373,6 +373,9 @@ const CategoryPage = () => {
           {/* نمایش محصولات */}
           <div
             className={`grid gap-6 ${
+viewMode === 'grid'
+                
+
               
 
 
