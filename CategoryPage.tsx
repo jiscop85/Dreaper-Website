@@ -186,6 +186,8 @@ const CategoryPage = () => {
           </div>
         ) : products && products.length > 0 ? (
           <div className={`grid gap-6 ${
+            viewMode === 'grid' 
+
 
 
 
