@@ -218,6 +218,8 @@ const CategoryPage = () => {
             >
               پاک کردن فیلترها
             </button>
+          </div>
+
 
 
 
