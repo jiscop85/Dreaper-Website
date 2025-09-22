@@ -201,6 +201,8 @@ const CategoryPage = () => {
                   className={viewMode === 'list' ? 'flex gap-6 p-6' : ''} 
                 />
               </div>
+            ))}
+
 
 
 
