@@ -184,6 +184,8 @@ const CategoryPage = () => {
               </div>
             ))}
           </div>
+        ) : products && products.length > 0 ? (
+
 
 
 
