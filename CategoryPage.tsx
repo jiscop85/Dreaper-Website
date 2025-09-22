@@ -171,6 +171,8 @@ const CategoryPage = () => {
         </div>
 
         {/* محتوای اصلی */}
+        {isLoading ? (
+
 
 
 
