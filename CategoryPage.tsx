@@ -382,7 +382,18 @@ sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'
             {isLoading ? (
               <div className="col-span-full text-center py-16 text-gray-600">
 
-
+                در حال بارگذاری محصولات...
+              </div>
+            ) : products && products.length > 0 ? (
+              products.map((product) => (
+                <ProductCard key={product.id} product={product} viewMode={viewMode} />
+              ))
+            ) : (
+              <div className="col-span-full text-center py-16 text-gray-600">
+                محصولی یافت نشد. شاید موارد زیر برای شما جالب باشد:
+                <div className="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4">
+                  {/* پیشنهاد محصولات جایگزین */}
+                  
 
 
 
