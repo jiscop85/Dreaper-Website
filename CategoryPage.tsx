@@ -191,6 +191,8 @@ const CategoryPage = () => {
               : 'grid-cols-1'
           }`}>
             {products.map((product, index) => (
+              <div
+
 
 
 
