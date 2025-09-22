@@ -205,6 +205,8 @@ const CategoryPage = () => {
           </div>
         ) : (
           <div className="text-center py-16">
+            <div className="w-32 h-32 mx-auto mb-6 bg-gray-100 rounded-full flex items-center justify-center">
+
 
 
 
