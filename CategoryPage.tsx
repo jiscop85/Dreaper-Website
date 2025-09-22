@@ -224,6 +224,8 @@ const CategoryPage = () => {
       
       <Footer />
     </div>
+  );
+
 
 
 
