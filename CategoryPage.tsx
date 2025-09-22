@@ -183,6 +183,8 @@ const CategoryPage = () => {
                 </div>
               </div>
             ))}
+          </div>
+
 
 
 
