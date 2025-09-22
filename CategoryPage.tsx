@@ -194,6 +194,8 @@ const CategoryPage = () => {
               <div
                 key={product.id}
                 className="animate-fade-in"
+                style={{ animationDelay: `${index * 0.1}s` }}
+
 
 
 
