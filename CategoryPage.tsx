@@ -216,6 +216,8 @@ const CategoryPage = () => {
               onClick={() => setSearchParams({})}
               className="bg-fabric-terracotta text-white px-6 py-3 rounded-lg hover:bg-fabric-navy transition-colors duration-300"
             >
+              پاک کردن فیلترها
+
 
 
 
