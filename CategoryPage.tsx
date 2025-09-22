@@ -204,6 +204,8 @@ const CategoryPage = () => {
             ))}
           </div>
         ) : (
+          <div className="text-center py-16">
+
 
 
 
