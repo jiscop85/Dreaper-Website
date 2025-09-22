@@ -415,7 +415,11 @@ sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'
         {showFilters && (
           <motion.div
             initial={{ x: '100%' }}
-            
+            animate={{ x: 0 }}
+            exit={{ x: '100%' }}
+            transition={{ duration: 0.3 }}
+
+
 
       
 
