@@ -418,8 +418,36 @@ sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'
             animate={{ x: 0 }}
             exit={{ x: '100%' }}
             transition={{ duration: 0.3 }}
+            className="fixed inset-0 bg-black/40 z-50 flex justify-end"
+          >
+            <div className="bg-white w-72 h-full shadow-lg p-4 flex flex-col">
+              <div className="flex items-center justify-between mb-4">
+                <h2 className="text-lg font-semibold">فیلترها</h2>
+                <button onClick={() => setShowFilters(false)}>
+                  <X className="w-5 h-5 text-gray-600" />
+                </button>
+              </div>
+              {/* اینجا فیلترهای مشابه دسکتاپ رو بذار */}
+              <div className="flex-1 overflow-y-auto">
+                <p className="text-gray-500">گزینه‌های فیلتر اینجا قرار می‌گیرند...</p>
+              </div>
+              <button
+                onClick={() => setShowFilters(false)}
+                className="mt-4 bg-fabric-terracotta text-white py-2 rounded-lg"
+              >
+                اعمال فیلترها
+              </button>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
+      <Footer />
+    </div>
+  );
+};
 
+export default CategoryPage;
 
       
 
