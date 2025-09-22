@@ -208,6 +208,8 @@ const CategoryPage = () => {
             <div className="w-32 h-32 mx-auto mb-6 bg-gray-100 rounded-full flex items-center justify-center">
               <Filter className="w-16 h-16 text-gray-400" />
             </div>
+            <h2 className="text-2xl font-bold text-gray-700 mb-4">محصولی یافت نشد</h2>
+
 
 
 
