@@ -221,7 +221,10 @@ const CategoryPage = () => {
           </div>
         )}
       </main>
+      
       <Footer />
+    </div>
+
 
 
 
