@@ -193,6 +193,8 @@ const CategoryPage = () => {
             {products.map((product, index) => (
               <div
                 key={product.id}
+                className="animate-fade-in"
+
 
 
 
