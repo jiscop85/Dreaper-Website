@@ -394,7 +394,23 @@ sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'
                 <div className="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4">
                   {/* پیشنهاد محصولات جایگزین */}
                   {[1,2,3,4].map((i) => (
-                    
+                                  <button
+                key={p}
+                onClick={() => setPage(p)}
+                className={`px-4 py-2 rounded-lg border ${
+                  p === page
+                    ? 'bg-fabric-terracotta text-white border-fabric-terracotta'
+                    : 'border-gray-300 text-gray-600 hover:bg-gray-100'
+                }`}
+              >
+                {p}
+              </button>
+            ))}
+          </div>
+        </section>
+      </main>
+
+      
 
 
 
