@@ -165,7 +165,7 @@ const CategoryPage = () => {
                 className="text-sm text-gray-500 hover:text-fabric-terracotta transition-colors duration-200 underline"
               >
                 پاک کردن همه فیلترها
-
+__ باری دیگر
 
 
 
