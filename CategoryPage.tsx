@@ -393,7 +393,8 @@ sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'
                 محصولی یافت نشد. شاید موارد زیر برای شما جالب باشد:
                 <div className="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4">
                   {/* پیشنهاد محصولات جایگزین */}
-                  
+                  {[1,2,3,4].map((i) => (
+                    
 
 
 
