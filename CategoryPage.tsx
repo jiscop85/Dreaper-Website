@@ -176,6 +176,8 @@ const CategoryPage = () => {
             {[...Array(8)].map((_, index) => (
               <div key={index} className="bg-white rounded-2xl p-6 animate-pulse">
                 <div className="w-full h-48 bg-gray-200 rounded-xl mb-4"></div>
+                <div className="space-y-3">
+
 
 
 
