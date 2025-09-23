@@ -13,6 +13,8 @@ const MoneyBackGuarantee = () => {
       title: "۷ روز فرصت",
       description: "تا ۷ روز پس از دریافت",
       color: "from-blue-500 to-cyan-600"
+    },
+
 
 
 
