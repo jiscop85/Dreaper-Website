@@ -10,6 +10,8 @@ const MoneyBackGuarantee = () => {
   const guaranteeFeatures = [
     {
       icon: Clock,
+      title: "۷ روز فرصت",
+
 
 
 
