@@ -15,6 +15,8 @@ const MoneyBackGuarantee = () => {
       color: "from-blue-500 to-cyan-600"
     },
     {
+      icon: RotateCcw,
+
 
 
 
