@@ -59,6 +59,8 @@ const MoneyBackGuarantee = () => {
       description: "واریز وجه به حساب شما",
       icon: "💰"
     }
+  ];
+
 
 
 
