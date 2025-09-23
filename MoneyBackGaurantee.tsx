@@ -26,6 +26,8 @@ const MoneyBackGuarantee = () => {
       description: "بازپرداخت کامل وجه",
       color: "from-purple-500 to-indigo-600"
     }
+  ];
+
 
 
 
