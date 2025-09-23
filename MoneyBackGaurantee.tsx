@@ -50,6 +50,8 @@ const MoneyBackGuarantee = () => {
     {
       step: "۴",
       title: "بررسی کالا",
+      description: "کنترل سلامت و شرایط کالا",
+
 
 
 
