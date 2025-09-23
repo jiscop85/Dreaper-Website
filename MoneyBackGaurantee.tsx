@@ -7,5 +7,7 @@ const MoneyBackGuarantee = () => {
   const navigate = useNavigate();
 
 
+  const guaranteeFeatures = [
+
 
 
