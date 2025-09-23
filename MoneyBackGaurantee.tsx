@@ -52,6 +52,8 @@ const MoneyBackGuarantee = () => {
       title: "بررسی کالا",
       description: "کنترل سلامت و شرایط کالا",
       icon: "🔍"
+    },
+    {
 
 
 
