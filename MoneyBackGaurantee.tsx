@@ -36,6 +36,8 @@ const MoneyBackGuarantee = () => {
       icon: "📞"
     },
     {
+      step: "۲", 
+
 
 
 
