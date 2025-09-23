@@ -42,6 +42,8 @@ const MoneyBackGuarantee = () => {
       icon: "✅"
     },
     {
+      step: "۳",
+
 
 
 
