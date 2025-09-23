@@ -24,6 +24,8 @@ const MoneyBackGuarantee = () => {
       icon: Shield,
       title: "تضمین ۱۰۰٪",
       description: "بازپرداخت کامل وجه",
+      color: "from-purple-500 to-indigo-600"
+
 
 
 
