@@ -49,6 +49,8 @@ const MoneyBackGuarantee = () => {
     },
     {
       step: "۴",
+      title: "بررسی کالا",
+
 
 
 
