@@ -22,6 +22,8 @@ const MoneyBackGuarantee = () => {
     },
     {
       icon: Shield,
+      title: "تضمین ۱۰۰٪",
+
 
 
 
