@@ -11,6 +11,8 @@ const MoneyBackGuarantee = () => {
     {
       icon: Clock,
       title: "۷ روز فرصت",
+      description: "تا ۷ روز پس از دریافت",
+
 
 
 
