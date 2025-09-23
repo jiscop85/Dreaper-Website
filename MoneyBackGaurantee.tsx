@@ -56,6 +56,8 @@ const MoneyBackGuarantee = () => {
     {
       step: "۵",
       title: "بازپرداخت",
+      description: "واریز وجه به حساب شما",
+
 
 
 
