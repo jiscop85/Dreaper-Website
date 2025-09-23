@@ -43,6 +43,8 @@ const MoneyBackGuarantee = () => {
     },
     {
       step: "۳",
+      title: "ارسال کالا",
+
 
 
 
