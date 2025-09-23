@@ -45,6 +45,8 @@ const MoneyBackGuarantee = () => {
       step: "۳",
       title: "ارسال کالا",
       description: "ارسال کالا به آدرس مشخص شده",
+      icon: "📦"
+
 
 
 
