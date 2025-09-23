@@ -37,6 +37,8 @@ const MoneyBackGuarantee = () => {
     },
     {
       step: "۲", 
+      title: "تأیید درخواست",
+
 
 
 
