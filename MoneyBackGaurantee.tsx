@@ -23,6 +23,8 @@ const MoneyBackGuarantee = () => {
     {
       icon: Shield,
       title: "تضمین ۱۰۰٪",
+      description: "بازپرداخت کامل وجه",
+
 
 
 
