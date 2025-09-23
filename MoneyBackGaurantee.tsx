@@ -66,6 +66,8 @@ const MoneyBackGuarantee = () => {
       {/* Header Section */}
       <div className="relative overflow-hidden bg-gradient-to-r from-orange-500 via-red-500 to-pink-600">
         <div className="absolute inset-0 bg-black/20"></div>
+        <div className="relative container mx-auto px-4 py-20 text-center text-white">
+
 
 
 
