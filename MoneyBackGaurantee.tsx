@@ -74,6 +74,8 @@ const MoneyBackGuarantee = () => {
           <p className="text-xl md:text-2xl text-white/90 mb-8">خرید بدون نگرانی</p>
           <Button
             onClick={() => navigate('/')}
+            variant="secondary"
+
 
 
 
