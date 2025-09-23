@@ -39,6 +39,8 @@ const MoneyBackGuarantee = () => {
       step: "۲", 
       title: "تأیید درخواست",
       description: "بررسی و تأیید شرایط بازگشت",
+      icon: "✅"
+
 
 
 
