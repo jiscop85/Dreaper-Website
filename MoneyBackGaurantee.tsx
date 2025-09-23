@@ -71,6 +71,8 @@ const MoneyBackGuarantee = () => {
             <RotateCcw className="w-10 h-10 text-white" />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-4">تضمین بازگشت وجه</h1>
+          <p className="text-xl md:text-2xl text-white/90 mb-8">خرید بدون نگرانی</p>
+
 
 
 
