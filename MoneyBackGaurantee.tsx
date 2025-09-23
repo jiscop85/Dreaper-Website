@@ -48,6 +48,8 @@ const MoneyBackGuarantee = () => {
       icon: "📦"
     },
     {
+      step: "۴",
+
 
 
 
