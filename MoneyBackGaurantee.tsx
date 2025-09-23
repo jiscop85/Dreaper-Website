@@ -82,6 +82,8 @@ const MoneyBackGuarantee = () => {
         </div>
       </div>
 
+      {/* Guarantee Features */}
+
 
 
 
