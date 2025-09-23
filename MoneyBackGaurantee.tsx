@@ -32,6 +32,8 @@ const MoneyBackGuarantee = () => {
     {
       step: "۱",
       title: "درخواست بازگشت",
+      description: "تماس با پشتیبانی یا فرم آنلاین",
+
 
 
 
