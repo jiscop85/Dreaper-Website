@@ -8,6 +8,9 @@ const MoneyBackGuarantee = () => {
 
 
   const guaranteeFeatures = [
+    {
+      icon: Clock,
+
 
 
 
