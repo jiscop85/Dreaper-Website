@@ -3,5 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Button } from '@/components/ui/button';
 import { useNavigate } from 'react-router-dom';
 
+const MoneyBackGuarantee = () => {
+
 
 
