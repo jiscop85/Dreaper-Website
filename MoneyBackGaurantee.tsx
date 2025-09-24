@@ -121,6 +121,8 @@ const MoneyBackGuarantee = () => {
             </Button>
           </div>
         </div>
+      </div>
+
 
 
 
