@@ -5,3 +5,4 @@ const NotFound = () => {
   const location = useLocation();
 
     useEffect(() => {
+    console.error(
