@@ -126,6 +126,8 @@ const MoneyBackGuarantee = () => {
   );
 };
 
+export default MoneyBackGuarantee;
+
 
 
 
