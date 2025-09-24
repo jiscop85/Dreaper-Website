@@ -111,6 +111,8 @@ const MoneyBackGuarantee = () => {
 
             </h3>
             <p className="text-gray-600 mb-6">
+              رضایت شما برای ما بسیار مهم است. اگر از خرید خود راضی نیستید، 
+
 
 
 
