@@ -117,6 +117,8 @@ const MoneyBackGuarantee = () => {
             <Button
               onClick={() => navigate('/')}
             >
+              خرید با اطمینان
+
 
 
 
