@@ -84,6 +84,8 @@ const MoneyBackGuarantee = () => {
 
       {/* Guarantee Features */}
       <div className="container mx-auto px-4 -mt-16 relative z-10 mb-20">
+          <RefreshCw className="w-16 h-16 text-fabric-terracotta mx-auto mb-6" />
+
 
 
 
