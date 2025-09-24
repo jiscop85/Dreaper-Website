@@ -115,6 +115,8 @@ const MoneyBackGuarantee = () => {
               بدون هیچ سوال اضافی وجه شما را بازمی‌گردانیم.
             </p>
             <Button
+              onClick={() => navigate('/')}
+
 
 
 
