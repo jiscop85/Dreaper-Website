@@ -10,3 +10,5 @@ const NotFound = () => {
       location.pathname
     );
   }, [location.pathname]);
+
+    return (
