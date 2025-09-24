@@ -123,6 +123,8 @@ const MoneyBackGuarantee = () => {
         </div>
       </div>
     </div>
+  );
+
 
 
 
