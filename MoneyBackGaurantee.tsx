@@ -105,6 +105,8 @@ const MoneyBackGuarantee = () => {
         {/* Guarantee Promise */}
         <div className="text-center mt-16">
           <div className="bg-white rounded-2xl p-8 shadow-elegant max-w-2xl mx-auto">
+            <Shield className="w-16 h-16 text-fabric-terracotta mx-auto mb-4" />
+
 
 
 
