@@ -90,6 +90,8 @@ const MoneyBackGuarantee = () => {
           </h2>
           <p className="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
             تیم پشتیبانی ما آماده کمک به شما برای فرآیند بازگشت کالا است
+          </p>
+
 
 
 
