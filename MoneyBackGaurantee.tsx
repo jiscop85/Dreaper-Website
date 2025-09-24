@@ -110,6 +110,8 @@ const MoneyBackGuarantee = () => {
               قول ما به شما
 
             </h3>
+            <p className="text-gray-600 mb-6">
+
 
 
 
