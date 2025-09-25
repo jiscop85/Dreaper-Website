@@ -49,6 +49,8 @@ const Orders = () => {
     if (priceNumber > 99999999) {
       alert('قیمت نمی‌تواند بیشتر از 99,999,999 تومان باشد');
       return;
+    }
+
 
 
 
