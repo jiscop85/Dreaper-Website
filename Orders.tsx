@@ -65,6 +65,8 @@ const Orders = () => {
       setPrice('');
       setOrderType('buy');
     } catch (error) {
+      console.error('Error creating order:', error);
+
 
 
 
