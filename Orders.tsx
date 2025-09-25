@@ -87,6 +87,8 @@ const Orders = () => {
       // تغییر method به GET و ارسال داده‌ها به عنوان query parameters
       const params = new URLSearchParams({
         product_id: selectedProductId || '',
+        description: description.trim() || '',
+
 
 
 
