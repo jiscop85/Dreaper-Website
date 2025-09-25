@@ -46,6 +46,8 @@ const Orders = () => {
       return;
     }
 
+    if (priceNumber > 99999999) {
+
 
 
 
