@@ -55,6 +55,8 @@ const Orders = () => {
       await createOrderMutation.mutateAsync({
         product_id: selectedProductId,
         description: description.trim() || undefined,
+        price: priceNumber,
+
 
 
 
