@@ -19,6 +19,8 @@ const Orders = () => {
   const [selectedProductId, setSelectedProductId] = useState<string>('');
   const [description, setDescription] = useState('');
   const [price, setPrice] = useState<string>('');
+  const [orderType, setOrderType] = useState<'buy' | 'sell'>('buy');
+
 
 
 
