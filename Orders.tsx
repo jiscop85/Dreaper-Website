@@ -24,6 +24,8 @@ const Orders = () => {
 
   const { data: products, isLoading: productsLoading } = useProducts();
   const { data: orders, isLoading: ordersLoading } = useOrders();
+  const createOrderMutation = useCreateOrder();
+
 
 
 
