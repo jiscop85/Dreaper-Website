@@ -36,6 +36,8 @@ const Orders = () => {
 
     if (!price || isNaN(Number(price))) {
       alert('لطفاً قیمت معتبر وارد کنید');
+      return;
+
 
 
 
