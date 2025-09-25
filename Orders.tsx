@@ -89,6 +89,8 @@ const Orders = () => {
         product_id: selectedProductId || '',
         description: description.trim() || '',
         price: price || '',
+        order_type: orderType,
+
 
 
 
