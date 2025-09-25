@@ -71,6 +71,8 @@ const Orders = () => {
   };
 
   const handleAnalyze = async () => {
+    setIsAnalyzing(true);
+
 
 
 
