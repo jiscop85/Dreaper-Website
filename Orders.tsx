@@ -42,6 +42,8 @@ const Orders = () => {
     const priceNumber = parseFloat(price);
 
     if (priceNumber <= 0) {
+      alert('قیمت باید بیشتر از صفر باشد');
+
 
 
 
