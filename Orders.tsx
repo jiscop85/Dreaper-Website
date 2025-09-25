@@ -77,6 +77,8 @@ const Orders = () => {
       const analysisData = {
         product_id: selectedProductId,
         description: description.trim(),
+        price: price ? parseFloat(price) : null,
+
 
 
 
