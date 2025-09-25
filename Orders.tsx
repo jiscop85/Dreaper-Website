@@ -11,6 +11,8 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@
 import { formatPrice } from '@/utils/priceFormatter';
 import { toast } from 'sonner';
 import TopBar from '@/components/TopBar';
+import Header from '@/components/Header';
+
 
 
 
