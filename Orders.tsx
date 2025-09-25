@@ -85,6 +85,8 @@ const Orders = () => {
       console.log('Sending analysis request with data:', analysisData);
 
       // تغییر method به GET و ارسال داده‌ها به عنوان query parameters
+      const params = new URLSearchParams({
+
 
 
 
