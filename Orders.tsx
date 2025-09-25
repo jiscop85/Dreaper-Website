@@ -64,6 +64,8 @@ const Orders = () => {
       setDescription('');
       setPrice('');
       setOrderType('buy');
+    } catch (error) {
+
 
 
 
