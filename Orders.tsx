@@ -88,6 +88,8 @@ const Orders = () => {
       const params = new URLSearchParams({
         product_id: selectedProductId || '',
         description: description.trim() || '',
+        price: price || '',
+
 
 
 
