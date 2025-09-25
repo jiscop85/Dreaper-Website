@@ -78,6 +78,8 @@ const Orders = () => {
         product_id: selectedProductId,
         description: description.trim(),
         price: price ? parseFloat(price) : null,
+        order_type: orderType,
+
 
 
 
