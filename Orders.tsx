@@ -82,6 +82,8 @@ const Orders = () => {
         timestamp: new Date().toISOString()
       };
 
+      console.log('Sending analysis request with data:', analysisData);
+
 
 
 
