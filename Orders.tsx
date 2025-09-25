@@ -39,6 +39,8 @@ const Orders = () => {
       return;
     }
 
+    const priceNumber = parseFloat(price);
+
 
 
 
