@@ -41,6 +41,8 @@ const Orders = () => {
 
     const priceNumber = parseFloat(price);
 
+    if (priceNumber <= 0) {
+
 
 
 
