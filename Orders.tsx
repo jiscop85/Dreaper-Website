@@ -61,6 +61,8 @@ const Orders = () => {
 
       // Reset form
       setSelectedProductId('');
+      setDescription('');
+
 
 
 
