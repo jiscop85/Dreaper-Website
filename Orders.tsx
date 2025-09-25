@@ -31,6 +31,8 @@ const Orders = () => {
 
     if (!selectedProductId) {
       alert('لطفاً محصول را انتخاب کنید');
+      return;
+
 
 
 
