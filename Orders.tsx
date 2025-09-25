@@ -80,6 +80,8 @@ const Orders = () => {
         price: price ? parseFloat(price) : null,
         order_type: orderType,
         timestamp: new Date().toISOString()
+      };
+
 
 
 
