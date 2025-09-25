@@ -29,6 +29,8 @@ const Orders = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
+    if (!selectedProductId) {
+
 
 
 
