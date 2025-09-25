@@ -97,6 +97,8 @@ const Orders = () => {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
+        },
+
 
 
 
