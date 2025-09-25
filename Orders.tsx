@@ -16,6 +16,8 @@ import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 
 const Orders = () => {
+  const [selectedProductId, setSelectedProductId] = useState<string>('');
+
 
 
 
