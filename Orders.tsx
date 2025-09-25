@@ -23,6 +23,8 @@ const Orders = () => {
   const [isAnalyzing, setIsAnalyzing] = useState(false);
 
   const { data: products, isLoading: productsLoading } = useProducts();
+  const { data: orders, isLoading: ordersLoading } = useOrders();
+
 
 
 
