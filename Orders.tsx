@@ -67,6 +67,8 @@ const Orders = () => {
     } catch (error) {
       console.error('Error creating order:', error);
       // Error is handled by the mutation's onError callback
+    }
+
 
 
 
