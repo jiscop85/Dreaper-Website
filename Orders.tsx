@@ -91,6 +91,8 @@ const Orders = () => {
         price: price || '',
         order_type: orderType,
         timestamp: new Date().toISOString()
+      });
+
 
 
 
