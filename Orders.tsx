@@ -27,6 +27,8 @@ const Orders = () => {
   const createOrderMutation = useCreateOrder();
 
   const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+
 
 
 
