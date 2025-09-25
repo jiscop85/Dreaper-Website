@@ -22,6 +22,8 @@ const Orders = () => {
   const [orderType, setOrderType] = useState<'buy' | 'sell'>('buy');
   const [isAnalyzing, setIsAnalyzing] = useState(false);
 
+  const { data: products, isLoading: productsLoading } = useProducts();
+
 
 
 
