@@ -79,6 +79,8 @@ const Orders = () => {
         description: description.trim(),
         price: price ? parseFloat(price) : null,
         order_type: orderType,
+        timestamp: new Date().toISOString()
+
 
 
 
