@@ -57,6 +57,8 @@ const Orders = () => {
         description: description.trim() || undefined,
         price: priceNumber,
         order_type: orderType,
+      });
+
 
 
 
