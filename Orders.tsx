@@ -30,6 +30,8 @@ const Orders = () => {
     e.preventDefault();
 
     if (!selectedProductId) {
+      alert('لطفاً محصول را انتخاب کنید');
+
 
 
 
