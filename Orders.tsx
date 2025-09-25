@@ -75,6 +75,8 @@ const Orders = () => {
 
     try {
       const analysisData = {
+        product_id: selectedProductId,
+
 
 
 
