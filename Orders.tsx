@@ -90,6 +90,8 @@ const Orders = () => {
         description: description.trim() || '',
         price: price || '',
         order_type: orderType,
+        timestamp: new Date().toISOString()
+
 
 
 
