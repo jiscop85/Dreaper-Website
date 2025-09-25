@@ -70,6 +70,8 @@ const Orders = () => {
     }
   };
 
+  const handleAnalyze = async () => {
+
 
 
 
