@@ -60,6 +60,8 @@ const Orders = () => {
       });
 
       // Reset form
+      setSelectedProductId('');
+
 
 
 
