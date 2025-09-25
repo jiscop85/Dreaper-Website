@@ -17,6 +17,8 @@ import Footer from '@/components/Footer';
 
 const Orders = () => {
   const [selectedProductId, setSelectedProductId] = useState<string>('');
+  const [description, setDescription] = useState('');
+
 
 
 
