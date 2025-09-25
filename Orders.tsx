@@ -34,6 +34,8 @@ const Orders = () => {
       return;
     }
 
+    if (!price || isNaN(Number(price))) {
+
 
 
 
