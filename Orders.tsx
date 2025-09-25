@@ -63,6 +63,8 @@ const Orders = () => {
       setSelectedProductId('');
       setDescription('');
       setPrice('');
+      setOrderType('buy');
+
 
 
 
