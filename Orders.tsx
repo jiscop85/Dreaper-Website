@@ -44,6 +44,8 @@ const Orders = () => {
     if (priceNumber <= 0) {
       alert('قیمت باید بیشتر از صفر باشد');
       return;
+    }
+
 
 
 
