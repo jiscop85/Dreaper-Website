@@ -179,6 +179,8 @@ const Orders = () => {
                 </Label>
                 <Input
                   id="price"
+                  type="number"
+
 
 
 
