@@ -105,6 +105,8 @@ const Orders = () => {
       }
 
       const result = await response.json();
+      console.log('Analysis response:', result);
+
 
 
 
