@@ -181,6 +181,8 @@ const Orders = () => {
                   id="price"
                   type="number"
                   value={price}
+                  onChange={(e) => setPrice(e.target.value)}
+
 
 
 
