@@ -165,6 +165,8 @@ const Orders = () => {
                 <Textarea
                   id="description"
                   value={description}
+                  onChange={(e) => setDescription(e.target.value)}
+
 
 
 
