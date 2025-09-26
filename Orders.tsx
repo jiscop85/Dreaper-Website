@@ -143,6 +143,8 @@ const Orders = () => {
                   <div className="text-gray-500">در حال بارگذاری محصولات...</div>
                 ) : (
                   <Select value={selectedProductId} onValueChange={setSelectedProductId}>
+                    <SelectTrigger className="w-full">
+
 
 
 
