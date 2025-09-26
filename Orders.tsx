@@ -180,6 +180,8 @@ const Orders = () => {
                 <Input
                   id="price"
                   type="number"
+                  value={price}
+
 
 
 
