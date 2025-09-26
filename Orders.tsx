@@ -113,6 +113,8 @@ const Orders = () => {
       toast.error('خطا در انجام آنالیز');
     } finally {
       setIsAnalyzing(false);
+    }
+
 
 
 
