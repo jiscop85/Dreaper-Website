@@ -184,6 +184,8 @@ const Orders = () => {
                   onChange={(e) => setPrice(e.target.value)}
                   placeholder="قیمت را وارد کنید"
                   className="w-full"
+                  min="1"
+
 
 
 
