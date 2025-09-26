@@ -166,6 +166,8 @@ const Orders = () => {
                   id="description"
                   value={description}
                   onChange={(e) => setDescription(e.target.value)}
+                  placeholder="توضیحات درباره محصول را وارد کنید..."
+
 
 
 
