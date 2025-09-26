@@ -145,6 +145,8 @@ const Orders = () => {
                   <Select value={selectedProductId} onValueChange={setSelectedProductId}>
                     <SelectTrigger className="w-full">
                       <SelectValue placeholder="محصول مورد نظر را انتخاب کنید" />
+                    </SelectTrigger>
+
 
 
 
