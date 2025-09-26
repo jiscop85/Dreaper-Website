@@ -185,6 +185,8 @@ const Orders = () => {
                   placeholder="قیمت را وارد کنید"
                   className="w-full"
                   min="1"
+                  max="99999999"
+
 
 
 
