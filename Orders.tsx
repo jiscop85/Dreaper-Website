@@ -122,6 +122,8 @@ const Orders = () => {
 };
 
   return (
+    <div className="min-h-screen bg-white font-vazir">
+
 
 
 
