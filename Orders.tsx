@@ -107,6 +107,8 @@ const Orders = () => {
       const result = await response.json();
       console.log('Analysis response:', result);
 
+      toast.success('آنالیز با موفقیت انجام شد');
+
 
 
 
