@@ -164,6 +164,8 @@ const Orders = () => {
                 </Label>
                 <Textarea
                   id="description"
+                  value={description}
+
 
 
 
