@@ -133,6 +133,8 @@ const Orders = () => {
 
           {/* Order Form */}
           <div className="bg-white rounded-lg shadow-md p-6 mb-8">
+            <form onSubmit={handleSubmit} className="space-y-6">
+
 
 
 
