@@ -178,6 +178,8 @@ const Orders = () => {
                   قیمت (تومان) *
                 </Label>
                 <Input
+                  id="price"
+
 
 
 
