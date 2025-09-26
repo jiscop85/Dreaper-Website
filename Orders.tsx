@@ -149,6 +149,8 @@ const Orders = () => {
                     <SelectContent>
                       {products?.map((product) => (
                         <SelectItem key={product.id} value={product.id}>
+                          {product.name}
+
 
 
 
