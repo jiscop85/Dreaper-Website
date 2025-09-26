@@ -187,6 +187,8 @@ const Orders = () => {
                   min="1"
                   max="99999999"
                   step="1"
+                  required
+
 
 
 
