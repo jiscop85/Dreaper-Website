@@ -172,6 +172,8 @@ const Orders = () => {
                 />
               </div>
 
+              {/* Price */}
+
 
 
 
