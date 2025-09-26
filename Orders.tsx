@@ -168,6 +168,8 @@ const Orders = () => {
                   onChange={(e) => setDescription(e.target.value)}
                   placeholder="توضیحات درباره محصول را وارد کنید..."
                   className="w-full"
+                  maxLength={500}
+
 
 
 
