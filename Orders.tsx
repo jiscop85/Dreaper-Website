@@ -112,6 +112,8 @@ const Orders = () => {
       console.error('Error during analysis:', error);
       toast.error('خطا در انجام آنالیز');
     } finally {
+      setIsAnalyzing(false);
+
 
 
 
