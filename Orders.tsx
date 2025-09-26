@@ -192,6 +192,8 @@ const Orders = () => {
                 <p className="text-xs text-gray-500 mt-1">حداکثر قیمت: 99,999,999 تومان</p>
               </div>
 
+              {/* Order Type */}
+
 
 
 
