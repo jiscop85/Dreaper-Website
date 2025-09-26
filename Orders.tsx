@@ -148,6 +148,8 @@ const Orders = () => {
                     </SelectTrigger>
                     <SelectContent>
                       {products?.map((product) => (
+                        <SelectItem key={product.id} value={product.id}>
+
 
 
 
