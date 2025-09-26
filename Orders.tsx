@@ -108,6 +108,8 @@ const Orders = () => {
       console.log('Analysis response:', result);
 
       toast.success('آنالیز با موفقیت انجام شد');
+    } catch (error) {
+
 
 
 
