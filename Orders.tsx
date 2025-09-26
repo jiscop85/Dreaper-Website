@@ -109,6 +109,8 @@ const Orders = () => {
 
       toast.success('آنالیز با موفقیت انجام شد');
     } catch (error) {
+      console.error('Error during analysis:', error);
+
 
 
 
