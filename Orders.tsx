@@ -100,6 +100,8 @@ const Orders = () => {
         },
       });
 
+      if (!response.ok) {
+
 
 
 
