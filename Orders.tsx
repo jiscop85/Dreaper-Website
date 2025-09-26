@@ -151,6 +151,8 @@ const Orders = () => {
                         <SelectItem key={product.id} value={product.id}>
                           {product.name}
                         </SelectItem>
+                      ))}
+
 
 
 
