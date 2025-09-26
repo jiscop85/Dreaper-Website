@@ -175,6 +175,8 @@ const Orders = () => {
               {/* Price */}
               <div>
                 <Label htmlFor="price" className="text-sm font-medium text-gray-700 mb-2 block">
+                  قیمت (تومان) *
+
 
 
 
