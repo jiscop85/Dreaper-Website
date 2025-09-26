@@ -186,6 +186,8 @@ const Orders = () => {
                   className="w-full"
                   min="1"
                   max="99999999"
+                  step="1"
+
 
 
 
