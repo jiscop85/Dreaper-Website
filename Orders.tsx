@@ -167,6 +167,8 @@ const Orders = () => {
                   value={description}
                   onChange={(e) => setDescription(e.target.value)}
                   placeholder="توضیحات درباره محصول را وارد کنید..."
+                  className="w-full"
+
 
 
 
