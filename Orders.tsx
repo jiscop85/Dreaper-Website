@@ -189,6 +189,8 @@ const Orders = () => {
                   step="1"
                   required
                 />
+                <p className="text-xs text-gray-500 mt-1">حداکثر قیمت: 99,999,999 تومان</p>
+
 
 
 
