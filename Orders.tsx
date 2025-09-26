@@ -140,6 +140,8 @@ const Orders = () => {
                   انتخاب محصول *
                 </Label>
                 {productsLoading ? (
+                  <div className="text-gray-500">در حال بارگذاری محصولات...</div>
+
 
 
 
