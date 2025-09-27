@@ -196,6 +196,8 @@ const Orders = () => {
               <div>
                 <Label className="text-sm font-medium text-gray-700 mb-3 block">
                   نوع سفارش *
+                </Label>
+
 
 
 
