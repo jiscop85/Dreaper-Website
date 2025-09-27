@@ -197,6 +197,8 @@ const Orders = () => {
                 <Label className="text-sm font-medium text-gray-700 mb-3 block">
                   نوع سفارش *
                 </Label>
+                <RadioGroup value={orderType} onValueChange={(value: 'buy' | 'sell') => setOrderType(value)}>
+
 
 
 
