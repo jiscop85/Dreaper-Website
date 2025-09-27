@@ -204,6 +204,8 @@ const Orders = () => {
                   </div>
                   <div className="flex items-center space-x-2 space-x-reverse">
                     <RadioGroupItem value="sell" id="sell" />
+                    <Label htmlFor="sell">فروش</Label>
+
 
 
 
