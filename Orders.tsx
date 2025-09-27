@@ -228,6 +228,8 @@ const Orders = () => {
                 >
                   {isAnalyzing ? 'در حال آنالیز...' : 'آنالیز'}
                 </Button>
+              </div>
+
 
 
 
