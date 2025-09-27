@@ -266,6 +266,8 @@ const Orders = () => {
                         </TableCell>
                         <TableCell>
                           {order.description || '-'}
+                        </TableCell>
+
 
 
 
