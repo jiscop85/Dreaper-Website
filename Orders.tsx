@@ -222,6 +222,8 @@ const Orders = () => {
                 <Button 
                   type="button"
                   variant="outline"
+                  onClick={handleAnalyze}
+
 
 
 
