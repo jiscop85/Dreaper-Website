@@ -278,6 +278,8 @@ const Orders = () => {
                           }`}>
                             {order.order_type === 'buy' ? 'خرید' : 'فروش'}
                           </span>
+                        </TableCell>
+
 
 
 
