@@ -276,6 +276,8 @@ const Orders = () => {
                               ? 'bg-green-100 text-green-800' 
                               : 'bg-blue-100 text-blue-800'
                           }`}>
+                            {order.order_type === 'buy' ? 'خرید' : 'فروش'}
+
 
 
 
