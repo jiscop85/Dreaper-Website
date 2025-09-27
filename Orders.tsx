@@ -199,6 +199,8 @@ const Orders = () => {
                 </Label>
                 <RadioGroup value={orderType} onValueChange={(value: 'buy' | 'sell') => setOrderType(value)}>
                   <div className="flex items-center space-x-2 space-x-reverse">
+                    <RadioGroupItem value="buy" id="buy" />
+
 
 
 
