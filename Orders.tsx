@@ -206,6 +206,8 @@ const Orders = () => {
                     <RadioGroupItem value="sell" id="sell" />
                     <Label htmlFor="sell">فروش</Label>
                   </div>
+                </RadioGroup>
+
 
 
 
