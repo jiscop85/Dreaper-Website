@@ -272,6 +272,8 @@ const Orders = () => {
                         </TableCell>
                         <TableCell>
                           <span className={`px-2 py-1 rounded-full text-xs font-medium ${
+                            order.order_type === 'buy' 
+
 
 
 
