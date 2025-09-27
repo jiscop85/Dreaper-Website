@@ -227,6 +227,8 @@ const Orders = () => {
                   className="flex-1"
                 >
                   {isAnalyzing ? 'در حال آنالیز...' : 'آنالیز'}
+                </Button>
+
 
 
 
