@@ -280,6 +280,8 @@ const Orders = () => {
                           </span>
                         </TableCell>
                         <TableCell>
+                          {new Date(order.created_at).toLocaleDateString('fa-IR')}
+
 
 
 
