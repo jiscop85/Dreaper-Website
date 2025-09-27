@@ -250,6 +250,8 @@ const Orders = () => {
                     <TableHead className="text-right">نوع سفارش</TableHead>
                     <TableHead className="text-right">تاریخ ثبت</TableHead>
                   </TableRow>
+                </TableHeader>
+
 
 
 
