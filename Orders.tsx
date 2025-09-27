@@ -268,6 +268,8 @@ const Orders = () => {
                           {order.description || '-'}
                         </TableCell>
                         <TableCell>
+                          {formatPrice(order.price)}
+
 
 
 
