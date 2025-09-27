@@ -263,6 +263,8 @@ const Orders = () => {
                       <TableRow key={order.id}>
                         <TableCell className="font-medium">
                           {getProductName(order.product_id)}
+                        </TableCell>
+
 
 
 
