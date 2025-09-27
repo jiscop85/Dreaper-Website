@@ -265,6 +265,8 @@ const Orders = () => {
                           {getProductName(order.product_id)}
                         </TableCell>
                         <TableCell>
+                          {order.description || '-'}
+
 
 
 
