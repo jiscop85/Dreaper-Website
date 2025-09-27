@@ -217,6 +217,8 @@ const Orders = () => {
                   disabled={createOrderMutation.isPending || !selectedProductId || !price}
                 >
                   {createOrderMutation.isPending ? 'در حال ثبت...' : 'ثبت سفارش'}
+                </Button>
+
 
 
 
