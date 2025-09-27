@@ -286,6 +286,8 @@ const Orders = () => {
                     ))
                   )}
                 </TableBody>
+              </Table>
+
 
 
 
