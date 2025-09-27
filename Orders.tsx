@@ -247,6 +247,8 @@ const Orders = () => {
                     <TableHead className="text-right">محصول</TableHead>
                     <TableHead className="text-right">توضیحات</TableHead>
                     <TableHead className="text-right">قیمت</TableHead>
+                    <TableHead className="text-right">نوع سفارش</TableHead>
+
 
 
 
