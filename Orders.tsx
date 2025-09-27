@@ -214,6 +214,8 @@ const Orders = () => {
                 <Button 
                   type="submit" 
                   className="flex-1"
+                  disabled={createOrderMutation.isPending || !selectedProductId || !price}
+
 
 
 
