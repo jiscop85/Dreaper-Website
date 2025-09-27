@@ -216,6 +216,8 @@ const Orders = () => {
                   className="flex-1"
                   disabled={createOrderMutation.isPending || !selectedProductId || !price}
                 >
+                  {createOrderMutation.isPending ? 'در حال ثبت...' : 'ثبت سفارش'}
+
 
 
 
