@@ -274,6 +274,8 @@ const Orders = () => {
                           <span className={`px-2 py-1 rounded-full text-xs font-medium ${
                             order.order_type === 'buy' 
                               ? 'bg-green-100 text-green-800' 
+                              : 'bg-blue-100 text-blue-800'
+
 
 
 
