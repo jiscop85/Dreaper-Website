@@ -203,6 +203,8 @@ const Orders = () => {
                     <Label htmlFor="buy">خرید</Label>
                   </div>
                   <div className="flex items-center space-x-2 space-x-reverse">
+                    <RadioGroupItem value="sell" id="sell" />
+
 
 
 
