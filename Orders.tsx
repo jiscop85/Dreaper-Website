@@ -244,6 +244,8 @@ const Orders = () => {
               <Table>
                 <TableHeader>
                   <TableRow>
+                    <TableHead className="text-right">محصول</TableHead>
+
 
 
 
