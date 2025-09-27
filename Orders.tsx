@@ -213,6 +213,8 @@ const Orders = () => {
               <div className="flex gap-4">
                 <Button 
                   type="submit" 
+                  className="flex-1"
+
 
 
 
