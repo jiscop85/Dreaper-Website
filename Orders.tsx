@@ -269,6 +269,8 @@ const Orders = () => {
                         </TableCell>
                         <TableCell>
                           {formatPrice(order.price)}
+                        </TableCell>
+
 
 
 
