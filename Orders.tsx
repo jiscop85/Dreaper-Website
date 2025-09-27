@@ -223,6 +223,8 @@ const Orders = () => {
                   type="button"
                   variant="outline"
                   onClick={handleAnalyze}
+                  disabled={isAnalyzing}
+
 
 
 
