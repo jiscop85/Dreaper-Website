@@ -226,6 +226,8 @@ const Orders = () => {
                   disabled={isAnalyzing}
                   className="flex-1"
                 >
+                  {isAnalyzing ? 'در حال آنالیز...' : 'آنالیز'}
+
 
 
 
