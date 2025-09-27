@@ -264,6 +264,8 @@ const Orders = () => {
                         <TableCell className="font-medium">
                           {getProductName(order.product_id)}
                         </TableCell>
+                        <TableCell>
+
 
 
 
