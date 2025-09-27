@@ -288,6 +288,8 @@ const Orders = () => {
                 </TableBody>
               </Table>
             )}
+          </div>
+
 
 
 
