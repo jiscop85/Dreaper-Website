@@ -17,4 +17,5 @@ const QualityAssurance = () => {
       icon: Shield,
       title: "تست کیفیت ۱۰۰٪",
       description: "هر پارچه قبل از ارسال تحت بازرسی دقیق قرار می‌گیرد",
+      badge: "تضمینی"
 
