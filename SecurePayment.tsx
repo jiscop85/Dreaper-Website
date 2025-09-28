@@ -10,3 +10,4 @@ const SecurePayment = () => {
     const paymentMethods = [
     {
       icon: "💳",
+      title: "کارت‌های بانکی",
