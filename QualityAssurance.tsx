@@ -83,3 +83,4 @@ const QualityAssurance = () => {
                     <div className="w-16 h-16 bg-gradient-to-br from-fabric-terracotta to-fabric-gold rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                       <IconComponent className="w-8 h-8 text-white" />
                     </div>
+                    <div className="inline-block bg-fabric-gold/20 text-fabric-navy px-3 py-1 rounded-full text-sm font-semibold mb-2">
