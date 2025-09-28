@@ -93,3 +93,4 @@ const QualityAssurance = () => {
                       {feature.description}
                     </CardDescription>
                   </CardContent>
+                </Card>
