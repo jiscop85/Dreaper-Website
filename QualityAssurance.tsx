@@ -58,3 +58,4 @@ const QualityAssurance = () => {
           >
             بازگشت به فروشگاه
           </Button>
+        </div>
