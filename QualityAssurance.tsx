@@ -124,3 +124,4 @@ const QualityAssurance = () => {
             ))}
           </div>
         </div>
+        {/* Quality Process */}
