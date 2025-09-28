@@ -9,3 +9,4 @@ const QualityAssurance = () => {
     const qualityFeatures = [
     {
       icon: Award,
+      title: "استاندارد ملی ایران",
