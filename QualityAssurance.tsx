@@ -65,3 +65,4 @@ const QualityAssurance = () => {
       <div className="container mx-auto px-4 py-16">
         {/* Quality Features */}
         <div className="mb-20">
+          <div className="text-center mb-12">
