@@ -95,3 +95,4 @@ const QualityAssurance = () => {
                   </CardContent>
                 </Card>
               );
+            })}
