@@ -26,3 +26,4 @@ const SecurePayment = () => {
       description: "مستقیم از حساب بانکی",
       features: ["ملی", "پارسیان", "پاسارگاد"]
     }
+  ];
