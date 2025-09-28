@@ -82,3 +82,4 @@ const QualityAssurance = () => {
                   <CardHeader className="text-center pb-4">
                     <div className="w-16 h-16 bg-gradient-to-br from-fabric-terracotta to-fabric-gold rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                       <IconComponent className="w-8 h-8 text-white" />
+                    </div>
