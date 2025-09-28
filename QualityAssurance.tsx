@@ -117,3 +117,4 @@ const QualityAssurance = () => {
                   <div className="w-12 h-12 bg-fabric-navy rounded-full flex items-center justify-center mx-auto mb-4">
                     <CheckCircle className="w-6 h-6 text-white" />
                   </div>
+                  <h3 className="font-bold text-fabric-navy mb-2">{cert.name}</h3>
