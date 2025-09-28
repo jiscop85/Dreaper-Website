@@ -40,4 +40,5 @@ const QualityAssurance = () => {
     { name: "گواهی سلامت", year: "2023", type: "وزارت بهداشت" }
   ];
 
-    return (
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-fabric-cream via-white to-fabric-pearl">
