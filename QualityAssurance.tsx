@@ -7,3 +7,4 @@ const QualityAssurance = () => {
   const navigate = useNavigate();
 
     const qualityFeatures = [
+    {
