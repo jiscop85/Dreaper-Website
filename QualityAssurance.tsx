@@ -25,4 +25,5 @@ const QualityAssurance = () => {
       description: "استفاده از بهترین مواد اولیه وارداتی و داخلی",
       badge: "پریمیوم"
     },
+    {
 
