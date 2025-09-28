@@ -119,3 +119,4 @@ const QualityAssurance = () => {
                   </div>
                   <h3 className="font-bold text-fabric-navy mb-2">{cert.name}</h3>
                   <p className="text-sm text-gray-600 mb-1">{cert.type}</p>
+                </CardContent>
