@@ -49,3 +49,4 @@ const QualityAssurance = () => {
           <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6 backdrop-blur-sm">
             <Award className="w-10 h-10 text-white" />
           </div>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">گواهی کیفیت محصولات</h1>
