@@ -23,3 +23,4 @@ const SecurePayment = () => {
     {
       icon: "🏦",
       title: "درگاه بانکی",
+      description: "مستقیم از حساب بانکی",
