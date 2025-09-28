@@ -44,3 +44,4 @@ const QualityAssurance = () => {
     <div className="min-h-screen bg-gradient-to-br from-fabric-cream via-white to-fabric-pearl">
       {/* Header Section */}
       <div className="relative overflow-hidden bg-gradient-to-r from-fabric-navy via-fabric-terracotta to-fabric-gold">
+        <div className="absolute inset-0 bg-black/20"></div>
