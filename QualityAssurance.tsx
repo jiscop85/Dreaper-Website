@@ -73,3 +73,5 @@ const QualityAssurance = () => {
               چرا پارچه‌فروشی مجلسی را انتخاب کنید؟
             </p>
           </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
