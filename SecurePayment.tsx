@@ -9,3 +9,4 @@ const SecurePayment = () => {
 
     const paymentMethods = [
     {
+      icon: "💳",
