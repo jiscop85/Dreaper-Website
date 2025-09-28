@@ -31,4 +31,5 @@ const QualityAssurance = () => {
       description: "پارچه‌های ما برای سال‌ها استفاده کیفیت خود را حفظ می‌کنند",
       badge: "بادوام"
     }
+  ];
 
