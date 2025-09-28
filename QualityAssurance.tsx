@@ -97,3 +97,4 @@ const QualityAssurance = () => {
               );
             })}
           </div>
+        </div>
