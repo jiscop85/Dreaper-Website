@@ -31,3 +31,4 @@ const SecurePayment = () => {
     const securityFeatures = [
     {
       icon: Shield,
+      title: "رمزنگاری SSL ۲۵۶ بیتی",
