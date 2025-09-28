@@ -26,4 +26,5 @@ const QualityAssurance = () => {
       badge: "پریمیوم"
     },
     {
+      icon: Zap,
 
