@@ -16,3 +16,4 @@ const SecurePayment = () => {
     },
     {
       icon: "📱",
+      title: "کیف پول دیجیتال",
