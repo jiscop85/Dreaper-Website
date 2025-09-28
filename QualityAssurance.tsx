@@ -178,3 +178,5 @@ const QualityAssurance = () => {
     </div>
   );
 };
+
+export default QualityAssurance;
