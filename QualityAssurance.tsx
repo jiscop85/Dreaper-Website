@@ -152,3 +152,4 @@ const QualityAssurance = () => {
                 <h3 className="font-bold text-fabric-navy mb-2">{process.title}</h3>
                 <p className="text-gray-600 text-sm">{process.desc}</p>
               </div>
+            ))}
