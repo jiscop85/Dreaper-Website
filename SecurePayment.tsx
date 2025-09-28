@@ -37,5 +37,6 @@ const SecurePayment = () => {
       color: "from-green-500 to-emerald-600"
     },
     {
+      icon: Lock,
 
       
