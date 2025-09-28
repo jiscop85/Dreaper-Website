@@ -116,3 +116,4 @@ const QualityAssurance = () => {
                 <CardContent className="p-6">
                   <div className="w-12 h-12 bg-fabric-navy rounded-full flex items-center justify-center mx-auto mb-4">
                     <CheckCircle className="w-6 h-6 text-white" />
+                  </div>
