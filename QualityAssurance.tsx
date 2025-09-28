@@ -69,3 +69,4 @@ const QualityAssurance = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-fabric-navy mb-4">
               ویژگی‌های کیفیت ما
             </h2>
+            <p className="text-gray-600 text-lg">
