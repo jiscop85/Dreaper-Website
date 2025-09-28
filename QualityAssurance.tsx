@@ -5,3 +5,5 @@ import { useNavigate } from 'react-router-dom';
 
 const QualityAssurance = () => {
   const navigate = useNavigate();
+
+    const qualityFeatures = [
