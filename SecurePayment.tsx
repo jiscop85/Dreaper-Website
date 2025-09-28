@@ -27,3 +27,5 @@ const SecurePayment = () => {
       features: ["ملی", "پارسیان", "پاسارگاد"]
     }
   ];
+
+    const securityFeatures = [
