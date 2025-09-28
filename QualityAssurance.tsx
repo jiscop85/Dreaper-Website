@@ -89,3 +89,4 @@ const QualityAssurance = () => {
                     <CardTitle className="text-fabric-navy">{feature.title}</CardTitle>
                   </CardHeader>
                   <CardContent>
+                    <CardDescription className="text-gray-600 text-center text-base">
