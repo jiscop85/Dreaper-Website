@@ -90,3 +90,4 @@ const QualityAssurance = () => {
                   </CardHeader>
                   <CardContent>
                     <CardDescription className="text-gray-600 text-center text-base">
+                      {feature.description}
