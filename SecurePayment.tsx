@@ -13,3 +13,4 @@ const SecurePayment = () => {
       title: "کارت‌های بانکی",
       description: "تمام کارت‌های عضو شتاب",
       features: ["ویزا", "مسترکارت", "شتاب"]
+    },
