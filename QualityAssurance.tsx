@@ -129,4 +129,5 @@ const QualityAssurance = () => {
         <div className="bg-gradient-to-r from-fabric-navy/5 via-fabric-terracotta/5 to-fabric-gold/5 rounded-3xl p-8 md:p-12">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-fabric-navy mb-4">
+              فرآیند کنترل کیفیت
 
