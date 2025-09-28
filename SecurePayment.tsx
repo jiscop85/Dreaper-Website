@@ -19,3 +19,4 @@ const SecurePayment = () => {
       title: "کیف پول دیجیتال",
       description: "پرداخت سریع موبایلی",
       features: ["زرین‌پال", "پی", "ایده‌پرداخت"]
+    },
