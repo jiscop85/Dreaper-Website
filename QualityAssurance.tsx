@@ -8,3 +8,4 @@ const QualityAssurance = () => {
 
     const qualityFeatures = [
     {
+      icon: Award,
