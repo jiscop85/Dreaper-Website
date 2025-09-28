@@ -1,1 +1,1 @@
-import { Award, CheckCircle, Star, Shield, Zap, Users }
+import { Award, CheckCircle, Star, Shield, Zap, Users } from 'lucide-react';
