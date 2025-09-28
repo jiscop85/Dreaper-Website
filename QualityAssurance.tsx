@@ -167,3 +167,4 @@ const QualityAssurance = () => {
               کیفیت محصولات ما را خودتان تجربه کنید
             </p>
             <Button
+              onClick={() => navigate('/')}
