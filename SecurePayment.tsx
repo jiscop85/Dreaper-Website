@@ -43,5 +43,6 @@ const SecurePayment = () => {
       color: "from-blue-500 to-cyan-600"
     },
     {
+      icon: CheckCircle,
 
       
