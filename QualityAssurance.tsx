@@ -114,3 +114,4 @@ const QualityAssurance = () => {
             {certificates.map((cert, index) => (
               <Card key={index} className="text-center hover:shadow-elegant transition-all duration-300 hover:-translate-y-1 bg-gradient-to-br from-white to-fabric-cream/30">
                 <CardContent className="p-6">
+                  <div className="w-12 h-12 bg-fabric-navy rounded-full flex items-center justify-center mx-auto mb-4">
