@@ -77,3 +77,4 @@ const QualityAssurance = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {qualityFeatures.map((feature, index) => {
               const IconComponent = feature.icon;
+              return (
