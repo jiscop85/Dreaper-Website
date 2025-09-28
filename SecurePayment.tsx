@@ -32,3 +32,4 @@ const SecurePayment = () => {
     {
       icon: Shield,
       title: "رمزنگاری SSL ۲۵۶ بیتی",
+      description: "حفاظت کامل از اطلاعات شما",
