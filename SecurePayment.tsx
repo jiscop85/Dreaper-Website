@@ -21,3 +21,4 @@ const SecurePayment = () => {
       features: ["زرین‌پال", "پی", "ایده‌پرداخت"]
     },
     {
+      icon: "🏦",
