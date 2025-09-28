@@ -36,3 +36,4 @@ const QualityAssurance = () => {
   const certificates = [
     { name: "ISO 9001", year: "2023", type: "مدیریت کیفیت" },
     { name: "استاندارد ۱۱۷۱", year: "2023", type: "پارچه‌های نساجی" },
+    { name: "CE Mark", year: "2023", type: "استاندارد اروپا" },
