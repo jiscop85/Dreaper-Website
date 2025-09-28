@@ -158,3 +158,4 @@ const QualityAssurance = () => {
 
        {/* CTA Section */}
         <div className="text-center mt-16">
+          <div className="bg-white rounded-2xl p-8 shadow-elegant">
