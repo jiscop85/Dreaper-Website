@@ -17,3 +17,4 @@ const SecurePayment = () => {
     {
       icon: "📱",
       title: "کیف پول دیجیتال",
+      description: "پرداخت سریع موبایلی",
