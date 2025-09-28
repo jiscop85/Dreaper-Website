@@ -69,4 +69,5 @@ const SecurePayment = () => {
             بازگشت به فروشگاه
           </Button>
         </div>
+      </div>
 
