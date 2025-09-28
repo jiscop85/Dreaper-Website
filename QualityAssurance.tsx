@@ -19,4 +19,6 @@ const QualityAssurance = () => {
       description: "هر پارچه قبل از ارسال تحت بازرسی دقیق قرار می‌گیرد",
       badge: "تضمینی"
     },
+    {
+      icon: Star,
 
