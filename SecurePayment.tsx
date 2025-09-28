@@ -71,3 +71,4 @@ const SecurePayment = () => {
         </div>
       </div>
 
+      {/* Security Features */}
