@@ -87,3 +87,4 @@ const QualityAssurance = () => {
                       {feature.badge}
                     </div>
                     <CardTitle className="text-fabric-navy">{feature.title}</CardTitle>
+                  </CardHeader>
