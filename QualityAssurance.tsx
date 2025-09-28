@@ -145,3 +145,4 @@ const QualityAssurance = () => {
               { step: "۵", title: "بسته‌بندی", desc: "بسته‌بندی استاندارد و مقاوم" },
               { step: "۶", title: "تحویل نهایی", desc: "تحویل با تضمین کیفیت" }
             ].map((process, index) => (
+              <div key={index} className="text-center">
