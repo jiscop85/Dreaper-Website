@@ -48,5 +48,6 @@ const SecurePayment = () => {
       description: "حفاظت ۱۰۰٪ خریدهای شما",
       color: "from-purple-500 to-indigo-600"
     }
+  ];
 
       
