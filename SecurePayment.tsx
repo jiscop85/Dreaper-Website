@@ -39,5 +39,6 @@ const SecurePayment = () => {
     {
       icon: Lock,
       title: "تایید دو مرحله‌ای",
+      description: "امنیت اضافی برای تراکنش‌ها",
 
       
