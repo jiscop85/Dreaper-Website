@@ -29,4 +29,5 @@ const QualityAssurance = () => {
       icon: Zap,
       title: "دوام و ماندگاری",
       description: "پارچه‌های ما برای سال‌ها استفاده کیفیت خود را حفظ می‌کنند",
+      badge: "بادوام"
 
