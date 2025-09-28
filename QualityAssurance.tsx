@@ -70,3 +70,4 @@ const QualityAssurance = () => {
               ویژگی‌های کیفیت ما
             </h2>
             <p className="text-gray-600 text-lg">
+              چرا پارچه‌فروشی مجلسی را انتخاب کنید؟
