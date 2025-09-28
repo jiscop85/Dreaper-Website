@@ -21,4 +21,5 @@ const QualityAssurance = () => {
     },
     {
       icon: Star,
+      title: "مواد اولیه درجه یک",
 
