@@ -139,3 +139,4 @@ const QualityAssurance = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: "۱", title: "انتخاب مواد اولیه", desc: "انتخاب دقیق بهترین مواد اولیه" },
+              { step: "۲", title: "بازرسی ورودی", desc: "کنترل کیفیت در زمان ورود کالا" },
