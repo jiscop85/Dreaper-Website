@@ -45,5 +45,6 @@ const SecurePayment = () => {
     {
       icon: CheckCircle,
       title: "تضمین بازپرداخت",
+      description: "حفاظت ۱۰۰٪ خریدهای شما",
 
       
