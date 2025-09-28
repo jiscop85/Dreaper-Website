@@ -176,3 +176,4 @@ const QualityAssurance = () => {
         </div>
       </div>
     </div>
+  );
