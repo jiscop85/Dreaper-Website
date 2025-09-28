@@ -55,4 +55,5 @@ const SecurePayment = () => {
       {/* Header Section */}
       <div className="relative overflow-hidden bg-gradient-to-r from-green-600 via-blue-600 to-purple-600">
         <div className="absolute inset-0 bg-black/20"></div>
+        <div className="relative container mx-auto px-4 py-20 text-center text-white">
 
