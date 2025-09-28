@@ -77,3 +77,4 @@ const SecurePayment = () => {
           {securityFeatures.map((feature, index) => {
             const IconComponent = feature.icon;
             return (
+              <Card key={index} className="text-center hover:shadow-elegant transition-all duration-300 hover:-translate-y-2 bg-white/90 backdrop-blur-sm border-0">
