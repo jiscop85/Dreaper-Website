@@ -175,3 +175,4 @@ const QualityAssurance = () => {
           </div>
         </div>
       </div>
+    </div>
