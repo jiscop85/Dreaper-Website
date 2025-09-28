@@ -20,3 +20,4 @@ const SecurePayment = () => {
       description: "پرداخت سریع موبایلی",
       features: ["زرین‌پال", "پی", "ایده‌پرداخت"]
     },
+    {
