@@ -15,3 +15,4 @@ const QualityAssurance = () => {
     },
     {
       icon: Shield,
+      title: "تست کیفیت ۱۰۰٪",
