@@ -60,4 +60,5 @@ const SecurePayment = () => {
             <CreditCard className="w-10 h-10 text-white" />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-4">پرداخت امن</h1>
+          <p className="text-xl md:text-2xl text-white/90 mb-8">خرید با اطمینان خاطر</p>
 
