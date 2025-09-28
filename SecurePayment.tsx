@@ -62,4 +62,5 @@ const SecurePayment = () => {
           <h1 className="text-4xl md:text-6xl font-bold mb-4">پرداخت امن</h1>
           <p className="text-xl md:text-2xl text-white/90 mb-8">خرید با اطمینان خاطر</p>
           <Button
+            onClick={() => navigate('/')}
 
