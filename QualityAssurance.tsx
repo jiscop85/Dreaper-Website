@@ -108,3 +108,4 @@ const QualityAssurance = () => {
             <p className="text-gray-600 text-lg">
               مجوزها و گواهینامه‌های معتبر ما
             </p>
+          </div>
