@@ -8,3 +8,4 @@ const SecurePayment = () => {
   const navigate = useNavigate();
 
     const paymentMethods = [
+    {
