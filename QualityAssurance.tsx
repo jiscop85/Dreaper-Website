@@ -94,3 +94,4 @@ const QualityAssurance = () => {
                     </CardDescription>
                   </CardContent>
                 </Card>
+              );
