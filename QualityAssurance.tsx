@@ -10,3 +10,4 @@ const QualityAssurance = () => {
     {
       icon: Award,
       title: "استاندارد ملی ایران",
+      description: "تمام محصولات ما دارای گواهی استاندارد ملی ایران هستند",
