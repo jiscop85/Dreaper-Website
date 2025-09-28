@@ -48,3 +48,4 @@ const QualityAssurance = () => {
         <div className="relative container mx-auto px-4 py-20 text-center text-white">
           <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6 backdrop-blur-sm">
             <Award className="w-10 h-10 text-white" />
+          </div>
