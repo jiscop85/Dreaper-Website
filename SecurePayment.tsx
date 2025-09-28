@@ -30,3 +30,4 @@ const SecurePayment = () => {
 
     const securityFeatures = [
     {
+      icon: Shield,
