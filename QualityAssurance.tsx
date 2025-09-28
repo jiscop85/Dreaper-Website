@@ -133,4 +133,5 @@ const QualityAssurance = () => {
             </h2>
             <p className="text-gray-600 text-lg">
               ۶ مرحله کنترل کیفیت برای اطمینان از بهترین محصول
+            </p>
 
