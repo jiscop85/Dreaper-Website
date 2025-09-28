@@ -78,3 +78,4 @@ const QualityAssurance = () => {
             {qualityFeatures.map((feature, index) => {
               const IconComponent = feature.icon;
               return (
+                <Card key={index} className="group hover:shadow-elegant transition-all duration-300 hover:-translate-y-2 border-0 bg-white/80 backdrop-blur-sm">
