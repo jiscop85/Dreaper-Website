@@ -122,3 +122,4 @@ const QualityAssurance = () => {
                 </CardContent>
               </Card>
             ))}
+          </div>
