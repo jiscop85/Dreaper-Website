@@ -100,3 +100,4 @@ const QualityAssurance = () => {
         </div>
 
        {/* Certificates Section */}
+       <div className="mb-20">
