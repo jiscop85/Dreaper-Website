@@ -38,5 +38,6 @@ const SecurePayment = () => {
     },
     {
       icon: Lock,
+      title: "تایید دو مرحله‌ای",
 
       
