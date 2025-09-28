@@ -25,3 +25,4 @@ const SecurePayment = () => {
       title: "درگاه بانکی",
       description: "مستقیم از حساب بانکی",
       features: ["ملی", "پارسیان", "پاسارگاد"]
+    }
