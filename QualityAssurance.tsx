@@ -165,3 +165,4 @@ const QualityAssurance = () => {
             </h3>
             <p className="text-gray-600 mb-6">
               کیفیت محصولات ما را خودتان تجربه کنید
+            </p>
