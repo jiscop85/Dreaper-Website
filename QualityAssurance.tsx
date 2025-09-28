@@ -98,3 +98,5 @@ const QualityAssurance = () => {
             })}
           </div>
         </div>
+
+       {/* Certificates Section */}
