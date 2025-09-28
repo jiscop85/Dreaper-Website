@@ -38,3 +38,4 @@ const QualityAssurance = () => {
     { name: "استاندارد ۱۱۷۱", year: "2023", type: "پارچه‌های نساجی" },
     { name: "CE Mark", year: "2023", type: "استاندارد اروپا" },
     { name: "گواهی سلامت", year: "2023", type: "وزارت بهداشت" }
+  ];
