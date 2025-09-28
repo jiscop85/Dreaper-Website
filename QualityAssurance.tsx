@@ -153,3 +153,4 @@ const QualityAssurance = () => {
                 <p className="text-gray-600 text-sm">{process.desc}</p>
               </div>
             ))}
+          </div>
