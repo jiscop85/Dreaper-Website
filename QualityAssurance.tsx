@@ -144,3 +144,4 @@ const QualityAssurance = () => {
               { step: "۴", title: "کنترل رنگ", desc: "بررسی ثبات رنگ و کیفیت چاپ" },
               { step: "۵", title: "بسته‌بندی", desc: "بسته‌بندی استاندارد و مقاوم" },
               { step: "۶", title: "تحویل نهایی", desc: "تحویل با تضمین کیفیت" }
+            ].map((process, index) => (
