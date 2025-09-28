@@ -74,3 +74,4 @@ const SecurePayment = () => {
       {/* Security Features */}
       <div className="container mx-auto px-4 -mt-16 relative z-10 mb-20">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {securityFeatures.map((feature, index) => {
