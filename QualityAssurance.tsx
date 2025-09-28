@@ -27,4 +27,5 @@ const QualityAssurance = () => {
     },
     {
       icon: Zap,
+      title: "دوام و ماندگاری",
 
