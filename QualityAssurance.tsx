@@ -121,3 +121,4 @@ const QualityAssurance = () => {
                   <p className="text-sm text-gray-600 mb-1">{cert.type}</p>
                 </CardContent>
               </Card>
+            ))}
