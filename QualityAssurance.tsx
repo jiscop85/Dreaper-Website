@@ -35,3 +35,4 @@ const QualityAssurance = () => {
 
   const certificates = [
     { name: "ISO 9001", year: "2023", type: "مدیریت کیفیت" },
+    { name: "استاندارد ۱۱۷۱", year: "2023", type: "پارچه‌های نساجی" },
