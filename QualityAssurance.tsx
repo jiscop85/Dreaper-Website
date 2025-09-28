@@ -85,3 +85,4 @@ const QualityAssurance = () => {
                     </div>
                     <div className="inline-block bg-fabric-gold/20 text-fabric-navy px-3 py-1 rounded-full text-sm font-semibold mb-2">
                       {feature.badge}
+                    </div>
