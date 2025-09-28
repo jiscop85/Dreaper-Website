@@ -14,3 +14,4 @@ const QualityAssurance = () => {
       badge: "گواهی شده"
     },
     {
+      icon: Shield,
