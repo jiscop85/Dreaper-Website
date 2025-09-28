@@ -41,5 +41,6 @@ const SecurePayment = () => {
       title: "تایید دو مرحله‌ای",
       description: "امنیت اضافی برای تراکنش‌ها",
       color: "from-blue-500 to-cyan-600"
+    },
 
       
