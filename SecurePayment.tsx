@@ -179,3 +179,4 @@ const SecurePayment = () => {
                   <div>
                     <h3 className="font-bold text-fabric-navy mb-2">{guarantee.title}</h3>
                     <p className="text-gray-600 text-sm">{guarantee.description}</p>
+                  </div>
