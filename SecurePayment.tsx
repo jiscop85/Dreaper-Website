@@ -115,3 +115,4 @@ const SecurePayment = () => {
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
+                  <div className="space-y-2">
