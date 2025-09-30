@@ -23,3 +23,4 @@ const Support = () => {
     },
     {
       icon: Mail,
+      title: "ایمیل پشتیبانی",
