@@ -158,3 +158,4 @@ const SecurePayment = () => {
                 description: "هیچ‌گونه اطلاعات کارت ذخیره نمی‌شود"
               },
               {
+                icon: "⚡",
