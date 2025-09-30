@@ -144,3 +144,4 @@ const SecurePayment = () => {
             {[
               {
                 icon: "🛡️",
+                title: "گواهی PCI DSS",
