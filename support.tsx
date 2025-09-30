@@ -9,3 +9,4 @@ const Support = () => {
    const supportChannels = [
     {
       icon: Phone,
+      title: "تماس تلفنی",
