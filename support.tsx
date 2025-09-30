@@ -10,3 +10,4 @@ const Support = () => {
     {
       icon: Phone,
       title: "تماس تلفنی",
+      description: "۰۲۱-۵۵۵۸۶۷۹۶",
