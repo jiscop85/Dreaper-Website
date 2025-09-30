@@ -204,3 +204,4 @@ const SecurePayment = () => {
               { step: "۳", title: "انتخاب روش پرداخت", icon: "💳" },
               { step: "۴", title: "تأیید و دریافت", icon: "✅" }
             ].map((process, index) => (
+              <div key={index} className="text-center">
