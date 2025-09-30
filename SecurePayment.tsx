@@ -212,3 +212,4 @@ const SecurePayment = () => {
                 <h3 className="font-bold text-fabric-navy text-sm">{process.title}</h3>
               </div>
             ))}
+          </div>
