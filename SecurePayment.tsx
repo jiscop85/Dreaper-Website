@@ -185,3 +185,5 @@ const SecurePayment = () => {
             ))}
           </div>
         </div>
+
+        {/* Payment Process */}
