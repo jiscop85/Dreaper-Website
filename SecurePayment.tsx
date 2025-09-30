@@ -159,3 +159,4 @@ const SecurePayment = () => {
               },
               {
                 icon: "⚡",
+                title: "تراکنش فوری",
