@@ -19,3 +19,4 @@ const Support = () => {
       title: "چت آنلاین",
       description: "پاسخ فوری سوالات",
       available: "۲۴/۷ فعال",
+      color: "from-blue-500 to-cyan-600"
