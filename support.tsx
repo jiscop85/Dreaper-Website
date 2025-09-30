@@ -16,3 +16,4 @@ const Support = () => {
     },
     {
       icon: MessageCircle,
+      title: "چت آنلاین",
