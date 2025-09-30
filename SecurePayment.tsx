@@ -149,3 +149,4 @@ const SecurePayment = () => {
               },
               {
                 icon: "🔐",
+                title: "رمزنگاری پیشرفته",
