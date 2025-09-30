@@ -237,3 +237,5 @@ const SecurePayment = () => {
     </div>
   );
 };
+
+export default SecurePayment;
