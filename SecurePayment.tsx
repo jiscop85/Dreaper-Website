@@ -172,3 +172,4 @@ const SecurePayment = () => {
                 title: "پشتیبانی ۲۴/۷",
                 description: "کمک فوری در صورت بروز مشکل"
               }
+            ].map((guarantee, index) => (
