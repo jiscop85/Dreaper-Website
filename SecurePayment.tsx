@@ -200,3 +200,4 @@ const SecurePayment = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {[
               { step: "۱", title: "انتخاب محصولات", icon: "🛒" },
+              { step: "۲", title: "بررسی سبد خرید", icon: "📋" },
