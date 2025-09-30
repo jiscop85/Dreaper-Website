@@ -92,3 +92,4 @@ const SecurePayment = () => {
       </div>
 
       {/* Main Content */}
+      <div className="container mx-auto px-4 pb-16">
