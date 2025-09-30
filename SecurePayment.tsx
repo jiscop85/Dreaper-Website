@@ -119,3 +119,4 @@ const SecurePayment = () => {
                     {method.features.map((feature, idx) => (
                       <div key={idx} className="flex items-center justify-center text-sm text-fabric-terracotta">
                         <CheckCircle className="w-4 h-4 ml-2" />
+                        {feature}
