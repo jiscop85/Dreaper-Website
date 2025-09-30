@@ -169,3 +169,4 @@ const SecurePayment = () => {
               },
               {
                 icon: "📞",
+                title: "پشتیبانی ۲۴/۷",
