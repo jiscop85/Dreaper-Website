@@ -122,3 +122,4 @@ const SecurePayment = () => {
                         {feature}
                       </div>
                     ))}
+                  </div>
