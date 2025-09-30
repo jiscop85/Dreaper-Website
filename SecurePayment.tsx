@@ -147,3 +147,4 @@ const SecurePayment = () => {
                 title: "گواهی PCI DSS",
                 description: "استاندارد جهانی امنیت داده‌های کارت اعتباری"
               },
+              {
