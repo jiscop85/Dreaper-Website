@@ -123,3 +123,4 @@ const SecurePayment = () => {
                       </div>
                     ))}
                   </div>
+                </CardContent>
