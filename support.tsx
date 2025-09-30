@@ -12,3 +12,4 @@ const Support = () => {
       title: "تماس تلفنی",
       description: "۰۲۱-۵۵۵۸۶۷۹۶",
       available: "۹:۰۰ - ۲۱:۰۰",
+      color: "from-green-500 to-emerald-600"
