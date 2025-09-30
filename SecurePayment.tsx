@@ -128,3 +128,5 @@ const SecurePayment = () => {
             ))}
           </div>
         </div>
+
+       {/* Security Guarantees */}
