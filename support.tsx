@@ -29,3 +29,5 @@ const Support = () => {
       color: "from-purple-500 to-indigo-600"
     }
   ];
+
+  const faqItems = [
