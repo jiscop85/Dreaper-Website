@@ -109,3 +109,4 @@ const SecurePayment = () => {
               <Card key={index} className="text-center hover:shadow-elegant transition-all duration-300 hover:-translate-y-2 bg-white/80 backdrop-blur-sm border-0">
                 <CardHeader>
                   <div className="text-4xl mb-4">{method.icon}</div>
+                  <CardTitle className="text-fabric-navy">{method.title}</CardTitle>
