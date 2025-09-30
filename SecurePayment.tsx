@@ -102,3 +102,4 @@ const SecurePayment = () => {
             <p className="text-gray-600 text-lg">
               انتخاب روش پرداخت مناسب شما
             </p>
+          </div>
