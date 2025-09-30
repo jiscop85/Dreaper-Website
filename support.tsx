@@ -5,3 +5,5 @@ import { useNavigate } from 'react-router-dom';
 
 const Support = () => {
   const navigate = useNavigate();
+
+   const supportChannels = [
