@@ -130,3 +130,4 @@ const SecurePayment = () => {
         </div>
 
        {/* Security Guarantees */}
+        <div className="mb-20">
