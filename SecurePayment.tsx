@@ -103,4 +103,6 @@ const SecurePayment = () => {
               انتخاب روش پرداخت مناسب شما
             </p>
           </div>
+          
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {paymentMethods.map((method, index) => (
