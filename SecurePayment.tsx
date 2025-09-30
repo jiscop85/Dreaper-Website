@@ -213,3 +213,4 @@ const SecurePayment = () => {
               </div>
             ))}
           </div>
+        </div>
