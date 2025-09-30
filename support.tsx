@@ -17,3 +17,4 @@ const Support = () => {
     {
       icon: MessageCircle,
       title: "چت آنلاین",
+      description: "پاسخ فوری سوالات",
