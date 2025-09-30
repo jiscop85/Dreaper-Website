@@ -196,3 +196,5 @@ const SecurePayment = () => {
               مراحل ساده و امن پرداخت
             </p>
           </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
