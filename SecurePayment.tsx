@@ -209,3 +209,4 @@ const SecurePayment = () => {
                   {process.step}
                 </div>
                 <div className="text-3xl mb-2">{process.icon}</div>
+                <h3 className="font-bold text-fabric-navy text-sm">{process.title}</h3>
