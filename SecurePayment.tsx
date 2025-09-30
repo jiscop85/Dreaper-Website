@@ -170,3 +170,4 @@ const SecurePayment = () => {
               {
                 icon: "📞",
                 title: "پشتیبانی ۲۴/۷",
+                description: "کمک فوری در صورت بروز مشکل"
