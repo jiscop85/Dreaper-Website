@@ -226,3 +226,4 @@ const SecurePayment = () => {
               با اطمینان کامل خرید کنید. اطلاعات شما محفوظ است
             </p>
             <Button
+              onClick={() => navigate('/')}
