@@ -121,3 +121,4 @@ const SecurePayment = () => {
                         <CheckCircle className="w-4 h-4 ml-2" />
                         {feature}
                       </div>
+                    ))}
