@@ -232,3 +232,4 @@ const SecurePayment = () => {
               شروع خرید امن
             </Button>
           </div>
+        </div>
