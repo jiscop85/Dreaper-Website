@@ -18,3 +18,4 @@ const Support = () => {
       icon: MessageCircle,
       title: "چت آنلاین",
       description: "پاسخ فوری سوالات",
+      available: "۲۴/۷ فعال",
