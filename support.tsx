@@ -1,1 +1,1 @@
-import { Headphones, MessageCircle, Phone, Mail, Clock, HelpCircle }
+import { Headphones, MessageCircle, Phone, Mail, Clock, HelpCircle }from 'lucide-react';
