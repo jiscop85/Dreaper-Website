@@ -11,3 +11,4 @@ const Support = () => {
       icon: Phone,
       title: "تماس تلفنی",
       description: "۰۲۱-۵۵۵۸۶۷۹۶",
+      available: "۹:۰۰ - ۲۱:۰۰",
