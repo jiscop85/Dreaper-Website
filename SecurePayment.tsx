@@ -177,3 +177,4 @@ const SecurePayment = () => {
                 <CardContent className="p-6 flex items-start space-x-4 space-x-reverse">
                   <div className="text-3xl">{guarantee.icon}</div>
                   <div>
+                    <h3 className="font-bold text-fabric-navy mb-2">{guarantee.title}</h3>
