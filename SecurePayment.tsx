@@ -233,3 +233,4 @@ const SecurePayment = () => {
             </Button>
           </div>
         </div>
+      </div>
