@@ -22,3 +22,4 @@ const Support = () => {
       color: "from-blue-500 to-cyan-600"
     },
     {
+      icon: Mail,
