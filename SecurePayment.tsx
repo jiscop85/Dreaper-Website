@@ -116,3 +116,4 @@ const SecurePayment = () => {
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-2">
+                    {method.features.map((feature, idx) => (
