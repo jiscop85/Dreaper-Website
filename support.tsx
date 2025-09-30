@@ -31,3 +31,4 @@ const Support = () => {
   ];
 
   const faqItems = [
+    {
