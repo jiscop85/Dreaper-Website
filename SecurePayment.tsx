@@ -117,3 +117,4 @@ const SecurePayment = () => {
                 <CardContent>
                   <div className="space-y-2">
                     {method.features.map((feature, idx) => (
+                      <div key={idx} className="flex items-center justify-center text-sm text-fabric-terracotta">
