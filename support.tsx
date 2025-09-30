@@ -25,3 +25,4 @@ const Support = () => {
       icon: Mail,
       title: "ایمیل پشتیبانی",
       description: "info@parche-majlesi.com",
+      available: "پاسخ تا ۲ ساعت",
