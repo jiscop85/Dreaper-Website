@@ -208,3 +208,4 @@ const SecurePayment = () => {
                 <div className="w-16 h-16 bg-gradient-to-br from-fabric-terracotta to-fabric-gold rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-xl">
                   {process.step}
                 </div>
+                <div className="text-3xl mb-2">{process.icon}</div>
