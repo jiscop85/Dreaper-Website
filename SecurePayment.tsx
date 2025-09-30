@@ -236,3 +236,4 @@ const SecurePayment = () => {
       </div>
     </div>
   );
+};
