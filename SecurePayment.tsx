@@ -138,3 +138,4 @@ const SecurePayment = () => {
             <p className="text-gray-600 text-lg">
               امنیت بالا، اطمینان کامل
             </p>
+          </div>
