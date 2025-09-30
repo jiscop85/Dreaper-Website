@@ -222,3 +222,4 @@ const SecurePayment = () => {
             <h3 className="text-2xl font-bold text-fabric-navy mb-4">
               خرید امن و مطمئن
             </h3>
+            <p className="text-gray-600 mb-6">
