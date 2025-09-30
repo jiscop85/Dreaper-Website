@@ -32,3 +32,4 @@ const Support = () => {
 
   const faqItems = [
     {
+      question: "چگونه سفارش دهم؟",
