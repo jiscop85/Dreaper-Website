@@ -27,3 +27,4 @@ const Support = () => {
       description: "info@parche-majlesi.com",
       available: "پاسخ تا ۲ ساعت",
       color: "from-purple-500 to-indigo-600"
+    }
