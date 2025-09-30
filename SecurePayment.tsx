@@ -181,3 +181,4 @@ const SecurePayment = () => {
                     <p className="text-gray-600 text-sm">{guarantee.description}</p>
                   </div>
                 </CardContent>
+              </Card>
