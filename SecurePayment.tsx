@@ -161,3 +161,4 @@ const SecurePayment = () => {
                 icon: "⚡",
                 title: "تراکنش فوری",
                 description: "پردازش سریع و ایمن تراکنش‌ها"
+              },
