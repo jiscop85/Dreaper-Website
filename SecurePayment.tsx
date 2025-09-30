@@ -112,3 +112,4 @@ const SecurePayment = () => {
                   <CardTitle className="text-fabric-navy">{method.title}</CardTitle>
                   <CardDescription className="text-gray-600">
                     {method.description}
+                  </CardDescription>
