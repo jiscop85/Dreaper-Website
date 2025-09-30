@@ -231,3 +231,4 @@ const SecurePayment = () => {
             >
               شروع خرید امن
             </Button>
+          </div>
