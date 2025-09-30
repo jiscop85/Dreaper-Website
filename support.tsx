@@ -8,3 +8,4 @@ const Support = () => {
 
    const supportChannels = [
     {
+      icon: Phone,
