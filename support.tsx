@@ -7,3 +7,4 @@ const Support = () => {
   const navigate = useNavigate();
 
    const supportChannels = [
+    {
