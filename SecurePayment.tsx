@@ -221,3 +221,4 @@ const SecurePayment = () => {
             <Shield className="w-16 h-16 text-fabric-terracotta mx-auto mb-4" />
             <h3 className="text-2xl font-bold text-fabric-navy mb-4">
               خرید امن و مطمئن
+            </h3>
