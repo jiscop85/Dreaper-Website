@@ -175,3 +175,4 @@ const SecurePayment = () => {
             ].map((guarantee, index) => (
               <Card key={index} className="flex items-start space-x-4 space-x-reverse hover:shadow-elegant transition-all duration-300 hover:-translate-y-1 bg-gradient-to-br from-white to-fabric-cream/30 border-0">
                 <CardContent className="p-6 flex items-start space-x-4 space-x-reverse">
+                  <div className="text-3xl">{guarantee.icon}</div>
