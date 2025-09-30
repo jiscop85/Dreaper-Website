@@ -28,3 +28,4 @@ const Support = () => {
       available: "پاسخ تا ۲ ساعت",
       color: "from-purple-500 to-indigo-600"
     }
+  ];
