@@ -113,3 +113,4 @@ const Support = () => {
                 <CardHeader>
                   <CardTitle className="flex items-center text-fabric-navy">
                     <HelpCircle className="w-5 h-5 ml-2 text-fabric-terracotta" />
+                    {item.question}
