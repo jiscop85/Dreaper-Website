@@ -62,3 +62,4 @@ const Support = () => {
           <p className="text-xl md:text-2xl text-white/90 mb-8">همیشه در کنار شما هستیم</p>
           <Button
             onClick={() => navigate('/')}
+            variant="secondary"
