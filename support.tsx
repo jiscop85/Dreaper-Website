@@ -94,3 +94,4 @@ const Support = () => {
         </div>
       </div>
 
+      {/* Main Content */}
