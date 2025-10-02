@@ -144,3 +144,4 @@ const Support = () => {
             <div className="text-center">
               <div className="w-16 h-16 bg-fabric-gold rounded-full flex items-center justify-center mx-auto mb-4">
                 <MessageCircle className="w-8 h-8 text-white" />
+              </div>
