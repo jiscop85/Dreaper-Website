@@ -121,3 +121,4 @@ const Support = () => {
                 </CardContent>
               </Card>
             ))}
+          </div>
