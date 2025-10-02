@@ -89,4 +89,5 @@ const Support = () => {
                   </div>
                 </CardContent>
               </Card>
+            );
 
