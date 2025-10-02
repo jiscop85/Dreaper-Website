@@ -118,3 +118,4 @@ const Support = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-700">{item.answer}</p>
+                </CardContent>
