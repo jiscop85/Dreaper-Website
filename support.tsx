@@ -150,3 +150,4 @@ const Support = () => {
               <p className="text-gray-600">پاسخ فوری در کمتر از ۳۰ دقیقه</p>
             </div>
           </div>
+        </div>
