@@ -50,3 +50,4 @@ const Support = () => {
   ];
 
     return (
+      <div className="min-h-screen bg-gradient-to-br from-fabric-cream via-white to-fabric-pearl">
