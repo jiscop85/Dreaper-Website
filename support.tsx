@@ -83,4 +83,5 @@ const Support = () => {
                   </div>
                   <h3 className="font-bold text-fabric-navy mb-2">{channel.title}</h3>
                   <p className="text-gray-700 mb-2">{channel.description}</p>
+                  <div className="flex items-center justify-center text-sm text-fabric-terracotta">
 
