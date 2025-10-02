@@ -138,3 +138,4 @@ const Support = () => {
                 <Phone className="w-8 h-8 text-white" />
               </div>
               <h3 className="font-bold text-fabric-navy mb-2">پشتیبانی تلفنی</h3>
+              <p className="text-gray-600">شنبه تا پنج‌شنبه: ۹:۰۰ - ۲۱:۰۰</p>
