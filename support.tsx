@@ -137,3 +137,4 @@ const Support = () => {
               <div className="w-16 h-16 bg-fabric-terracotta rounded-full flex items-center justify-center mx-auto mb-4">
                 <Phone className="w-8 h-8 text-white" />
               </div>
+              <h3 className="font-bold text-fabric-navy mb-2">پشتیبانی تلفنی</h3>
