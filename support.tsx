@@ -90,4 +90,5 @@ const Support = () => {
                 </CardContent>
               </Card>
             );
+          })}
 
