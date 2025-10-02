@@ -146,3 +146,4 @@ const Support = () => {
                 <MessageCircle className="w-8 h-8 text-white" />
               </div>
               <h3 className="font-bold text-fabric-navy mb-2">چت و ایمیل</h3>
+              <p className="text-gray-600">۲۴ ساعته و ۷ روز هفته</p>
