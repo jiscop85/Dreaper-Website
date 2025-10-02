@@ -115,3 +115,4 @@ const Support = () => {
                     <HelpCircle className="w-5 h-5 ml-2 text-fabric-terracotta" />
                     {item.question}
                   </CardTitle>
+                </CardHeader>
