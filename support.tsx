@@ -86,4 +86,5 @@ const Support = () => {
                   <div className="flex items-center justify-center text-sm text-fabric-terracotta">
                     <Clock className="w-4 h-4 ml-1" />
                     {channel.available}
+                  </div>
 
