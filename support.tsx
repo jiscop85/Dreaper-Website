@@ -91,4 +91,5 @@ const Support = () => {
               </Card>
             );
           })}
+        </div>
 
