@@ -87,4 +87,5 @@ const Support = () => {
                     <Clock className="w-4 h-4 ml-1" />
                     {channel.available}
                   </div>
+                </CardContent>
 
