@@ -117,3 +117,4 @@ const Support = () => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
+                  <p className="text-gray-700">{item.answer}</p>
