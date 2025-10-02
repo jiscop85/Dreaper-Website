@@ -141,3 +141,4 @@ const Support = () => {
               <p className="text-gray-600">شنبه تا پنج‌شنبه: ۹:۰۰ - ۲۱:۰۰</p>
               <p className="text-gray-600">جمعه: ۱۰:۰۰ - ۱۸:۰۰</p>
             </div>
+            <div className="text-center">
