@@ -103,3 +103,4 @@ const Support = () => {
               سوالات متداول
             </h2>
             <p className="text-gray-600 text-lg">
+              پاسخ سوالات رایج مشتریان
