@@ -92,4 +92,5 @@ const Support = () => {
             );
           })}
         </div>
+      </div>
 
