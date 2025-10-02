@@ -80,4 +80,5 @@ const Support = () => {
                 <CardContent className="p-6">
                   <div className={`w-16 h-16 bg-gradient-to-r ${channel.color} rounded-full flex items-center justify-center mx-auto mb-4`}>
                     <IconComponent className="w-8 h-8 text-white" />
+                  </div>
 
