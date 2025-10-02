@@ -69,3 +69,6 @@ const Support = () => {
           </Button>
         </div>
       </div>
+
+      {/* Support Channels */}
+   
