@@ -106,3 +106,5 @@ const Support = () => {
               پاسخ سوالات رایج مشتریان
             </p>
           </div>
+
+          <div className="max-w-4xl mx-auto space-y-6">
