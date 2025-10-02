@@ -116,3 +116,4 @@ const Support = () => {
                     {item.question}
                   </CardTitle>
                 </CardHeader>
+                <CardContent>
