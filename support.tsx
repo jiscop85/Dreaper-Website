@@ -96,3 +96,4 @@ const Support = () => {
 
       {/* Main Content */}
       <div className="container mx-auto px-4 pb-16">
+        {/* FAQ Section */}
