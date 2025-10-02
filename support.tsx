@@ -111,3 +111,4 @@ const Support = () => {
             {faqItems.map((item, index) => (
               <Card key={index} className="hover:shadow-elegant transition-all duration-300 bg-white/80 backdrop-blur-sm border-0">
                 <CardHeader>
+                  <CardTitle className="flex items-center text-fabric-navy">
