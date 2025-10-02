@@ -88,4 +88,5 @@ const Support = () => {
                     {channel.available}
                   </div>
                 </CardContent>
+              </Card>
 
