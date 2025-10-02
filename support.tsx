@@ -67,3 +67,4 @@ const Support = () => {
           >
             بازگشت به فروشگاه
           </Button>
+        </div>
