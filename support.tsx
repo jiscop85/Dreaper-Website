@@ -82,4 +82,5 @@ const Support = () => {
                     <IconComponent className="w-8 h-8 text-white" />
                   </div>
                   <h3 className="font-bold text-fabric-navy mb-2">{channel.title}</h3>
+                  <p className="text-gray-700 mb-2">{channel.description}</p>
 
