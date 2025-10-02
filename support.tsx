@@ -105,3 +105,4 @@ const Support = () => {
             <p className="text-gray-600 text-lg">
               پاسخ سوالات رایج مشتریان
             </p>
+          </div>
