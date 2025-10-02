@@ -102,3 +102,4 @@ const Support = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-fabric-navy mb-4">
               سوالات متداول
             </h2>
+            <p className="text-gray-600 text-lg">
