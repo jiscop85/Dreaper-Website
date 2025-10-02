@@ -139,3 +139,4 @@ const Support = () => {
               </div>
               <h3 className="font-bold text-fabric-navy mb-2">پشتیبانی تلفنی</h3>
               <p className="text-gray-600">شنبه تا پنج‌شنبه: ۹:۰۰ - ۲۱:۰۰</p>
+              <p className="text-gray-600">جمعه: ۱۰:۰۰ - ۱۸:۰۰</p>
