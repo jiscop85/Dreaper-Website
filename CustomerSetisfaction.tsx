@@ -163,3 +163,4 @@ const CustomerSatisfaction = () => {
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
+                  <p className="text-gray-700 mb-4 italic">"{testimonial.comment}"</p>
