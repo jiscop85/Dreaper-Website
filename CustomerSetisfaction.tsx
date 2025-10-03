@@ -16,3 +16,4 @@ const CustomerSatisfaction = () => {
       date: "۱۵ آذر ۱۴۰۳"
     },
     {
+      name: "محمد رضایی",
