@@ -38,3 +38,4 @@ const CustomerSatisfaction = () => {
     { icon: TrendingUp, number: "۹۵٪", label: "خرید مجدد", color: "from-green-500 to-emerald-500" }
   ];
   return (
+    <div className="min-h-screen bg-gradient-to-br from-fabric-cream via-white to-fabric-pearl">
