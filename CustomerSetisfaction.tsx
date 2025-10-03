@@ -109,3 +109,4 @@ const CustomerSatisfaction = () => {
                 description: "تیم متخصص همیشه در کنار شما"
               },
               {
+                icon: "💰",
