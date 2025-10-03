@@ -87,4 +87,5 @@ const CustomerSatisfaction = () => {
               چرا مشتریان ما راضی هستند؟
             </h2>
             <p className="text-gray-600 text-lg">
+              ویژگی‌هایی که ما را متمایز می‌کند
 
