@@ -95,3 +95,4 @@ const CustomerSatisfaction = () => {
             {[
               {
                 icon: "🏆",
+                title: "کیفیت بی‌نظیر",
