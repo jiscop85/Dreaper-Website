@@ -157,3 +157,4 @@ const CustomerSatisfaction = () => {
                         <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
                       ))}
                     </div>
+                  </div>
