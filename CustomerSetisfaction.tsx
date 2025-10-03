@@ -54,3 +54,4 @@ const CustomerSatisfaction = () => {
             className="bg-white/20 text-white hover:bg-white/30 backdrop-blur-sm border-white/30"
           >
             بازگشت به فروشگاه
+          </Button>
