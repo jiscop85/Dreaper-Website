@@ -202,3 +202,4 @@ const CustomerSatisfaction = () => {
   );
 };
 
+export default CustomerSatisfaction;
