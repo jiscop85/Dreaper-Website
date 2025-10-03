@@ -57,3 +57,5 @@ const CustomerSatisfaction = () => {
           </Button>
         </div>
       </div>
+
+     {/* Statistics Section */}
