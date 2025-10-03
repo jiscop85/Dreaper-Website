@@ -70,3 +70,4 @@ const CustomerSatisfaction = () => {
                     <IconComponent className="w-8 h-8 text-white" />
                   </div>
                   <h3 className="text-3xl font-bold text-fabric-navy mb-2">{stat.number}</h3>
+                  <p className="text-gray-600 font-medium">{stat.label}</p>
