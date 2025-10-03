@@ -152,3 +152,4 @@ const CustomerSatisfaction = () => {
                 <CardHeader className="pb-4">
                   <div className="flex items-center justify-between mb-2">
                     <CardTitle className="text-fabric-navy text-lg">{testimonial.name}</CardTitle>
+                    <div className="flex">
