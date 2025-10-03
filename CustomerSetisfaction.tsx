@@ -198,4 +198,5 @@ const CustomerSatisfaction = () => {
           </div>
         </div>
       </div>
+    </div>
 
