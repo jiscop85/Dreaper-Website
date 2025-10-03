@@ -32,3 +32,4 @@ const CustomerSatisfaction = () => {
   ];
 
   const satisfactionStats = [
+    { icon: Heart, number: "۹۸٪", label: "رضایت مشتریان", color: "from-red-500 to-pink-500" },
