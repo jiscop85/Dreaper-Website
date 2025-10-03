@@ -165,3 +165,4 @@ const CustomerSatisfaction = () => {
                 <CardContent>
                   <p className="text-gray-700 mb-4 italic">"{testimonial.comment}"</p>
                   <p className="text-xs text-gray-500">{testimonial.date}</p>
+                </CardContent>
