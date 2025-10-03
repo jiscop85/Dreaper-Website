@@ -151,3 +151,4 @@ const CustomerSatisfaction = () => {
               <Card key={index} className="hover:shadow-elegant transition-all duration-300 hover:-translate-y-2 bg-white/80 backdrop-blur-sm border-0">
                 <CardHeader className="pb-4">
                   <div className="flex items-center justify-between mb-2">
+                    <CardTitle className="text-fabric-navy text-lg">{testimonial.name}</CardTitle>
