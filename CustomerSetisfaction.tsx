@@ -126,3 +126,4 @@ const CustomerSatisfaction = () => {
             ].map((feature, index) => (
               <Card key={index} className="text-center hover:shadow-elegant transition-all duration-300 hover:-translate-y-2 bg-gradient-to-br from-white to-fabric-cream/30 border-0">
                 <CardContent className="p-6">
+                  <div className="text-4xl mb-4">{feature.icon}</div>
