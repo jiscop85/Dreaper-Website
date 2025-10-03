@@ -123,3 +123,4 @@ const CustomerSatisfaction = () => {
                 title: "مشاوره رایگان",
                 description: "مشاوره تخصصی برای انتخاب بهترین پارچه"
               }
+            ].map((feature, index) => (
