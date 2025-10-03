@@ -131,3 +131,4 @@ const CustomerSatisfaction = () => {
                   <p className="text-gray-600 text-sm">{feature.description}</p>
                 </CardContent>
               </Card>
+            ))}
