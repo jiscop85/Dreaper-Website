@@ -176,4 +176,5 @@ const CustomerSatisfaction = () => {
           <Award className="w-16 h-16 text-fabric-terracotta mx-auto mb-6" />
           <h2 className="text-3xl md:text-4xl font-bold text-fabric-navy mb-4">
             تضمین ۱۰۰٪ رضایت
+          </h2>
 
