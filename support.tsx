@@ -161,3 +161,4 @@ const Support = () => {
             </h3>
             <p className="text-gray-600 mb-6">
               تیم متخصص ما آماده پاسخگویی به سوالات شماست
+            </p>
