@@ -17,3 +17,4 @@ const CustomerSatisfaction = () => {
     },
     {
       name: "محمد رضایی",
+      rating: 5,
