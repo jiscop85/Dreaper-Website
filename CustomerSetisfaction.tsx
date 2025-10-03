@@ -134,3 +134,6 @@ const CustomerSatisfaction = () => {
             ))}
           </div>
         </div>
+
+       {/* Customer Testimonials */}
+   
