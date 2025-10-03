@@ -9,3 +9,4 @@ const CustomerSatisfaction = () => {
 
     const testimonials = [
     {
+      name: "فاطمه احمدی",
