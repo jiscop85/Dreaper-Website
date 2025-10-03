@@ -73,3 +73,4 @@ const CustomerSatisfaction = () => {
                   <p className="text-gray-600 font-medium">{stat.label}</p>
                 </CardContent>
               </Card>
+            );
