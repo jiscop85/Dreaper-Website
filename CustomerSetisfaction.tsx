@@ -8,3 +8,4 @@ const CustomerSatisfaction = () => {
   const navigate = useNavigate();
 
     const testimonials = [
+    {
