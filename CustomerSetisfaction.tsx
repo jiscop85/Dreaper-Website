@@ -144,4 +144,5 @@ const CustomerSatisfaction = () => {
             <p className="text-gray-600 text-lg">
               تجربه واقعی مشتریان ما
             </p>
+          </div>
 
