@@ -3,3 +3,5 @@ import { Heart, Star, Users, MessageCircle, Award, TrendingUp } from 'lucide-rea
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { useNavigate } from 'react-router-dom';
+
+const CustomerSatisfaction = () => {
