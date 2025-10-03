@@ -110,3 +110,4 @@ const CustomerSatisfaction = () => {
               },
               {
                 icon: "💰",
+                title: "قیمت منصفانه",
