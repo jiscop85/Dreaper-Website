@@ -75,3 +75,4 @@ const CustomerSatisfaction = () => {
               </Card>
             );
           })}
+        </div>
