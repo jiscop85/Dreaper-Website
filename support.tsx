@@ -162,3 +162,4 @@ const Support = () => {
             <p className="text-gray-600 mb-6">
               تیم متخصص ما آماده پاسخگویی به سوالات شماست
             </p>
+            <div className="flex flex-wrap justify-center gap-4">
