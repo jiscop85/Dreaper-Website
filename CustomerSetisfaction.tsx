@@ -30,3 +30,5 @@ const CustomerSatisfaction = () => {
       date: "۸ آذر ۱۴۰۳"
     }
   ];
+
+  const satisfactionStats = [
