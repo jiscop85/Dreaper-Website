@@ -187,4 +187,5 @@ const CustomerSatisfaction = () => {
               className="bg-gradient-to-r from-fabric-terracotta to-fabric-gold text-white px-8 py-3 rounded-xl hover:shadow-lg transition-all duration-300"
             >
               خرید با اطمینان
+            </Button>
 
