@@ -173,3 +173,4 @@ const Support = () => {
                 ارسال ایمیل
               </Button>
             </div>
+          </div>
