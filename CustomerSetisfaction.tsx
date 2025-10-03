@@ -43,3 +43,4 @@ const CustomerSatisfaction = () => {
       <div className="relative overflow-hidden bg-gradient-to-r from-pink-500 via-purple-600 to-indigo-600">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative container mx-auto px-4 py-20 text-center text-white">
+          <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6 backdrop-blur-sm">
