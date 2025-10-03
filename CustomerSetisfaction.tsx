@@ -114,3 +114,4 @@ const CustomerSatisfaction = () => {
                 description: "بهترین قیمت بازار با کیفیت تضمینی"
               },
               {
+                icon: "🔄",
