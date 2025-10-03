@@ -179,3 +179,5 @@ const Support = () => {
     </div>
   );
 };
+
+export default Support;
