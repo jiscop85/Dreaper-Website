@@ -167,3 +167,4 @@ const Support = () => {
                 شروع چت آنلاین
               </Button>
               <Button
+                variant="outline"
