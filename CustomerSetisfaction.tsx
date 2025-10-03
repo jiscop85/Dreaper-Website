@@ -172,4 +172,5 @@ const CustomerSatisfaction = () => {
         </div>
 
        {/* Satisfaction Guarantee */}
-  
+          <div className="bg-gradient-to-r from-fabric-navy/5 via-fabric-terracotta/5 to-fabric-gold/5 rounded-3xl p-8 md:p-12 text-center">
+
