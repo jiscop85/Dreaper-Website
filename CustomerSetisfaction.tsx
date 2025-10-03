@@ -77,3 +77,6 @@ const CustomerSatisfaction = () => {
           })}
         </div>
       </div>
+
+      {/* Main Content */}
+ 
