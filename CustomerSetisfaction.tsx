@@ -50,3 +50,4 @@ const CustomerSatisfaction = () => {
           <p className="text-xl md:text-2xl text-white/90 mb-8">خوشحالی شما، افتخار ماست</p>
           <Button
             onClick={() => navigate('/')}
+            variant="secondary"
