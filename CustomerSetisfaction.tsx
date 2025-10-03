@@ -141,4 +141,5 @@ const CustomerSatisfaction = () => {
                <h2 className="text-3xl md:text-4xl font-bold text-fabric-navy mb-4">
                 نظرات مشتریان عزیز
             </h2>
+            <p className="text-gray-600 text-lg">
 
