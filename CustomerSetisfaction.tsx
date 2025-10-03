@@ -170,3 +170,6 @@ const CustomerSatisfaction = () => {
             ))}
           </div>
         </div>
+
+       {/* Satisfaction Guarantee */}
+  
