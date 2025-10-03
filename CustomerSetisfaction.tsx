@@ -100,3 +100,4 @@ const CustomerSatisfaction = () => {
               },
               {
                 icon: "🚀",
+                title: "ارسال سریع",
