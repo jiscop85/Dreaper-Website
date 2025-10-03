@@ -19,3 +19,4 @@ const CustomerSatisfaction = () => {
       name: "محمد رضایی",
       rating: 5,
       comment: "ارسال سریع و بسته‌بندی عالی. دقیقاً همان چیزی بود که انتظار داشتم.",
+      product: "پارچه ابریشمی",
