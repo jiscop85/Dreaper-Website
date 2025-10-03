@@ -190,4 +190,5 @@ const CustomerSatisfaction = () => {
             </Button>
             <Button
               variant="outline"
+              onClick={() => navigate('/support')}
 
