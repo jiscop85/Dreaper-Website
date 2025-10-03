@@ -99,3 +99,4 @@ const CustomerSatisfaction = () => {
                 description: "بهترین مواد اولیه و فرآیند تولید استاندارد"
               },
               {
+                icon: "🚀",
