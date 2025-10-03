@@ -179,4 +179,5 @@ const CustomerSatisfaction = () => {
           </h2>
           <p className="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
             ما به کیفیت محصولاتمان اطمینان کامل داریم. اگر از خرید خود راضی نیستید، 
+            کالا را تا ۷ روز بازگردانده و وجه خود را دریافت کنید.
 
