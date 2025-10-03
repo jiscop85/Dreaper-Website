@@ -124,3 +124,4 @@ const CustomerSatisfaction = () => {
                 description: "مشاوره تخصصی برای انتخاب بهترین پارچه"
               }
             ].map((feature, index) => (
+              <Card key={index} className="text-center hover:shadow-elegant transition-all duration-300 hover:-translate-y-2 bg-gradient-to-br from-white to-fabric-cream/30 border-0">
