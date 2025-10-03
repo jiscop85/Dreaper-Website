@@ -181,4 +181,5 @@ const CustomerSatisfaction = () => {
             ما به کیفیت محصولاتمان اطمینان کامل داریم. اگر از خرید خود راضی نیستید، 
             کالا را تا ۷ روز بازگردانده و وجه خود را دریافت کنید.
           </p>
+          <div className="flex flex-wrap justify-center gap-4">
 
