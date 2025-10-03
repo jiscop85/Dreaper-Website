@@ -128,3 +128,4 @@ const CustomerSatisfaction = () => {
                 <CardContent className="p-6">
                   <div className="text-4xl mb-4">{feature.icon}</div>
                   <h3 className="font-bold text-fabric-navy mb-3">{feature.title}</h3>
+                  <p className="text-gray-600 text-sm">{feature.description}</p>
