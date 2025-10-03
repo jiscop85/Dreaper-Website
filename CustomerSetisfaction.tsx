@@ -6,3 +6,5 @@ import { useNavigate } from 'react-router-dom';
 
 const CustomerSatisfaction = () => {
   const navigate = useNavigate();
+
+    const testimonials = [
