@@ -191,4 +191,5 @@ const CustomerSatisfaction = () => {
             <Button
               variant="outline"
               onClick={() => navigate('/support')}
+              className="border-fabric-navy text-fabric-navy hover:bg-fabric-navy hover:text-white px-8 py-3 rounded-xl transition-all duration-300"
 
