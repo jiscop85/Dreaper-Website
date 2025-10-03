@@ -183,4 +183,5 @@ const CustomerSatisfaction = () => {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button
+              onClick={() => navigate('/')}
 
