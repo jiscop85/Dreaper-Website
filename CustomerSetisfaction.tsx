@@ -40,3 +40,4 @@ const CustomerSatisfaction = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-fabric-cream via-white to-fabric-pearl">
       {/* Header Section */}
+      <div className="relative overflow-hidden bg-gradient-to-r from-pink-500 via-purple-600 to-indigo-600">
