@@ -174,3 +174,4 @@ const Support = () => {
               </Button>
             </div>
           </div>
+        </div>
