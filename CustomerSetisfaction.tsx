@@ -29,3 +29,4 @@ const CustomerSatisfaction = () => {
       product: "پارچه مجلسی",
       date: "۸ آذر ۱۴۰۳"
     }
+  ];
