@@ -160,3 +160,4 @@ const CustomerSatisfaction = () => {
                   </div>
                   <CardDescription className="text-fabric-terracotta font-medium">
                     {testimonial.product}
+                  </CardDescription>
