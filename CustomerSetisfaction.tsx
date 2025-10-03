@@ -24,3 +24,4 @@ const CustomerSatisfaction = () => {
     },
     {
       name: "زهرا کریمی",
+      rating: 5,
