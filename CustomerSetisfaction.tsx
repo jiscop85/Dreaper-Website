@@ -118,3 +118,4 @@ const CustomerSatisfaction = () => {
                 title: "تضمین بازگشت",
                 description: "امکان بازگشت کالا تا ۷ روز پس از خرید"
               },
+              {
