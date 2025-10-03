@@ -178,3 +178,4 @@ const Support = () => {
       </div>
     </div>
   );
+};
