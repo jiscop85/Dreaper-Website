@@ -37,3 +37,4 @@ const CustomerSatisfaction = () => {
     { icon: Star, number: "۴.۹", label: "امتیاز کیفیت", color: "from-yellow-500 to-orange-500" },
     { icon: TrendingUp, number: "۹۵٪", label: "خرید مجدد", color: "from-green-500 to-emerald-500" }
   ];
+  return (
