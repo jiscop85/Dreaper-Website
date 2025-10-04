@@ -29,6 +29,8 @@ const LoginForm = () => {
     e.preventDefault();
     setIsLoading(true);
     try {
+      // Simulate API call
+
 
 
 
