@@ -12,6 +12,8 @@ import SocialAuthButtons from './SocialAuthButtons';
 const LoginForm = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  const [loginMethod, setLoginMethod] = useState('email');
+
 
 
 
