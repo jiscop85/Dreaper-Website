@@ -7,6 +7,8 @@ import { Separator } from '@/components/ui/separator';
 import { Eye, EyeOff, Mail, Phone, Lock, Loader2 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'sonner';
+import SocialAuthButtons from './SocialAuthButtons';
+
 
 
 
