@@ -44,6 +44,8 @@ const LoginForm = () => {
 
   const handleForgotPassword = () => {
     toast.info('لینک بازیابی رمز عبور به ایمیل/شماره شما ارسال شد.');
+  };
+
 
 
 
