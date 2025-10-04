@@ -65,6 +65,8 @@ const LoginForm = () => {
             <Phone className="w-4 h-4 ml-2" />
             موبایل
           </TabsTrigger>
+        </TabsList>
+
 
 
 
