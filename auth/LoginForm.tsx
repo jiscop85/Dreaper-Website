@@ -57,6 +57,8 @@ const LoginForm = () => {
           >
             <Mail className="w-4 h-4 ml-2" />
             ایمیل
+          </TabsTrigger>
+
 
 
 
