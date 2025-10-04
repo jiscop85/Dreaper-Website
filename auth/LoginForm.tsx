@@ -96,6 +96,8 @@ const LoginForm = () => {
               <Input
                 id="phone"
                 type="tel"
+                placeholder="09xxxxxxxxx"
+
 
 
 
