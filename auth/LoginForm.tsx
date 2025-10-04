@@ -36,6 +36,8 @@ const LoginForm = () => {
       toast.success('ورود موفقیت‌آمیز بود!');
       navigate('/');
     } catch (error) {
+      toast.error('خطا در ورود. لطفاً مجدداً تلاش کنید.');
+
 
 
 
