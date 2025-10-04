@@ -70,6 +70,8 @@ const LoginForm = () => {
         <TabsContent value="email" className="space-y-4 mt-6">
           <div className="space-y-2">
             <Label htmlFor="email" className="text-fabric-navy font-medium">
+              آدرس ایمیل
+
 
 
 
