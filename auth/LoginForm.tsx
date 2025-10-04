@@ -42,6 +42,8 @@ const LoginForm = () => {
     }
   };
 
+  const handleForgotPassword = () => {
+
 
 
 
