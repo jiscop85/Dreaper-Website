@@ -59,6 +59,8 @@ const LoginForm = () => {
             ایمیل
           </TabsTrigger>
           <TabsTrigger 
+            value="phone"
+
 
 
 
