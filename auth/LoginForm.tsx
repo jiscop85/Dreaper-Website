@@ -105,6 +105,8 @@ const LoginForm = () => {
             </div>
           </div>
         </TabsContent>
+      </Tabs>
+
 
 
 
