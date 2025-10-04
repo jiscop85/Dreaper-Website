@@ -81,6 +81,8 @@ const LoginForm = () => {
                 onChange={(e) => handleInputChange('email', e.target.value)}
                 className="pr-10 border-fabric-sand/30 focus:border-fabric-terracotta"
                 required
+              />
+
 
 
 
