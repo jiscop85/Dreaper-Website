@@ -53,6 +53,8 @@ const LoginForm = () => {
         <TabsList className="grid w-full grid-cols-2 bg-fabric-sand/20">
           <TabsTrigger 
             value="email" 
+            className="data-[state=active]:bg-white data-[state=active]:text-fabric-navy"
+
 
 
 
