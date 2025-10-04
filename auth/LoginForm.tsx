@@ -78,6 +78,8 @@ const LoginForm = () => {
                 type="email"
                 placeholder="example@email.com"
                 value={formData.email}
+                onChange={(e) => handleInputChange('email', e.target.value)}
+
 
 
 
