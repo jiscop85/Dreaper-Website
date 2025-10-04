@@ -22,6 +22,8 @@ const LoginForm = () => {
   });
 
   const handleInputChange = (field: string, value: string) => {
+    setFormData(prev => ({ ...prev, [field]: value }));
+
 
 
 
