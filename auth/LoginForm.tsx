@@ -15,6 +15,8 @@ const LoginForm = () => {
   const [loginMethod, setLoginMethod] = useState('email');
   const navigate = useNavigate();
 
+  const [formData, setFormData] = useState({
+
 
 
 
