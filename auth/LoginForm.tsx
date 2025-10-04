@@ -79,6 +79,8 @@ const LoginForm = () => {
                 placeholder="example@email.com"
                 value={formData.email}
                 onChange={(e) => handleInputChange('email', e.target.value)}
+                className="pr-10 border-fabric-sand/30 focus:border-fabric-terracotta"
+
 
 
 
