@@ -75,6 +75,8 @@ const LoginForm = () => {
             <div className="relative">
               <Input
                 id="email"
+                type="email"
+
 
 
 
