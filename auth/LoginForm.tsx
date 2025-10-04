@@ -50,6 +50,8 @@ const LoginForm = () => {
     <form onSubmit={handleLogin} className="space-y-6">
       {/* Login Method Selection */}
       <Tabs value={loginMethod} onValueChange={setLoginMethod} className="w-full">
+        <TabsList className="grid w-full grid-cols-2 bg-fabric-sand/20">
+
 
 
 
