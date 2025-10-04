@@ -95,6 +95,8 @@ const LoginForm = () => {
             <div className="relative">
               <Input
                 id="phone"
+                type="tel"
+
 
 
 
