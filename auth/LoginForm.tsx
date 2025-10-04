@@ -54,6 +54,8 @@ const LoginForm = () => {
           <TabsTrigger 
             value="email" 
             className="data-[state=active]:bg-white data-[state=active]:text-fabric-navy"
+          >
+
 
 
 
