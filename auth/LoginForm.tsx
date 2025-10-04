@@ -76,6 +76,8 @@ const LoginForm = () => {
               <Input
                 id="email"
                 type="email"
+                placeholder="example@email.com"
+
 
 
 
