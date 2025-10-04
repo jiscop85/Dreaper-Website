@@ -19,6 +19,8 @@ const LoginForm = () => {
     email: '',
     phone: '',
     password: ''
+  });
+
 
 
 
