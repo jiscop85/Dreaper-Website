@@ -89,6 +89,8 @@ const LoginForm = () => {
 
         <TabsContent value="phone" className="space-y-4 mt-6">
           <div className="space-y-2">
+            <Label htmlFor="phone" className="text-fabric-navy font-medium">
+
 
 
 
