@@ -28,8 +28,11 @@ const LoginForm = () => {
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsLoading(true);
+    
     try {
       // Simulate API call
+      await new Promise(resolve => setTimeout(resolve, 2000));
+
 
 
 
