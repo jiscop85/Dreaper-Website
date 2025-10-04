@@ -67,6 +67,8 @@ const LoginForm = () => {
           </TabsTrigger>
         </TabsList>
 
+        <TabsContent value="email" className="space-y-4 mt-6">
+
 
 
 
