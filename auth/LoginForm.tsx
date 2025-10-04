@@ -10,6 +10,8 @@ import { toast } from 'sonner';
 import SocialAuthButtons from './SocialAuthButtons';
 
 const LoginForm = () => {
+  const [showPassword, setShowPassword] = useState(false);
+
 
 
 
