@@ -55,6 +55,8 @@ const LoginForm = () => {
             value="email" 
             className="data-[state=active]:bg-white data-[state=active]:text-fabric-navy"
           >
+            <Mail className="w-4 h-4 ml-2" />
+
 
 
 
