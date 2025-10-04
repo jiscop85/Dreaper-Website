@@ -97,6 +97,8 @@ const LoginForm = () => {
                 id="phone"
                 type="tel"
                 placeholder="09xxxxxxxxx"
+                onChange={(e) => handleInputChange('phone', e.target.value)}
+
 
 
 
