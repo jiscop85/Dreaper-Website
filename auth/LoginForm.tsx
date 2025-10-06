@@ -140,6 +140,8 @@ const LoginForm = () => {
       </div>
 
       {/* Forgot Password */}
+      <div className="text-left">
+
 
 
 
