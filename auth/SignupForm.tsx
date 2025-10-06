@@ -90,6 +90,8 @@ const SignupForm = () => {
     } catch (error) {
       toast.error('خطا در ارسال کد تأیید.');
     } finally {
+      setIsLoading(false);
+
 
 
 
