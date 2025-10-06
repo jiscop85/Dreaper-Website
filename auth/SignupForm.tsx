@@ -84,6 +84,8 @@ const SignupForm = () => {
             clearInterval(interval);
             return 0;
           }
+          return prev - 1;
+
 
 
 
