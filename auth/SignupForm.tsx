@@ -47,6 +47,8 @@ const SignupForm = () => {
     if (/[0-9]/.test(password)) strength += 25;
     if (/[^A-Za-z0-9]/.test(password)) strength += 25;
     setPasswordStrength(strength);
+  };
+
 
 
 
