@@ -169,6 +169,8 @@ const LoginForm = () => {
 
       {/* Separator */}
       <div className="relative">
+        <Separator className="bg-fabric-sand/30" />
+
 
 
 
