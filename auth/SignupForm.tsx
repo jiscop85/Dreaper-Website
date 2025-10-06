@@ -89,6 +89,8 @@ const SignupForm = () => {
       }, 1000);
     } catch (error) {
       toast.error('خطا در ارسال کد تأیید.');
+    } finally {
+
 
 
 
