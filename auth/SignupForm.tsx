@@ -20,6 +20,8 @@ const SignupForm = () => {
   const navigate = useNavigate();
 
   const [formData, setFormData] = useState({
+    firstName: '',
+
 
 
 
