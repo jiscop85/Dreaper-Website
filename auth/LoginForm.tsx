@@ -131,6 +131,8 @@ const LoginForm = () => {
             onClick={() => setShowPassword(!showPassword)}
           >
             {showPassword ? (
+              <EyeOff className="w-4 h-4 text-gray-400" />
+
 
 
 
