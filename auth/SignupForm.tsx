@@ -67,6 +67,8 @@ const SignupForm = () => {
     if (!formData.phone) {
       toast.error('لطفاً شماره موبایل را وارد کنید.');
       return;
+    }
+
 
 
 
