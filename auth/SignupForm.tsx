@@ -28,6 +28,8 @@ const SignupForm = () => {
     confirmPassword: '',
     otp: '',
     agreedToTerms: false
+  });
+
 
 
 
