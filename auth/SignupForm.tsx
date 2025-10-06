@@ -11,6 +11,8 @@ import { toast } from 'sonner';
 import SocialAuthButtons from './SocialAuthButtons';
 
 const SignupForm = () => {
+  const [showPassword, setShowPassword] = useState(false);
+
 
 
 
