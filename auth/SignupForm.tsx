@@ -26,6 +26,8 @@ const SignupForm = () => {
     phone: '',
     password: '',
     confirmPassword: '',
+    otp: '',
+
 
 
 
