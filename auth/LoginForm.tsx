@@ -160,6 +160,8 @@ const LoginForm = () => {
         {isLoading ? (
           <>
             <Loader2 className="w-4 h-4 animate-spin ml-2" />
+            در حال ورود...
+
 
 
 
