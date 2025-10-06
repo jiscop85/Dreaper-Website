@@ -14,6 +14,8 @@ const SignupForm = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  const [signupMethod, setSignupMethod] = useState('email');
+
 
 
 
