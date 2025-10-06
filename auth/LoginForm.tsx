@@ -153,6 +153,8 @@ const LoginForm = () => {
 
       {/* Login Button */}
       <Button
+        type="submit"
+
 
 
 
