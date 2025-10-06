@@ -74,6 +74,8 @@ const SignupForm = () => {
       // Simulate API call
       await new Promise(resolve => setTimeout(resolve, 1500));
       setOtpSent(true);
+      setOtpTimer(60);
+
 
 
 
