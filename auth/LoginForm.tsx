@@ -155,6 +155,8 @@ const LoginForm = () => {
       <Button
         type="submit"
         className="w-full bg-gradient-to-r from-fabric-terracotta to-fabric-gold hover:from-fabric-terracotta/90 hover:to-fabric-gold/90 text-white font-medium py-3 rounded-xl transition-all duration-300 transform hover:scale-105"
+        disabled={isLoading}
+
 
 
 
