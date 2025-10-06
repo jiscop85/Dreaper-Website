@@ -63,6 +63,8 @@ const SignupForm = () => {
     return 'عالی';
   };
 
+  const handleSendOtp = async () => {
+
 
 
 
