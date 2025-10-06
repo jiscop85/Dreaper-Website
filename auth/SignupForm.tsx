@@ -30,6 +30,8 @@ const SignupForm = () => {
     agreedToTerms: false
   });
 
+  const [passwordStrength, setPasswordStrength] = useState(0);
+
 
 
 
