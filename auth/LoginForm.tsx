@@ -111,6 +111,8 @@ const LoginForm = () => {
       <div className="space-y-2">
         <Label htmlFor="password" className="text-fabric-navy font-medium">
           رمز عبور
+        </Label>
+
 
 
 
