@@ -75,6 +75,8 @@ const SignupForm = () => {
       await new Promise(resolve => setTimeout(resolve, 1500));
       setOtpSent(true);
       setOtpTimer(60);
+      toast.success('کد تأیید به شماره شما ارسال شد.');
+
 
 
 
