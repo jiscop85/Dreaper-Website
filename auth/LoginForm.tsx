@@ -130,6 +130,8 @@ const LoginForm = () => {
             className="absolute left-1 top-1/2 transform -translate-y-1/2 h-8 w-8 p-0 hover:bg-transparent"
             onClick={() => setShowPassword(!showPassword)}
           >
+            {showPassword ? (
+
 
 
 
