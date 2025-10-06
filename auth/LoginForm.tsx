@@ -178,6 +178,8 @@ const LoginForm = () => {
       {/* Social Auth Buttons */}
       <SocialAuthButtons />
     </form>
+  );
+
 
 
 
