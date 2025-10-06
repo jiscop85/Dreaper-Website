@@ -170,6 +170,8 @@ const LoginForm = () => {
       {/* Separator */}
       <div className="relative">
         <Separator className="bg-fabric-sand/30" />
+        <div className="absolute inset-0 flex justify-center">
+
 
 
 
