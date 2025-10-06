@@ -43,6 +43,8 @@ const SignupForm = () => {
   const calculatePasswordStrength = (password: string) => {
     let strength = 0;
     if (password.length >= 8) strength += 25;
+    if (/[A-Z]/.test(password)) strength += 25;
+
 
 
 
