@@ -85,6 +85,8 @@ const SignupForm = () => {
             return 0;
           }
           return prev - 1;
+        });
+
 
 
 
