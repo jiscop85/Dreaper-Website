@@ -17,6 +17,8 @@ const SignupForm = () => {
   const [signupMethod, setSignupMethod] = useState('email');
   const [otpSent, setOtpSent] = useState(false);
   const [otpTimer, setOtpTimer] = useState(0);
+  const navigate = useNavigate();
+
 
 
 
