@@ -35,6 +35,8 @@ const SignupForm = () => {
   const handleInputChange = (field: string, value: string) => {
     setFormData(prev => ({ ...prev, [field]: value }));
 
+    if (field === 'password') {
+
 
 
 
