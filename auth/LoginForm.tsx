@@ -179,6 +179,8 @@ const LoginForm = () => {
       <SocialAuthButtons />
     </form>
   );
+};
+
 
 
 
