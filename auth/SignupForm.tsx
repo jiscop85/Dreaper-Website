@@ -64,6 +64,8 @@ const SignupForm = () => {
   };
 
   const handleSendOtp = async () => {
+    if (!formData.phone) {
+
 
 
 
