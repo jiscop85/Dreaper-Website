@@ -78,6 +78,8 @@ const SignupForm = () => {
       toast.success('کد تأیید به شماره شما ارسال شد.');
 
       // Start countdown
+      const interval = setInterval(() => {
+
 
 
 
