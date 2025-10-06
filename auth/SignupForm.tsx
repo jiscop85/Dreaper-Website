@@ -33,6 +33,8 @@ const SignupForm = () => {
   const [passwordStrength, setPasswordStrength] = useState(0);
 
   const handleInputChange = (field: string, value: string) => {
+    setFormData(prev => ({ ...prev, [field]: value }));
+
 
 
 
