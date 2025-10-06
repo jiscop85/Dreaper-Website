@@ -53,6 +53,8 @@ const SignupForm = () => {
     if (passwordStrength < 25) return 'bg-red-500';
     if (passwordStrength < 50) return 'bg-orange-500';
     if (passwordStrength < 75) return 'bg-yellow-500';
+    return 'bg-green-500';
+
 
 
 
