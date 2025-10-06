@@ -94,6 +94,8 @@ const SignupForm = () => {
     }
   };
 
+  const handleSignup = async (e: React.FormEvent) => {
+
 
 
 
