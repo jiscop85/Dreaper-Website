@@ -117,6 +117,8 @@ const LoginForm = () => {
             id="password"
             type={showPassword ? 'text' : 'password'}
             placeholder="رمز عبور خود را وارد کنید"
+            value={formData.password}
+
 
 
 
