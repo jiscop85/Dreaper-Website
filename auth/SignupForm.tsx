@@ -49,6 +49,8 @@ const SignupForm = () => {
     setPasswordStrength(strength);
   };
 
+  const getPasswordStrengthColor = () => {
+
 
 
 
