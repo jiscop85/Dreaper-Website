@@ -118,6 +118,8 @@ const LoginForm = () => {
             type={showPassword ? 'text' : 'password'}
             placeholder="رمز عبور خود را وارد کنید"
             value={formData.password}
+            onChange={(e) => handleInputChange('password', e.target.value)}
+
 
 
 
