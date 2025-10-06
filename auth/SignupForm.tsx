@@ -81,6 +81,8 @@ const SignupForm = () => {
       const interval = setInterval(() => {
         setOtpTimer(prev => {
           if (prev <= 1) {
+            clearInterval(interval);
+
 
 
 
