@@ -61,6 +61,8 @@ const SignupForm = () => {
     if (passwordStrength < 50) return 'متوسط';
     if (passwordStrength < 75) return 'خوب';
     return 'عالی';
+  };
+
 
 
 
