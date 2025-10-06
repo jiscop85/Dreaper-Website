@@ -50,6 +50,8 @@ const SignupForm = () => {
   };
 
   const getPasswordStrengthColor = () => {
+    if (passwordStrength < 25) return 'bg-red-500';
+
 
 
 
