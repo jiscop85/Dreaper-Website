@@ -27,6 +27,8 @@ const SignupForm = () => {
     password: '',
     confirmPassword: '',
     otp: '',
+    agreedToTerms: false
+
 
 
 
