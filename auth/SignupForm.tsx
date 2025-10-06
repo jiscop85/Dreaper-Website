@@ -19,6 +19,8 @@ const SignupForm = () => {
   const [otpTimer, setOtpTimer] = useState(0);
   const navigate = useNavigate();
 
+  const [formData, setFormData] = useState({
+
 
 
 
