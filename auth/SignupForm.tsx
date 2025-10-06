@@ -57,6 +57,8 @@ const SignupForm = () => {
   };
 
   const getPasswordStrengthText = () => {
+    if (passwordStrength < 25) return 'ضعیف';
+
 
 
 
