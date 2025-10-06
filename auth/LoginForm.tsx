@@ -142,6 +142,8 @@ const LoginForm = () => {
       {/* Forgot Password */}
       <div className="text-left">
         <Button
+          type="button"
+
 
 
 
