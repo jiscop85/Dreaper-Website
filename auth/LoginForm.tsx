@@ -115,6 +115,8 @@ const LoginForm = () => {
         <div className="relative">
           <Input
             id="password"
+            type={showPassword ? 'text' : 'password'}
+
 
 
 
