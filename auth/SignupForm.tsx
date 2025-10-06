@@ -41,6 +41,8 @@ const SignupForm = () => {
   };
 
   const calculatePasswordStrength = (password: string) => {
+    let strength = 0;
+
 
 
 
