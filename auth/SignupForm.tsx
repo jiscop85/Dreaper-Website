@@ -56,6 +56,8 @@ const SignupForm = () => {
     return 'bg-green-500';
   };
 
+  const getPasswordStrengthText = () => {
+
 
 
 
