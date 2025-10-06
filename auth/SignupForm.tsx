@@ -38,6 +38,8 @@ const SignupForm = () => {
     if (field === 'password') {
       calculatePasswordStrength(value);
     }
+  };
+
 
 
 
