@@ -23,6 +23,8 @@ const SignupForm = () => {
     firstName: '',
     lastName: '',
     email: '',
+    phone: '',
+
 
 
 
