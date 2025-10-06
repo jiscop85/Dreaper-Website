@@ -173,6 +173,8 @@ const LoginForm = () => {
         <div className="absolute inset-0 flex justify-center">
           <span className="bg-white px-4 text-sm text-gray-500">یا</span>
         </div>
+      </div>
+
 
 
 
