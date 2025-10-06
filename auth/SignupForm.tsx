@@ -10,6 +10,8 @@ import { useNavigate } from 'react-router-dom';
 import { toast } from 'sonner';
 import SocialAuthButtons from './SocialAuthButtons';
 
+const SignupForm = () => {
+
 
 
 
