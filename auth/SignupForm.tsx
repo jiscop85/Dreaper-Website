@@ -79,6 +79,8 @@ const SignupForm = () => {
 
       // Start countdown
       const interval = setInterval(() => {
+        setOtpTimer(prev => {
+
 
 
 
