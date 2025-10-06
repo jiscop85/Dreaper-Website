@@ -36,6 +36,8 @@ const SignupForm = () => {
     setFormData(prev => ({ ...prev, [field]: value }));
 
     if (field === 'password') {
+      calculatePasswordStrength(value);
+
 
 
 
