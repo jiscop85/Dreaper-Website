@@ -71,6 +71,8 @@ const SignupForm = () => {
 
     setIsLoading(true);
     try {
+      // Simulate API call
+
 
 
 
