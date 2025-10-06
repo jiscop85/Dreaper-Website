@@ -144,6 +144,8 @@ const LoginForm = () => {
         <Button
           type="button"
           variant="link"
+          onClick={handleForgotPassword}
+
 
 
 
