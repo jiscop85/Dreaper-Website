@@ -148,6 +148,8 @@ const LoginForm = () => {
           className="text-fabric-terracotta hover:text-fabric-navy p-0 h-auto text-sm"
         >
           رمز عبور خود را فراموش کرده‌اید؟
+        </Button>
+
 
 
 
