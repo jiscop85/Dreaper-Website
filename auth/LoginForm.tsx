@@ -126,6 +126,8 @@ const LoginForm = () => {
           <Button
             type="button"
             variant="ghost"
+            size="sm"
+
 
 
 
