@@ -162,6 +162,8 @@ const SignupForm = () => {
       <Tabs value={signupMethod} onValueChange={setSignupMethod} className="w-full">
         <TabsList className="grid w-full grid-cols-2 bg-fabric-sand/20">
           <TabsTrigger 
+            value="email" 
+
 
 
 
