@@ -134,6 +134,8 @@ const SignupForm = () => {
               id="firstName"
               type="text"
               placeholder="نام"
+              value={formData.firstName}
+
 
 
 
