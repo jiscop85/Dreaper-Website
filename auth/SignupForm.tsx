@@ -102,6 +102,8 @@ const SignupForm = () => {
       return;
     }
 
+    if (signupMethod === 'email' && formData.password !== formData.confirmPassword) {
+
 
 
 
