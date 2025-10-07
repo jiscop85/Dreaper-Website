@@ -178,6 +178,8 @@ const SignupForm = () => {
         </TabsList>
 
         <TabsContent value="email" className="space-y-4 mt-6">
+          <div className="space-y-2">
+
 
 
 
