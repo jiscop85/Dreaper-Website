@@ -158,6 +158,8 @@ const SignupForm = () => {
         </div>
       </div>
 
+      {/* Signup Method Selection */}
+
 
 
 
