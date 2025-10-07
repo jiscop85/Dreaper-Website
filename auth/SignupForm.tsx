@@ -124,6 +124,8 @@ const SignupForm = () => {
   return (
     <form onSubmit={handleSignup} className="space-y-6">
       {/* Name Fields */}
+      <div className="grid grid-cols-2 gap-4">
+
 
 
 
