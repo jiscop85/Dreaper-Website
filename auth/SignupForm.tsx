@@ -132,6 +132,8 @@ const SignupForm = () => {
           <div className="relative">
             <Input
               id="firstName"
+              type="text"
+
 
 
 
