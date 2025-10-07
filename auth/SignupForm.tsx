@@ -133,6 +133,8 @@ const SignupForm = () => {
             <Input
               id="firstName"
               type="text"
+              placeholder="نام"
+
 
 
 
