@@ -195,6 +195,8 @@ const SignupForm = () => {
             </div>
           </div>
 
+          {/* Password Fields */}
+
 
 
 
