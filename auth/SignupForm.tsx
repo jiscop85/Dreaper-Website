@@ -98,6 +98,8 @@ const SignupForm = () => {
     e.preventDefault();
 
     if (!formData.agreedToTerms) {
+      toast.error('لطفاً شرایط و قوانین را پذیرفته و سپس ادامه دهید.');
+
 
 
 
