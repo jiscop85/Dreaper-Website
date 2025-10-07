@@ -104,6 +104,8 @@ const SignupForm = () => {
 
     if (signupMethod === 'email' && formData.password !== formData.confirmPassword) {
       toast.error('رمز عبور و تکرار آن یکسان نیستند.');
+      return;
+
 
 
 
