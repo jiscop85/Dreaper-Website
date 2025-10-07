@@ -107,6 +107,8 @@ const SignupForm = () => {
       return;
     }
 
+    setIsLoading(true);
+
 
 
 
