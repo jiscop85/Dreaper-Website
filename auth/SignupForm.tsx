@@ -148,6 +148,9 @@ const SignupForm = () => {
           </Label>
           <Input
             id="lastName"
+            type="text"
+            placeholder="نام خانوادگی"
+
 
 
 
