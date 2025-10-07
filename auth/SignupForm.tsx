@@ -153,6 +153,8 @@ const SignupForm = () => {
             value={formData.lastName}
             onChange={(e) => handleInputChange('lastName', e.target.value)}
             className="border-fabric-sand/30 focus:border-fabric-terracotta"
+            required
+
 
 
 
