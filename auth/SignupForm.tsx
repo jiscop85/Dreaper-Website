@@ -186,6 +186,8 @@ const SignupForm = () => {
                 id="email"
                 type="email"
                 placeholder="example@email.com"
+                value={formData.email}
+
 
 
 
