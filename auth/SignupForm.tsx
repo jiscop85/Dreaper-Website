@@ -113,6 +113,8 @@ const SignupForm = () => {
       await new Promise(resolve => setTimeout(resolve, 2000));
 
       toast.success('حساب کاربری با موفقیت ایجاد شد!');
+      navigate('/');
+
 
 
 
