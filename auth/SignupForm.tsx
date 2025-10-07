@@ -150,6 +150,8 @@ const SignupForm = () => {
             id="lastName"
             type="text"
             placeholder="نام خانوادگی"
+            value={formData.lastName}
+
 
 
 
