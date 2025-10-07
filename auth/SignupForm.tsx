@@ -117,6 +117,8 @@ const SignupForm = () => {
     } catch (error) {
       toast.error('خطا در ایجاد حساب کاربری.');
     } finally {
+      setIsLoading(false);
+
 
 
 
