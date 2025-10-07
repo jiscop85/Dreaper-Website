@@ -115,6 +115,8 @@ const SignupForm = () => {
       toast.success('حساب کاربری با موفقیت ایجاد شد!');
       navigate('/');
     } catch (error) {
+      toast.error('خطا در ایجاد حساب کاربری.');
+
 
 
 
