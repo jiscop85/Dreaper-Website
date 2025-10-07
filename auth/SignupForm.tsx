@@ -97,6 +97,8 @@ const SignupForm = () => {
   const handleSignup = async (e: React.FormEvent) => {
     e.preventDefault();
 
+    if (!formData.agreedToTerms) {
+
 
 
 
