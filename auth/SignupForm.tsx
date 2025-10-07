@@ -122,6 +122,8 @@ const SignupForm = () => {
   };
 
   return (
+    <form onSubmit={handleSignup} className="space-y-6">
+
 
 
 
