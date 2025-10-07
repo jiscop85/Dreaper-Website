@@ -169,6 +169,8 @@ const SignupForm = () => {
             ایمیل
           </TabsTrigger>
           <TabsTrigger 
+            value="phone"
+
 
 
 
