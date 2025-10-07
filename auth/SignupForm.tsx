@@ -128,6 +128,8 @@ const SignupForm = () => {
         <div className="space-y-2">
           <Label htmlFor="firstName" className="text-fabric-navy font-medium">
             نام
+          </Label>
+
 
 
 
