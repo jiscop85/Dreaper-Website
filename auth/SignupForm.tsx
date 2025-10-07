@@ -182,6 +182,8 @@ const SignupForm = () => {
             <Label htmlFor="email" className="text-fabric-navy font-medium">
             </Label>
             <div className="relative">
+              <Input
+
 
 
 
