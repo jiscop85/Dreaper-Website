@@ -196,6 +196,8 @@ const SignupForm = () => {
           </div>
 
           {/* Password Fields */}
+          <div className="space-y-2">
+
 
 
 
