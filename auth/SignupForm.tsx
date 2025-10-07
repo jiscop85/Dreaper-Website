@@ -159,6 +159,8 @@ const SignupForm = () => {
       </div>
 
       {/* Signup Method Selection */}
+      <Tabs value={signupMethod} onValueChange={setSignupMethod} className="w-full">
+
 
 
 
