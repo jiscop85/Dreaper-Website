@@ -151,6 +151,8 @@ const SignupForm = () => {
             type="text"
             placeholder="نام خانوادگی"
             value={formData.lastName}
+            onChange={(e) => handleInputChange('lastName', e.target.value)}
+
 
 
 
