@@ -155,6 +155,8 @@ const SignupForm = () => {
             className="border-fabric-sand/30 focus:border-fabric-terracotta"
             required
           />
+        </div>
+
 
 
 
