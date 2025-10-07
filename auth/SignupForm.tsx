@@ -110,6 +110,8 @@ const SignupForm = () => {
     setIsLoading(true);
     try {
       // Simulate API call
+      await new Promise(resolve => setTimeout(resolve, 2000));
+
 
 
 
