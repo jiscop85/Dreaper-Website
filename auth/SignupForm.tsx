@@ -331,6 +331,8 @@ const SignupForm = () => {
                   onChange={(e) => handleInputChange('otp', e.target.value)}
                   className="pr-10 border-fabric-sand/30 focus:border-fabric-terracotta text-center tracking-widest"
                   maxLength={6}
+                  required
+
 
 
 
