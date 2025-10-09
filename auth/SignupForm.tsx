@@ -240,6 +240,8 @@ const SignupForm = () => {
                     className={`h-2 rounded-full transition-all duration-300 ${getPasswordStrengthColor()}`}
                     style={{ width: `${passwordStrength}%` }}
                   ></div>
+                </div>
+
 
 
 
