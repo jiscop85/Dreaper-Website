@@ -300,6 +300,8 @@ const SignupForm = () => {
             <Button
               type="button"
               variant="outline"
+              onClick={handleSendOtp}
+
 
 
 
