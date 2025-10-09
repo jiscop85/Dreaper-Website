@@ -328,6 +328,8 @@ const SignupForm = () => {
                   type="text"
                   placeholder="کد ۶ رقمی را وارد کنید"
                   value={formData.otp}
+                  onChange={(e) => handleInputChange('otp', e.target.value)}
+
 
 
 
