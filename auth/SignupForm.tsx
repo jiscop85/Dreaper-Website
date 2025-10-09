@@ -291,6 +291,8 @@ const SignupForm = () => {
                 type="tel"
                 placeholder="09xxxxxxxxx"
                 value={formData.phone}
+                onChange={(e) => handleInputChange('phone', e.target.value)}
+
 
 
 
