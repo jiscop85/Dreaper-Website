@@ -321,6 +321,8 @@ const SignupForm = () => {
             <div className="space-y-2">
               <Label htmlFor="otp" className="text-fabric-navy font-medium">
                 کد تأیید
+              </Label>
+
 
 
 
