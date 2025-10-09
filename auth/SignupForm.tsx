@@ -340,6 +340,8 @@ const SignupForm = () => {
         </TabsContent>
       </Tabs>
 
+      {/* Terms and Conditions */}
+
 
 
 
