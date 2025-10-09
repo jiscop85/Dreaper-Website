@@ -310,6 +310,8 @@ const SignupForm = () => {
                   در حال ارسال...
                 </>
               ) : otpTimer > 0 ? (
+                `ارسال مجدد در ${otpTimer} ثانیه`
+
 
 
 
