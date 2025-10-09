@@ -230,6 +230,8 @@ const SignupForm = () => {
             {formData.password && (
               <div className="space-y-1">
                 <div className="flex justify-between text-xs">
+                  <span className="text-gray-600">قدرت رمز عبور:</span>
+
 
 
 
