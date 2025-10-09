@@ -299,6 +299,8 @@ const SignupForm = () => {
             </div>
             <Button
               type="button"
+              variant="outline"
+
 
 
 
