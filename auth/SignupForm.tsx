@@ -274,6 +274,8 @@ const SignupForm = () => {
                 )}
               </Button>
             </div>
+            {formData.confirmPassword && formData.password !== formData.confirmPassword && (
+
 
 
 
