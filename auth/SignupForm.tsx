@@ -252,6 +252,8 @@ const SignupForm = () => {
             <div className="relative">
               <Input
                 id="confirmPassword"
+                type={showConfirmPassword ? 'text' : 'password'}
+
 
 
 
