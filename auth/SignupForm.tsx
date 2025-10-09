@@ -228,6 +228,8 @@ const SignupForm = () => {
 
             {/* Password Strength Indicator */}
             {formData.password && (
+              <div className="space-y-1">
+
 
 
 
