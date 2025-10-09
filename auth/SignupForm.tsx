@@ -255,6 +255,8 @@ const SignupForm = () => {
                 type={showConfirmPassword ? 'text' : 'password'}
                 placeholder="رمز عبور خود را مجدداً وارد کنید"
                 value={formData.confirmPassword}
+                onChange={(e) => handleInputChange('confirmPassword', e.target.value)}
+
 
 
 
