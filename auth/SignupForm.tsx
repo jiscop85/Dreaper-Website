@@ -249,6 +249,8 @@ const SignupForm = () => {
             <Label htmlFor="confirmPassword" className="text-fabric-navy font-medium">
               تکرار رمز عبور
             </Label>
+            <div className="relative">
+
 
 
 
