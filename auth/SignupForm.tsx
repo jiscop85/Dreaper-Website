@@ -318,6 +318,8 @@ const SignupForm = () => {
           </div>
 
           {otpSent && (
+            <div className="space-y-2">
+
 
 
 
