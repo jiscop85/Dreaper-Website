@@ -275,6 +275,8 @@ const SignupForm = () => {
               </Button>
             </div>
             {formData.confirmPassword && formData.password !== formData.confirmPassword && (
+              <p className="text-red-500 text-xs">رمز عبور و تکرار آن یکسان نیستند</p>
+
 
 
 
