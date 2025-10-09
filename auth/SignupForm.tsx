@@ -241,6 +241,8 @@ const SignupForm = () => {
                     style={{ width: `${passwordStrength}%` }}
                   ></div>
                 </div>
+              </div>
+
 
 
 
