@@ -301,6 +301,8 @@ const SignupForm = () => {
               type="button"
               variant="outline"
               onClick={handleSendOtp}
+              disabled={isLoading || otpTimer > 0}
+
 
 
 
