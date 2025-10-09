@@ -288,6 +288,8 @@ const SignupForm = () => {
             <div className="relative">
               <Input
                 id="phone"
+                type="tel"
+
 
 
 
