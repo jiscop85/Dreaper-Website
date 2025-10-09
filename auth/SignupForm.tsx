@@ -289,6 +289,8 @@ const SignupForm = () => {
               <Input
                 id="phone"
                 type="tel"
+                placeholder="09xxxxxxxxx"
+
 
 
 
