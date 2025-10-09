@@ -315,6 +315,8 @@ const SignupForm = () => {
                 'ارسال کد تأیید'
               )}
             </Button>
+          </div>
+
 
 
 
