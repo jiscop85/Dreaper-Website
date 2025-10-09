@@ -329,6 +329,8 @@ const SignupForm = () => {
                   placeholder="کد ۶ رقمی را وارد کنید"
                   value={formData.otp}
                   onChange={(e) => handleInputChange('otp', e.target.value)}
+                  className="pr-10 border-fabric-sand/30 focus:border-fabric-terracotta text-center tracking-widest"
+
 
 
 
