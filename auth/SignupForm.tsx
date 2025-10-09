@@ -309,6 +309,8 @@ const SignupForm = () => {
                   <Loader2 className="w-4 h-4 animate-spin ml-2" />
                   در حال ارسال...
                 </>
+              ) : otpTimer > 0 ? (
+
 
 
 
