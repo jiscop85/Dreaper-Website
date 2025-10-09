@@ -235,6 +235,8 @@ const SignupForm = () => {
                     {getPasswordStrengthText()}
                   </span>
                 </div>
+                <div className="w-full bg-gray-200 rounded-full h-2">
+
 
 
 
