@@ -231,6 +231,8 @@ const SignupForm = () => {
               <div className="space-y-1">
                 <div className="flex justify-between text-xs">
                   <span className="text-gray-600">قدرت رمز عبور:</span>
+                  <span className={`font-medium ${passwordStrength >= 75 ? 'text-green-600' : passwordStrength >= 50 ? 'text-yellow-600' : 'text-red-600'}`}>
+
 
 
 
