@@ -337,6 +337,8 @@ const SignupForm = () => {
               </div>
             </div>
           )}
+        </TabsContent>
+
 
 
 
