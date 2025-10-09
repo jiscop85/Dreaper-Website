@@ -305,6 +305,8 @@ const SignupForm = () => {
               className="w-full border-fabric-terracotta text-fabric-terracotta hover:bg-fabric-terracotta hover:text-white"
             >
               {isLoading ? (
+                <>
+
 
 
 
