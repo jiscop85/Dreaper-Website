@@ -234,6 +234,8 @@ const SignupForm = () => {
                   <span className={`font-medium ${passwordStrength >= 75 ? 'text-green-600' : passwordStrength >= 50 ? 'text-yellow-600' : 'text-red-600'}`}>
                     {getPasswordStrengthText()}
                   </span>
+                </div>
+
 
 
 
