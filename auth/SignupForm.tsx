@@ -325,6 +325,8 @@ const SignupForm = () => {
               <div className="relative">
                 <Input
                   id="otp"
+                  type="text"
+
 
 
 
