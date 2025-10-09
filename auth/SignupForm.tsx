@@ -273,6 +273,8 @@ const SignupForm = () => {
                   <Eye className="w-4 h-4 text-gray-400" />
                 )}
               </Button>
+            </div>
+
 
 
 
