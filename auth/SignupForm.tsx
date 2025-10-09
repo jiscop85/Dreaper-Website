@@ -227,6 +227,8 @@ const SignupForm = () => {
             </div>
 
             {/* Password Strength Indicator */}
+            {formData.password && (
+
 
 
 
