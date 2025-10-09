@@ -326,6 +326,8 @@ const SignupForm = () => {
                 <Input
                   id="otp"
                   type="text"
+                  placeholder="کد ۶ رقمی را وارد کنید"
+
 
 
 
