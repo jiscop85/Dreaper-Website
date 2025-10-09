@@ -290,6 +290,8 @@ const SignupForm = () => {
                 id="phone"
                 type="tel"
                 placeholder="09xxxxxxxxx"
+                value={formData.phone}
+
 
 
 
