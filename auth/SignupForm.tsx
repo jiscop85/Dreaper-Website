@@ -209,6 +209,8 @@ const SignupForm = () => {
                 onChange={(e) => handleInputChange('password', e.target.value)}
                 className="pr-10 pl-10 border-fabric-sand/30 focus:border-fabric-terracotta"
                 required
+              />
+
 
 
 
