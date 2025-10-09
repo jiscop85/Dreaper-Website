@@ -254,6 +254,8 @@ const SignupForm = () => {
                 id="confirmPassword"
                 type={showConfirmPassword ? 'text' : 'password'}
                 placeholder="رمز عبور خود را مجدداً وارد کنید"
+                value={formData.confirmPassword}
+
 
 
 
