@@ -302,6 +302,8 @@ const SignupForm = () => {
               variant="outline"
               onClick={handleSendOtp}
               disabled={isLoading || otpTimer > 0}
+              className="w-full border-fabric-terracotta text-fabric-terracotta hover:bg-fabric-terracotta hover:text-white"
+
 
 
 
