@@ -389,6 +389,8 @@ const SignupForm = () => {
 
       {/* Social Auth Buttons */}
       <SocialAuthButtons />
+    </form>
+
 
 
 
