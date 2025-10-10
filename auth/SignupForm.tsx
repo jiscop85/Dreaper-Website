@@ -347,6 +347,8 @@ const SignupForm = () => {
           checked={formData.agreedToTerms}
           onCheckedChange={(checked) => 
             setFormData(prev => ({ ...prev, agreedToTerms: checked as boolean }))
+          }
+
 
 
 
