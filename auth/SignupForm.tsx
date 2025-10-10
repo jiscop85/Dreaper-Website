@@ -361,6 +361,8 @@ const SignupForm = () => {
           </Button>
           {' '}موافقم
         </Label>
+      </div>
+
 
 
 
