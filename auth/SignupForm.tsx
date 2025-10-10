@@ -345,6 +345,8 @@ const SignupForm = () => {
         <Checkbox
           id="terms"
           checked={formData.agreedToTerms}
+          onCheckedChange={(checked) => 
+
 
 
 
