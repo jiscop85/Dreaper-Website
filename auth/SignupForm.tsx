@@ -365,6 +365,8 @@ const SignupForm = () => {
 
       {/* Signup Button */}
       <Button
+        type="submit"
+
 
 
 
