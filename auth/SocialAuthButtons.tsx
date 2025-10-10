@@ -44,3 +44,4 @@ const SocialAuthButtons = () => {
         </div>
       </Button>
     </div>
+  );
