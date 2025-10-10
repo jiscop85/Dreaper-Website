@@ -344,6 +344,8 @@ const SignupForm = () => {
       <div className="flex items-start space-x-2 space-x-reverse">
         <Checkbox
           id="terms"
+          checked={formData.agreedToTerms}
+
 
 
 
