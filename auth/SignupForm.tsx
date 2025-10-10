@@ -352,6 +352,8 @@ const SignupForm = () => {
         />
         <Label htmlFor="terms" className="text-sm text-gray-600 leading-relaxed cursor-pointer">
           با{' '}
+          <Button variant="link" className="p-0 h-auto text-fabric-terracotta hover:text-fabric-navy">
+
 
 
 
