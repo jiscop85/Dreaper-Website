@@ -349,6 +349,8 @@ const SignupForm = () => {
             setFormData(prev => ({ ...prev, agreedToTerms: checked as boolean }))
           }
           className="mt-1 border-fabric-sand data-[state=checked]:bg-fabric-terracotta data-[state=checked]:border-fabric-terracotta"
+        />
+
 
 
 
