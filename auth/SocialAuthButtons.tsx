@@ -20,3 +20,4 @@ const SocialAuthButtons = () => {
         className="w-full border-2 border-gray-200 hover:border-gray-300 hover:bg-gray-50 py-3 rounded-xl transition-all duration-300"
       >
         <div className="flex items-center justify-center">
+          <svg className="w-5 h-5 ml-3" viewBox="0 0 24 24">
