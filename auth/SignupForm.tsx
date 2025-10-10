@@ -359,6 +359,8 @@ const SignupForm = () => {
           <Button variant="link" className="p-0 h-auto text-fabric-terracotta hover:text-fabric-navy">
             سیاست حفظ حریم خصوصی
           </Button>
+          {' '}موافقم
+
 
 
 
