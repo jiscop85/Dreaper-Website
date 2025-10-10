@@ -16,3 +16,4 @@ const SocialAuthButtons = () => {
       <Button
         type="button"
         variant="outline"
+        onClick={handleGoogleAuth}
