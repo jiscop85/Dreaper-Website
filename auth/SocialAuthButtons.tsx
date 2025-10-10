@@ -43,3 +43,4 @@ const SocialAuthButtons = () => {
           ادامه با اپل
         </div>
       </Button>
+    </div>
