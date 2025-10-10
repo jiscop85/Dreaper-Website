@@ -350,6 +350,8 @@ const SignupForm = () => {
           }
           className="mt-1 border-fabric-sand data-[state=checked]:bg-fabric-terracotta data-[state=checked]:border-fabric-terracotta"
         />
+        <Label htmlFor="terms" className="text-sm text-gray-600 leading-relaxed cursor-pointer">
+
 
 
 
