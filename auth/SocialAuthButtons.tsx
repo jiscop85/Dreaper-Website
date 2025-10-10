@@ -18,3 +18,4 @@ const SocialAuthButtons = () => {
         variant="outline"
         onClick={handleGoogleAuth}
         className="w-full border-2 border-gray-200 hover:border-gray-300 hover:bg-gray-50 py-3 rounded-xl transition-all duration-300"
+      >
