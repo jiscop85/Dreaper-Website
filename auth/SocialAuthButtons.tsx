@@ -31,3 +31,4 @@ const SocialAuthButtons = () => {
       </Button>
 
             <Button
+        type="button"
