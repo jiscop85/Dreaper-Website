@@ -28,3 +28,4 @@ const SocialAuthButtons = () => {
           </svg>
           ادامه با گوگل
         </div>
+      </Button>
