@@ -9,3 +9,4 @@ const SocialAuthButtons = () => {
 
     const handleAppleAuth = () => {
     toast.info('ورود با اپل در حال پیاده‌سازی است.');
+  };
