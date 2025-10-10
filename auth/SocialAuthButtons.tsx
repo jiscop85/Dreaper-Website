@@ -29,4 +29,5 @@ const SocialAuthButtons = () => {
           ادامه با گوگل
         </div>
       </Button>
-    </div>
+
+            <Button
