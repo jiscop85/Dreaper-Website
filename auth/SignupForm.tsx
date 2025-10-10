@@ -360,6 +360,8 @@ const SignupForm = () => {
             سیاست حفظ حریم خصوصی
           </Button>
           {' '}موافقم
+        </Label>
+
 
 
 
