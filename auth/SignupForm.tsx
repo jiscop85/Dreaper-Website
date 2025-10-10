@@ -370,6 +370,8 @@ const SignupForm = () => {
         disabled={isLoading || !formData.agreedToTerms}
       >
         {isLoading ? (
+          <>
+
 
 
 
