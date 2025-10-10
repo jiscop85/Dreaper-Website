@@ -356,6 +356,8 @@ const SignupForm = () => {
             شرایط و قوانین
           </Button>
           {' '}و{' '}
+          <Button variant="link" className="p-0 h-auto text-fabric-terracotta hover:text-fabric-navy">
+
 
 
 
