@@ -342,6 +342,8 @@ const SignupForm = () => {
 
       {/* Terms and Conditions */}
       <div className="flex items-start space-x-2 space-x-reverse">
+        <Checkbox
+
 
 
 
