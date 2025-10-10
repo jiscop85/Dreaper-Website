@@ -391,6 +391,8 @@ const SignupForm = () => {
       <SocialAuthButtons />
     </form>
   );
+};
+
 
 
 
