@@ -6,3 +6,5 @@ const SocialAuthButtons = () => {
   const handleGoogleAuth = () => {
     toast.info('ورود با گوگل در حال پیاده‌سازی است.');
   };
+
+    const handleAppleAuth = () => {
