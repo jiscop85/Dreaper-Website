@@ -46,3 +46,5 @@ const SocialAuthButtons = () => {
     </div>
   );
 };
+
+export default SocialAuthButtons;
