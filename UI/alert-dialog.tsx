@@ -53,3 +53,4 @@ const AlertDialogHeader = ({
       className
     )}
     {...props}
+  />
