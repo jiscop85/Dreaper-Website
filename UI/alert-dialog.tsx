@@ -54,4 +54,5 @@ const AlertDialogHeader = ({
     )}
     {...props}
   />
+  )
 AlertDialogHeader.displayName = "AlertDialogHeader"
