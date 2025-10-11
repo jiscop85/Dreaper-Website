@@ -31,4 +31,5 @@ const AccordionTrigger = React.forwardRef<
       )}
       {...props}
  >
+      {children}
 
