@@ -36,4 +36,5 @@ const AccordionTrigger = React.forwardRef<
     </AccordionPrimitive.Trigger>
   </AccordionPrimitive.Header>
 ))
+AccordionTrigger.displayName = AccordionPrimitive.Trigger.displayName
 
