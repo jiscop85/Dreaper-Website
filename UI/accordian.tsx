@@ -17,3 +17,5 @@ const AccordionItem = React.forwardRef<
   />
 ))
 AccordionItem.displayName = "AccordionItem"
+
+const AccordionTrigger = React.forwardRef<
