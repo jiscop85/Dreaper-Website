@@ -14,3 +14,4 @@ const AccordionItem = React.forwardRef<
     ref={ref}
     className={cn("border-b", className)}
     {...props}
+  />
