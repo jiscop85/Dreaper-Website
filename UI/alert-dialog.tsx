@@ -21,4 +21,5 @@ const AlertDialogOverlay = React.forwardRef<
     )}
     {...props}
     ref={ref}
+  />
 
