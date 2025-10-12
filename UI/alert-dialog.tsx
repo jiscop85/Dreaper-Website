@@ -126,3 +126,4 @@ export {
   AlertDialogPortal,
   AlertDialogOverlay,
   AlertDialogTrigger,
+  AlertDialogContent,
