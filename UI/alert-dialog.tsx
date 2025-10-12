@@ -67,3 +67,4 @@ const AlertDialogFooter = ({
       className
     )}
     {...props}
+  />
