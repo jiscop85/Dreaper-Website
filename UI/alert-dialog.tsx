@@ -105,3 +105,4 @@ const AlertDialogAction = React.forwardRef<
     {...props}
   />
 ))
+AlertDialogAction.displayName = AlertDialogPrimitive.Action.displayName
