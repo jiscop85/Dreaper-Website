@@ -109,3 +109,4 @@ AlertDialogAction.displayName = AlertDialogPrimitive.Action.displayName
 const AlertDialogCancel = React.forwardRef<
   React.ElementRef<typeof AlertDialogPrimitive.Cancel>,
 >(({ className, ...props }, ref) => (
+  <AlertDialogPrimitive.Cancel
