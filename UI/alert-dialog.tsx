@@ -80,3 +80,4 @@ const AlertDialogTitle = React.forwardRef<
     className={cn("text-lg font-semibold", className)}
     {...props}
   />
+))
