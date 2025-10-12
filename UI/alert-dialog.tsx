@@ -60,3 +60,4 @@ AlertDialogHeader.displayName = "AlertDialogHeader"
 const AlertDialogFooter = ({
   className,
   ...props
+}: React.HTMLAttributes<HTMLDivElement>) => (
