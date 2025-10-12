@@ -116,3 +116,4 @@ const AlertDialogCancel = React.forwardRef<
       "mt-2 sm:mt-0",
       className
     )}
+    {...props}
