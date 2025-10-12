@@ -34,6 +34,8 @@ Alert.displayName = "Alert"
 
 const AlertTitle = React.forwardRef<
   HTMLParagraphElement,
+  React.HTMLAttributes<HTMLHeadingElement>
+
 
 
 
