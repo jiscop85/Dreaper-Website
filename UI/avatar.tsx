@@ -26,6 +26,8 @@ const AvatarImage = React.forwardRef<
     {...props}
   />
 ))
+AvatarImage.displayName = AvatarPrimitive.Image.displayName
+
 
 
 
