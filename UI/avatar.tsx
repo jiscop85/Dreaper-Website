@@ -13,6 +13,8 @@ const Avatar = React.forwardRef<
     )}
     {...props}
   />
+))
+
 
 
 
