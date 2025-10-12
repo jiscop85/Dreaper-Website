@@ -9,6 +9,8 @@ const Avatar = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <AvatarPrimitive.Root
     ref={ref}
+    className={cn(
+
 
 
 
