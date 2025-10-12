@@ -30,6 +30,8 @@ const Alert = React.forwardRef<
     {...props}
   />
 ))
+Alert.displayName = "Alert"
+
 
 
 
