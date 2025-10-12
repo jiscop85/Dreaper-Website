@@ -69,3 +69,4 @@ const AlertDialogFooter = ({
     {...props}
   />
 )
+AlertDialogFooter.displayName = "AlertDialogFooter"
