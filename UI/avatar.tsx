@@ -12,6 +12,8 @@ const Avatar = React.forwardRef<
     className={cn(
     )}
     {...props}
+  />
+
 
 
 
