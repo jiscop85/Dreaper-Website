@@ -92,3 +92,4 @@ const AlertDialogDescription = React.forwardRef<
     {...props}
   />
 ))
+AlertDialogDescription.displayName =
