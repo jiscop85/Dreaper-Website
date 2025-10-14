@@ -52,6 +52,8 @@ const BreadcrumbLink = React.forwardRef<
       {...props}
     />
   )
+})
+
 
 
 
