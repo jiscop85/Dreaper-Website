@@ -118,6 +118,8 @@ const BreadcrumbEllipsis = ({
 BreadcrumbEllipsis.displayName = "BreadcrumbElipssis"
 
 export {
+  Breadcrumb,
+
 
 
 
