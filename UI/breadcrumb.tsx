@@ -99,6 +99,8 @@ const BreadcrumbEllipsis = ({
     {children ?? <ChevronRight />}
   </li>
 )
+BreadcrumbSeparator.displayName = "BreadcrumbSeparator"
+
 
 
 
