@@ -98,6 +98,8 @@ const BreadcrumbEllipsis = ({
   >
     {children ?? <ChevronRight />}
   </li>
+)
+
 
 
 
