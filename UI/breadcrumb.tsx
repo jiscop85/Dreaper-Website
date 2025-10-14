@@ -40,6 +40,8 @@ const BreadcrumbItem = React.forwardRef<
 const BreadcrumbLink = React.forwardRef<
   HTMLAnchorElement,
   React.ComponentPropsWithoutRef<"a"> & {
+    asChild?: boolean
+
 
 
 
