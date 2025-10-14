@@ -23,6 +23,8 @@ const badgeVariants = cva(
   }
 )
 
+export interface BadgeProps
+
 
 
 
