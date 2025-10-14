@@ -68,6 +68,8 @@ const BreadcrumbPage = React.forwardRef<
     {...props}
   />
 ))
+BreadcrumbPage.displayName = "BreadcrumbPage"
+
 
 
 
