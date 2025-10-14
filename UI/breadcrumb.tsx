@@ -74,6 +74,8 @@ const BreadcrumbSeparator = ({
   children,
   className,
   ...props
+}: React.ComponentProps<"li">) => (
+
 
 
 
