@@ -106,6 +106,8 @@ const BreadcrumbEllipsis = ({
   ...props
 }: React.ComponentProps<"span">) => (
   <span
+    role="presentation"
+
 
 
 
