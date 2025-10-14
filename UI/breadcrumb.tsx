@@ -95,6 +95,8 @@ const BreadcrumbEllipsis = ({
     aria-hidden="true"
     className={cn("[&>svg]:size-3.5", className)}
     {...props}
+  >
+
 
 
 
