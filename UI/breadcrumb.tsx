@@ -84,6 +84,8 @@ const BreadcrumbSeparator = ({
     {children ?? <ChevronRight />}
   </li>
 )
+BreadcrumbSeparator.displayName = "BreadcrumbSeparator"
+
 
 
 
