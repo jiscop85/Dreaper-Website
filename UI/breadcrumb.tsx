@@ -122,6 +122,8 @@ export {
   BreadcrumbList,
   BreadcrumbItem,
   BreadcrumbLink,
+  BreadcrumbPage,
+
 
 
 
