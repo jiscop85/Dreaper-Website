@@ -120,6 +120,8 @@ BreadcrumbEllipsis.displayName = "BreadcrumbElipssis"
 export {
   Breadcrumb,
   BreadcrumbList,
+  BreadcrumbItem,
+
 
 
 
