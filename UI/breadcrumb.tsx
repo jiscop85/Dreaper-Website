@@ -76,6 +76,8 @@ const BreadcrumbSeparator = ({
   ...props
 }: React.ComponentProps<"li">) => (
   <li
+    role="presentation"
+
 
 
 
