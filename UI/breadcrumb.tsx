@@ -115,6 +115,8 @@ const BreadcrumbEllipsis = ({
     <span className="sr-only">More</span>
   </span>
 )
+BreadcrumbEllipsis.displayName = "BreadcrumbElipssis"
+
 
 
 
