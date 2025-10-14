@@ -38,6 +38,8 @@ const BreadcrumbItem = React.forwardRef<
   />BreadcrumbItem.displayName = "BreadcrumbItem"
 
 const BreadcrumbLink = React.forwardRef<
+  HTMLAnchorElement,
+
 
 
 
