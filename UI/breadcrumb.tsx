@@ -96,6 +96,8 @@ const BreadcrumbEllipsis = ({
     className={cn("[&>svg]:size-3.5", className)}
     {...props}
   >
+    {children ?? <ChevronRight />}
+
 
 
 
