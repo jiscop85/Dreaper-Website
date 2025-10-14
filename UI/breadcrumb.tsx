@@ -77,6 +77,8 @@ const BreadcrumbSeparator = ({
 }: React.ComponentProps<"li">) => (
   <li
     role="presentation"
+    aria-hidden="true"
+
 
 
 
