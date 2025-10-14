@@ -123,6 +123,8 @@ export {
   BreadcrumbItem,
   BreadcrumbLink,
   BreadcrumbPage,
+  BreadcrumbSeparator,
+
 
 
 
