@@ -82,6 +82,8 @@ const BreadcrumbSeparator = ({
     {...props}
   >
     {children ?? <ChevronRight />}
+  </li>
+
 
 
 
