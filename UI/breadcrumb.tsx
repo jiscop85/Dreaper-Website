@@ -88,6 +88,8 @@ BreadcrumbSeparator.displayName = "BreadcrumbSeparator"
 
 const BreadcrumbEllipsis = ({
   className,
+  ...props
+
 
 
 
