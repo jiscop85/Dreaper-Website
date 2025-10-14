@@ -107,6 +107,8 @@ const BreadcrumbEllipsis = ({
 }: React.ComponentProps<"span">) => (
   <span
     role="presentation"
+    aria-hidden="true"
+
 
 
 
