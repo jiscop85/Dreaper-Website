@@ -72,6 +72,8 @@ BreadcrumbPage.displayName = "BreadcrumbPage"
 
 const BreadcrumbSeparator = ({
   children,
+  className,
+
 
 
 
