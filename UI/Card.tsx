@@ -41,6 +41,8 @@ const CardTitle = React.forwardRef<
     )}
     {...props}
   />
+))
+
 
 
 
