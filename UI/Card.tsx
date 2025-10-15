@@ -40,6 +40,8 @@ const CardTitle = React.forwardRef<
       className
     )}
     {...props}
+  />
+
 
 
 
