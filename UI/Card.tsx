@@ -63,6 +63,8 @@ CardDescription.displayName = "CardDescription"
 CardContent.displayName = "CardContent"
 
 const CardFooter = React.forwardRef<
+  HTMLDivElement,
+
 
 
 
