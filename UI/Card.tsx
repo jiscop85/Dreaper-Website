@@ -57,6 +57,8 @@ const CardDescription = React.forwardRef<
 CardDescription.displayName = "CardDescription"
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement>
+>(({ className, ...props }, ref) => (
+
 
 
 
