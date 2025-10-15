@@ -23,6 +23,8 @@ function Calendar({
         caption: "flex justify-center pt-1 relative items-center",
         caption_label: "text-sm font-medium",
         nav: "space-x-1 flex items-center",
+        nav_button: cn(
+
 
 
 
