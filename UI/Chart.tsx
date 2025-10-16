@@ -71,6 +71,8 @@ const ChartStyle = ({ id, config }: { id: string; config: ChartConfig }) => {
     ([_, config]) => config.theme || config.color
   )
 
+  if (!colorConfig.length) {
+
 
 
 
