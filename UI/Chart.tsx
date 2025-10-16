@@ -80,6 +80,8 @@ const ChartStyle = ({ id, config }: { id: string; config: ChartConfig }) => {
       dangerouslySetInnerHTML={{
         __html: Object.entries(THEMES)
           .map(
+            ([theme, prefix]) => `
+
 
 
 
