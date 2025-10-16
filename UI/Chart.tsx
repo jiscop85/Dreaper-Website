@@ -63,6 +63,8 @@ const ChartContainer = React.forwardRef<
       </div>
     </ChartContext.Provider>
   )
+})
+
 
 
 
