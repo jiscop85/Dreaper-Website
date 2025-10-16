@@ -41,6 +41,8 @@ const ChartContainer = React.forwardRef<
       typeof RechartsPrimitive.ResponsiveContainer
     >["children"]
   }
+>(({ id, className, children, config, ...props }, ref) => {
+
 
 
 
