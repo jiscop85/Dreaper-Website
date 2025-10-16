@@ -99,6 +99,8 @@ ${colorConfig
   )
 }
 
+const ChartTooltip = RechartsPrimitive.Tooltip
+
 
 
 
