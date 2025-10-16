@@ -17,6 +17,8 @@ export type ChartConfig = {
   )
 }
 
+type ChartContextProps = {
+
 
 
 
