@@ -83,6 +83,8 @@ const ChartStyle = ({ id, config }: { id: string; config: ChartConfig }) => {
             ([theme, prefix]) => `
 ${prefix} [data-chart=${id}] {
 ${colorConfig
+  .map(([key, itemConfig]) => {
+
 
 
 
