@@ -93,6 +93,8 @@ ${colorConfig
 }
 `
           )
+          .join("\n"),
+
 
 
 
