@@ -96,6 +96,8 @@ ${colorConfig
           .join("\n"),
       }}
     />
+  )
+
 
 
 
