@@ -12,6 +12,8 @@ export type ChartConfig = {
     label?: React.ReactNode
     icon?: React.ComponentType
   } & (
+    | { color?: string; theme?: never }
+
 
 
 
