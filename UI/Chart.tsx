@@ -61,6 +61,8 @@ const ChartContainer = React.forwardRef<
           {children}
         </RechartsPrimitive.ResponsiveContainer>
       </div>
+    </ChartContext.Provider>
+
 
 
 
