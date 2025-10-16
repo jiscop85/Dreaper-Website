@@ -34,6 +34,8 @@ function useChart() {
 }
 
 const ChartContainer = React.forwardRef<
+  HTMLDivElement,
+
 
 
 
