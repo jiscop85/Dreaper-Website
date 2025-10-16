@@ -64,6 +64,8 @@ const ChartContainer = React.forwardRef<
     </ChartContext.Provider>
   )
 })
+ChartContainer.displayName = "Chart"
+
 
 
 
