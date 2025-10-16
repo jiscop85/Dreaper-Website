@@ -81,6 +81,8 @@ const ChartStyle = ({ id, config }: { id: string; config: ChartConfig }) => {
         __html: Object.entries(THEMES)
           .map(
             ([theme, prefix]) => `
+${prefix} [data-chart=${id}] {
+
 
 
 
