@@ -191,6 +191,8 @@ const ChartTooltipContent = React.forwardRef<
             return (
               <div
                 key={item.dataKey}
+                className={cn(
+
 
 
 
