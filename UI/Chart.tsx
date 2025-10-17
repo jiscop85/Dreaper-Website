@@ -183,6 +183,8 @@ const ChartTooltipContent = React.forwardRef<
       >
         {!nestLabel ? tooltipLabel : null}
         <div className="grid gap-1.5">
+          {payload.map((item, index) => {
+
 
 
 
