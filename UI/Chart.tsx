@@ -130,6 +130,8 @@ const ChartTooltipContent = React.forwardRef<
     },
     ref
   ) => {
+    const { config } = useChart()
+
 
 
 
