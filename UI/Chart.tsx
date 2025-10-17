@@ -201,6 +201,8 @@ const ChartTooltipContent = React.forwardRef<
                 ) : (
                   <>
                     {itemConfig?.icon ? (
+                      <itemConfig.icon />
+
 
 
 
