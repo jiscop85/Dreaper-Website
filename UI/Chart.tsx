@@ -145,6 +145,8 @@ const ChartTooltipContent = React.forwardRef<
           : itemConfig?.label
 
       if (labelFormatter) {
+        return (
+
 
 
 
