@@ -144,6 +144,8 @@ const ChartTooltipContent = React.forwardRef<
           ? config[label as keyof typeof config]?.label || label
           : itemConfig?.label
 
+      if (labelFormatter) {
+
 
 
 
