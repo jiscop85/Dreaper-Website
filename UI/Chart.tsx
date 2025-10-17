@@ -204,6 +204,8 @@ const ChartTooltipContent = React.forwardRef<
                       <itemConfig.icon />
                     ) : (
                       !hideIndicator && (
+                        <div
+
 
 
 
