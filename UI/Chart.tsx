@@ -168,6 +168,8 @@ const ChartTooltipContent = React.forwardRef<
     ])
 
     if (!active || !payload?.length) {
+      return null
+
 
 
 
