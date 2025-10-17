@@ -136,6 +136,8 @@ const ChartTooltipContent = React.forwardRef<
         return null
       }
 
+      const [item] = payload
+
 
 
 
