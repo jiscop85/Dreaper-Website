@@ -205,6 +205,8 @@ const ChartTooltipContent = React.forwardRef<
                     ) : (
                       !hideIndicator && (
                         <div
+                          className={cn(
+
 
 
 
