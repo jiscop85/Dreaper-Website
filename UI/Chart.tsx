@@ -171,6 +171,8 @@ const ChartTooltipContent = React.forwardRef<
       return null
     }
 
+    const nestLabel = payload.length === 1 && indicator !== "dot"
+
 
 
 
