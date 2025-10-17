@@ -181,6 +181,8 @@ const ChartTooltipContent = React.forwardRef<
           className
         )}
 
+        {!nestLabel ? tooltipLabel : null}
+
 
 
 
