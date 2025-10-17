@@ -134,6 +134,8 @@ const ChartTooltipContent = React.forwardRef<
     const tooltipLabel = React.useMemo(() => {
       if (hideLabel || !payload?.length) {
         return null
+      }
+
 
 
 
