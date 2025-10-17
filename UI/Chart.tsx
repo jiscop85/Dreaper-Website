@@ -119,6 +119,8 @@ const ChartTooltipContent = React.forwardRef<
       className,
       indicator = "dot",
       hideLabel = false,
+      hideIndicator = false,
+
 
 
 
