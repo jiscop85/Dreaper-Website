@@ -114,6 +114,8 @@ const ChartTooltipContent = React.forwardRef<
 >(
   (
     {
+      active,
+
 
 
 
