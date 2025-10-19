@@ -88,6 +88,8 @@ const Carousel = React.forwardRef<
         if (event.key === "ArrowLeft") {
           event.preventDefault()
           scrollPrev()
+        } else if (event.key === "ArrowRight") {
+
 
 
 
