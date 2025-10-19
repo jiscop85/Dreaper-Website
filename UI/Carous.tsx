@@ -41,6 +41,8 @@ function useCarousel() {
 }
 
 const Carousel = React.forwardRef<
+  HTMLDivElement,
+
 
 
 
