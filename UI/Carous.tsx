@@ -26,6 +26,8 @@ type CarouselContextProps = {
   scrollNext: () => void
   canScrollPrev: boolean
   canScrollNext: boolean
+} & CarouselProps
+
 
 
 
