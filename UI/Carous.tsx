@@ -49,6 +49,8 @@ const Carousel = React.forwardRef<
       orientation = "horizontal",
       opts,
       setApi,
+      plugins,
+
 
 
 
