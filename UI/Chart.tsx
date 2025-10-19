@@ -278,6 +278,8 @@ const ChartLegendContent = React.forwardRef<
       <div
         ref={ref}
         className={cn(
+          "flex items-center justify-center gap-4",
+
 
 
 
