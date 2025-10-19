@@ -258,6 +258,8 @@ const ChartLegend = RechartsPrimitive.Legend
 
 const ChartLegendContent = React.forwardRef<
   HTMLDivElement,
+  React.ComponentProps<"div"> &
+
 
 
 
