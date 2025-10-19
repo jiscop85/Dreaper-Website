@@ -123,6 +123,8 @@ const Carousel = React.forwardRef<
         value={{
           carouselRef,
           api: api,
+          opts,
+
 
 
 
