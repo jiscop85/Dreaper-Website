@@ -63,6 +63,8 @@ const Carousel = React.forwardRef<
       },
       plugins
     )
+    const [canScrollPrev, setCanScrollPrev] = React.useState(false)
+
 
 
 
