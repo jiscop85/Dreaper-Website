@@ -274,6 +274,8 @@ const ChartLegendContent = React.forwardRef<
       return null
     }
 
+    return (
+
 
 
 
