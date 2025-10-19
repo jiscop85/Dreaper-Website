@@ -35,6 +35,8 @@ function useCarousel() {
 
   if (!context) {
     throw new Error("useCarousel must be used within a <Carousel />")
+  }
+
 
 
 
