@@ -244,6 +244,8 @@ const ChartTooltipContent = React.forwardRef<
                     </div>
                   </>
                 )}
+              </div>
+
 
 
 
