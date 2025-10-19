@@ -222,6 +222,8 @@ const ChartTooltipContent = React.forwardRef<
                             } as React.CSSProperties
                           }
                         />
+                      )
+
 
 
 
