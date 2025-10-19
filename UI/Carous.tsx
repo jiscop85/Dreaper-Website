@@ -69,6 +69,8 @@ const Carousel = React.forwardRef<
     const onSelect = React.useCallback((api: CarouselApi) => {
       if (!api) {
         return
+      }
+
 
 
 
