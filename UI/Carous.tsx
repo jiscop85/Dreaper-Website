@@ -122,6 +122,8 @@ const Carousel = React.forwardRef<
       <CarouselContext.Provider
         value={{
           carouselRef,
+          api: api,
+
 
 
 
