@@ -225,6 +225,8 @@ const ChartTooltipContent = React.forwardRef<
                       )
                     )}
                     <div
+                      className={cn(
+
 
 
 
