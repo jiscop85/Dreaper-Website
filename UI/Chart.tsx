@@ -252,6 +252,8 @@ const ChartTooltipContent = React.forwardRef<
     )
   }
 )
+ChartTooltipContent.displayName = "ChartTooltip"
+
 
 
 
