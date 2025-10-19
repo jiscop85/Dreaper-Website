@@ -16,6 +16,8 @@ const Checkbox = React.forwardRef<
     )}
     {...props}
   >
+      className={cn("flex items-center justify-center text-current")}
+
 
 
 
