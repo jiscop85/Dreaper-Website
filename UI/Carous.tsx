@@ -50,6 +50,8 @@ const Carousel = React.forwardRef<
       opts,
       setApi,
       plugins,
+      className,
+
 
 
 
