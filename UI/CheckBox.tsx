@@ -10,6 +10,8 @@ const Checkbox = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <CheckboxPrimitive.Root
     ref={ref}
+    className={cn(
+
 
 
 
