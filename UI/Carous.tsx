@@ -38,6 +38,8 @@ function useCarousel() {
   }
 
   return context
+}
+
 
 
 
