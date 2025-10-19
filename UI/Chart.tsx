@@ -271,6 +271,8 @@ const ChartLegendContent = React.forwardRef<
     const { config } = useChart()
 
     if (!payload?.length) {
+      return null
+
 
 
 
