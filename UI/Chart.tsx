@@ -268,6 +268,8 @@ const ChartLegendContent = React.forwardRef<
     { className, hideIcon = false, payload, verticalAlign = "bottom", nameKey },
     ref
   ) => {
+    const { config } = useChart()
+
 
 
 
