@@ -119,6 +119,8 @@ const Carousel = React.forwardRef<
     }, [api, onSelect])
 
     return (
+      <CarouselContext.Provider
+
 
 
 
