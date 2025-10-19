@@ -14,6 +14,8 @@ type CarouselPlugin = UseCarouselParameters[1]
 
 type CarouselProps = {
   opts?: CarouselOptions
+  plugins?: CarouselPlugin
+
 
 
 
