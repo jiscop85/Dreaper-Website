@@ -215,6 +215,8 @@ const ChartTooltipContent = React.forwardRef<
                               "my-0.5": nestLabel && indicator === "dashed",
                             }
                           )}
+                          style={
+
 
 
 
