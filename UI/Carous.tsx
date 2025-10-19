@@ -83,6 +83,8 @@ const Carousel = React.forwardRef<
       api?.scrollNext()
     }, [api])
 
+    const handleKeyDown = React.useCallback(
+
 
 
 
