@@ -94,6 +94,8 @@ const Carousel = React.forwardRef<
         }
       },
       [scrollPrev, scrollNext]
+    )
+
 
 
 
