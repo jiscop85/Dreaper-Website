@@ -120,6 +120,8 @@ const Carousel = React.forwardRef<
 
     return (
       <CarouselContext.Provider
+        value={{
+
 
 
 
