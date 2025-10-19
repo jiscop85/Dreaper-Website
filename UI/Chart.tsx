@@ -236,6 +236,8 @@ const ChartTooltipContent = React.forwardRef<
                           {itemConfig?.label || item.name}
                         </span>
                       </div>
+                      {item.value && (
+
 
 
 
