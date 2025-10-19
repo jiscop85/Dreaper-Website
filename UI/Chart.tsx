@@ -263,6 +263,8 @@ const ChartLegendContent = React.forwardRef<
       hideIcon?: boolean
       nameKey?: string
     }
+>(
+
 
 
 
