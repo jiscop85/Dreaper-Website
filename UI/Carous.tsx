@@ -124,6 +124,8 @@ const Carousel = React.forwardRef<
           carouselRef,
           api: api,
           opts,
+          orientation:
+
 
 
 
