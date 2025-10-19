@@ -93,6 +93,8 @@ const Carousel = React.forwardRef<
           scrollNext()
         }
       },
+      [scrollPrev, scrollNext]
+
 
 
 
