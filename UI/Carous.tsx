@@ -33,6 +33,8 @@ const CarouselContext = React.createContext<CarouselContextProps | null>(null)
 function useCarousel() {
   const context = React.useContext(CarouselContext)
 
+  if (!context) {
+
 
 
 
