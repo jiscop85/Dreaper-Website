@@ -20,6 +20,8 @@ type CarouselProps = {
 }
 
 type CarouselContextProps = {
+  carouselRef: ReturnType<typeof useEmblaCarousel>[0]
+
 
 
 
