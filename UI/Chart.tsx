@@ -207,6 +207,8 @@ const ChartTooltipContent = React.forwardRef<
                         <div
                           className={cn(
                             "shrink-0 rounded-[2px] border-[--color-border] bg-[--color-bg]",
+                            {
+
 
 
 
