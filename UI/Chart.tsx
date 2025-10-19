@@ -235,6 +235,8 @@ const ChartTooltipContent = React.forwardRef<
                         <span className="text-muted-foreground">
                           {itemConfig?.label || item.name}
                         </span>
+                      </div>
+
 
 
 
