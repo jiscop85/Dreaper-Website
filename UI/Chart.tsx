@@ -288,6 +288,8 @@ const ChartLegendContent = React.forwardRef<
           const itemConfig = getPayloadConfigFromPayload(config, item, key)
 
           return (
+            <div
+
 
 
 
