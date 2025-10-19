@@ -53,6 +53,8 @@ const Carousel = React.forwardRef<
       className,
       children,
       ...props
+    },
+
 
 
 
