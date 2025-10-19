@@ -283,6 +283,8 @@ const ChartLegendContent = React.forwardRef<
           className
         )}
       >
+        {payload.map((item) => {
+
 
 
 
