@@ -223,6 +223,8 @@ const ChartTooltipContent = React.forwardRef<
                           }
                         />
                       )
+                    )}
+
 
 
 
