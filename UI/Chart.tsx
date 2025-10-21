@@ -312,6 +312,8 @@ const ChartLegendContent = React.forwardRef<
     )
   }
 )
+ChartLegendContent.displayName = "ChartLegend"
+
 
 
 
