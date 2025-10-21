@@ -294,6 +294,8 @@ const ChartLegendContent = React.forwardRef<
                 "flex items-center gap-1.5 [&>svg]:h-3 [&>svg]:w-3 [&>svg]:text-muted-foreground"
               )}
             >
+              {itemConfig?.icon && !hideIcon ? (
+
 
 
 
