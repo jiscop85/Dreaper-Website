@@ -1,4 +1,4 @@
-vimport * as React from "react"
+import * as React from "react"
 import useEmblaCarousel, {
   type UseEmblaCarouselType,
 } from "embla-carousel-react"
@@ -126,6 +126,7 @@ const Carousel = React.forwardRef<
           opts,
           orientation:
             orientation || (opts?.axis === "y" ? "vertical" : "horizontal"),
+
 
 
 
