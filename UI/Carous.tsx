@@ -144,6 +144,8 @@ const Carousel = React.forwardRef<
         </div>
       </CarouselContext.Provider>
     )
+  }
+
 
 
 
