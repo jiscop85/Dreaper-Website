@@ -340,6 +340,8 @@ function getPayloadConfigFromPayload(
   } else if (
     payloadPayload &&
     key in payloadPayload &&
+    typeof payloadPayload[key as keyof typeof payloadPayload] === "string"
+
 
 
 
