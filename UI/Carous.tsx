@@ -203,6 +203,8 @@ const CarouselPrevious = React.forwardRef<
       ref={ref}
       variant={variant}
       size={size}
+      className={cn(
+
 
 
 
