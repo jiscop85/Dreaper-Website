@@ -187,6 +187,8 @@ const CarouselItem = React.forwardRef<
         className
       )}
       {...props}
+    />
+
 
 
 
