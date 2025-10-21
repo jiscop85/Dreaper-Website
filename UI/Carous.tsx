@@ -233,6 +233,8 @@ const CarouselNext = React.forwardRef<
       variant={variant}
       size={size}
       className={cn(
+        "absolute h-8 w-8 rounded-full",
+
 
 
 
