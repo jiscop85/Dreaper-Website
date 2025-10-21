@@ -327,6 +327,8 @@ function getPayloadConfigFromPayload(
   const payloadPayload =
     "payload" in payload &&
     typeof payload.payload === "object" &&
+    payload.payload !== null
+
 
 
 
