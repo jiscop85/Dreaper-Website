@@ -223,6 +223,8 @@ CarouselPrevious.displayName = "CarouselPrevious"
 
 const CarouselNext = React.forwardRef<
   HTMLButtonElement,
+  React.ComponentProps<typeof Button>
+
 
 
 
