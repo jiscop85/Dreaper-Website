@@ -325,6 +325,8 @@ function getPayloadConfigFromPayload(
   }
 
   const payloadPayload =
+    "payload" in payload &&
+
 
 
 
