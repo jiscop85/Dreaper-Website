@@ -347,6 +347,8 @@ function getPayloadConfigFromPayload(
     ] as string
   }
 
+  return configLabelKey in config
+
 
 
 
