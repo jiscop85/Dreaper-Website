@@ -252,6 +252,8 @@ CarouselNext.displayName = "CarouselNext"
 
 export {
   type CarouselApi,
+  Carousel,
+
 
 
 
