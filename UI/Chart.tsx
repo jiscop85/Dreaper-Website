@@ -320,6 +320,8 @@ function getPayloadConfigFromPayload(
   payload: unknown,
   key: string
 ) {
+  if (typeof payload !== "object" || payload === null) {
+
 
 
 
