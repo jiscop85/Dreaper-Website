@@ -202,6 +202,8 @@ const CarouselPrevious = React.forwardRef<
     <Button
       ref={ref}
       variant={variant}
+      size={size}
+
 
 
 
