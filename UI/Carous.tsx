@@ -256,6 +256,8 @@ export {
   CarouselContent,
   CarouselItem,
   CarouselPrevious,
+  CarouselNext,
+
 
 
 
