@@ -308,6 +308,8 @@ const ChartLegendContent = React.forwardRef<
             </div>
           )
         })}
+      </div>
+
 
 
 
