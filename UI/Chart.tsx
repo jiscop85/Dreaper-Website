@@ -357,6 +357,8 @@ export {
   ChartTooltip,
   ChartTooltipContent,
   ChartLegend,
+  ChartLegendContent,
+
 
 
 
