@@ -289,6 +289,8 @@ const ChartLegendContent = React.forwardRef<
 
           return (
             <div
+              key={item.value}
+
 
 
 
