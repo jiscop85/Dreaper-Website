@@ -247,6 +247,8 @@ const CarouselNext = React.forwardRef<
       <span className="sr-only">Next slide</span>
     </Button>
   )
+})
+
 
 
 
