@@ -133,6 +133,8 @@ const Carousel = React.forwardRef<
         }}
       >
         <div
+          ref={ref}
+
 
 
 
