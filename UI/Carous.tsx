@@ -141,6 +141,8 @@ const Carousel = React.forwardRef<
           {...props}
         >
           {children}
+        </div>
+
 
 
 
