@@ -193,6 +193,8 @@ const CarouselItem = React.forwardRef<
 CarouselItem.displayName = "CarouselItem"
 
 const CarouselPrevious = React.forwardRef<
+  HTMLButtonElement,
+
 
 
 
