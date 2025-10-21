@@ -1,4 +1,4 @@
-import * as React from "react"
+vimport * as React from "react"
 import useEmblaCarousel, {
   type UseEmblaCarouselType,
 } from "embla-carousel-react"
@@ -132,6 +132,8 @@ const Carousel = React.forwardRef<
           canScrollNext,
         }}
       >
+        <div
+
 
 
 
