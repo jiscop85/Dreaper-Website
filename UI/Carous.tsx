@@ -221,6 +221,8 @@ const CarouselPrevious = React.forwardRef<
 })
 CarouselPrevious.displayName = "CarouselPrevious"
 
+const CarouselNext = React.forwardRef<
+
 
 
 
