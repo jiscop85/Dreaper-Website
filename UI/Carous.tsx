@@ -240,6 +240,8 @@ const CarouselNext = React.forwardRef<
         className
       )}
       disabled={!canScrollNext}
+      onClick={scrollNext}
+
 
 
 
