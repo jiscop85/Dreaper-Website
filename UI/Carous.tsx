@@ -129,6 +129,8 @@ const Carousel = React.forwardRef<
           scrollPrev,
           scrollNext,
           canScrollPrev,
+          canScrollNext,
+
 
 
 
