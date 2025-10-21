@@ -239,6 +239,8 @@ const CarouselNext = React.forwardRef<
           : "-bottom-12 left-1/2 -translate-x-1/2 rotate-90",
         className
       )}
+      disabled={!canScrollNext}
+
 
 
 
