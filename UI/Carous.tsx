@@ -167,6 +167,8 @@ const CarouselContent = React.forwardRef<
       />
     </div>
   )
+})
+
 
 
 
