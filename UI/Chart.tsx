@@ -318,6 +318,8 @@ ChartLegendContent.displayName = "ChartLegend"
 function getPayloadConfigFromPayload(
   config: ChartConfig,
   payload: unknown,
+  key: string
+
 
 
 
