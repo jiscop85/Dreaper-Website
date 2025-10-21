@@ -329,6 +329,8 @@ function getPayloadConfigFromPayload(
     typeof payload.payload === "object" &&
     payload.payload !== null
       ? payload.payload
+      : undefined
+
 
 
 
