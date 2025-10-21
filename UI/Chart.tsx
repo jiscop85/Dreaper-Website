@@ -302,6 +302,8 @@ const ChartLegendContent = React.forwardRef<
                   style={{
                     backgroundColor: item.color,
                   }}
+                />
+
 
 
 
