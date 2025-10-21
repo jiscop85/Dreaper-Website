@@ -126,6 +126,8 @@ const Carousel = React.forwardRef<
           opts,
           orientation:
             orientation || (opts?.axis === "y" ? "vertical" : "horizontal"),
+          scrollPrev,
+
 
 
 
