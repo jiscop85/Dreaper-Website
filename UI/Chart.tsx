@@ -331,6 +331,8 @@ function getPayloadConfigFromPayload(
       ? payload.payload
       : undefined
 
+  let configLabelKey: string = key
+
 
 
 
