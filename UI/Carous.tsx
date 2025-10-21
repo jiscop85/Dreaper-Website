@@ -179,6 +179,8 @@ const CarouselItem = React.forwardRef<
   return (
     <div
       ref={ref}
+      role="group"
+
 
 
 
