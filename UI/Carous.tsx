@@ -188,6 +188,8 @@ const CarouselItem = React.forwardRef<
       )}
       {...props}
     />
+  )
+
 
 
 
