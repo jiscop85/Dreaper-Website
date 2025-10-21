@@ -148,6 +148,8 @@ const Carousel = React.forwardRef<
 )
 Carousel.displayName = "Carousel"
 
+const CarouselContent = React.forwardRef<
+
 
 
 
