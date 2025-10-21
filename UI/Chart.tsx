@@ -348,6 +348,8 @@ function getPayloadConfigFromPayload(
   }
 
   return configLabelKey in config
+    ? config[configLabelKey]
+
 
 
 
