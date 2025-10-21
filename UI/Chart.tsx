@@ -322,6 +322,8 @@ function getPayloadConfigFromPayload(
 ) {
   if (typeof payload !== "object" || payload === null) {
     return undefined
+  }
+
 
 
 
