@@ -92,6 +92,8 @@ const ContextMenuCheckboxItem = React.forwardRef<
   React.ComponentPropsWithoutRef<typeof ContextMenuPrimitive.CheckboxItem>
 >(({ className, children, checked, ...props }, ref) => (
   <ContextMenuPrimitive.CheckboxItem
+    ref={ref}
+
 
 
 
