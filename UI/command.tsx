@@ -65,6 +65,8 @@ const CommandList = React.forwardRef<
   />
 ))
 
+CommandList.displayName = CommandPrimitive.List.displayName
+
 
 
 
