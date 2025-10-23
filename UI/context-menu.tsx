@@ -87,6 +87,8 @@ const ContextMenuItem = React.forwardRef<
 ))
 ContextMenuItem.displayName = ContextMenuPrimitive.Item.displayName
 
+const ContextMenuCheckboxItem = React.forwardRef<
+
 
 
 
