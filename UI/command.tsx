@@ -130,6 +130,8 @@ const CommandShortcut = ({
 }: React.HTMLAttributes<HTMLSpanElement>) => {
   return (
     <span
+      className={cn(
+
 
 
 
