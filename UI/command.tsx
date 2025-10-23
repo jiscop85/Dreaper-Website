@@ -49,6 +49,8 @@ const CommandInput = React.forwardRef<
       )}
       {...props}
     />
+  </div>
+
 
 
 
