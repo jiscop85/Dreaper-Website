@@ -50,6 +50,8 @@ const ContextMenuSubContent = React.forwardRef<
     {...props}
   />
 ))
+ContextMenuSubContent.displayName = ContextMenuPrimitive.SubContent.displayName
+
 
 
 
