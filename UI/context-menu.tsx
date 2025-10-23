@@ -48,6 +48,8 @@ const ContextMenuSubContent = React.forwardRef<
       className
     )}
     {...props}
+  />
+
 
 
 
