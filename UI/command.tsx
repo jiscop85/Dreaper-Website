@@ -124,6 +124,8 @@ const CommandItem = React.forwardRef<
 
 CommandItem.displayName = CommandPrimitive.Item.displayName
 
+const CommandShortcut = ({
+
 
 
 
