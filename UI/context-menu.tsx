@@ -99,6 +99,8 @@ const ContextMenuCheckboxItem = React.forwardRef<
     )}
     checked={checked}
     {...props}
+  >
+
 
 
 
