@@ -52,6 +52,8 @@ const CommandInput = React.forwardRef<
   </div>
 ))
 
+CommandInput.displayName = CommandPrimitive.Input.displayName
+
 
 
 
