@@ -99,6 +99,8 @@ CommandGroup.displayName = CommandPrimitive.Group.displayName
 const CommandSeparator = React.forwardRef<
   React.ElementRef<typeof CommandPrimitive.Separator>,
   React.ComponentPropsWithoutRef<typeof CommandPrimitive.Separator>
+>(({ className, ...props }, ref) => (
+
 
 
 
