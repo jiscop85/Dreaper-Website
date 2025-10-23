@@ -17,6 +17,8 @@ const Command = React.forwardRef<
       className
     )}
     {...props}
+  />
+
 
 
 
