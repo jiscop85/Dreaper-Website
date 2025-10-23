@@ -75,6 +75,8 @@ const ContextMenuItem = React.forwardRef<
     inset?: boolean
   }
 >(({ className, inset, ...props }, ref) => (
+  <ContextMenuPrimitive.Item
+
 
 
 
