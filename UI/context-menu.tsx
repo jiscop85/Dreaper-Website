@@ -31,6 +31,8 @@ const ContextMenuSubTrigger = React.forwardRef<
     )}
     {...props}
   >
+    {children}
+
 
 
 
