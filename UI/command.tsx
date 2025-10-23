@@ -126,6 +126,8 @@ CommandItem.displayName = CommandPrimitive.Item.displayName
 
 const CommandShortcut = ({
   className,
+  ...props
+
 
 
 
