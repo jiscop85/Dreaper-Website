@@ -135,6 +135,8 @@ const CommandShortcut = ({
         className
       )}
       {...props}
+    />
+
 
 
 
