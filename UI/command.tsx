@@ -86,6 +86,8 @@ const CommandGroup = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <CommandPrimitive.Group
     ref={ref}
+    className={cn(
+
 
 
 
