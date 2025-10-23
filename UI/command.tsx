@@ -120,6 +120,8 @@ const CommandItem = React.forwardRef<
     )}
     {...props}
   />
+))
+
 
 
 
