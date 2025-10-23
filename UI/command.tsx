@@ -48,6 +48,8 @@ const CommandInput = React.forwardRef<
         className
       )}
       {...props}
+    />
+
 
 
 
