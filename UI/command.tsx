@@ -138,6 +138,8 @@ const CommandShortcut = ({
     />
   )
 }
+CommandShortcut.displayName = "CommandShortcut"
+
 
 
 
