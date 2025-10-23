@@ -142,6 +142,8 @@ CommandShortcut.displayName = "CommandShortcut"
 
 export {
   Command,
+  CommandDialog,
+
 
 
 
