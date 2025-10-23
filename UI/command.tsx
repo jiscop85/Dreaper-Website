@@ -25,6 +25,8 @@ interface CommandDialogProps extends DialogProps {}
 
 const CommandDialog = ({ children, ...props }: CommandDialogProps) => {
   return (
+    <Dialog {...props}>
+
 
 
 
