@@ -106,6 +106,8 @@ const CommandSeparator = React.forwardRef<
     {...props}
   />
 ))
+CommandSeparator.displayName = CommandPrimitive.Separator.displayName
+
 
 
 
