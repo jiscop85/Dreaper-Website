@@ -114,6 +114,8 @@ const CommandItem = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <CommandPrimitive.Item
     ref={ref}
+    className={cn(
+
 
 
 
