@@ -97,6 +97,8 @@ const CommandGroup = React.forwardRef<
 CommandGroup.displayName = CommandPrimitive.Group.displayName
 
 const CommandSeparator = React.forwardRef<
+  React.ElementRef<typeof CommandPrimitive.Separator>,
+
 
 
 
