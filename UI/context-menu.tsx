@@ -10,4 +10,6 @@ const ContextMenuTrigger = ContextMenuPrimitive.Trigger
 
 const ContextMenuGroup = ContextMenuPrimitive.Group
 
+const ContextMenuPortal = ContextMenuPrimitive.Portal
+
 
