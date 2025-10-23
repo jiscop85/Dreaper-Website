@@ -59,6 +59,8 @@ const CommandList = React.forwardRef<
   React.ComponentPropsWithoutRef<typeof CommandPrimitive.List>
 >(({ className, ...props }, ref) => (
   <CommandPrimitive.List
+    ref={ref}
+
 
 
 
