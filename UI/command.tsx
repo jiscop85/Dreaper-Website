@@ -94,6 +94,8 @@ const CommandGroup = React.forwardRef<
   />
 ))
 
+CommandGroup.displayName = CommandPrimitive.Group.displayName
+
 
 
 
