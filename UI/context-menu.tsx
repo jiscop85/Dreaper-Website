@@ -23,6 +23,8 @@ const ContextMenuSubTrigger = React.forwardRef<
   }
 >(({ className, inset, children, ...props }, ref) => (
   <ContextMenuPrimitive.SubTrigger
+    ref={ref}
+
 
 
 
