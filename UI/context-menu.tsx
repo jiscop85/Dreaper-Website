@@ -76,6 +76,8 @@ const ContextMenuItem = React.forwardRef<
   }
 >(({ className, inset, ...props }, ref) => (
   <ContextMenuPrimitive.Item
+    ref={ref}
+
 
 
 
