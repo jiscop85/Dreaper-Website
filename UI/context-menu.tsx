@@ -14,4 +14,6 @@ const ContextMenuPortal = ContextMenuPrimitive.Portal
 
 const ContextMenuSub = ContextMenuPrimitive.Sub
 
+const ContextMenuRadioGroup = ContextMenuPrimitive.RadioGroup
+
 
