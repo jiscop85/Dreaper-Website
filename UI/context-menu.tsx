@@ -83,6 +83,8 @@ const ContextMenuItem = React.forwardRef<
       className
     )}
     {...props}
+  />
+
 
 
 
