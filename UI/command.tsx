@@ -119,6 +119,8 @@ const CommandItem = React.forwardRef<
       className
     )}
     {...props}
+  />
+
 
 
 
