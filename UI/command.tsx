@@ -129,6 +129,8 @@ const CommandShortcut = ({
   ...props
 }: React.HTMLAttributes<HTMLSpanElement>) => {
   return (
+    <span
+
 
 
 
