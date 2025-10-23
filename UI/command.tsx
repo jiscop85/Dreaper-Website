@@ -75,6 +75,8 @@ const CommandEmpty = React.forwardRef<
     ref={ref}
     className="py-6 text-center text-sm"
     {...props}
+  />
+
 
 
 
