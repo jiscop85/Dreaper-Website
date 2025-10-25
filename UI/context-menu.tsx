@@ -183,6 +183,8 @@ export {
   ContextMenu,
   ContextMenuTrigger,
   ContextMenuContent,
+  ContextMenuItem,
+
 
 
 
