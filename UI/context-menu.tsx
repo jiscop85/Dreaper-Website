@@ -169,6 +169,8 @@ const ContextMenuShortcut = ({
 }: React.HTMLAttributes<HTMLSpanElement>) => {
   return (
     <span
+      className={cn(
+
 
 
 
