@@ -147,6 +147,8 @@ const ContextMenuSeparator = React.forwardRef<
       className
     )}
     {...props}
+  />
+
 
 
 
