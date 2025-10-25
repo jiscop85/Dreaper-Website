@@ -127,6 +127,8 @@ const ContextMenuRadioItem = React.forwardRef<
       <ContextMenuPrimitive.ItemIndicator>
         <Circle className="h-2 w-2 fill-current" />
       </ContextMenuPrimitive.ItemIndicator>
+    </span>
+
 
 
 
