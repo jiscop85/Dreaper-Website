@@ -108,6 +108,8 @@ const ContextMenuCheckboxItem = React.forwardRef<
     {children}
   </ContextMenuPrimitive.CheckboxItem>
 ))
+ContextMenuCheckboxItem.displayName =
+
 
 
 
