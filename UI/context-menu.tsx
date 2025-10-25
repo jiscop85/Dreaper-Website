@@ -174,6 +174,8 @@ const ContextMenuShortcut = ({
         className
       )}
       {...props}
+    />
+
 
 
 
