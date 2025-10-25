@@ -131,6 +131,8 @@ const ContextMenuRadioItem = React.forwardRef<
     {children}
   </ContextMenuPrimitive.RadioItem>
 ))
+ContextMenuRadioItem.displayName = ContextMenuPrimitive.RadioItem.displayName
+
 
 
 
