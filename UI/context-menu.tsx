@@ -136,6 +136,8 @@ ContextMenuRadioItem.displayName = ContextMenuPrimitive.RadioItem.displayName
 const ContextMenuSeparator = React.forwardRef<
   React.ElementRef<typeof ContextMenuPrimitive.Separator>,
   React.ComponentPropsWithoutRef<typeof ContextMenuPrimitive.Separator>
+    inset?: boolean
+  }
 >(({ className, ...props }, ref) => (
   <ContextMenuPrimitive.Separator
     ref={ref}
@@ -144,6 +146,8 @@ const ContextMenuSeparator = React.forwardRef<
       inset && "pl-8",
       className
     )}
+    {...props}
+
 
 
 
