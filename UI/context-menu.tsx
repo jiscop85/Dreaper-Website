@@ -187,6 +187,8 @@ export {
   ContextMenuCheckboxItem,
   ContextMenuRadioItem,
   ContextMenuLabel,
+  ContextMenuSeparator,
+
 
 
 
