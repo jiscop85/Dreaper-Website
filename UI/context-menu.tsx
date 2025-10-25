@@ -116,6 +116,8 @@ const ContextMenuRadioItem = React.forwardRef<
   React.ComponentPropsWithoutRef<typeof ContextMenuPrimitive.RadioItem>
 >(({ className, children, ...props }, ref) => (
   <ContextMenuPrimitive.RadioItem
+    ref={ref}
+
 
 
 
