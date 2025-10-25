@@ -165,6 +165,8 @@ ContextMenuSeparator.displayName = ContextMenuPrimitive.Separator.displayName
 
 const ContextMenuShortcut = ({
   className,
+  ...props
+
 
 
 
