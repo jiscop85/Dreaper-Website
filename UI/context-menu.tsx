@@ -129,6 +129,8 @@ const ContextMenuRadioItem = React.forwardRef<
       </ContextMenuPrimitive.ItemIndicator>
     </span>
     {children}
+  </ContextMenuPrimitive.RadioItem>
+
 
 
 
