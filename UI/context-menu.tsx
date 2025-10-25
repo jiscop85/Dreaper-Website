@@ -138,6 +138,8 @@ const ContextMenuSeparator = React.forwardRef<
   React.ComponentPropsWithoutRef<typeof ContextMenuPrimitive.Separator>
 >(({ className, ...props }, ref) => (
   <ContextMenuPrimitive.Separator
+    ref={ref}
+
 
 
 
