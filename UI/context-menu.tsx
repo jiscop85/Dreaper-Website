@@ -154,6 +154,8 @@ ContextMenuLabel.displayName = ContextMenuPrimitive.Label.displayName
 const ContextMenuSeparator = React.forwardRef<
   React.ElementRef<typeof ContextMenuPrimitive.Separator>,
   React.ComponentPropsWithoutRef<typeof ContextMenuPrimitive.Separator>
+>(({ className, ...props }, ref) => (
+
 
 
 
