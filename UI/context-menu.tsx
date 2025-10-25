@@ -180,6 +180,8 @@ const ContextMenuShortcut = ({
 ContextMenuShortcut.displayName = "ContextMenuShortcut"
 
 export {
+  ContextMenu,
+
 
 
 
