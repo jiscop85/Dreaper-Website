@@ -23,6 +23,8 @@ const DialogClose = DialogPrimitive.Close
     {...props}
   />
 ))
+DialogOverlay.displayName = DialogPrimitive.Overlay.displayName
+
 
 
 
