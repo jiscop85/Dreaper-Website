@@ -73,6 +73,8 @@ const DialogFooter = ({
       className
     )}
     {...props}
+  />
+
 
 
 
