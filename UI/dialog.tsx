@@ -77,6 +77,8 @@ const DialogFooter = ({
 )
 DialogFooter.displayName = "DialogFooter"
 
+const DialogTitle = React.forwardRef<
+
 
 
 
