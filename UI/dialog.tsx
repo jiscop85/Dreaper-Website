@@ -6,3 +6,5 @@ import { cn } from "@/lib/utils"
 
 const Dialog = DialogPrimitive.Root
 
+const DialogTrigger = DialogPrimitive.Trigger
+
