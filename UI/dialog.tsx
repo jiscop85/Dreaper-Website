@@ -22,6 +22,8 @@ const DialogClose = DialogPrimitive.Close
     )}
     {...props}
   />
+))
+
 
 
 
