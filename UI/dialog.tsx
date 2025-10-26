@@ -60,6 +60,8 @@ const DialogHeader = ({
     )}
     {...props}
   />
+)
+
 
 
 
