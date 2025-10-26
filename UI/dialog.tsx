@@ -109,6 +109,8 @@ export {
   DialogPortal,
   DialogOverlay,
   DialogClose,
+  DialogTrigger,
+
 
 
 
