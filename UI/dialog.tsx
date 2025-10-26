@@ -39,6 +39,8 @@ const DialogContent = React.forwardRef<
       )}
       {...props}
     >
+      {children}
+
 
 
 
