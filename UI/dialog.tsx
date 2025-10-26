@@ -32,6 +32,8 @@ const DialogContent = React.forwardRef<
   <DialogPortal>
     <DialogOverlay />
     <DialogPrimitive.Content
+      ref={ref}
+
 
 
 
