@@ -38,6 +38,8 @@ const DialogContent = React.forwardRef<
         className
       )}
       {...props}
+    >
+
 
 
 
