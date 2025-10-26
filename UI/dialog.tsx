@@ -33,6 +33,8 @@ const DialogContent = React.forwardRef<
     <DialogOverlay />
     <DialogPrimitive.Content
       ref={ref}
+      className={cn(
+
 
 
 
