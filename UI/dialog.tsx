@@ -14,6 +14,8 @@ const DialogClose = DialogPrimitive.Close
   React.ElementRef<typeof DialogPrimitive.Overlay>,
   React.ComponentPropsWithoutRef<typeof DialogPrimitive.Overlay>
 >(({ className, ...props }, ref) => (
+  <DialogPrimitive.Overlay
+
 
 
 
