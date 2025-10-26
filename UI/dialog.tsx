@@ -92,6 +92,8 @@ const DialogTitle = React.forwardRef<
 ))
 DialogTitle.displayName = DialogPrimitive.Title.displayName
 
+const DialogDescription = React.forwardRef<
+
 
 
 
