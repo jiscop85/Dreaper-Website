@@ -108,6 +108,8 @@ export {
   Dialog,
   DialogPortal,
   DialogOverlay,
+  DialogClose,
+
 
 
 
