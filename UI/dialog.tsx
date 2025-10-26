@@ -110,6 +110,8 @@ export {
   DialogOverlay,
   DialogClose,
   DialogTrigger,
+  DialogContent,
+
 
 
 
