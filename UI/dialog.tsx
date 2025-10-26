@@ -86,6 +86,8 @@ const DialogTitle = React.forwardRef<
     className={cn(
       "text-lg font-semibold leading-none tracking-tight",
       className
+    )}
+
 
 
 
