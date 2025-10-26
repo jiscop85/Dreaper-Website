@@ -21,6 +21,8 @@ const DialogClose = DialogPrimitive.Close
       className
     )}
     {...props}
+  />
+
 
 
 
