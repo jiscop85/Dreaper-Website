@@ -112,6 +112,8 @@ export {
   DialogTrigger,
   DialogContent,
   DialogHeader,
+  DialogFooter,
+
 
 
 
