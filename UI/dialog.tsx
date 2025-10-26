@@ -59,6 +59,8 @@ const DialogHeader = ({
       className
     )}
     {...props}
+  />
+
 
 
 
