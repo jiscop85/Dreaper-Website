@@ -65,6 +65,8 @@ DialogHeader.displayName = "DialogHeader"
 
 const DialogFooter = ({
   className,
+  ...props
+
 
 
 
