@@ -75,6 +75,8 @@ const DialogFooter = ({
     {...props}
   />
 )
+DialogFooter.displayName = "DialogFooter"
+
 
 
 
