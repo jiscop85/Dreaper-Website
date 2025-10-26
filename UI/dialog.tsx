@@ -88,6 +88,8 @@ const DialogTitle = React.forwardRef<
       className
     )}
     {...props}
+  />
+
 
 
 
