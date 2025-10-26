@@ -113,6 +113,8 @@ export {
   DialogContent,
   DialogHeader,
   DialogFooter,
+  DialogTitle,
+
 
 
 
