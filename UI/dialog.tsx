@@ -16,6 +16,8 @@ const DialogClose = DialogPrimitive.Close
 >(({ className, ...props }, ref) => (
   <DialogPrimitive.Overlay
     ref={ref}
+    className={cn(
+
 
 
 
