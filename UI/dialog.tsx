@@ -54,6 +54,8 @@ const DialogHeader = ({
   ...props
 }: React.HTMLAttributes<HTMLDivElement>) => (
   <div
+    className={cn(
+
 
 
 
