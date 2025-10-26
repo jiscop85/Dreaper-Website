@@ -68,6 +68,8 @@ const DialogFooter = ({
   ...props
 }: React.HTMLAttributes<HTMLDivElement>) => (
   <div
+    className={cn(
+
 
 
 
