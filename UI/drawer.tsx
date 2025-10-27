@@ -67,6 +67,8 @@ DrawerHeader.displayName = "DrawerHeader"
 const DrawerFooter = ({
   className,
   ...props
+}: React.HTMLAttributes<HTMLDivElement>) => (
+
 
 
 
