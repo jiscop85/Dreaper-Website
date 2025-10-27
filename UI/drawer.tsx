@@ -55,6 +55,8 @@ DrawerContent.displayName = "DrawerContent"
 
 const DrawerHeader = ({
   className,
+  ...props
+
 
 
 
