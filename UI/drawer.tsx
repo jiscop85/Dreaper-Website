@@ -10,6 +10,8 @@ const Drawer = ({
   <DrawerPrimitive.Root
     shouldScaleBackground={shouldScaleBackground}
     {...props}
+  />
+
 
 
 
