@@ -38,6 +38,8 @@ const DrawerContent = React.forwardRef<
 >(({ className, children, ...props }, ref) => (
   <DrawerPortal>
     <DrawerOverlay />
+    <DrawerPrimitive.Content
+
 
 
 
