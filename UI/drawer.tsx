@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils"
 
 const Drawer = ({
   shouldScaleBackground = true,
+  ...props
 
 
 
