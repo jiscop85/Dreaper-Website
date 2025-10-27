@@ -105,6 +105,8 @@ DrawerDescription.displayName = DrawerPrimitive.Description.displayName
 export {
   Drawer,
   DrawerPortal,
+  DrawerOverlay,
+
 
 
 
