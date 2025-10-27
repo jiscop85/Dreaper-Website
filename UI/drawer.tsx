@@ -77,6 +77,8 @@ DrawerFooter.displayName = "DrawerFooter"
 
 const DrawerTitle = React.forwardRef<
   React.ElementRef<typeof DrawerPrimitive.Title>,
+  React.ComponentPropsWithoutRef<typeof DrawerPrimitive.Title>
+
 
 
 
