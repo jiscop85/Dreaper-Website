@@ -12,6 +12,8 @@ const Drawer = ({
     {...props}
   />
 )
+Drawer.displayName = "Drawer"
+
 
 
 
