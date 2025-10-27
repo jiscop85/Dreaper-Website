@@ -100,6 +100,8 @@ const DrawerDescription = React.forwardRef<
     {...props}
   />
 ))
+DrawerDescription.displayName = DrawerPrimitive.Description.displayName
+
 
 
 
