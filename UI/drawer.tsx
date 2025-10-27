@@ -85,6 +85,8 @@ const DrawerTitle = React.forwardRef<
       "text-lg font-semibold leading-none tracking-tight",
       className
     )}
+    {...props}
+
 
 
 
