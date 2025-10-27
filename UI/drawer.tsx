@@ -86,6 +86,8 @@ const DrawerTitle = React.forwardRef<
       className
     )}
     {...props}
+  />
+
 
 
 
