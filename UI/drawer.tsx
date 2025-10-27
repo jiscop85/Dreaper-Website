@@ -39,6 +39,8 @@ const DrawerContent = React.forwardRef<
   <DrawerPortal>
     <DrawerOverlay />
     <DrawerPrimitive.Content
+      ref={ref}
+
 
 
 
