@@ -88,6 +88,8 @@ const DrawerTitle = React.forwardRef<
     {...props}
   />
 ))
+DrawerTitle.displayName = DrawerPrimitive.Title.displayName
+
 
 
 
