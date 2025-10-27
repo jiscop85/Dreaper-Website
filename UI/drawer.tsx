@@ -40,6 +40,8 @@ const DrawerContent = React.forwardRef<
     <DrawerOverlay />
     <DrawerPrimitive.Content
       ref={ref}
+      className={cn(
+
 
 
 
