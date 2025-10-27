@@ -65,6 +65,8 @@ const DrawerHeader = ({
 DrawerHeader.displayName = "DrawerHeader"
 
 const DrawerFooter = ({
+  className,
+
 
 
 
