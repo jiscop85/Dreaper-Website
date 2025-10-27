@@ -62,6 +62,8 @@ const DrawerHeader = ({
     {...props}
   />
 )
+DrawerHeader.displayName = "DrawerHeader"
+
 
 
 
