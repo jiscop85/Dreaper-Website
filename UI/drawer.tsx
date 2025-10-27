@@ -73,6 +73,8 @@ const DrawerFooter = ({
     {...props}
   />
 )
+DrawerFooter.displayName = "DrawerFooter"
+
 
 
 
