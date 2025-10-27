@@ -107,6 +107,8 @@ export {
   DrawerPortal,
   DrawerOverlay,
   DrawerTrigger,
+  DrawerClose,
+
 
 
 
