@@ -188,6 +188,8 @@ export {
   DropdownMenuRadioItem,
   DropdownMenuLabel,
   DropdownMenuSeparator,
+  DropdownMenuShortcut,
+
 
 
 
