@@ -101,6 +101,7 @@ const DropdownMenuCheckboxItem = React.forwardRef<
       className
     )}
     checked={checked}
+    {...props}
 
 
 
