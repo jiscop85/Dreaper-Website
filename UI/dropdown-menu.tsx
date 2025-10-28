@@ -49,6 +49,8 @@ const DropdownMenuSubContent = React.forwardRef<
       className
     )}
     {...props}
+  />
+
 
 
 
