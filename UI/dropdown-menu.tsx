@@ -10,4 +10,6 @@ const DropdownMenuTrigger = DropdownMenuPrimitive.Trigger
 
 const DropdownMenuGroup = DropdownMenuPrimitive.Group
 
+const DropdownMenuPortal = DropdownMenuPrimitive.Portal
+
 
