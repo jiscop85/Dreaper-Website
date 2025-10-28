@@ -30,6 +30,8 @@ const DropdownMenuSubTrigger = React.forwardRef<
       className
     )}
     {...props}
+  >
+
 
 
 
