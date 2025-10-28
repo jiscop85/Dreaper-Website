@@ -112,6 +112,8 @@ const DropdownMenuCheckboxItem = React.forwardRef<
   </DropdownMenuPrimitive.CheckboxItem>
 ))
 DropdownMenuCheckboxItem.displayName =
+ DropdownMenuPrimitive.CheckboxItem.displayName
+
 
 
 
