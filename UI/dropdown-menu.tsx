@@ -152,6 +152,8 @@ const DropdownMenuLabel = React.forwardRef<
     {...props}
   />
 ))
+DropdownMenuLabel.displayName = DropdownMenuPrimitive.Label.displayName
+
 
 
 
