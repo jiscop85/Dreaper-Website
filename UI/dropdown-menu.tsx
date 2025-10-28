@@ -191,6 +191,8 @@ export {
   DropdownMenuShortcut,
   DropdownMenuGroup,
   DropdownMenuPortal,
+  DropdownMenuSub,
+
 
 
 
