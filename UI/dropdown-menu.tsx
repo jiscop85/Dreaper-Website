@@ -141,6 +141,8 @@ const DropdownMenuLabel = React.forwardRef<
   React.ComponentPropsWithoutRef<typeof DropdownMenuPrimitive.Label> & {
     inset?: boolean
   }
+>(({ className, inset, ...props }, ref) => (
+
 
 
 
