@@ -29,6 +29,8 @@ const DropdownMenuSubTrigger = React.forwardRef<
       inset && "pl-8",
       className
     )}
+    {...props}
+
 
 
 
