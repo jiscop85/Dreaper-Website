@@ -78,6 +78,8 @@ const DropdownMenuItem = React.forwardRef<
     inset?: boolean
   }
 >(({ className, inset, ...props }, ref) => (
+  <DropdownMenuPrimitive.Item
+
 
 
 
