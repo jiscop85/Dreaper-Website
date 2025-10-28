@@ -132,6 +132,8 @@ const DropdownMenuRadioItem = React.forwardRef<
       </DropdownMenuPrimitive.ItemIndicator>
     </span>
     {children}
+  </DropdownMenuPrimitive.RadioItem>
+
 
 
 
