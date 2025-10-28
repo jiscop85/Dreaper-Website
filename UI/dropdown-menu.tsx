@@ -193,6 +193,8 @@ export {
   DropdownMenuPortal,
   DropdownMenuSub,
   DropdownMenuSubContent,
+  DropdownMenuSubTrigger,
+
 
 
 
