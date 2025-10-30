@@ -102,6 +102,8 @@ const FormLabel = React.forwardRef<
 FormLabel.displayName = "FormLabel"
 
 const FormControl = React.forwardRef<
+  React.ElementRef<typeof Slot>,
+
 
 
 
