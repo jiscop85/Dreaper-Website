@@ -85,6 +85,8 @@ const FormItem = React.forwardRef<
 FormItem.displayName = "FormItem"
 
 const FormLabel = React.forwardRef<
+  React.ElementRef<typeof LabelPrimitive.Root>,
+
 
 
 
