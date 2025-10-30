@@ -46,6 +46,8 @@ const useFormField = () => {
 
   const fieldState = getFieldState(fieldContext.name, formState)
 
+  if (!fieldContext) {
+
 
 
 
