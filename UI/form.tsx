@@ -112,6 +112,8 @@ const FormControl = React.forwardRef<
       ref={ref}
       id={formItemId}
       aria-describedby={
+        !error
+
 
 
 
