@@ -5,3 +5,5 @@ import { cn } from "@/lib/utils"
 
 const HoverCard = HoverCardPrimitive.Root
 
+const HoverCardTrigger = HoverCardPrimitive.Trigger
+
