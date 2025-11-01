@@ -10,6 +10,8 @@ const InputOTP = React.forwardRef<
 >(({ className, containerClassName, ...props }, ref) => (
   <OTPInput
     ref={ref}
+    containerClassName={cn(
+
 
 
 
