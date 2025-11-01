@@ -25,6 +25,8 @@ const InputOTPGroup = React.forwardRef<
   React.ComponentPropsWithoutRef<"div">
 >(({ className, ...props }, ref) => (
   <div ref={ref} className={cn("flex items-center", className)} {...props} />
+))
+
 
 
 
