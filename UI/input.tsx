@@ -30,6 +30,8 @@ InputOTPGroup.displayName = "InputOTPGroup"
 
 const InputOTPSlot = React.forwardRef<
   React.ElementRef<"div">,
+  React.ComponentPropsWithoutRef<"div"> & { index: number }
+
 
 
 
