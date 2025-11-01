@@ -26,6 +26,8 @@ const InputOTPGroup = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <div ref={ref} className={cn("flex items-center", className)} {...props} />
 ))
+InputOTPGroup.displayName = "InputOTPGroup"
+
 
 
 
