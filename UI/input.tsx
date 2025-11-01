@@ -63,6 +63,8 @@ const InputOTPSeparator = React.forwardRef<
   <div ref={ref} role="separator" {...props}>
     <Dot />
   </div>
+))
+
 
 
 
