@@ -64,6 +64,8 @@ const InputOTPSeparator = React.forwardRef<
     <Dot />
   </div>
 ))
+InputOTPSeparator.displayName = "InputOTPSeparator"
+
 
 
 
