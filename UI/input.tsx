@@ -12,6 +12,8 @@ const InputOTP = React.forwardRef<
     ref={ref}
     containerClassName={cn(
       "flex items-center gap-2 has-[:disabled]:opacity-50",
+      containerClassName
+
 
 
 
