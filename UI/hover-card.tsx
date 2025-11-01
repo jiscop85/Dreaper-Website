@@ -9,5 +9,7 @@ const HoverCardTrigger = HoverCardPrimitive.Trigger
 
 const HoverCardContent = React.forwardRef<
   React.ElementRef<typeof HoverCardPrimitive.Content>,
+  React.ComponentPropsWithoutRef<typeof HoverCardPrimitive.Content>
+
 
 
