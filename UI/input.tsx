@@ -53,6 +53,8 @@ const InputOTPSlot = React.forwardRef<
       )}
     </div>
   )
+})
+
 
 
 
