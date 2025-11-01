@@ -38,6 +38,8 @@ const InputOTPSlot = React.forwardRef<
   return (
     <div
       ref={ref}
+      className={cn(
+
 
 
 
