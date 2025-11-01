@@ -14,6 +14,8 @@ const HoverCardContent = React.forwardRef<
   <HoverCardPrimitive.Content
     ref={ref}
     align={align}
+    sideOffset={sideOffset}
+
 
 
 
