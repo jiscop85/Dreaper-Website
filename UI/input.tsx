@@ -36,6 +36,8 @@ const InputOTPSlot = React.forwardRef<
   const { char, hasFakeCaret, isActive } = inputOTPContext.slots[index]
 
   return (
+    <div
+
 
 
 
