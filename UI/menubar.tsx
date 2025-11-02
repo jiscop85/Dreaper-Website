@@ -18,6 +18,8 @@ const Menubar = React.forwardRef<
   React.ElementRef<typeof MenubarPrimitive.Root>,
   React.ComponentPropsWithoutRef<typeof MenubarPrimitive.Root>
 >(({ className, ...props }, ref) => (
+  <MenubarPrimitive.Root
+
 
 
 
