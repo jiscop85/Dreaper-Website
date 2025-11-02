@@ -71,6 +71,8 @@ const MenubarSubContent = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <MenubarPrimitive.SubContent
     ref={ref}
+    className={cn(
+
 
 
 
