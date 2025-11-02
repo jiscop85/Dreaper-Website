@@ -217,6 +217,8 @@ MenubarShortcut.displayname = "MenubarShortcut"
 export {
   Menubar,
   MenubarMenu,
+  MenubarTrigger,
+
 
 
 
