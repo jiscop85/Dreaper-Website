@@ -228,6 +228,8 @@ export {
   MenubarPortal,
   MenubarSubContent,
   MenubarSubTrigger,
+  MenubarGroup,
+
 
 
 
