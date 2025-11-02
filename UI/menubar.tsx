@@ -198,6 +198,8 @@ const MenubarSeparator = React.forwardRef<
 ))
 MenubarSeparator.displayName = MenubarPrimitive.Separator.displayName
 
+const MenubarShortcut = ({
+
 
 
 
