@@ -165,6 +165,8 @@ const MenubarRadioItem = React.forwardRef<
     </span>
     {children}
   </MenubarPrimitive.RadioItem>
+))
+
 
 
 
