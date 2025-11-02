@@ -103,6 +103,8 @@ const MenubarItem = React.forwardRef<
     </MenubarPrimitive.Portal>
   )
 )
+MenubarContent.displayName = MenubarPrimitive.Content.displayName
+
 
 
 
