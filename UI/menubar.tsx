@@ -35,6 +35,8 @@ const MenubarTrigger = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <MenubarPrimitive.Trigger
     ref={ref}
+    className={cn(
+
 
 
 
