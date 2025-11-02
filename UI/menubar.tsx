@@ -6,3 +6,5 @@ import { cn } from "@/lib/utils"
 
 const MenubarMenu = MenubarPrimitive.Menu
 
+const MenubarGroup = MenubarPrimitive.Group
+
