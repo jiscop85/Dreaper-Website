@@ -41,6 +41,8 @@ const MenubarTrigger = React.forwardRef<
     )}
     {...props}
   />
+))
+
 
 
 
