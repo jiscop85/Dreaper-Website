@@ -12,3 +12,5 @@ const MenubarPortal = MenubarPrimitive.Portal
 
 const MenubarSub = MenubarPrimitive.Sub
 
+const MenubarRadioGroup = MenubarPrimitive.RadioGroup
+
