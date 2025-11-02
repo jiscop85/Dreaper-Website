@@ -111,6 +111,8 @@ const MenubarItem = React.forwardRef<
     inset?: boolean
   }
 >(({ className, inset, ...props }, ref) => (
+  <MenubarPrimitive.Item
+
 
 
 
