@@ -225,6 +225,8 @@ export {
   MenubarCheckboxItem,
   MenubarRadioGroup,
   MenubarRadioItem,
+  MenubarPortal,
+
 
 
 
