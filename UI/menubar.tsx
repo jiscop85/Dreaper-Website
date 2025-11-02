@@ -222,6 +222,8 @@ export {
   MenubarItem,
   MenubarSeparator,
   MenubarLabel,
+  MenubarCheckboxItem,
+
 
 
 
