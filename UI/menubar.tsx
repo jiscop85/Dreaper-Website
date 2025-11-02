@@ -196,6 +196,8 @@ const MenubarSeparator = React.forwardRef<
     {...props}
   />
 ))
+MenubarSeparator.displayName = MenubarPrimitive.Separator.displayName
+
 
 
 
