@@ -209,6 +209,8 @@ const MenubarShortcut = ({
         className
       )}
       {...props}
+    />
+
 
 
 
