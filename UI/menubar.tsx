@@ -34,6 +34,8 @@ const MenubarTrigger = React.forwardRef<
   React.ComponentPropsWithoutRef<typeof MenubarPrimitive.Trigger>
 >(({ className, ...props }, ref) => (
   <MenubarPrimitive.Trigger
+    ref={ref}
+
 
 
 
