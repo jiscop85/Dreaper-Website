@@ -27,6 +27,8 @@ const Menubar = React.forwardRef<
     {...props}
   />
 ))
+Menubar.displayName = MenubarPrimitive.Root.displayName
+
 
 
 
