@@ -144,6 +144,8 @@ const MenubarCheckboxItem = React.forwardRef<
     {children}
   </MenubarPrimitive.CheckboxItem>
 ))
+MenubarCheckboxItem.displayName = MenubarPrimitive.CheckboxItem.displayName
+
 
 
 
