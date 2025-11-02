@@ -219,6 +219,8 @@ export {
   MenubarMenu,
   MenubarTrigger,
   MenubarContent,
+  MenubarItem,
+
 
 
 
