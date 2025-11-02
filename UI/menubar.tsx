@@ -44,6 +44,8 @@ const MenubarTrigger = React.forwardRef<
 ))
 MenubarTrigger.displayName = MenubarPrimitive.Trigger.displayName
 
+const MenubarSubTrigger = React.forwardRef<
+
 
 
 
