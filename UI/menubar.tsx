@@ -15,4 +15,6 @@ const MenubarSub = MenubarPrimitive.Sub
 const MenubarRadioGroup = MenubarPrimitive.RadioGroup
 
 const Menubar = React.forwardRef<
+  React.ElementRef<typeof MenubarPrimitive.Root>,
+
 
