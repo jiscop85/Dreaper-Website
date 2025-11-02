@@ -85,6 +85,8 @@ const MenubarItem = React.forwardRef<
   React.ComponentPropsWithoutRef<typeof MenubarPrimitive.Item> & {
     inset?: boolean
   }
+>(({ className, inset, ...props }, ref) => (
+
 
 
 
