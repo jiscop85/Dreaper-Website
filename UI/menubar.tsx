@@ -212,6 +212,8 @@ const MenubarShortcut = ({
     />
   )
 }
+MenubarShortcut.displayname = "MenubarShortcut"
+
 
 
 
