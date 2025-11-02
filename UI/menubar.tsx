@@ -168,6 +168,8 @@ const MenubarRadioItem = React.forwardRef<
 ))
 MenubarRadioItem.displayName = MenubarPrimitive.RadioItem.displayName
 
+const MenubarLabel = React.forwardRef<
+
 
 
 
