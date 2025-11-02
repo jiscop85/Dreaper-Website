@@ -32,6 +32,8 @@ Menubar.displayName = MenubarPrimitive.Root.displayName
 const MenubarTrigger = React.forwardRef<
   React.ElementRef<typeof MenubarPrimitive.Trigger>,
   React.ComponentPropsWithoutRef<typeof MenubarPrimitive.Trigger>
+>(({ className, ...props }, ref) => (
+
 
 
 
