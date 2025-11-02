@@ -83,6 +83,8 @@ MenubarSubContent.displayName = MenubarPrimitive.SubContent.displayName
 const MenubarItem = React.forwardRef<
   React.ElementRef<typeof MenubarPrimitive.Content>,
   React.ComponentPropsWithoutRef<typeof MenubarPrimitive.Content>
+>(
+
 
 
 
