@@ -173,6 +173,8 @@ const MenubarLabel = React.forwardRef<
   React.ComponentPropsWithoutRef<typeof MenubarPrimitive.Label> & {
     inset?: boolean
   }
+>(({ className, inset, ...props }, ref) => (
+
 
 
 
