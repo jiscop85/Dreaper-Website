@@ -134,6 +134,8 @@ const MenubarCheckboxItem = React.forwardRef<
       className
     )}
     checked={checked}
+    {...props}
+
 
 
 
