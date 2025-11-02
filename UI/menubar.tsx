@@ -204,6 +204,8 @@ const MenubarShortcut = ({
 }: React.HTMLAttributes<HTMLSpanElement>) => {
   return (
     <span
+      className={cn(
+
 
 
 
