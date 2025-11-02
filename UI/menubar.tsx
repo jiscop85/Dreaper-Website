@@ -163,6 +163,8 @@ const MenubarRadioItem = React.forwardRef<
         <Circle className="h-2 w-2 fill-current" />
       </MenubarPrimitive.ItemIndicator>
     </span>
+    {children}
+
 
 
 
