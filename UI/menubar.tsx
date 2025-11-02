@@ -230,6 +230,8 @@ export {
   MenubarSubTrigger,
   MenubarGroup,
   MenubarSub,
+  MenubarShortcut,
+
 
 
 
