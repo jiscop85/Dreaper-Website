@@ -80,6 +80,8 @@ const MenubarSubContent = React.forwardRef<
 ))
 MenubarSubContent.displayName = MenubarPrimitive.SubContent.displayName
 
+const MenubarItem = React.forwardRef<
+
 
 
 
