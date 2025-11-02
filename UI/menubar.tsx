@@ -190,6 +190,8 @@ const MenubarSeparator = React.forwardRef<
   React.ElementRef<typeof MenubarPrimitive.Separator>,
   React.ComponentPropsWithoutRef<typeof MenubarPrimitive.Separator>
 >(({ className, ...props }, ref) => (
+  <MenubarPrimitive.Separator
+
 
 
 
