@@ -171,6 +171,8 @@ MenubarRadioItem.displayName = MenubarPrimitive.RadioItem.displayName
 const MenubarLabel = React.forwardRef<
   React.ElementRef<typeof MenubarPrimitive.Label>,
   React.ComponentPropsWithoutRef<typeof MenubarPrimitive.Label> & {
+    inset?: boolean
+
 
 
 
