@@ -91,6 +91,8 @@ const MenubarItem = React.forwardRef<
     <MenubarPrimitive.Portal>
       <MenubarPrimitive.Content
         ref={ref}
+        align={align}
+
 
 
 
