@@ -229,6 +229,8 @@ export {
   MenubarSubContent,
   MenubarSubTrigger,
   MenubarGroup,
+  MenubarSub,
+
 
 
 
