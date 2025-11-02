@@ -51,6 +51,8 @@ const MenubarSubTrigger = React.forwardRef<
   }
 >(({ className, inset, children, ...props }, ref) => (
   <MenubarPrimitive.SubTrigger
+    ref={ref}
+
 
 
 
