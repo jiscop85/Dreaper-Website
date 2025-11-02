@@ -201,6 +201,8 @@ MenubarSeparator.displayName = MenubarPrimitive.Separator.displayName
 const MenubarShortcut = ({
   className,
   ...props
+}: React.HTMLAttributes<HTMLSpanElement>) => {
+
 
 
 
