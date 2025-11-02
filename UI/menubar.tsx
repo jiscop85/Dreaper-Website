@@ -50,6 +50,8 @@ const MenubarSubTrigger = React.forwardRef<
     inset?: boolean
   }
 >(({ className, inset, children, ...props }, ref) => (
+  <MenubarPrimitive.SubTrigger
+
 
 
 
