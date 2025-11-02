@@ -108,6 +108,8 @@ MenubarContent.displayName = MenubarPrimitive.Content.displayName
 const MenubarItem = React.forwardRef<
   React.ElementRef<typeof MenubarPrimitive.Item>,
   React.ComponentPropsWithoutRef<typeof MenubarPrimitive.Item> & {
+    inset?: boolean
+
 
 
 
