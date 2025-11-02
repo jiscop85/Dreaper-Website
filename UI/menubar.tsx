@@ -59,6 +59,8 @@ const MenubarSubTrigger = React.forwardRef<
     )}
     {...props}
   >
+    {children}
+
 
 
 
