@@ -151,6 +151,8 @@ const MenubarRadioItem = React.forwardRef<
   React.ComponentPropsWithoutRef<typeof MenubarPrimitive.RadioItem>
 >(({ className, children, ...props }, ref) => (
   <MenubarPrimitive.RadioItem
+    ref={ref}
+
 
 
 
