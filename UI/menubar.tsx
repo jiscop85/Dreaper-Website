@@ -183,8 +183,9 @@ const MenubarLabel = React.forwardRef<
     )}
     {...props}
   />
-
+))
 MenubarLabel.displayName = MenubarPrimitive.Label.displayName
+
 
 
 
