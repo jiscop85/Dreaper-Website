@@ -220,6 +220,8 @@ export {
   MenubarTrigger,
   MenubarContent,
   MenubarItem,
+  MenubarSeparator,
+
 
 
 
