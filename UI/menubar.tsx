@@ -121,6 +121,8 @@ const MenubarItem = React.forwardRef<
     {...props}
   />
 ))
+MenubarItem.displayName = MenubarPrimitive.Item.displayName
+
 
 
 
