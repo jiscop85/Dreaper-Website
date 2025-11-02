@@ -87,6 +87,7 @@ const MenubarItem = React.forwardRef<
   }
 >(({ className, inset, ...props }, ref) => (
   <MenubarPrimitive.Item
+    ref={ref}
 
 
 
