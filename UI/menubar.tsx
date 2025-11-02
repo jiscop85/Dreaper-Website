@@ -221,6 +221,8 @@ export {
   MenubarContent,
   MenubarItem,
   MenubarSeparator,
+  MenubarLabel,
+
 
 
 
