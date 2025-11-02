@@ -182,6 +182,8 @@ const MenubarLabel = React.forwardRef<
       className
     )}
     {...props}
+  />
+
 
 
 
