@@ -26,6 +26,8 @@ const Menubar = React.forwardRef<
     )}
     {...props}
   />
+))
+
 
 
 
