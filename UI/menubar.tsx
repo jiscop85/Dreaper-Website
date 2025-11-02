@@ -77,6 +77,8 @@ const MenubarSubContent = React.forwardRef<
     )}
     {...props}
   />
+))
+
 
 
 
