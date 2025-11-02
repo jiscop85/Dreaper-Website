@@ -120,6 +120,8 @@ const MenubarItem = React.forwardRef<
     )}
     {...props}
   />
+))
+
 
 
 
