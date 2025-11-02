@@ -226,6 +226,8 @@ export {
   MenubarRadioGroup,
   MenubarRadioItem,
   MenubarPortal,
+  MenubarSubContent,
+
 
 
 
