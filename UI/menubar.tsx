@@ -128,6 +128,8 @@ const MenubarCheckboxItem = React.forwardRef<
   React.ComponentPropsWithoutRef<typeof MenubarPrimitive.CheckboxItem>
 >(({ className, children, checked, ...props }, ref) => (
   <MenubarPrimitive.CheckboxItem
+    ref={ref}
+
 
 
 
