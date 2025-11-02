@@ -142,6 +142,8 @@ const MenubarCheckboxItem = React.forwardRef<
       </MenubarPrimitive.ItemIndicator>
     </span>
     {children}
+  </MenubarPrimitive.CheckboxItem>
+
 
 
 
