@@ -227,6 +227,8 @@ export {
   MenubarRadioItem,
   MenubarPortal,
   MenubarSubContent,
+  MenubarSubTrigger,
+
 
 
 
