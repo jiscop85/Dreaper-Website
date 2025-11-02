@@ -94,6 +94,8 @@ const MenubarItem = React.forwardRef<
         align={align}
         alignOffset={alignOffset}
         sideOffset={sideOffset}
+        className={cn(
+
 
 
 
