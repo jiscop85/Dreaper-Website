@@ -70,6 +70,8 @@ const MenubarSubContent = React.forwardRef<
   React.ComponentPropsWithoutRef<typeof MenubarPrimitive.SubContent>
 >(({ className, ...props }, ref) => (
   <MenubarPrimitive.SubContent
+    ref={ref}
+
 
 
 
