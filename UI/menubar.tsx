@@ -203,6 +203,8 @@ const MenubarShortcut = ({
   ...props
 }: React.HTMLAttributes<HTMLSpanElement>) => {
   return (
+    <span
+
 
 
 
