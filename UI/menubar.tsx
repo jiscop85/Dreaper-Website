@@ -140,6 +140,8 @@ const MenubarCheckboxItem = React.forwardRef<
       <MenubarPrimitive.ItemIndicator>
         <Check className="h-4 w-4" />
       </MenubarPrimitive.ItemIndicator>
+    </span>
+
 
 
 
