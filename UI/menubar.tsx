@@ -123,6 +123,8 @@ const MenubarItem = React.forwardRef<
 ))
 MenubarItem.displayName = MenubarPrimitive.Item.displayName
 
+const MenubarCheckboxItem = React.forwardRef<
+
 
 
 
