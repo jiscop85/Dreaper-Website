@@ -68,6 +68,8 @@ MenubarSubTrigger.displayName = MenubarPrimitive.SubTrigger.displayName
 const MenubarSubContent = React.forwardRef<
   React.ElementRef<typeof MenubarPrimitive.SubContent>,
   React.ComponentPropsWithoutRef<typeof MenubarPrimitive.SubContent>
+>(({ className, ...props }, ref) => (
+
 
 
 
