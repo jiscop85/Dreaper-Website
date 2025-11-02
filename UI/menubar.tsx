@@ -58,6 +58,8 @@ const MenubarSubTrigger = React.forwardRef<
       className
     )}
     {...props}
+  >
+
 
 
 
