@@ -49,6 +49,8 @@ const MenubarSubTrigger = React.forwardRef<
   React.ComponentPropsWithoutRef<typeof MenubarPrimitive.SubTrigger> & {
     inset?: boolean
   }
+>(({ className, inset, children, ...props }, ref) => (
+
 
 
 
