@@ -118,6 +118,8 @@ NavigationMenuIndicator.displayName =
 export {
   navigationMenuTriggerStyle,
   NavigationMenu,
+  NavigationMenuList,
+
 
 
 
