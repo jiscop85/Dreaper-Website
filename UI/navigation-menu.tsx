@@ -97,6 +97,8 @@ const NavigationMenuViewport = React.forwardRef<
 NavigationMenuViewport.displayName =
   NavigationMenuPrimitive.Viewport.displayName
 
+const NavigationMenuIndicator = React.forwardRef<
+
 
 
 
