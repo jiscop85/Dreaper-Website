@@ -67,6 +67,8 @@ const NavigationMenuContent = React.forwardRef<
   React.ComponentPropsWithoutRef<typeof NavigationMenuPrimitive.Content>
 >(({ className, ...props }, ref) => (
   <NavigationMenuPrimitive.Content
+    ref={ref}
+
 
 
 
