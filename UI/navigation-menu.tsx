@@ -123,6 +123,8 @@ export {
   NavigationMenuContent,
   NavigationMenuTrigger,
   NavigationMenuLink,
+  NavigationMenuIndicator,
+
 
 
 
