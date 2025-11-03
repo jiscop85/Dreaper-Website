@@ -36,6 +36,8 @@ const NavigationMenuList = React.forwardRef<
     {...props}
   />
 ))
+NavigationMenuList.displayName = NavigationMenuPrimitive.List.displayName
+
 
 
 
