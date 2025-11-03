@@ -21,6 +21,8 @@ const NavigationMenu = React.forwardRef<
     <NavigationMenuViewport />
   </NavigationMenuPrimitive.Root>
 ))
+NavigationMenu.displayName = NavigationMenuPrimitive.Root.displayName
+
 
 
 
