@@ -122,6 +122,8 @@ export {
   NavigationMenuItem,
   NavigationMenuContent,
   NavigationMenuTrigger,
+  NavigationMenuLink,
+
 
 
 
