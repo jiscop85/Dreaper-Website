@@ -18,6 +18,8 @@ const NavigationMenu = React.forwardRef<
     {...props}
   >
     {children}
+    <NavigationMenuViewport />
+
 
 
 
