@@ -75,6 +75,8 @@ const NavigationMenuContent = React.forwardRef<
     {...props}
   />
 ))
+NavigationMenuContent.displayName = NavigationMenuPrimitive.Content.displayName
+
 
 
 
