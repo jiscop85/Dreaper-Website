@@ -49,6 +49,8 @@ const NavigationMenuTrigger = React.forwardRef<
   React.ComponentPropsWithoutRef<typeof NavigationMenuPrimitive.Trigger>
 >(({ className, children, ...props }, ref) => (
   <NavigationMenuPrimitive.Trigger
+    ref={ref}
+
 
 
 
