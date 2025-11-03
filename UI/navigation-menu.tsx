@@ -53,6 +53,8 @@ const NavigationMenuTrigger = React.forwardRef<
     className={cn(navigationMenuTriggerStyle(), "group", className)}
     {...props}
   >
+    {children}{" "}
+
 
 
 
