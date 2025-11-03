@@ -34,6 +34,8 @@ const NavigationMenuList = React.forwardRef<
       className
     )}
     {...props}
+  />
+
 
 
 
