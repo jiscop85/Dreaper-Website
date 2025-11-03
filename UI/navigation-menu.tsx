@@ -40,6 +40,8 @@ NavigationMenuList.displayName = NavigationMenuPrimitive.List.displayName
 
 const NavigationMenuItem = NavigationMenuPrimitive.Item
 
+const navigationMenuTriggerStyle = cva(
+
 
 
 
