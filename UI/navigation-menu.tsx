@@ -113,6 +113,8 @@ const NavigationMenuIndicator = React.forwardRef<
   </NavigationMenuPrimitive.Indicator>
 ))
 NavigationMenuIndicator.displayName =
+  NavigationMenuPrimitive.Indicator.displayName
+
 
 
 
