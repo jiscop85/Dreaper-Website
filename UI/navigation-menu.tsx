@@ -60,6 +60,8 @@ const NavigationMenuTrigger = React.forwardRef<
     />
   </NavigationMenuPrimitive.Trigger>
 ))
+NavigationMenuTrigger.displayName = NavigationMenuPrimitive.Trigger.displayName
+
 
 
 
