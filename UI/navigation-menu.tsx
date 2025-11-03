@@ -73,6 +73,8 @@ const NavigationMenuContent = React.forwardRef<
       className
     )}
     {...props}
+  />
+
 
 
 
