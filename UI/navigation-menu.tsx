@@ -45,6 +45,8 @@ const navigationMenuTriggerStyle = cva(
 )
 
 const NavigationMenuTrigger = React.forwardRef<
+  React.ElementRef<typeof NavigationMenuPrimitive.Trigger>,
+
 
 
 
