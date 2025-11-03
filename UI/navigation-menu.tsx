@@ -119,6 +119,8 @@ export {
   navigationMenuTriggerStyle,
   NavigationMenu,
   NavigationMenuList,
+  NavigationMenuItem,
+
 
 
 
