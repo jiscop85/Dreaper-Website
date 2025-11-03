@@ -13,6 +13,8 @@ const NavigationMenu = React.forwardRef<
     ref={ref}
     className={cn(
 
+      className
+
 
 
 
