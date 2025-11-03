@@ -54,6 +54,8 @@ const NavigationMenuTrigger = React.forwardRef<
     {...props}
   >
     {children}{" "}
+    <ChevronDown
+
 
 
 
