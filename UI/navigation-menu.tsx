@@ -90,6 +90,8 @@ const NavigationMenuViewport = React.forwardRef<
         className
       )}
       ref={ref}
+      {...props}
+
 
 
 
