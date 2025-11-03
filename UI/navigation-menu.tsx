@@ -102,6 +102,8 @@ const NavigationMenuIndicator = React.forwardRef<
   React.ComponentPropsWithoutRef<typeof NavigationMenuPrimitive.Indicator>
 >(({ className, ...props }, ref) => (
   <NavigationMenuPrimitive.Indicator
+    ref={ref}
+
 
 
 
