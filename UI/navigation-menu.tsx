@@ -29,6 +29,8 @@ const NavigationMenuList = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <NavigationMenuPrimitive.List
     ref={ref}
+    className={cn(
+
 
 
 
