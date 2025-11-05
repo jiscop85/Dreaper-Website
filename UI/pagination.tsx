@@ -28,6 +28,8 @@ PaginationContent.displayName = "PaginationContent"
 
 const PaginationItem = React.forwardRef<
   HTMLLIElement,
+  React.ComponentProps<"li">
+
 
 
 
