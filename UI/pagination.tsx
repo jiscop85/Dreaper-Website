@@ -17,6 +17,8 @@ Pagination.displayName = "Pagination"
 const PaginationContent = React.forwardRef<
   HTMLUListElement,
   React.ComponentProps<"ul">
+>(({ className, ...props }, ref) => (
+
 
 
 
