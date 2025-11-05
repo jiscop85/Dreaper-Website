@@ -54,6 +54,8 @@ const PaginationLink = ({
       }),
       className
     )}
+    {...props}
+
 
 
 
