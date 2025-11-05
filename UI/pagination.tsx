@@ -45,6 +45,8 @@ const PaginationLink = ({
   size = "icon",
   ...props
 }: PaginationLinkProps) => (
+  <a
+
 
 
 
