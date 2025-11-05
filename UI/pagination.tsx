@@ -96,6 +96,8 @@ const PaginationEllipsis = ({
   ...props
 }: React.ComponentProps<"span">) => (
   <span
+    aria-hidden
+
 
 
 
