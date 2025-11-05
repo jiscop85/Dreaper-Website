@@ -93,6 +93,8 @@ PaginationNext.displayName = "PaginationNext"
 
 const PaginationEllipsis = ({
   className,
+  ...props
+
 
 
 
