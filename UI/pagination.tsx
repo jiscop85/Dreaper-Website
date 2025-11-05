@@ -63,6 +63,8 @@ const PaginationPrevious = ({
   className,
   ...props
 }: React.ComponentProps<typeof PaginationLink>) => (
+  <PaginationLink
+
 
 
 
