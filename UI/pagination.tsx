@@ -104,6 +104,8 @@ const PaginationEllipsis = ({
     <span className="sr-only">More pages</span>
   </span>
 )
+PaginationEllipsis.displayName = "PaginationEllipsis"
+
 
 
 
