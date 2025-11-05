@@ -43,6 +43,8 @@ const PaginationLink = ({
   className,
   isActive,
   size = "icon",
+  ...props
+
 
 
 
