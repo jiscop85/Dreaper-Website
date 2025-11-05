@@ -107,6 +107,8 @@ const PaginationEllipsis = ({
 PaginationEllipsis.displayName = "PaginationEllipsis"
 
 export {
+  Pagination,
+
 
 
 
