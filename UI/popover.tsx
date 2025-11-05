@@ -15,6 +15,8 @@ const PopoverContent = React.forwardRef<
     <PopoverPrimitive.Content
       ref={ref}
       align={align}
+      sideOffset={sideOffset}
+
 
 
 
