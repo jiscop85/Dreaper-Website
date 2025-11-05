@@ -47,6 +47,8 @@ const PaginationLink = ({
 }: PaginationLinkProps) => (
   <a
     aria-current={isActive ? "page" : undefined}
+    className={cn(
+
 
 
 
