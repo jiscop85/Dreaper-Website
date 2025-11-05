@@ -111,6 +111,8 @@ export {
   PaginationContent,
   PaginationEllipsis,
   PaginationItem,
+  PaginationLink,
+
 
 
 
