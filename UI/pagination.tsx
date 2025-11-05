@@ -89,6 +89,8 @@ const PaginationNext = ({
     <ChevronRight className="h-4 w-4" />
   </PaginationLink>
 )
+PaginationNext.displayName = "PaginationNext"
+
 
 
 
