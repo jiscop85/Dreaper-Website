@@ -19,6 +19,8 @@ const PaginationContent = React.forwardRef<
   React.ComponentProps<"ul">
 >(({ className, ...props }, ref) => (
   <ul
+    ref={ref}
+
 
 
 
