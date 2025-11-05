@@ -90,7 +90,10 @@ const PaginationNext = ({
   </PaginationLink>
 )
 PaginationNext.displayName = "PaginationNext"
+
 const PaginationEllipsis = ({
+  className,
+
 
 
 
