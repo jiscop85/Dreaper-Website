@@ -76,6 +76,8 @@ const PaginationPrevious = ({
 PaginationPrevious.displayName = "PaginationPrevious"
 
 const PaginationNext = ({
+  className,
+
 
 
 
