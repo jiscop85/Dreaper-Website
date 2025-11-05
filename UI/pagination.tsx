@@ -1,4 +1,4 @@
-import * as React from "react"
+vimport * as React from "react"
 import { ChevronLeft, ChevronRight, MoreHorizontal } from "lucide-react"
 
 import { cn } from "@/lib/utils"
@@ -29,6 +29,8 @@ PaginationContent.displayName = "PaginationContent"
 const PaginationItem = React.forwardRef<
   HTMLLIElement,
   React.ComponentProps<"li">
+>(({ className, ...props }, ref) => (
+
 
 
 
