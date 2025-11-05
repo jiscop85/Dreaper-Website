@@ -31,6 +31,8 @@ const PaginationItem = React.forwardRef<
   React.ComponentProps<"li">
 >(({ className, ...props }, ref) => (
   <li ref={ref} className={cn("", className)} {...props} />
+))
+
 
 
 
