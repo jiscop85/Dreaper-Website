@@ -84,6 +84,8 @@ const PaginationNext = ({
     size="default"
     className={cn("gap-1 pr-2.5", className)}
     {...props}
+  >
+
 
 
 
