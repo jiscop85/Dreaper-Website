@@ -26,6 +26,8 @@ const PaginationContent = React.forwardRef<
 ))
 PaginationContent.displayName = "PaginationContent"
 
+const PaginationItem = React.forwardRef<
+
 
 
 
