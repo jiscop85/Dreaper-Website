@@ -87,6 +87,8 @@ const PaginationNext = ({
   >
     <span>Next</span>
     <ChevronRight className="h-4 w-4" />
+  </PaginationLink>
+
 
 
 
