@@ -110,6 +110,8 @@ export {
   Pagination,
   PaginationContent,
   PaginationEllipsis,
+  PaginationItem,
+
 
 
 
