@@ -22,6 +22,8 @@ const PopoverContent = React.forwardRef<
       )}
       {...props}
     />
+  </PopoverPrimitive.Portal>
+
 
 
 
