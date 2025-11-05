@@ -46,6 +46,8 @@ const PaginationLink = ({
   ...props
 }: PaginationLinkProps) => (
   <a
+    aria-current={isActive ? "page" : undefined}
+
 
 
 
