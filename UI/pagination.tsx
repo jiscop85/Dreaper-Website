@@ -14,6 +14,8 @@ const Pagination = ({ className, ...props }: React.ComponentProps<"nav">) => (
 )
 Pagination.displayName = "Pagination"
 
+const PaginationContent = React.forwardRef<
+
 
 
 
