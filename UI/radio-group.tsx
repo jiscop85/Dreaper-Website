@@ -9,6 +9,8 @@ const RadioGroup = React.forwardRef<
   React.ComponentPropsWithoutRef<typeof RadioGroupPrimitive.Root>
 >(({ className, ...props }, ref) => {
   return (
+    <RadioGroupPrimitive.Root
+
 
 
 
