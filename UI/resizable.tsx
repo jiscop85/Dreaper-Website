@@ -26,6 +26,8 @@ const ResizableHandle = ({
   withHandle?: boolean
 }) => (
   <ResizablePrimitive.PanelResizeHandle
+    className={cn(
+
 
 
 
