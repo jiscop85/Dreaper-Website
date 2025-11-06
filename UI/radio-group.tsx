@@ -24,6 +24,8 @@ const RadioGroupItem = React.forwardRef<
 >(({ className, ...props }, ref) => {
   return (
     <RadioGroupPrimitive.Item
+      ref={ref}
+
 
 
 
