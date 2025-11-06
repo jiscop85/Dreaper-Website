@@ -5,5 +5,7 @@ import { cn } from "@/lib/utils"
 
 const ResizablePanelGroup = ({
   className,
+  ...props
+
 
 
