@@ -31,8 +31,9 @@ const ResizableHandle = ({
       className
     )}
     {...props}
-
+  >
     {withHandle && (
+
 
 
 
