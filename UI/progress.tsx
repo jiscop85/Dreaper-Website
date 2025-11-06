@@ -15,6 +15,8 @@ const Progress = React.forwardRef<
     )}
     {...props}
   >
+    <ProgressPrimitive.Indicator
+
 
 
 
