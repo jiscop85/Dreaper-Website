@@ -21,6 +21,8 @@ const ResizablePanel = ResizablePrimitive.Panel
 const ResizableHandle = ({
   withHandle,
   className,
+  ...props
+
 
 
 
