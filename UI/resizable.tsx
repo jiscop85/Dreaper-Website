@@ -37,6 +37,8 @@ const ResizableHandle = ({
         <GripVertical className="h-2.5 w-2.5" />
       </div>
     )}
+  </ResizablePrimitive.PanelResizeHandle>
+
 
 
 
