@@ -15,6 +15,8 @@ const RadioGroup = React.forwardRef<
       ref={ref}
     />
   )
+})
+
 
 
 
