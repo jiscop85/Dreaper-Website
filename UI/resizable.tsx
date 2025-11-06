@@ -38,6 +38,8 @@ const ResizableHandle = ({
       </div>
     )}
   </ResizablePrimitive.PanelResizeHandle>
+)
+
 
 
 
