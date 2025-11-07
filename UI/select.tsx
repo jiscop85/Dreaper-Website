@@ -58,3 +58,9 @@ ref={ref}
       className
     )}
     {...props}
+ >
+    <ChevronDown className="h-4 w-4" />
+  </SelectPrimitive.ScrollDownButton>
+))
+SelectScrollDownButton.displayName =
+  SelectPrimitive.ScrollDownButton.displayName
