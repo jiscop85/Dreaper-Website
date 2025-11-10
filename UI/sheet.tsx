@@ -43,3 +43,10 @@ const sheetVariants = cva(
     },
     defaultVariants: {
       side: "right",
+   },
+  }
+)
+
+interface SheetContentProps
+  extends React.ComponentPropsWithoutRef<typeof SheetPrimitive.Content>,
+  VariantProps<typeof sheetVariants> { }
