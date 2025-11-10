@@ -42,5 +42,24 @@ function useSidebar() {
     throw new Error("useSidebar must be used within a SidebarProvider.")
   }
 
+  const SidebarProvider = React.forwardRef<
+  HTMLDivElement,
+  React.ComponentProps<"div"> & {
+    defaultOpen?: boolean
+    open?: boolean
+    onOpenChange?: (open: boolean) => void
+  }
+>(
+  (
+    {
+      defaultOpen = true,
+      open: openProp,
+      onOpenChange: setOpenProp,
+      className,
+      style,
+      children,
+      ...props
+    },
   return context
 }
+
