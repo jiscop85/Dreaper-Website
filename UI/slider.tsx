@@ -40,3 +40,15 @@ const Index = () => {
             products={embroideryFabrics || []} 
             isLoading={embroideryLoading}
           />
+ <ProductSection 
+            title="🧵 پارچه‌های ژاکارد خطی" 
+            products={jacquardFabrics || []} 
+            isLoading={jacquardLoading}
+          />
+          <ProductSection 
+            title="☀️ کالکشن بهاره و تابستانه" 
+            products={springFabrics || []} 
+            isLoading={springLoading}
+          />
+          <FeaturesSection />
+        </main>
