@@ -23,3 +23,20 @@ const Index = () => {
         <div className="absolute top-1/2 left-1/2 w-32 h-32 bg-fabric-emerald/5 rounded-full animate-float-slow opacity-60"></div>
       </div>
 
+<div className="relative z-10">
+        <Header />
+        <HeroSection />
+        
+        <main className="space-y-16 py-8">
+          <FabricCategoriesSlider />
+          <FabricGallerySection />
+          <ProductSection 
+            title="✨ پارچه‌های ویژه و منحصر به فرد" 
+            products={featuredProducts || []} 
+            isLoading={featuredLoading}
+          />
+          <ProductSection 
+            title="🎨 پارچه‌های سوزندوزی و مجلسی" 
+            products={embroideryFabrics || []} 
+            isLoading={embroideryLoading}
+          />
