@@ -6,4 +6,12 @@ import FabricGallerySection from '@/components/FabricGallerySection';
 import ProductSection from '@/components/ProductSection';
 import FeaturesSection from '@/components/FeaturesSection';
 import Footer from '@/components/Footer';
+import { useFeaturedProducts, useProductsByCategory } from '@/hooks/useProducts';
+
+const Index = () => {
+  const { data: featuredProducts, isLoading: featuredLoading } = useFeaturedProducts();
+  const { data: embroideryFabrics, isLoading: embroideryLoading } = useProductsByCategory('formal-evening-fabrics');
+  const { data: jacquardFabrics, isLoading: jacquardLoading } = useProductsByCategory('autumn-winter-fabrics');
+  const { data: springFabrics, isLoading: springLoading } = useProductsByCategory('spring-summer-fabrics');
+
 
