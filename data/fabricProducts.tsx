@@ -47,5 +47,14 @@ export const newFabricProducts: Product[] = [
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   },
+  {
+    id: 'fabric-3-jacquard-purple',
+    name: 'پارچه ژاکارد خطی بنفش',
+    slug: 'jacquard-linear-purple',
+    description: 'پارچه ژاکارد با طرح خطی مدرن و رنگ بنفش، مناسب برای مانتو، وست و کت',
+    price: 379000,
+    image_url: '/lovable-uploads/62d51784-82db-4840-8ad5-cee5f9c2a066.png',
+    images: ['/lovable-uploads/62d51784-82db-4840-8ad5-cee5f9c2a066.png'],
+    category_id: 'autumn-winter-fabrics',
 
 
