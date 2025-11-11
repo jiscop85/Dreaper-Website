@@ -209,5 +209,23 @@ stock_quantity: 85,
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   },
+{
+    id: 'fabric-13-jacquard-teardrop-black-white',
+    name: 'پارچه ژاکارد اشکی سیاه و سفید 🧥',
+    slug: 'jacquard-teardrop-black-white',
+    description: 'پارچه ژاکارد با طرح اشکی کنتراست سیاه و سفید، عرض ۱.۵ متر، مناسب برای مانتو، وست، کت و خرجکار',
+    price: 379000,
+    image_url: '/lovable-uploads/db25dca5-c846-46a5-a173-89c797370e80.png',
+    images: ['/lovable-uploads/db25dca5-c846-46a5-a173-89c797370e80.png'],
+    category_id: 'autumn-winter-fabrics',
+    stock_quantity: 87,
+    is_featured: false,
+    is_active: true,
+    tags: ['ژاکارد', 'اشکی', 'سیاه و سفید', 'کنتراست'],
+    meta_title: 'پارچه ژاکارد اشکی سیاه و سفید',
+    meta_description: 'پارچه ژاکارد طرح اشکی سیاه و سفید، عرض ۱.۵ متر، مناسب مانتو، وست، کت و خرجکار',
+    created_at: new Date().toISOString(),
+    updated_at: new Date().toISOString()
+  },
 
 
