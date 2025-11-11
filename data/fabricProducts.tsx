@@ -101,5 +101,23 @@ stock_quantity: 85,
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   },
+{
+    id: 'fabric-7-jacquard-navy',
+    name: 'پارچه ژاکارد خطی سرمه‌ای',
+    slug: 'jacquard-linear-navy',
+    description: 'پارچه ژاکارد با طرح خطی مینیمال و رنگ سرمه‌ای، مناسب برای طراحی‌های مدرن',
+    price: 379000,
+    image_url: '/lovable-uploads/81823c60-734a-4577-8ceb-49da507506bb.png',
+    images: ['/lovable-uploads/81823c60-734a-4577-8ceb-49da507506bb.png'],
+    category_id: 'autumn-winter-fabrics',
+    stock_quantity: 95,
+    is_featured: false,
+    is_active: true,
+    tags: ['ژاکارد', 'خطی', 'سرمه‌ای', 'مینیمال'],
+    meta_title: 'پارچه ژاکارد خطی سرمه‌ای',
+    meta_description: 'پارچه ژاکارد خطی سرمه‌ای، عرض ۱.۵۰ متر، قیمت ۳۷۹ هزار تومان',
+    created_at: new Date().toISOString(),
+    updated_at: new Date().toISOString()
+  },
 
 
