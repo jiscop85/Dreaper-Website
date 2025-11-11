@@ -24,3 +24,13 @@ export const newFabricProducts: Product[] = [
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   },
+{
+    id: 'fabric-2-embroidery-colorful-2',
+    name: 'پارچه سوزندوزی گل‌دار - طرح سنتی',
+    slug: 'embroidery-floral-traditional',
+    description: 'پارچه سوزندوزی با طرح‌های گل‌دار سنتی و دوخت دستی، ایده‌آل برای لباس‌های خاص',
+    price: 480000,
+    original_price: 550000,
+    discount_percentage: 12,
+    image_url: '/lovable-uploads/f78abb12-a7da-42b8-be99-bce00c0ee1ed.png',
+  
