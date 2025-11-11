@@ -20,3 +20,7 @@ export const newFabricProducts: Product[] = [
     is_active: true,
     tags: ['سوزندوزی', 'مجلسی', 'هندسی', 'رنگارنگ'],
     meta_title: 'پارچه سوزندوزی رنگارنگ با طرح هندسی',
+    meta_description: 'پارچه سوزندوزی با کیفیت عالی، عرض ۱.۳۵ متر، مناسب برای مانتو، کت، دامن و خرجکار',
+    created_at: new Date().toISOString(),
+    updated_at: new Date().toISOString()
+  },
