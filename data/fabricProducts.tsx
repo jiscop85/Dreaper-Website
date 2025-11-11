@@ -173,5 +173,23 @@ stock_quantity: 85,
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   },
+{
+    id: 'fabric-11-jacquard-teardrop-purple',
+    name: 'پارچه ژاکارد اشکی بنفش 🧥',
+    slug: 'jacquard-teardrop-purple',
+    description: 'پارچه ژاکارد با طرح اشکی شیک و رنگ بنفش، عرض ۱.۵ متر، مناسب برای مانتو، وست، کت و خرجکار',
+    price: 379000,
+    image_url: '/lovable-uploads/6ddfe6ea-77d8-40a7-b014-e74b99e50c87.png',
+    images: ['/lovable-uploads/6ddfe6ea-77d8-40a7-b014-e74b99e50c87.png'],
+    category_id: 'formal-evening-fabrics',
+    stock_quantity: 85,
+    is_featured: false,
+    is_active: true,
+    tags: ['ژاکارد', 'اشکی', 'بنفش', 'شیک'],
+    meta_title: 'پارچه ژاکارد اشکی بنفش',
+    meta_description: 'پارچه ژاکارد طرح اشکی بنفش، عرض ۱.۵ متر، مناسب مانتو، وست، کت و خرجکار',
+    created_at: new Date().toISOString(),
+    updated_at: new Date().toISOString()
+  },
 
 
