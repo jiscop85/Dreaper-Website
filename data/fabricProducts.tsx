@@ -95,5 +95,11 @@ stock_quantity: 85,
     stock_quantity: 78,
     is_featured: false,
     is_active: true,
+    tags: ['ژاکارد', 'خطی', 'کرم', 'کلاسیک'],
+    meta_title: 'پارچه ژاکارد خطی کرم',
+    meta_description: 'پارچه ژاکارد خطی کرم، عرض ۱.۵۰ متر، ایده‌آل برای مانتو و وست',
+    created_at: new Date().toISOString(),
+    updated_at: new Date().toISOString()
+  },
 
 
