@@ -119,5 +119,23 @@ stock_quantity: 85,
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   },
+  {
+    id: 'fabric-8-jacquard-teardrop-gray',
+    name: 'پارچه ژاکارد اشکی طوسی 🧥',
+    slug: 'jacquard-teardrop-gray',
+    description: 'پارچه ژاکارد با طرح اشکی زیبا و رنگ طوسی، عرض ۱.۵ متر، مناسب برای مانتو، وست، کت و خرجکار',
+    price: 379000,
+    image_url: '/lovable-uploads/1529c94c-0bc6-46d8-aabb-117a9f3843a9.png',
+    images: ['/lovable-uploads/1529c94c-0bc6-46d8-aabb-117a9f3843a9.png'],
+    category_id: 'autumn-winter-fabrics',
+    stock_quantity: 88,
+    is_featured: false,
+    is_active: true,
+    tags: ['ژاکارد', 'اشکی', 'طوسی', 'مانتو', 'وست'],
+    meta_title: 'پارچه ژاکارد اشکی طوسی',
+    meta_description: 'پارچه ژاکارد طرح اشکی، عرض ۱.۵ متر، مناسب مانتو، وست، کت و خرجکار',
+    created_at: new Date().toISOString(),
+    updated_at: new Date().toISOString()
+  },
 
 
