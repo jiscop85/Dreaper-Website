@@ -33,4 +33,8 @@ export const newFabricProducts: Product[] = [
     original_price: 550000,
     discount_percentage: 12,
     image_url: '/lovable-uploads/f78abb12-a7da-42b8-be99-bce00c0ee1ed.png',
-  
+  images: [
+      '/lovable-uploads/f78abb12-a7da-42b8-be99-bce00c0ee1ed.png',
+      '/lovable-uploads/51be9dcf-bbd1-4739-8437-1c34c7a38be6.png'
+    ],
+
