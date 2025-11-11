@@ -37,4 +37,12 @@ export const newFabricProducts: Product[] = [
       '/lovable-uploads/f78abb12-a7da-42b8-be99-bce00c0ee1ed.png',
       '/lovable-uploads/51be9dcf-bbd1-4739-8437-1c34c7a38be6.png'
     ],
+ category_id: 'formal-evening-fabrics',
+    stock_quantity: 115,
+    is_featured: true,
+    is_active: true,
+    tags: ['سوزندوزی', 'گل‌دار', 'سنتی', 'دست‌دوز'],
+    meta_title: 'پارچه سوزندوزی گل‌دار سنتی',
+    meta_description: 'پارچه سوزندوزی با طرح گل‌دار، عرض ۱.۳۵ متر، قابل فروش تکی، عمده و متری',
+  
 
