@@ -191,5 +191,23 @@ stock_quantity: 85,
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   },
+{
+    id: 'fabric-12-jacquard-teardrop-pink',
+    name: 'پارچه ژاکارد اشکی صورتی 🧥',
+    slug: 'jacquard-teardrop-pink',
+    description: 'پارچه ژاکارد با طرح اشکی ظریف و رنگ صورتی، عرض ۱.۵ متر، مناسب برای مانتو، وست، کت و خرجکار',
+    price: 379000,
+    image_url: '/lovable-uploads/a4f9083e-9ed5-456a-960f-375b31425575.png',
+    images: ['/lovable-uploads/a4f9083e-9ed5-456a-960f-375b31425575.png'],
+    category_id: 'spring-summer-fabrics',
+    stock_quantity: 90,
+    is_featured: false,
+    is_active: true,
+    tags: ['ژاکارد', 'اشکی', 'صورتی', 'ظریف'],
+    meta_title: 'پارچه ژاکارد اشکی صورتی',
+    meta_description: 'پارچه ژاکارد طرح اشکی صورتی، عرض ۱.۵ متر، مناسب مانتو، وست، کت و خرجکار',
+    created_at: new Date().toISOString(),
+    updated_at: new Date().toISOString()
+  },
 
 
