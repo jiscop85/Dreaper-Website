@@ -56,5 +56,15 @@ export const newFabricProducts: Product[] = [
     image_url: '/lovable-uploads/62d51784-82db-4840-8ad5-cee5f9c2a066.png',
     images: ['/lovable-uploads/62d51784-82db-4840-8ad5-cee5f9c2a066.png'],
     category_id: 'autumn-winter-fabrics',
+stock_quantity: 85,
+    is_featured: false,
+    is_active: true,
+    tags: ['ژاکارد', 'خطی', 'بنفش', 'مدرن'],
+    meta_title: 'پارچه ژاکارد خطی بنفش',
+    meta_description: 'پارچه ژاکارد خطی با عرض ۱.۵۰ متر، قیمت ۳۷۹ هزار تومان، مناسب مانتو و وست',
+    created_at: new Date().toISOString(),
+    updated_at: new Date().toISOString()
+  },
+  {
 
 
