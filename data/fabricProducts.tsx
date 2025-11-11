@@ -66,5 +66,22 @@ stock_quantity: 85,
     updated_at: new Date().toISOString()
   },
   {
+   id: 'fabric-4-jacquard-brown',
+    name: 'پارچه ژاکارد خطی قهوه‌ای',
+    slug: 'jacquard-linear-brown',
+    description: 'پارچه ژاکارد با طرح خطی ظریف و رنگ قهوه‌ای، عالی برای پوشاک پاییزی و زمستانی',
+    price: 379000,
+    image_url: '/lovable-uploads/b4ac3cb9-da74-47cf-b944-52536bbb0539.png',
+    images: ['/lovable-uploads/b4ac3cb9-da74-47cf-b944-52536bbb0539.png'],
+    category_id: 'autumn-winter-fabrics',
+    stock_quantity: 92,
+    is_featured: false,
+    is_active: true,
+    tags: ['ژاکارد', 'خطی', 'قهوه‌ای', 'پاییزی'],
+    meta_title: 'پارچه ژاکارد خطی قهوه‌ای',
+    meta_description: 'پارچه ژاکارد خطی با طرح ظریف، عرض ۱.۵۰ متر، مناسب کت و خرجکار',
+    created_at: new Date().toISOString(),
+    updated_at: new Date().toISOString()
+  },
 
 
