@@ -227,5 +227,27 @@ stock_quantity: 85,
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   },
+// پارچه جدید دبل فیس نگین‌کاری شده
+  {
+    id: 'fabric-14-double-face-beaded',
+    name: 'پارچه دبل فیس نگین‌کاری شده ✨',
+    slug: 'double-face-beaded-fabric',
+    description: 'پارچه دبل فیس لوکس با نگین‌کاری دستی، عرض ۱.۵۰ متر، مناسب برای انواع لباس‌ها و مجالس خاص',
+    price: 650000,
+    original_price: 750000,
+    discount_percentage: 13,
+    image_url: '/lovable-uploads/0fd82f54-3b7d-49a1-b8c3-56684eeb5257.png',
+    images: ['/lovable-uploads/0fd82f54-3b7d-49a1-b8c3-56684eeb5257.png'],
+    category_id: 'formal-evening-fabrics',
+    stock_quantity: 45,
+    is_featured: true,
+    is_active: true,
+    tags: ['دبل فیس', 'نگین‌کاری', 'لوکس', 'مجلسی', 'دست‌دوز'],
+    meta_title: 'پارچه دبل فیس نگین‌کاری شده لوکس',
+    meta_description: 'پارچه دبل فیس با نگین‌کاری دستی، عرض ۱.۵۰ متر، مناسب انواع لباس‌ها',
+    created_at: new Date().toISOString(),
+    updated_at: new Date().toISOString()
+  }
+];
 
 
