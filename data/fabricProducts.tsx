@@ -155,5 +155,23 @@ stock_quantity: 85,
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   },
+{
+    id: 'fabric-10-jacquard-teardrop-multicolor',
+    name: 'مجموعه پارچه‌های ژاکارد اشکی رنگارنگ 🧥',
+    slug: 'jacquard-teardrop-multicolor',
+    description: 'مجموعه‌ای از پارچه‌های ژاکارد با طرح اشکی در رنگ‌های مختلف، عرض ۱.۵ متر، مناسب برای مانتو، وست، کت و خرجکار',
+    price: 379000,
+    image_url: '/lovable-uploads/8a58816a-bb99-4ca6-961e-d2115bca1244.png',
+    images: ['/lovable-uploads/8a58816a-bb99-4ca6-961e-d2115bca1244.png'],
+    category_id: 'spring-summer-fabrics',
+    stock_quantity: 95,
+    is_featured: true,
+    is_active: true,
+    tags: ['ژاکارد', 'اشکی', 'رنگارنگ', 'مجموعه'],
+    meta_title: 'مجموعه پارچه‌های ژاکارد اشکی رنگارنگ',
+    meta_description: 'مجموعه پارچه‌های ژاکارد طرح اشکی، عرض ۱.۵ متر، مناسب مانتو، وست، کت و خرجکار',
+    created_at: new Date().toISOString(),
+    updated_at: new Date().toISOString()
+  },
 
 
