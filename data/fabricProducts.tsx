@@ -137,5 +137,23 @@ stock_quantity: 85,
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   },
+{
+    id: 'fabric-9-jacquard-teardrop-beige',
+    name: 'پارچه ژاکارد اشکی بژ 🧥',
+    slug: 'jacquard-teardrop-beige',
+    description: 'پارچه ژاکارد با طرح اشکی کلاسیک و رنگ بژ، عرض ۱.۵ متر، مناسب برای مانتو، وست، کت و خرجکار',
+    price: 379000,
+    image_url: '/lovable-uploads/da781aa5-a57a-47c1-8fa0-1a3dbb016254.png',
+    images: ['/lovable-uploads/da781aa5-a57a-47c1-8fa0-1a3dbb016254.png'],
+    category_id: 'casual-home-fabrics',
+    stock_quantity: 92,
+    is_featured: false,
+    is_active: true,
+    tags: ['ژاکارد', 'اشکی', 'بژ', 'کلاسیک'],
+    meta_title: 'پارچه ژاکارد اشکی بژ',
+    meta_description: 'پارچه ژاکارد طرح اشکی بژ، عرض ۱.۵ متر، مناسب مانتو، وست، کت و خرجکار',
+    created_at: new Date().toISOString(),
+    updated_at: new Date().toISOString()
+  },
 
 
