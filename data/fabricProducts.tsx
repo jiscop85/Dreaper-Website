@@ -44,5 +44,8 @@ export const newFabricProducts: Product[] = [
     tags: ['سوزندوزی', 'گل‌دار', 'سنتی', 'دست‌دوز'],
     meta_title: 'پارچه سوزندوزی گل‌دار سنتی',
     meta_description: 'پارچه سوزندوزی با طرح گل‌دار، عرض ۱.۳۵ متر، قابل فروش تکی، عمده و متری',
-  
+    created_at: new Date().toISOString(),
+    updated_at: new Date().toISOString()
+  },
+
 
