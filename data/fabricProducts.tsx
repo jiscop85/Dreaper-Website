@@ -83,5 +83,17 @@ stock_quantity: 85,
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   },
+  {
+    id: 'fabric-5-jacquard-cream',
+    name: 'پارچه ژاکارد خطی کرم',
+    slug: 'jacquard-linear-cream',
+    description: 'پارچه ژاکارد با طرح خطی کلاسیک و رنگ کرم، گزینه‌ای عالی برای پوشاک اداری',
+    price: 379000,
+    image_url: '/lovable-uploads/2ad021d5-a416-45a8-b034-3a2f2519ead1.png',
+    images: ['/lovable-uploads/2ad021d5-a416-45a8-b034-3a2f2519ead1.png'],
+    category_id: 'casual-home-fabrics',
+    stock_quantity: 78,
+    is_featured: false,
+    is_active: true,
 
 
