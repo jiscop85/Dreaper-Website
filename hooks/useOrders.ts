@@ -31,3 +31,10 @@ export const useOrders = () => {
           console.warn('Database error for orders:', error.message);
           return [];
         }
+
+        return (data || []).map(transformOrder);
+      } catch (error) {
+        console.warn('Connection error for orders:', error);
+        return [];
+      }
+    },
