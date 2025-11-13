@@ -42,3 +42,16 @@ export const useFilteredProducts = (params: FilterParams) => {
               .select('id')
               .eq('slug', params.categorySlug)
               .single();
+
+            if(category) {
+              query = query.eq('category_id', category.id);
+            }
+          }
+        }
+
+        // فیلتر بر اساس تگ‌ها
+        if (params.filters && params.filters.length > 0) {
+          for (const filter of params.filters) {
+            query = query.contains('tags', [filter]);
+          }
+        }
