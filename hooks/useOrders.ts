@@ -42,3 +42,13 @@ export const useOrders = () => {
     retry: 1,
   });
 };
+
+export const useCreateOrder = () => {
+  const queryClient = useQueryClient();
+  
+  return useMutation({
+    mutationFn: async (orderData: CreateOrderData): Promise<Order> => {
+      // Validate price range
+      if (orderData.price <= 0) {
+        throw new Error('قیمت باید بیشتر از صفر باشد');
+      }
