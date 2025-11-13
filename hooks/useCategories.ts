@@ -18,3 +18,14 @@ export const useCategories = () => {
     },
   });
 };
+
+export const useMainCategories = () => {
+  return useQuery({
+    queryKey: ['categories', 'main'],
+    queryFn: async (): Promise<Category[]> => {
+      const { data, error } = await supabase
+        .from('categories')
+        .select('*')
+        .eq('is_active', true)
+        .is('parent_id', null)
+        .order('sort_order');
