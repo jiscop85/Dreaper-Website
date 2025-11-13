@@ -142,3 +142,24 @@ export const useProductsByFilter = (filterType: string, filterValue: string) => 
     retry: 1,
   });
 };
+
+// Hook برای جستجوی پیشرفته
+export const useAdvancedProductSearch = (searchParams: {
+  query?: string;
+  materials?: string[];
+  seasons?: string[];
+  patterns?: string[];
+  usages?: string[];
+  colors?: string[];
+  specials?: string[];
+  priceRange?: { min: number; max: number };
+  discountOnly?: boolean;
+}) => {
+  return useQuery({
+    queryKey: ['products', 'advanced-search', searchParams],
+    queryFn: async (): Promise<Product[]> => {
+      try {
+        let query = supabase
+          .from('products')
+          .select('*')
+          .eq('is_active', true);
