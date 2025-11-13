@@ -26,3 +26,8 @@ export const useOrders = () => {
           .from('orders')
           .select('*')
           .order('created_at', { ascending: false });
+
+        if (error) {
+          console.warn('Database error for orders:', error.message);
+          return [];
+        }
