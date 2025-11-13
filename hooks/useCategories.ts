@@ -29,3 +29,9 @@ export const useMainCategories = () => {
         .eq('is_active', true)
         .is('parent_id', null)
         .order('sort_order');
+
+      if (error) throw error;
+      return data || [];
+    },
+  });
+};
