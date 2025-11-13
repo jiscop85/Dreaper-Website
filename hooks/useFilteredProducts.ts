@@ -179,3 +179,13 @@ export const useAdvancedProductSearch = (searchParams: {
         if (searchParams.discountOnly) {
           query = query.not('discount_percentage', 'is', null);
         }
+
+        // فیلتر بر اساس تگ‌ها
+        const allTags = [
+          ...(searchParams.materials || []),
+          ...(searchParams.seasons || []),
+          ...(searchParams.patterns || []),
+          ...(searchParams.usages || []),
+          ...(searchParams.colors || []),
+          ...(searchParams.specials || [])
+        ];
