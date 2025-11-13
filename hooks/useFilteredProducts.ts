@@ -74,3 +74,15 @@ export const useFilteredProducts = (params: FilterParams) => {
           default:
             query = query.order('created_at', { ascending: false });
         }
+
+        // محدودیت تعداد
+        if (params.limit) {
+          query = query.limit(params.limit);
+        }
+
+        const { data, error } = await query;
+
+        if (error) {
+          console.warn('Database error for filtered products:', error.message);
+          return newFabricProducts.slice(0, params.limit || 20);
+        }
