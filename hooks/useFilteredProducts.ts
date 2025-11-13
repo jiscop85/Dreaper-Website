@@ -122,3 +122,23 @@ export const useProductsByFilter = (filterType: string, filterValue: string) => 
           default:
             query = query.or(`name.ilike.%${filterValue}%, description.ilike.%${filterValue}%`);
         }
+
+ query = query.order('created_at', { ascending: false }).limit(20);
+
+        const { data, error } = await query;
+
+        if (error) {
+          console.warn('Database error for filtered products by type:', error.message);
+          return newFabricProducts.slice(0, 20);
+        }
+        
+        return (data || []).map(transformProduct);
+      } catch (error) {
+        console.warn('Connection error for filtered products by type:', error);
+        return newFabricProducts.slice(0, 20);
+      }
+    },
+    staleTime: 1000 * 60 * 5, // 5 minutes
+    retry: 1,
+  });
+};
