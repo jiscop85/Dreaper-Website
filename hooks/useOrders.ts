@@ -16,3 +16,13 @@ const transformOrder = (row: any): Order => ({
   ...row,
   order_type: row.order_type as 'buy' | 'sell'
 });
+
+export const useOrders = () => {
+  return useQuery({
+    queryKey: ['orders'],
+    queryFn: async (): Promise<Order[]> => {
+      try {
+        const { data, error } = await supabase
+          .from('orders')
+          .select('*')
+          .order('created_at', { ascending: false });
