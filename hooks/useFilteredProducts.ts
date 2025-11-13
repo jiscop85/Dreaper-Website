@@ -108,3 +108,17 @@ export const useProductsByFilter = (filterType: string, filterValue: string) => 
           .from('products')
           .select('*')
           .eq('is_active', true);
+
+// فیلتر بر اساس نوع فیلتر
+        switch (filterType) {
+          case 'material':
+          case 'season':
+          case 'pattern':
+          case 'usage':
+          case 'color':
+          case 'special':
+            query = query.contains('tags', [filterValue]);
+            break;
+          default:
+            query = query.or(`name.ilike.%${filterValue}%, description.ilike.%${filterValue}%`);
+        }
