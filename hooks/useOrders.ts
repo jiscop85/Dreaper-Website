@@ -63,3 +63,11 @@ export const useCreateOrder = () => {
           .insert([orderData])
           .select()
           .single();
+
+        if (error) throw error;
+        return transformOrder(data);
+      } catch (error: any) {
+        console.error('Database error creating order:', error);
+        throw new Error(error.message || 'خطا در ثبت سفارش');
+      }
+    },
