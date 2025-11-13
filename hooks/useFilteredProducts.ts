@@ -204,3 +204,10 @@ export const useAdvancedProductSearch = (searchParams: {
           console.warn('Database error for advanced search:', error.message);
           return newFabricProducts;
         }
+
+        return (data || []).map(transformProduct);
+      } catch (error) {
+        console.warn('Connection error for advanced search:', error);
+        return newFabricProducts;
+      }
+    },
