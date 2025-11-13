@@ -86,3 +86,14 @@ export const useFilteredProducts = (params: FilterParams) => {
           console.warn('Database error for filtered products:', error.message);
           return newFabricProducts.slice(0, params.limit || 20);
         }
+
+       return (data || []).map(transformProduct);
+      } catch (error) {
+        console.warn('Connection error for filtered products:', error);
+        return newFabricProducts.slice(0, params.limit || 20);
+      }
+    },
+    staleTime: 1000 * 60 * 5, // 5 minutes
+    retry: 1,
+  });
+};
