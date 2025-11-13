@@ -97,3 +97,14 @@ export const useFilteredProducts = (params: FilterParams) => {
     retry: 1,
   });
 };
+
+// Hook برای دریافت محصولات براساس فیلتر موردی
+export const useProductsByFilter = (filterType: string, filterValue: string) => {
+  return useQuery({
+    queryKey: ['products', 'filter', filterType, filterValue],
+    queryFn: async (): Promise<Product[]> => {
+      try {
+        let query = supabase
+          .from('products')
+          .select('*')
+          .eq('is_active', true);
