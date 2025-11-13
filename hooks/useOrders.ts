@@ -71,3 +71,14 @@ export const useCreateOrder = () => {
         throw new Error(error.message || 'خطا در ثبت سفارش');
       }
     },
+     onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['orders'] });
+      toast.success('سفارش با موفقیت ثبت شد');
+    },
+    onError: (error: any) => {
+      console.error('Error creating order:', error);
+      toast.error(error.message || 'خطا در ثبت سفارش');
+    },
+  });
+};
+
