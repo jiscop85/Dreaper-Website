@@ -168,3 +168,9 @@ export const useAdvancedProductSearch = (searchParams: {
         if (searchParams.query) {
           query = query.or(`name.ilike.%${searchParams.query}%, description.ilike.%${searchParams.query}%`);
         }
+
+        // فیلتر بر اساس محدوده قیمت
+        if (searchParams.priceRange) {
+          query = query.gte('price', searchParams.priceRange.min)
+                       .lte('price', searchParams.priceRange.max);
+        }
