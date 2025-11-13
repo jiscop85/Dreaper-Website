@@ -10,3 +10,10 @@ const transformProduct = (row: any): Product => ({
   images: Array.isArray(row.images) ? row.images : [],
   tags: Array.isArray(row.tags) ? row.tags : [],
 });
+
+interface FilterParams {
+  categorySlug?: string;
+  filters?: string[];
+  sortBy?: 'newest' | 'popular' | 'price-low' | 'price-high' | 'discount';
+  limit?: number;
+}
