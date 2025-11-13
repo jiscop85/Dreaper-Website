@@ -36,3 +36,7 @@ type Action =
       type: ActionType["ADD_TOAST"]
       toast: ToasterToast
     }
+| {
+      type: ActionType["UPDATE_TOAST"]
+      toast: Partial<ToasterToast>
+    }
