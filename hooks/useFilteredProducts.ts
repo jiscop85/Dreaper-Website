@@ -17,3 +17,13 @@ interface FilterParams {
   sortBy?: 'newest' | 'popular' | 'price-low' | 'price-high' | 'discount';
   limit?: number;
 }
+
+export const useFilteredProducts = (params: FilterParams) => {
+  return useQuery({
+    queryKey: ['products', 'filtered', params],
+    queryFn: async (): Promise<Product[]> => {
+      try {
+        let query = supabase
+          .from('products')
+          .select('*')
+          .eq('is_active', true);
