@@ -12,3 +12,9 @@ export const useCategories = () => {
         .select('*')
         .eq('is_active', true)
         .order('sort_order');
+
+      if (error) throw error;
+      return data || [];
+    },
+  });
+};
