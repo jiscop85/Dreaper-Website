@@ -189,3 +189,9 @@ export const useAdvancedProductSearch = (searchParams: {
           ...(searchParams.colors || []),
           ...(searchParams.specials || [])
         ];
+
+        if (allTags.length > 0) {
+          for (const tag of allTags) {
+            query = query.contains('tags', [tag]);
+          }
+        }
