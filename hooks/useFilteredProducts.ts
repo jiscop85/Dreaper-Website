@@ -174,3 +174,8 @@ export const useAdvancedProductSearch = (searchParams: {
           query = query.gte('price', searchParams.priceRange.min)
                        .lte('price', searchParams.priceRange.max);
         }
+
+        // فیلتر محصولات تخفیف‌دار
+        if (searchParams.discountOnly) {
+          query = query.not('discount_percentage', 'is', null);
+        }
