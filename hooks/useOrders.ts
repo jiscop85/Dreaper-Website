@@ -52,3 +52,7 @@ export const useCreateOrder = () => {
       if (orderData.price <= 0) {
         throw new Error('قیمت باید بیشتر از صفر باشد');
       }
+
+      if (orderData.price > 99999999) {
+        throw new Error('قیمت نمی‌تواند بیشتر از 99,999,999 تومان باشد');
+      }
