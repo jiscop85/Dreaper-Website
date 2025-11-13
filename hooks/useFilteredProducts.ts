@@ -195,3 +195,12 @@ export const useAdvancedProductSearch = (searchParams: {
             query = query.contains('tags', [tag]);
           }
         }
+
+        query = query.order('created_at', { ascending: false });
+
+        const { data, error } = await query;
+
+        if (error) {
+          console.warn('Database error for advanced search:', error.message);
+          return newFabricProducts;
+        }
