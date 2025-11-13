@@ -211,3 +211,7 @@ export const useAdvancedProductSearch = (searchParams: {
         return newFabricProducts;
       }
     },
+   staleTime: 1000 * 60 * 5, // 5 minutes
+    retry: 1,
+  });
+};
