@@ -67,3 +67,6 @@ const timeout = setTimeout(() => {
       toastId: toastId,
     })
   }, TOAST_REMOVE_DELAY)
+
+ toastTimeouts.set(toastId, timeout)
+}
