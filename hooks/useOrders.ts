@@ -10,3 +10,9 @@ interface CreateOrderData {
   price: number;
   order_type: 'buy' | 'sell';
 }
+
+// Helper function to transform database row to Order type
+const transformOrder = (row: any): Order => ({
+  ...row,
+  order_type: row.order_type as 'buy' | 'sell'
+});
