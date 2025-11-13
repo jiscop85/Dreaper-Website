@@ -27,3 +27,18 @@ export const useFilteredProducts = (params: FilterParams) => {
           .from('products')
           .select('*')
           .eq('is_active', true);
+
+        // فیلتر بر اساس دسته‌بندی
+        if (params.categorySlug) {
+          if (params.categorySlug === 'new-arrivals') {
+            query = query.order('created_at', { ascending: false });
+          } else if (params.categorySlug === 'bestsellers') {
+            query = query.order('created_at', { ascending: false });
+          } else if (params.categorySlug === 'on-sale') {
+            query = query.not('discount_percentage', 'is', null);
+          } else {
+            const { data: category } = await supabase
+              .from('categories')
+              .select('id')
+              .eq('slug', params.categorySlug)
+              .single();
