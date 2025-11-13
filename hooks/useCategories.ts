@@ -46,3 +46,10 @@ export const useSubCategories = (parentId: string) => {
         .eq('is_active', true)
         .eq('parent_id', parentId)
         .order('sort_order');
+
+      if (error) throw error;
+      return data || [];
+    },
+    enabled: !!parentId,
+  });
+};
