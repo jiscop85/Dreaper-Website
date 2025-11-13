@@ -163,3 +163,8 @@ export const useAdvancedProductSearch = (searchParams: {
           .from('products')
           .select('*')
           .eq('is_active', true);
+
+        // جستجو در نام و توضیحات
+        if (searchParams.query) {
+          query = query.or(`name.ilike.%${searchParams.query}%, description.ilike.%${searchParams.query}%`);
+        }
