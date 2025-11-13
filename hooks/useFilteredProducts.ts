@@ -55,3 +55,22 @@ export const useFilteredProducts = (params: FilterParams) => {
             query = query.contains('tags', [filter]);
           }
         }
+
+       // مرتب‌سازی
+        switch (params.sortBy) {
+          case 'newest':
+            query = query.order('created_at', { ascending: false });
+            break;
+          case 'price-low':
+            query = query.order('price', { ascending: true });
+            break;
+          case 'price-high':
+            query = query.order('price', { ascending: false });
+            break;
+          case 'discount':
+            query = query.not('discount_percentage', 'is', null)
+                         .order('discount_percentage', { ascending: false });
+            break;
+          default:
+            query = query.order('created_at', { ascending: false });
+        }
