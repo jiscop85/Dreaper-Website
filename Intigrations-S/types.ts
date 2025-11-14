@@ -126,3 +126,13 @@ Insert: {
           product_id?: string
           updated_at?: string | null
         }
+ Relationships: [
+          {
+            foreignKeyName: "orders_product_id_fkey"
+            columns: ["product_id"]
+            isOneToOne: false
+            referencedRelation: "products"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
