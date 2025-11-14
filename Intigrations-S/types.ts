@@ -157,3 +157,23 @@ Insert: {
           tags: string[] | null
           updated_at: string | null
         }
+ Insert: {
+          category_id?: string | null
+          created_at?: string | null
+          description?: string | null
+          discount_percentage?: number | null
+          id?: string
+          image_url: string
+          images?: Json | null
+          is_active?: boolean | null
+          is_featured?: boolean | null
+          meta_description?: string | null
+          meta_title?: string | null
+          name: string
+          original_price?: number | null
+          price: number
+          slug: string
+          stock_quantity?: number | null
+          tags?: string[] | null
+          updated_at?: string | null
+        }
