@@ -85,3 +85,20 @@ updateQuantity: (id, quantity) => {
         }));
         get().calculateTotals();
       },
+
+ clearCart: () => {
+        set({ items: [], totalAmount: 0, totalItems: 0 });
+      },
+
+      calculateTotals: () => {
+        const { items } = get();
+        const totalAmount = Math.round(items.reduce((sum, item) => sum + item.totalPrice, 0) * 100) / 100;
+        const totalItems = Math.round(items.reduce((sum, item) => sum + item.quantity, 0) * 100) / 100;
+        set({ totalAmount, totalItems });
+      }
+    }),
+    {
+      name: 'cart-storage'
+    }
+  )
+);
