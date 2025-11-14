@@ -297,3 +297,18 @@ export type TablesUpdate<
       ? U
       : never
     : never
+
+export type Enums<
+  DefaultSchemaEnumNameOrOptions extends
+    | keyof DefaultSchema["Enums"]
+    | { schema: keyof Database },
+  EnumName extends DefaultSchemaEnumNameOrOptions extends {
+    schema: keyof Database
+  }
+    ? keyof Database[DefaultSchemaEnumNameOrOptions["schema"]]["Enums"]
+    : never = never,
+> = DefaultSchemaEnumNameOrOptions extends { schema: keyof Database }
+  ? Database[DefaultSchemaEnumNameOrOptions["schema"]]["Enums"][EnumName]
+  : DefaultSchemaEnumNameOrOptions extends keyof DefaultSchema["Enums"]
+    ? DefaultSchema["Enums"][DefaultSchemaEnumNameOrOptions]
+    : never
