@@ -88,3 +88,13 @@ Insert: {
           sort_order?: number | null
           updated_at?: string | null
         }
+ Relationships: [
+          {
+            foreignKeyName: "categories_parent_id_fkey"
+            columns: ["parent_id"]
+            isOneToOne: false
+            referencedRelation: "categories"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
