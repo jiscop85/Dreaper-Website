@@ -117,3 +117,12 @@ Insert: {
           product_id: string
           updated_at?: string | null
         }
+  Update: {
+          created_at?: string | null
+          description?: string | null
+          id?: string
+          order_type?: string
+          price?: number
+          product_id?: string
+          updated_at?: string | null
+        }
