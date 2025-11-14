@@ -50,3 +50,17 @@ export type Database = {
           updated_at?: string | null
         }
         Relationships: []
+ }
+      categories: {
+        Row: {
+          created_at: string | null
+          description: string | null
+          id: string
+          image_url: string | null
+          is_active: boolean | null
+          name: string
+          parent_id: string | null
+          slug: string
+          sort_order: number | null
+          updated_at: string | null
+        }
