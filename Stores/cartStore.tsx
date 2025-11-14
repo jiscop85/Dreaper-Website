@@ -71,3 +71,17 @@ updateQuantity: (id, quantity) => {
           get().removeFromCart(id);
           return;
         }
+
+ set(state => ({
+          items: state.items.map(item => 
+            item.id === id 
+              ? { 
+                  ...item, 
+                  quantity: roundedQuantity,
+                  totalPrice: Math.round(roundedQuantity * item.price * 100) / 100
+                }
+              : item
+          )
+        }));
+        get().calculateTotals();
+      },
