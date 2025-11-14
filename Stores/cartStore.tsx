@@ -33,3 +33,15 @@ export const useCartStore = create<CartStore>()(
         const { items } = get();
         const existingItem = items.find(i => i.id === item.id);
         
+if (existingItem) {
+          set(state => ({
+            items: state.items.map(i => 
+              i.id === item.id 
+                ? { 
+                    ...i, 
+                    quantity: Math.round((i.quantity + item.quantity) * 100) / 100,
+                    totalPrice: Math.round((i.quantity + item.quantity) * i.price * 100) / 100
+                  }
+                : i
+            )
+          }));
