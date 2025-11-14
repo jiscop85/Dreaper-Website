@@ -197,3 +197,14 @@ Insert: {
           tags?: string[] | null
           updated_at?: string | null
         }
+ Relationships: [
+          {
+            foreignKeyName: "products_category_id_fkey"
+            columns: ["category_id"]
+            isOneToOne: false
+            referencedRelation: "categories"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+    }
