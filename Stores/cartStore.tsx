@@ -21,3 +21,15 @@ interface CartStore {
   clearCart: () => void;
   calculateTotals: () => void;
 }
+
+export const useCartStore = create<CartStore>()(
+  persist(
+    (set, get) => ({
+      items: [],
+      totalAmount: 0,
+      totalItems: 0,
+
+      addToCart: (item) => {
+        const { items } = get();
+        const existingItem = items.find(i => i.id === item.id);
+        
