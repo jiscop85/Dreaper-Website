@@ -27,3 +27,11 @@ const MoneyBackGuarantee = () => {
       color: "from-purple-500 to-indigo-600"
     }
   ];
+
+  const returnSteps = [
+    {
+      step: "۱",
+      title: "درخواست بازگشت",
+      description: "تماس با پشتیبانی یا فرم آنلاین",
+      icon: "📞"
+    },
