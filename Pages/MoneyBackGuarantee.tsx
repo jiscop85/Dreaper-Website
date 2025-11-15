@@ -114,3 +114,37 @@ return (
               شرایط و ضوابط بازگشت محصولات
             </p>
           </div>
+
+           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <Card className="bg-green-50 border-green-200 hover:shadow-elegant transition-all duration-300">
+              <CardHeader>
+                <CardTitle className="flex items-center text-green-700">
+                  <CheckCircle className="w-5 h-5 ml-2" />
+                  موارد قابل بازگشت
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-3 text-green-700">
+                  <li className="flex items-center">
+                    <CheckCircle className="w-4 h-4 ml-2" />
+                    کالای سالم و دست‌نخورده
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="w-4 h-4 ml-2" />
+                    بسته‌بندی اصلی محصول
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="w-4 h-4 ml-2" />
+                    همراه فاکتور خرید
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="w-4 h-4 ml-2" />
+                    تا ۷ روز پس از دریافت
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="w-4 h-4 ml-2" />
+                    عدم رضایت از کیفیت
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
