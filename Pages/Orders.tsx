@@ -209,3 +209,26 @@ return (
                   </div>
                 </RadioGroup>
               </div>
+
+              {/* Buttons */}
+              <div className="flex gap-4">
+                <Button 
+                  type="submit" 
+                  className="flex-1"
+                  disabled={createOrderMutation.isPending || !selectedProductId || !price}
+                >
+                  {createOrderMutation.isPending ? 'در حال ثبت...' : 'ثبت سفارش'}
+                </Button>
+                
+                <Button 
+                  type="button"
+                  variant="outline"
+                  onClick={handleAnalyze}
+                  disabled={isAnalyzing}
+                  className="flex-1"
+                >
+                  {isAnalyzing ? 'در حال آنالیز...' : 'آنالیز'}
+                </Button>
+              </div>
+            </form>
+          </div>
