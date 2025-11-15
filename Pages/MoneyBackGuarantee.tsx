@@ -269,3 +269,29 @@ return (
             </Button>
           </div>
         </div>
+
+        {/* Guarantee Promise */}
+        <div className="text-center mt-16">
+          <div className="bg-white rounded-2xl p-8 shadow-elegant max-w-2xl mx-auto">
+            <Shield className="w-16 h-16 text-fabric-terracotta mx-auto mb-4" />
+            <h3 className="text-2xl font-bold text-fabric-navy mb-4">
+              قول ما به شما
+            </h3>
+            <p className="text-gray-600 mb-6">
+              رضایت شما برای ما بسیار مهم است. اگر از خرید خود راضی نیستید، 
+              بدون هیچ سوال اضافی وجه شما را بازمی‌گردانیم.
+            </p>
+            <Button
+              onClick={() => navigate('/')}
+              className="bg-gradient-to-r from-fabric-terracotta to-fabric-gold text-white px-8 py-3 rounded-xl hover:shadow-lg transition-all duration-300"
+            >
+              خرید با اطمینان
+            </Button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default MoneyBackGuarantee;
