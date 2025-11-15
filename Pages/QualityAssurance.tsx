@@ -137,3 +137,23 @@ const certificates = [
               ۶ مرحله کنترل کیفیت برای اطمینان از بهترین محصول
             </p>
           </div>
+
+           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[
+              { step: "۱", title: "انتخاب مواد اولیه", desc: "انتخاب دقیق بهترین مواد اولیه" },
+              { step: "۲", title: "بازرسی ورودی", desc: "کنترل کیفیت در زمان ورود کالا" },
+              { step: "۳", title: "تست کیفیت", desc: "آزمایش‌های مقاومت و دوام" },
+              { step: "۴", title: "کنترل رنگ", desc: "بررسی ثبات رنگ و کیفیت چاپ" },
+              { step: "۵", title: "بسته‌بندی", desc: "بسته‌بندی استاندارد و مقاوم" },
+              { step: "۶", title: "تحویل نهایی", desc: "تحویل با تضمین کیفیت" }
+            ].map((process, index) => (
+              <div key={index} className="text-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-fabric-terracotta to-fabric-gold rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-xl">
+                  {process.step}
+                </div>
+                <h3 className="font-bold text-fabric-navy mb-2">{process.title}</h3>
+                <p className="text-gray-600 text-sm">{process.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
