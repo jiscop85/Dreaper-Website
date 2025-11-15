@@ -238,3 +238,64 @@ return (
             <div className="px-6 py-4 border-b border-gray-200">
               <h2 className="text-xl font-semibold text-gray-900">سفارشات ثبت شده</h2>
             </div>
+
+             {ordersLoading ? (
+              <div className="p-6 text-center">در حال بارگذاری...</div>
+            ) : (
+              <Table>
+                <TableHeader>
+                  <TableRow>
+                    <TableHead className="text-right">محصول</TableHead>
+                    <TableHead className="text-right">توضیحات</TableHead>
+                    <TableHead className="text-right">قیمت</TableHead>
+                    <TableHead className="text-right">نوع سفارش</TableHead>
+                    <TableHead className="text-right">تاریخ ثبت</TableHead>
+                  </TableRow>
+                </TableHeader>
+                <TableBody>
+                  {orders?.length === 0 ? (
+                    <TableRow>
+                      <TableCell colSpan={5} className="text-center py-6 text-gray-500">
+                        هیچ سفارشی ثبت نشده است
+                      </TableCell>
+                    </TableRow>
+                  ) : (
+                    orders?.map((order) => (
+                      <TableRow key={order.id}>
+                        <TableCell className="font-medium">
+                          {getProductName(order.product_id)}
+                        </TableCell>
+                        <TableCell>
+                          {order.description || '-'}
+                        </TableCell>
+                        <TableCell>
+                          {formatPrice(order.price)}
+                        </TableCell>
+                        <TableCell>
+                          <span className={`px-2 py-1 rounded-full text-xs font-medium ${
+                            order.order_type === 'buy' 
+                              ? 'bg-green-100 text-green-800' 
+                              : 'bg-blue-100 text-blue-800'
+                          }`}>
+                            {order.order_type === 'buy' ? 'خرید' : 'فروش'}
+                          </span>
+                        </TableCell>
+                        <TableCell>
+                          {new Date(order.created_at).toLocaleDateString('fa-IR')}
+                        </TableCell>
+                      </TableRow>
+                    ))
+                  )}
+                </TableBody>
+              </Table>
+            )}
+          </div>
+        </div>
+      </main>
+      
+      <Footer />
+    </div>
+  );
+};
+
+export default Orders;
