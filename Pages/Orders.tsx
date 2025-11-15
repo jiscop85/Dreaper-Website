@@ -15,3 +15,10 @@ import TopBar from '@/components/TopBar';
 import Header from '@/components/Header';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+
+const Orders = () => {
+  const [selectedProductId, setSelectedProductId] = useState<string>('');
+  const [description, setDescription] = useState('');
+  const [price, setPrice] = useState<string>('');
+  const [orderType, setOrderType] = useState<'buy' | 'sell'>('buy');
+  const [isAnalyzing, setIsAnalyzing] = useState(false);
