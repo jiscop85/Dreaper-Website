@@ -41,3 +41,8 @@ return (
             products={embroideryFabrics || []} 
             isLoading={embroideryLoading}
           />
+          <ProductSection 
+            title="🧵 پارچه‌های ژاکارد خطی" 
+            products={jacquardFabrics || []} 
+            isLoading={jacquardLoading}
+          />
