@@ -192,3 +192,20 @@ return (
                 />
                 <p className="text-xs text-gray-500 mt-1">حداکثر قیمت: 99,999,999 تومان</p>
               </div>
+
+              {/* Order Type */}
+              <div>
+                <Label className="text-sm font-medium text-gray-700 mb-3 block">
+                  نوع سفارش *
+                </Label>
+                <RadioGroup value={orderType} onValueChange={(value: 'buy' | 'sell') => setOrderType(value)}>
+                  <div className="flex items-center space-x-2 space-x-reverse">
+                    <RadioGroupItem value="buy" id="buy" />
+                    <Label htmlFor="buy">خرید</Label>
+                  </div>
+                  <div className="flex items-center space-x-2 space-x-reverse">
+                    <RadioGroupItem value="sell" id="sell" />
+                    <Label htmlFor="sell">فروش</Label>
+                  </div>
+                </RadioGroup>
+              </div>
