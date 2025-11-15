@@ -53,3 +53,11 @@ return (
           />
           <FeaturesSection />
         </main>
+
+        <Footer />
+      </div>
+    </div>
+  );
+};
+
+export default Index;
