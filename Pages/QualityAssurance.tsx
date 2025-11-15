@@ -157,3 +157,28 @@ const certificates = [
             ))}
           </div>
         </div>
+
+        {/* CTA Section */}
+        <div className="text-center mt-16">
+          <div className="bg-white rounded-2xl p-8 shadow-elegant">
+            <Users className="w-16 h-16 text-fabric-terracotta mx-auto mb-4" />
+            <h3 className="text-2xl font-bold text-fabric-navy mb-4">
+              اعتماد ۱۰,۰۰۰+ مشتری راضی
+            </h3>
+            <p className="text-gray-600 mb-6">
+              کیفیت محصولات ما را خودتان تجربه کنید
+            </p>
+            <Button
+              onClick={() => navigate('/')}
+              className="bg-gradient-to-r from-fabric-terracotta to-fabric-gold text-white px-8 py-3 rounded-xl hover:shadow-lg transition-all duration-300"
+            >
+              مشاهده محصولات
+            </Button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default QualityAssurance;
