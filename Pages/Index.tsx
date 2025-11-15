@@ -1,0 +1,9 @@
+
+import Header from '@/components/Header';
+import HeroSection from '@/components/HeroSection';
+import FabricCategoriesSlider from '@/components/FabricCategoriesSlider';
+import FabricGallerySection from '@/components/FabricGallerySection';
+import ProductSection from '@/components/ProductSection';
+import FeaturesSection from '@/components/FeaturesSection';
+import Footer from '@/components/Footer';
+import { useFeaturedProducts, useProductsByCategory } from '@/hooks/useProducts';
