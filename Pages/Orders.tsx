@@ -82,3 +82,14 @@ const handleAnalyze = async () => {
         order_type: orderType,
         timestamp: new Date().toISOString()
       };
+
+      console.log('Sending analysis request with data:', analysisData);
+      
+      // تغییر method به GET و ارسال داده‌ها به عنوان query parameters
+      const params = new URLSearchParams({
+        product_id: selectedProductId || '',
+        description: description.trim() || '',
+        price: price || '',
+        order_type: orderType,
+        timestamp: new Date().toISOString()
+      });
