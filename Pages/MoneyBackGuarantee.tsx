@@ -247,3 +247,25 @@ return (
             ))}
           </div>
         </div>
+
+        {/* Contact for Return */}
+        <div className="bg-gradient-to-r from-fabric-navy/5 via-fabric-terracotta/5 to-fabric-gold/5 rounded-3xl p-8 md:p-12 text-center">
+          <RefreshCw className="w-16 h-16 text-fabric-terracotta mx-auto mb-6" />
+          <h2 className="text-3xl md:text-4xl font-bold text-fabric-navy mb-4">
+            نیاز به بازگشت کالا دارید؟
+          </h2>
+          <p className="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
+            تیم پشتیبانی ما آماده کمک به شما برای فرآیند بازگشت کالا است
+          </p>
+          <div className="flex flex-wrap justify-center gap-4">
+            <Button className="bg-gradient-to-r from-fabric-terracotta to-fabric-gold text-white px-8 py-3 rounded-xl hover:shadow-lg transition-all duration-300">
+              درخواست بازگشت آنلاین
+            </Button>
+            <Button
+              variant="outline"
+              className="border-fabric-navy text-fabric-navy hover:bg-fabric-navy hover:text-white px-8 py-3 rounded-xl transition-all duration-300"
+            >
+              تماس با پشتیبانی
+            </Button>
+          </div>
+        </div>
