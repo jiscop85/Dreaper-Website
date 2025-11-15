@@ -148,3 +148,39 @@ return (
                 </ul>
               </CardContent>
             </Card>
+
+             <Card className="bg-red-50 border-red-200 hover:shadow-elegant transition-all duration-300">
+              <CardHeader>
+                <CardTitle className="flex items-center text-red-700">
+                  <ArrowLeft className="w-5 h-5 ml-2" />
+                  موارد غیرقابل بازگشت
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-3 text-red-700">
+                  <li className="flex items-center">
+                    <ArrowLeft className="w-4 h-4 ml-2" />
+                    کالای استفاده شده
+                  </li>
+                  <li className="flex items-center">
+                    <ArrowLeft className="w-4 h-4 ml-2" />
+                    آسیب عمدی به محصول
+                  </li>
+                  <li className="flex items-center">
+                    <ArrowLeft className="w-4 h-4 ml-2" />
+                    کالای بدون بسته‌بندی
+                  </li>
+                  <li className="flex items-center">
+                    <ArrowLeft className="w-4 h-4 ml-2" />
+                    بیش از ۷ روز از خرید
+                  </li>
+                  <li className="flex items-center">
+                    <ArrowLeft className="w-4 h-4 ml-2" />
+                    محصولات سفارشی
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+
