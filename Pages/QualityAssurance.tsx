@@ -61,3 +61,41 @@ const certificates = [
           </Button>
         </div>
       </div>
+
+       {/* Main Content */}
+      <div className="container mx-auto px-4 py-16">
+        {/* Quality Features */}
+        <div className="mb-20">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-fabric-navy mb-4">
+              ویژگی‌های کیفیت ما
+            </h2>
+            <p className="text-gray-600 text-lg">
+              چرا پارچه‌فروشی مجلسی را انتخاب کنید؟
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {qualityFeatures.map((feature, index) => {
+              const IconComponent = feature.icon;
+              return (
+                <Card key={index} className="group hover:shadow-elegant transition-all duration-300 hover:-translate-y-2 border-0 bg-white/80 backdrop-blur-sm">
+                  <CardHeader className="text-center pb-4">
+                    <div className="w-16 h-16 bg-gradient-to-br from-fabric-terracotta to-fabric-gold rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                      <IconComponent className="w-8 h-8 text-white" />
+                    </div>
+                    <div className="inline-block bg-fabric-gold/20 text-fabric-navy px-3 py-1 rounded-full text-sm font-semibold mb-2">
+                      {feature.badge}
+                    </div>
+                    <CardTitle className="text-fabric-navy">{feature.title}</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <CardDescription className="text-gray-600 text-center text-base">
+                      {feature.description}
+                    </CardDescription>
+                  </CardContent>
+                </Card>
+              );
+            })}
+          </div>
+        </div>
