@@ -22,3 +22,11 @@ const Orders = () => {
   const [price, setPrice] = useState<string>('');
   const [orderType, setOrderType] = useState<'buy' | 'sell'>('buy');
   const [isAnalyzing, setIsAnalyzing] = useState(false);
+
+const { data: products, isLoading: productsLoading } = useProducts();
+  const { data: orders, isLoading: ordersLoading } = useOrders();
+  const createOrderMutation = useCreateOrder();
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    
