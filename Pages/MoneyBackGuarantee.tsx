@@ -216,3 +216,34 @@ return (
               سوالات متداول
             </h2>
           </div
+
+          <div className="max-w-4xl mx-auto space-y-6">
+            {[
+              {
+                question: "چه مدت طول می‌کشد تا وجه بازگردانده شود؟",
+                answer: "پس از تأیید بازگشت کالا، وجه شما حداکثر تا ۳ روز کاری به حساب شما واریز می‌شود."
+              },
+              {
+                question: "هزینه ارسال بازگشت کالا بر عهده کیست؟",
+                answer: "در صورتی که دلیل بازگشت، نقص در کالا باشد، هزینه ارسال بر عهده ماست، در غیر این صورت بر عهده مشتری."
+              },
+              {
+                question: "آیا می‌توانم بخشی از سفارش را بازگردانم؟",
+                answer: "بله، امکان بازگشت بخشی از سفارش وجود دارد و وجه همان بخش بازگردانده می‌شود."
+              },
+              {
+                question: "چطور می‌توانم وضعیت درخواست بازگشت را پیگیری کنم؟",
+                answer: "از طریق پنل کاربری یا تماس با پشتیبانی می‌توانید وضعیت درخواست خود را پیگیری کنید."
+              }
+            ].map((faq, index) => (
+              <Card key={index} className="hover:shadow-elegant transition-all duration-300 bg-white/80 backdrop-blur-sm border-0">
+                <CardHeader>
+                  <CardTitle className="text-fabric-navy">{faq.question}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-gray-700">{faq.answer}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
