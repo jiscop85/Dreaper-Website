@@ -121,3 +121,14 @@ const handleAnalyze = async () => {
     const product = products?.find(p => p.id === productId);
     return product ? product.name : 'محصول نامشخص';
   };
+
+return (
+    <div className="min-h-screen bg-white font-vazir">
+      <TopBar />
+      <Header />
+      <Navigation />
+      
+      <main className="container mx-auto px-4 py-8">
+        <div className="max-w-4xl mx-auto">
+          <h1 className="text-3xl font-bold text-gray-900 mb-8 text-center">ثبت سفارش خرید/فروش</h1>
+     
