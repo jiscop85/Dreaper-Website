@@ -39,3 +39,15 @@ const { data: products, isLoading: productsLoading } = useProducts();
       alert('لطفاً قیمت معتبر وارد کنید');
       return;
     }
+
+    const priceNumber = parseFloat(price);
+    
+    if (priceNumber <= 0) {
+      alert('قیمت باید بیشتر از صفر باشد');
+      return;
+    }
+
+    if (priceNumber > 99999999) {
+      alert('قیمت نمی‌تواند بیشتر از 99,999,999 تومان باشد');
+      return;
+    }
