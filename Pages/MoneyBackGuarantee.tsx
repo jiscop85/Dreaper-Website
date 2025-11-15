@@ -184,3 +184,27 @@ return (
           </div>
         </div>
 
+        {/* Return Process */}
+        <div className="mb-20">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-fabric-navy mb-4">
+              فرآیند بازگشت کالا
+            </h2>
+            <p className="text-gray-600 text-lg">
+              مراحل ساده بازگشت و دریافت وجه
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
+            {returnSteps.map((step, index) => (
+              <div key={index} className="text-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-fabric-terracotta to-fabric-gold rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-xl">
+                  {step.step}
+                </div>
+                <div className="text-3xl mb-3">{step.icon}</div>
+                <h3 className="font-bold text-fabric-navy mb-2">{step.title}</h3>
+                <p className="text-gray-600 text-sm">{step.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
