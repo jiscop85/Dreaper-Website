@@ -14,3 +14,16 @@ const MoneyBackGuarantee = () => {
       description: "تا ۷ روز پس از دریافت",
       color: "from-blue-500 to-cyan-600"
     },
+    {
+      icon: RotateCcw,
+      title: "بازگشت آسان",
+      description: "فرآیند ساده و سریع",
+      color: "from-green-500 to-emerald-600"
+    },
+    {
+      icon: Shield,
+      title: "تضمین ۱۰۰٪",
+      description: "بازپرداخت کامل وجه",
+      color: "from-purple-500 to-indigo-600"
+    }
+  ];
