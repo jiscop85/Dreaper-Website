@@ -30,3 +30,12 @@ const { data: products, isLoading: productsLoading } = useProducts();
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
+ if (!selectedProductId) {
+      alert('لطفاً محصول را انتخاب کنید');
+      return;
+    }
+
+    if (!price || isNaN(Number(price))) {
+      alert('لطفاً قیمت معتبر وارد کنید');
+      return;
+    }
