@@ -99,3 +99,30 @@ const certificates = [
             })}
           </div>
         </div>
+
+        {/* Certificates Section */}
+        <div className="mb-20">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-fabric-navy mb-4">
+              گواهینامه‌ها و مجوزها
+            </h2>
+            <p className="text-gray-600 text-lg">
+              مجوزها و گواهینامه‌های معتبر ما
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {certificates.map((cert, index) => (
+              <Card key={index} className="text-center hover:shadow-elegant transition-all duration-300 hover:-translate-y-1 bg-gradient-to-br from-white to-fabric-cream/30">
+                <CardContent className="p-6">
+                  <div className="w-12 h-12 bg-fabric-navy rounded-full flex items-center justify-center mx-auto mb-4">
+                    <CheckCircle className="w-6 h-6 text-white" />
+                  </div>
+                  <h3 className="font-bold text-fabric-navy mb-2">{cert.name}</h3>
+                  <p className="text-sm text-gray-600 mb-1">{cert.type}</p>
+                  <p className="text-xs text-fabric-terracotta font-semibold">{cert.year}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
