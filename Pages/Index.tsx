@@ -27,3 +27,11 @@ return (
         <Header />
         <HeroSection />
         
+        <main className="space-y-16 py-8">
+          <FabricCategoriesSlider />
+          <FabricGallerySection />
+          <ProductSection 
+            title="✨ پارچه‌های ویژه و منحصر به فرد" 
+            products={featuredProducts || []} 
+            isLoading={featuredLoading}
+          />
