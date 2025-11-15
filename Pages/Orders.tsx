@@ -172,3 +172,23 @@ return (
                   maxLength={500}
                 />
               </div>
+
+              {/* Price */}
+              <div>
+                <Label htmlFor="price" className="text-sm font-medium text-gray-700 mb-2 block">
+                  قیمت (تومان) *
+                </Label>
+                <Input
+                  id="price"
+                  type="number"
+                  value={price}
+                  onChange={(e) => setPrice(e.target.value)}
+                  placeholder="قیمت را وارد کنید"
+                  className="w-full"
+                  min="1"
+                  max="99999999"
+                  step="1"
+                  required
+                />
+                <p className="text-xs text-gray-500 mt-1">حداکثر قیمت: 99,999,999 تومان</p>
+              </div>
