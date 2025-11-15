@@ -108,3 +108,16 @@ const handleAnalyze = async () => {
       const result = await response.json();
       console.log('Analysis response:', result);
       
+     toast.success('آنالیز با موفقیت انجام شد');
+    } catch (error) {
+      console.error('Error during analysis:', error);
+      toast.error('خطا در انجام آنالیز');
+    } finally {
+      setIsAnalyzing(false);
+    }
+  };
+
+  const getProductName = (productId: string) => {
+    const product = products?.find(p => p.id === productId);
+    return product ? product.name : 'محصول نامشخص';
+  };
