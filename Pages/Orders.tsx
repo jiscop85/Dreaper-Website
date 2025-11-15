@@ -132,3 +132,28 @@ return (
         <div className="max-w-4xl mx-auto">
           <h1 className="text-3xl font-bold text-gray-900 mb-8 text-center">ثبت سفارش خرید/فروش</h1>
      
+          {/* Order Form */}
+          <div className="bg-white rounded-lg shadow-md p-6 mb-8">
+            <form onSubmit={handleSubmit} className="space-y-6">
+              {/* Product Selection */}
+              <div>
+                <Label htmlFor="product-select" className="text-sm font-medium text-gray-700 mb-2 block">
+                  انتخاب محصول *
+                </Label>
+                {productsLoading ? (
+                  <div className="text-gray-500">در حال بارگذاری محصولات...</div>
+                ) : (
+                  <Select value={selectedProductId} onValueChange={setSelectedProductId}>
+                    <SelectTrigger className="w-full">
+                      <SelectValue placeholder="محصول مورد نظر را انتخاب کنید" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {products?.map((product) => (
+                        <SelectItem key={product.id} value={product.id}>
+                          {product.name}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                )}
+              </div>
