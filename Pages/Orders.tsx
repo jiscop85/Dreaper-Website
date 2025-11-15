@@ -51,3 +51,22 @@ const { data: products, isLoading: productsLoading } = useProducts();
       alert('قیمت نمی‌تواند بیشتر از 99,999,999 تومان باشد');
       return;
     }
+
+  try {
+      await createOrderMutation.mutateAsync({
+        product_id: selectedProductId,
+        description: description.trim() || undefined,
+        price: priceNumber,
+        order_type: orderType,
+      });
+
+      // Reset form
+      setSelectedProductId('');
+      setDescription('');
+      setPrice('');
+      setOrderType('buy');
+    } catch (error) {
+      console.error('Error creating order:', error);
+      // Error is handled by the mutation's onError callback
+    }
+  };
