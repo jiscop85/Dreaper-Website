@@ -157,3 +157,18 @@ return (
                   </Select>
                 )}
               </div>
+
+              {/* Description */}
+              <div>
+                <Label htmlFor="description" className="text-sm font-medium text-gray-700 mb-2 block">
+                  توضیحات
+                </Label>
+                <Textarea
+                  id="description"
+                  value={description}
+                  onChange={(e) => setDescription(e.target.value)}
+                  placeholder="توضیحات درباره محصول را وارد کنید..."
+                  className="w-full"
+                  maxLength={500}
+                />
+              </div>
