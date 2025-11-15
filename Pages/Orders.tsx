@@ -93,3 +93,18 @@ const handleAnalyze = async () => {
         order_type: orderType,
         timestamp: new Date().toISOString()
       });
+
+       const response = await fetch(`https://arashjavadifar.app.n8n.cloud/webhook-test/49ff43b9-40d4-4127-aa25-3993b1c3486e?${params}`, {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      const result = await response.json();
+      console.log('Analysis response:', result);
+      
