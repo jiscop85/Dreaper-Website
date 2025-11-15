@@ -70,3 +70,15 @@ const { data: products, isLoading: productsLoading } = useProducts();
       // Error is handled by the mutation's onError callback
     }
   };
+
+const handleAnalyze = async () => {
+    setIsAnalyzing(true);
+    
+    try {
+      const analysisData = {
+        product_id: selectedProductId,
+        description: description.trim(),
+        price: price ? parseFloat(price) : null,
+        order_type: orderType,
+        timestamp: new Date().toISOString()
+      };
