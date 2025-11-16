@@ -26,3 +26,29 @@ const Index = () => {
       <div className="relative z-10">
         <Header />
         <HeroSection />
+
+        <main className="space-y-16 py-8">
+          <FabricCategoriesSlider />
+          <FabricGallerySection />
+          <ProductSection 
+            title="✨ پارچه‌های ویژه و منحصر به فرد" 
+            products={featuredProducts || []} 
+            isLoading={featuredLoading}
+          />
+          <ProductSection 
+            title="🎨 پارچه‌های سوزندوزی و مجلسی" 
+            products={embroideryFabrics || []} 
+            isLoading={embroideryLoading}
+          />
+          <ProductSection 
+            title="🧵 پارچه‌های ژاکارد خطی" 
+            products={jacquardFabrics || []} 
+            isLoading={jacquardLoading}
+          />
+          <ProductSection 
+            title="☀️ کالکشن بهاره و تابستانه" 
+            products={springFabrics || []} 
+            isLoading={springLoading}
+          />
+          <FeaturesSection />
+        </main>
