@@ -6,3 +6,27 @@ import { useNavigate } from 'react-router-dom';
 
 const Support = () => {
   const navigate = useNavigate();
+
+ const supportChannels = [
+    {
+      icon: Phone,
+      title: "تماس تلفنی",
+      description: "۰۲۱-۵۵۵۸۶۷۹۶",
+      available: "۹:۰۰ - ۲۱:۰۰",
+      color: "from-green-500 to-emerald-600"
+    },
+    {
+      icon: MessageCircle,
+      title: "چت آنلاین",
+      description: "پاسخ فوری سوالات",
+      available: "۲۴/۷ فعال",
+      color: "from-blue-500 to-cyan-600"
+    },
+    {
+      icon: Mail,
+      title: "ایمیل پشتیبانی",
+      description: "info@parche-majlesi.com",
+      available: "پاسخ تا ۲ ساعت",
+      color: "from-purple-500 to-indigo-600"
+    }
+  ];
