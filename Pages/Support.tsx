@@ -49,3 +49,24 @@ const faqItems = [
       answer: "پرداخت آنلاین، کارت به کارت و پرداخت در محل امکان‌پذیر است."
     }
   ];
+
+ return (
+    <div className="min-h-screen bg-gradient-to-br from-fabric-cream via-white to-fabric-pearl">
+      {/* Header Section */}
+      <div className="relative overflow-hidden bg-gradient-to-r from-blue-600 via-purple-600 to-teal-600">
+        <div className="absolute inset-0 bg-black/20"></div>
+        <div className="relative container mx-auto px-4 py-20 text-center text-white">
+          <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6 backdrop-blur-sm">
+            <Headphones className="w-10 h-10 text-white" />
+          </div>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">پشتیبانی ۲۴/۷</h1>
+          <p className="text-xl md:text-2xl text-white/90 mb-8">همیشه در کنار شما هستیم</p>
+          <Button
+            onClick={() => navigate('/')}
+            variant="secondary"
+            className="bg-white/20 text-white hover:bg-white/30 backdrop-blur-sm border-white/30"
+          >
+            بازگشت به فروشگاه
+          </Button>
+        </div>
+      </div>
