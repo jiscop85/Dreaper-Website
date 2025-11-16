@@ -32,3 +32,17 @@ export interface Product {
   created_at: string;
   updated_at: string;
 }
+
+export interface BlogPost {
+  id: string;
+  title: string;
+  slug: string;
+  content: string;
+  excerpt?: string;
+  featured_image?: string;
+  author_name: string;
+  is_published: boolean;
+  published_at: string;
+  created_at: string;
+  updated_at: string;
+}
