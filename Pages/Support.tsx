@@ -107,3 +107,20 @@ const faqItems = [
               پاسخ سوالات رایج مشتریان
             </p>
           </div>
+
+           <div className="max-w-4xl mx-auto space-y-6">
+            {faqItems.map((item, index) => (
+              <Card key={index} className="hover:shadow-elegant transition-all duration-300 bg-white/80 backdrop-blur-sm border-0">
+                <CardHeader>
+                  <CardTitle className="flex items-center text-fabric-navy">
+                    <HelpCircle className="w-5 h-5 ml-2 text-fabric-terracotta" />
+                    {item.question}
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-gray-700">{item.answer}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
