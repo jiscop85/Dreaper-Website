@@ -132,3 +132,23 @@ const faqItems = [
               ساعات کاری پشتیبانی
             </h2>
           </div>
+
+           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="text-center">
+              <div className="w-16 h-16 bg-fabric-terracotta rounded-full flex items-center justify-center mx-auto mb-4">
+                <Phone className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="font-bold text-fabric-navy mb-2">پشتیبانی تلفنی</h3>
+              <p className="text-gray-600">شنبه تا پنج‌شنبه: ۹:۰۰ - ۲۱:۰۰</p>
+              <p className="text-gray-600">جمعه: ۱۰:۰۰ - ۱۸:۰۰</p>
+            </div>
+            <div className="text-center">
+              <div className="w-16 h-16 bg-fabric-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                <MessageCircle className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="font-bold text-fabric-navy mb-2">چت و ایمیل</h3>
+              <p className="text-gray-600">۲۴ ساعته و ۷ روز هفته</p>
+              <p className="text-gray-600">پاسخ فوری در کمتر از ۳۰ دقیقه</p>
+            </div>
+          </div>
+        </div>
