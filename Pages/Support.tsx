@@ -70,3 +70,27 @@ const faqItems = [
           </Button>
         </div>
       </div>
+
+      {/* Support Channels */}
+      <div className="container mx-auto px-4 -mt-16 relative z-10 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {supportChannels.map((channel, index) => {
+            const IconComponent = channel.icon;
+            return (
+              <Card key={index} className="text-center hover:shadow-elegant transition-all duration-300 hover:-translate-y-2 bg-white/90 backdrop-blur-sm border-0">
+                <CardContent className="p-6">
+                  <div className={`w-16 h-16 bg-gradient-to-r ${channel.color} rounded-full flex items-center justify-center mx-auto mb-4`}>
+                    <IconComponent className="w-8 h-8 text-white" />
+                  </div>
+                  <h3 className="font-bold text-fabric-navy mb-2">{channel.title}</h3>
+                  <p className="text-gray-700 mb-2">{channel.description}</p>
+                  <div className="flex items-center justify-center text-sm text-fabric-terracotta">
+                    <Clock className="w-4 h-4 ml-1" />
+                    {channel.available}
+                  </div>
+                </CardContent>
+              </Card>
+            );
+          })}
+        </div>
+      </div>
