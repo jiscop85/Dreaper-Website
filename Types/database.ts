@@ -46,3 +46,13 @@ export interface BlogPost {
   created_at: string;
   updated_at: string;
 }
+
+export interface Order {
+  id: string;
+  product_id: string;
+  description?: string;
+  price: number;
+  order_type: 'buy' | 'sell';
+  created_at: string;
+  updated_at: string;
+}
